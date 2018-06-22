@@ -56,10 +56,17 @@
 <section id="">
     <div class="container">
         <div class="row">
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <div style="background-image: url("");"></div>
+            </div>
             <div class="col-md-6">
                 <div class="row">
-
+                    <div class="content_textfirst">
+                        <div class="content_img">
+                            <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
+                        </div>
+                        <div class="content_textinf"></div>
+                    </div>
                 </div>
             </div>
         </div>
