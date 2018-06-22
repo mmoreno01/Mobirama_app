@@ -1,0 +1,23 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+//importando hojas de estilo
+@import"home";
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+// estilo del footer
+footer{    
+  width: 100%;
+  background-color:#072146;
+  color:#fff;
+}
