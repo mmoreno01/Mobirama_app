@@ -14,4 +14,117 @@
     p{
         text-align: center;
     }
+    
 }
+
+#section-services{
+      .content-img{
+        width: 100%;
+        height: 400px;
+        background-color: $content-txt;
+    }
+    .content_imgtxt{
+        width: 40%;
+        background-color: $content-txt;
+        margin-bottom: 10px;
+        padding: 20px;
+        img{
+            max-height: 120px;
+            display: block;
+            margin: 0 auto;
+        }
+    } 
+    .content_textinf{
+        width: 60%;
+        margin-bottom: 10px;
+        padding: 20px;
+        background-color: $content-txt;
+        h5{
+            font-weight: bold;
+        }
+    }
+    .cont-gnral2{
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        background-color: $content-txt;
+    }
+    .cont-gnrl{
+        position: relative;
+    }
+    .cont-textInf1{
+        width: 50%;
+        padding: 20px;
+        background-color: $content-txt;
+        .fab{
+            color: #1d73b2;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+        h5{
+            font-weight: bold;
+        }
+    }
+    .cont-textInf2{
+        width: 50%;
+        padding: 20px;
+        background-color: $content-txt;
+        .fab{
+            color: #1d73b2;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+        h5{
+            font-weight: bold;
+        }
+    }
+    
+    
+}
+
+#section-services2{
+    margin: 50px 0px;
+    .content-img{
+        width: 100%;
+        height: 400px;
+        background-color: $content-txt;
+    }
+    .content_imgtxt{
+        width: 40%;
+        background-color: $content-txt;
+        margin-bottom: 10px;
+        padding: 20px;
+        img{
+            max-height: 120px;
+            display: block;
+            margin: 0 auto;
+        }
+        .fab{
+            color: #1d73b2;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+    } 
+    .content_textinf{
+        width: 60%;
+        margin-bottom: 10px;
+        padding: 20px;
+        background-color: $content-txt;
+        h5{
+            font-weight: bold;
+        }
+        .fab{
+            color: #1d73b2;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+    }
+}
+
+// #content-img{
+//     background: url(imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg) no-repeat center center fixed; 
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//   }

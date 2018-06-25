@@ -52,32 +52,85 @@
 </section>
 
 
-
-<section id="">
+<!-- primera seccion de servicios temporales -->
+<section id="section-services">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div style="background-image: url("");"></div>
+                <div id="" class="content-img"></div>
             </div>
             <div class="col-md-6">
                 <div class="row">
-                    <div class="content_textfirst">
-                        <div class="content_img">
-                            <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
+                    
+                        <div class="d-inline  content_imgtxt">                           
+                             <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
                         </div>
-                        <div class="content_textinf"></div>
-                    </div>
+                        <div class="d-inline  content_textinf"> 
+                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
+                            <a href="http://">Ver más</a> 
+                        </div>
+                        
+                        <div class="d-inline cont-textInf1">
+                            <i class="fab fa-adn"></i>  
+                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
+                            <a href="http://">Ver más</a>
+                        </div>
+                        <div class="d-inline cont-textInf2">
+                            <i class="fab fa-adn"></i>  
+                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <a href="http://">Ver más</a>
+                        </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-    <h1>hola mundo</h1>
-    <ul>
-        @foreach($users as $user)
-        <li> {{$user}}</li>    
-        @endforeach 
+<!--fin  primera seccion de servicios temporales -->
 
-    </ul>
-    <button class="btn btn-danger">Ver más</button>
+<!-- segunda seccion de servicios temporales -->
+<section id="section-services2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="d-inline content_imgtxt">
+                        <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
+                    </div>
+                    <div class="d-inline content_textinf">
+                            <i class="fab fa-adn"></i>  
+                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <a href="http://">Ver más</a>
+                    </div>
+                    <div class="d-inline content_imgtxt">
+                        <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
+                    </div>
+                    <div class="d-inline content_textinf">
+                            <i class="fab fa-adn"></i>  
+                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <a href="http://">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                    <div id="" class="content-img"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- fin  segunda seccion de servicios temporales -->
+
+
+    <!-- <h1>hola mun</h1> -->
+    <!-- <ul> -->
+        <!-- @foreach($users as $user) -->
+        <!-- <li> {{$user}}</li>     -->
+        <!-- @endforeach  -->
+
+    <!-- </ul> -->
+    <!-- <button class="btn btn-danger">Ver más</button> -->
 @endsection
