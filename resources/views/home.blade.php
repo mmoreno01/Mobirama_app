@@ -57,7 +57,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div id="" class="content-img"></div>
+                <div id="content-imgizq" class="">
+                    <img src="imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg" alt="">
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="row">
@@ -117,12 +119,71 @@
                 </div>
             </div>
             <div class="col-md-6">
-                    <div id="" class="content-img"></div>
+                    <div id="content-img">
+                        <img src="imagenes/happy-middle-age-couple-having-breakfast-outstanding.jpg.img.1600.1528300087162.jpg" alt="">
+                    </div>
             </div>
         </div>
     </div>
 </section>
 <!-- fin  segunda seccion de servicios temporales -->
+
+<!-- seccion de informes general -->
+<section id="content-informes">
+    <h2 class="text-center">Title of the Section</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 cont-info">
+                <div class="img-info">
+                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 cont-info">
+                <div class="img-info">
+                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 cont-info">
+                <div class="row">
+                    <div class="d-inline cont-texto">
+                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
+                    </div>
+                    <div class="d-inline cont-icon">
+                        <img src="imagenes/bbva-send-logo-morado.png.img.320.1527087145451.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 cont-info">
+                <div class="row">
+                    <div class="d-inline cont-texto">
+                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
+                    </div>
+                    <div class="d-inline cont-icon">
+                        <img src="imagenes/bbva-send-logo-morado.png.img.320.1527087145451.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- seccion de informes general -->
+
+<section id="rutas-informacion">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="" alt="">
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</section>
+
 
 
     <!-- <h1>hola mun</h1> -->
