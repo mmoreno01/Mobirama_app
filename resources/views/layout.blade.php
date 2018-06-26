@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     <!-- estilo carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('favicon.ico')}}">
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
     <!-- menu principal -->
     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top animated fadeInDown">
     <a class="navbar-brand" href="#">
-        <img src="images/jblogo.png" width="30" height="30" alt="">
+        <img src="imagenes/home-icons/jblogo.png" width="30" height="30" alt="">
     </a>      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -82,12 +84,19 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
-                <p>Lorem ipsum dolor</p>
-                <p>Lorem ipsum dolor</p>
-                <p>Lorem ipsum dolor</p>
+               <div class="col-12">
+                   <img src="imagenes/home-icons/jblogo.png" alt="">
+                   <p>Aviso de privacidad</p>
+                   <span>® 2018 l Join Business Global Group ®</span>
+               </div>
             </div>
             <div class="col-md-6">
-                
+                    <div class="icon-social"><i class="fab fa-facebook-f"></i></div> 
+                    <div class="icon-social"><i class="fab fa-twitter"></i></div> 
+                    <div class="icon-social"><i class="fab fa-linkedin-in"></i></div> 
+                    <div class="icon-social"><i class="fab fa-youtube"></i></div> 
+                    <p>Construyendo redes que conecten el mundo de los negocios</p>
+               
             </div>
         </div>
     </div>

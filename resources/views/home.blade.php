@@ -16,37 +16,47 @@
   </div>
 </div>
 <!-- fin del slider -->
-<section id="content_services"> 
+<section id="content_services">
         <div class=" container owl-carousel">
             <div>
                 <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>Contabilidad Outsorcing</P>
             </div>
             <div> 
                 <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>Fiscal</P>
             </div>
             <div> 
                 <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>Payroll Service</P>
             </div>
             <div> 
                 <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>División Financiera</P>
             </div>
             <div> 
             <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>Capital Humano</P>
             </div>
             <div> 
             <i class="fab fa-adn"></i>  
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
-                <P>payroll</P>
+                <P>Banca de Inversión</P>
+            </div>
+            <div> 
+            <i class="fab fa-adn"></i>  
+                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                <P>Estaciones de Servicio</P>
+            </div>
+            <div> 
+            <i class="fab fa-adn"></i>  
+                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                <P>Sofom</P>
             </div>
         </div>
 </section>
@@ -172,17 +182,29 @@
 </section>
 <!-- seccion de informes general -->
 
+<!-- // seccion de rutas de informacion -->
 <section id="rutas-informacion">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <img src="" alt="">
+            <div class="col-md-4 cont-img">
+                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor</p>
             </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4 cont-img">
+                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="col-md-4 cont-img">
+                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+                <h3>Title</h3>
+                <p>Lorem ipsum dolor</p>
+            </div>
         </div>
     </div>
 </section>
+<!-- fin de seccion de rutas de informacion -->
 
 
 

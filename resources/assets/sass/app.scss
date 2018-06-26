@@ -7,7 +7,7 @@
 //importando hojas de estilo
 @import"home";
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
   background-color: #fff;
@@ -16,8 +16,24 @@
 
 
 // estilo del footer
-footer{    
+footer{  
+  img{
+   max-width: 10%;;
+  }  
   width: 100%;
   background-color:#072146;
   color:#fff;
+  padding: 40px 0px;
+  .icon-social{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #1d73b2;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    i{
+      padding: 10px;
+    }
+  }
 }
