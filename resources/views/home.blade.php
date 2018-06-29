@@ -19,42 +19,42 @@
 <section id="content_services">
         <div class=" container owl-carousel">
             <div>
-                <i class="fab fa-adn"></i>  
+               <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a>
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Contabilidad Outsorcing</P>
             </div>
             <div> 
-                <i class="fab fa-adn"></i>  
+               <a href="/fiscal"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Fiscal</P>
             </div>
             <div> 
-                <i class="fab fa-adn"></i>  
+                    <a href="/payroll"><i class="fab fa-adn"></i></a> 
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Payroll Service</P>
             </div>
             <div> 
-                <i class="fab fa-adn"></i>  
+                    <a href="/division"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>División Financiera</P>
             </div>
             <div> 
-            <i class="fab fa-adn"></i>  
+                    <a href="/capitalHumano"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Capital Humano</P>
             </div>
             <div> 
-            <i class="fab fa-adn"></i>  
+                    <a href="/bancaInversion"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Banca de Inversión</P>
             </div>
             <div> 
-            <i class="fab fa-adn"></i>  
+                    <a href="/estacionServicio"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Estaciones de Servicio</P>
             </div>
             <div> 
-            <i class="fab fa-adn"></i>  
+                    <a href="/sofom"><i class="fab fa-adn"></i></a>   
                 <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
                 <P>Sofom</P>
             </div>
