@@ -872,6 +872,34 @@
   line-height: 30px;
 }
 
+#navbarTogglerDemo02 .content_img img {
+  width: 100px;
+}
+
+#navbarTogglerDemo02 .content_img h5 {
+  color: #fff;
+}
+
+#navbarTogglerDemo02 .content_img img {
+  width: 100px;
+}
+
+#navbarTogglerDemo02 .content_img h5 {
+  color: #fff;
+}
+
+#navbarTogglerDemo02 .content_img p {
+  color: #fff;
+}
+
+#navbarTogglerDemo02 .content_img .content_serv {
+  background-color: #1d73b2;
+}
+
+#navbarTogglerDemo02 .content_img .content_item {
+  background-color: #004481;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -901,5 +929,9 @@ footer .icon-social {
 
 footer .icon-social i {
   padding: 10px;
+}
+
+#navbarTogglerDemo02 .content_imgs img {
+  width: 30px;
 }
 

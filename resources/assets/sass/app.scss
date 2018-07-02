@@ -7,6 +7,7 @@
 //importando hojas de estilo
 @import"home";
 @import"servicios";
+@import"menu";
 // Bootstrap
 // @import '~bootstrap/scss/bootstrap';
 
@@ -37,4 +38,12 @@ footer{
       padding: 10px;
     }
   }
+}
+#navbarTogglerDemo02{
+  .content_imgs{
+      img{
+          width: 30px;
+      }
+  }
+    
 }

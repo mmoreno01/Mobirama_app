@@ -22,45 +22,48 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
-        <div class="navbar-nav mr-auto ml-auto text-center ">
-                <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
-                <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
-                <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
-                <div class="dropdown">
-                        <button class="btn btn-menu dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Noticias
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <a href="nacionales.html"><button class="dropdown-item" type="button">Nacionales</button></a>
-                          <a href="internacionales.html"><button class="dropdown-item" type="button">Internacionales</button></a>
-                          <a href="http://www.jbglobalgroup.com/" target="_blank"><button class="dropdown-item" type="button">Revista Global</button></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="navbar-nav mr-auto ml-auto">
+            <div class="row">
+               
+                <div class="col-md-8 content_item">
+                    <div class="row">
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
-                </div>
-                <!--<a class="nav-item nav-link mr-4" href="#cards">Noticias</a>-->
-                <a class="nav-item nav-link mr-4" href="#eventos">Eventos</a>
-                <div class="dropdown">
-                        <button class="btn btn-menu dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Bolsa de Trabajos
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                          <button class="dropdown-item" type="button">Consultar Vacantes</button>
-                          <button class="dropdown-item" type="button">Sube tu CV</button>
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
-                </div>
-                <!--<a class="nav-item nav-link mr-4" href="#banner">Bolsa de Trabajos</a>-->
-                <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a>
-                <div class="dropdown">
-                        <button class="btn btn-menu dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Certificaciones                        
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                         <a href="politica.html"><button class="dropdown-item" type="button">ISO 9001-2015</button></a> 
-                          <button class="dropdown-item" type="button">Próximamente ISO 27000</button>
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                        </div>
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                        </div>
+                        <div class="col-4 content_img">
+                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                            <h5>Titles</h5>
+                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                        </div>
+                    </div>
                 </div>
-                <!--<a class="nav-item nav-link mr-4" href="#contacto">Certificaciones</a>-->
-                <a class="nav-item nav-link mr-4" href="#contacto">Contacto</a>
+            </div>
+                
         </div>
        <!-- <div  id="headSocial">
                 <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
