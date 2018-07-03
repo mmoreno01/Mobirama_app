@@ -24,10 +24,9 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
-            <div class="row">
-               
-                <div class="col-md-8 content_item">
-                    <div class="row">
+            <div class="row contentPricipal">
+                <div class="col-md-9 content_serv">
+                <div class="row">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                             <h5>Titles</h5>
@@ -61,6 +60,14 @@
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
+                </div>
+                <div class="col-md-3 content_item animated BounceInRight">
+                    <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
+                    <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
+                    <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
+                    <a class="nav-item nav-link mr-4" href="#eventos">Eventos</a>
+                    <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a>
+                    <a class="nav-item nav-link mr-4" href="#contacto">Contacto</a> 
                 </div>
             </div>
                 
@@ -112,5 +119,12 @@
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
+    <!-- animate js -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- vue js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </body>
 </html>
