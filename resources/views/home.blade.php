@@ -15,7 +15,7 @@
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
-					<img src="imagenes/images/slidebg1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="imagenes/1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                  
 					<!-- LAYER NR. 1 -->
@@ -33,7 +33,7 @@
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption customin customout"
+					<!-- <div class="tp-caption customin customout"
 						data-x="center" data-hoffset="100"
 						data-y="bottom" data-voffset="0"
 						data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
@@ -44,7 +44,7 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						style="z-index: 3"><img src="imagenes/images/woman.png" alt="">
-					</div>
+					</div> -->
 
 					<!-- LAYER NR. 3 -->
 					<div class="tp-caption large_bold_grey skewfromrightshort customout"
@@ -312,16 +312,48 @@
 					<img src="imagenes/2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption lightgrey_divider skewfromrightshort fadeout"
-						data-x="85"
-						data-y="224"
-						data-speed="500"
-						data-start="1200"
-						data-easing="Power4.easeOut">My Caption
-					</div>
-					...
+
+                    
+                    <div class="tp-caption tentered_white_huge lft tp-resizeme start" 
+                            data-x="center" 
+                            data-y="center"
+                            data-endspeed="300"
+                            data-easing="Power4.easeOut" 
+                            data-start="1100" 
+                            data-speed="300" 
+                            data-hoffset="0" 
+                            style="color: rgb(255, 255, 255); text-transform: uppercase; font-size: 40px; letter-spacing: 6px; font-family: Montserrat; font-weight: 400; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 57px; border-width: 0px; margin: 0px; padding: 0px; left: 278px; top: 280px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+							Creative Premium Template
+                    </div>
+                    <div class="tp-caption tentered_white_huge lfb tp-resizeme start" 
+                            data-endspeed="300" 
+                            data-easing="Power4.easeOut" 
+                            data-start="800" 
+                            data-speed="600" 
+                            data-y="300" 
+                            data-hoffset="0" 
+                            data-x="center" 
+                            style="color: rgb(255, 255, 255); font-size: 13px; text-transform: uppercase; letter-spacing: 10px; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 18px; border-width: 0px; margin: 0px; padding: 0px; left: 457.5px; top: 350px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                                ready to use for everyone
+                    </div>
+                    <a href="#" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0 start hasclicklistener" 
+                            data-x="center" 
+                            data-y="350" 
+                            data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
+                            data-speed="500" 
+                            data-start="1200" 
+                            data-easing="Power3.easeInOut" 
+                            data-splitin="none" 
+                            data-splitout="none" 
+                            data-elementdelay="0.1" 
+                            data-endelementdelay="0.1" 
+                            data-linktoslide="next" 
+                            style="z-index: 12; white-space: nowrap; padding: 15px 28px; color: rgb(255, 255, 255); text-transform: uppercase; border: 0px none; background: rgb(0, 0, 0); font-size: 12px; letter-spacing: 3px; font-family: Montserrat; border-radius: 0px; display: table; transition: all 0.4s ease 0s; cursor: pointer; min-height: 0px; min-width: 0px; line-height: 17px; margin: 0px; left: 573px; top: 400px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
+                            buy this theme
+                    </a>
+
 				</li>
-				....
+
 			</ul>
 		</div>
 	</div>
@@ -331,43 +363,43 @@
 <section id="content_services" class="my-5">
         <div class=" container owl-carousel">
             <div>
-               <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a>
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+               <!-- <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> -->
+               <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Contabilidad Outsorcing</P>
             </div>
             <div> 
-               <a href="/fiscal"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+               <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Fiscal</P>
             </div>
             <div> 
-                    <a href="/payroll"><i class="fab fa-adn"></i></a> 
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Payroll Service</P>
             </div>
             <div> 
-                    <a href="/division"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/division"><i class="fab fa-adn"></i></a>    -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>División Financiera</P>
             </div>
             <div> 
-                    <a href="/capitalHumano"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    -->
+                    <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Capital Humano</P>
             </div>
             <div> 
-                    <a href="/bancaInversion"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Banca de Inversión</P>
             </div>
             <div> 
-                    <a href="/estacionServicio"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Estaciones de Servicio</P>
             </div>
             <div> 
-                    <a href="/sofom"><i class="fab fa-adn"></i></a>   
-                <!-- <img src="imagenes/carousel/toyota.png" class="w-100" alt=""> -->
+                    <!-- <a href="/sofom"><i class="fab fa-adn"></i></a>    -->
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <P>Sofom</P>
             </div>
         </div>

@@ -30,7 +30,7 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-md-9 content_serv">
-                <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+                <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                             <h5>Titles</h5>
@@ -47,7 +47,7 @@
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
-                    <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
+                    <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                             <h5>Titles</h5>
@@ -104,7 +104,7 @@
                    <span>® 2018 l Join Business Global Group ®</span>
                </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><i class="fab fa-facebook-f"></i></div> 
                     <div class="icon-social"><i class="fab fa-twitter"></i></div> 
                     <div class="icon-social"><i class="fab fa-linkedin-in"></i></div> 

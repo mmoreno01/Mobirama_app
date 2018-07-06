@@ -7,11 +7,17 @@
   margin: 0 auto;
   text-align: center;
   font-size: 25px;
-  color: #1d73b2;
+  color: #ff6633;
 }
 
 #content_services p {
   text-align: center;
+}
+
+.owl-carousel .owl-item img {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
 }
 
 #section-services #content-imgizq {
@@ -54,6 +60,10 @@
   font-weight: bold;
 }
 
+#section-services .content_textinf a {
+  color: #ff6633;
+}
+
 #section-services .cont-gnral2 {
   width: 100%;
   height: 100%;
@@ -72,13 +82,17 @@
 }
 
 #section-services .cont-textInf1 .fab {
-  color: #1d73b2;
+  color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
 }
 
 #section-services .cont-textInf1 h5 {
   font-weight: bold;
+}
+
+#section-services .cont-textInf1 a {
+  color: #ff6633;
 }
 
 #section-services .cont-textInf2 {
@@ -88,13 +102,17 @@
 }
 
 #section-services .cont-textInf2 .fab {
-  color: #1d73b2;
+  color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
 }
 
 #section-services .cont-textInf2 h5 {
   font-weight: bold;
+}
+
+#section-services .cont-textInf2 a {
+  color: #ff6633;
 }
 
 #section-services2 {
@@ -115,7 +133,7 @@
 }
 
 #section-services2 .content_imgtxt .fab {
-  color: #1d73b2;
+  color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
 }
@@ -132,9 +150,13 @@
 }
 
 #section-services2 .content_textinf .fab {
-  color: #1d73b2;
+  color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
+}
+
+#section-services2 .content_textinf a {
+  color: #ff6633;
 }
 
 #section-services2 #content-img {
@@ -149,12 +171,12 @@
 
 #content-informes {
   width: 100%;
-  background-color: #004481;
+  background-color: #EDEEF0;
 }
 
 #content-informes h2 {
   padding: 30px 0px;
-  color: #fff;
+  color: #000;
 }
 
 #content-informes .img-info img {
@@ -168,7 +190,7 @@
 
 #content-informes .cont-texto {
   width: 50%;
-  color: #fff;
+  color: #000;
   padding: 30px;
 }
 
@@ -881,7 +903,7 @@
 }
 
 #navbarTogglerDemo02 .content_img {
-  color: #fff;
+  color: #000;
   margin: 20px 0px;
   padding: 20px;
 }
@@ -892,10 +914,11 @@
 
 #navbarTogglerDemo02 .content_img h5 {
   padding: 10px 0px;
+  color: #000;
 }
 
 #navbarTogglerDemo02 .content_serv {
-  background-color: #004481 !important;
+  background-color: #DCDCDC !important;
 }
 
 /*!
@@ -3500,7 +3523,7 @@ website:   	http://www.themepunch.com
 
 footer {
   width: 100%;
-  background-color: #072146;
+  background-color: #808080;
   color: #fff;
   padding: 40px 0px;
 }
@@ -3510,17 +3533,26 @@ footer img {
 }
 
 footer .icon-social {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  background-color: #1d73b2;
+  background-color: #ff6633;
   margin: 10px;
   border-radius: 50%;
   display: inline-block;
+  font-size: 20px;
 }
 
 footer .icon-social i {
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+footer .content-iconsRedes {
+  text-align: right;
+}
+
+footer .content-iconsRedes p {
+  margin: 20px 0px;
 }
 
 #navbarTogglerDemo02 .content_imgs img {

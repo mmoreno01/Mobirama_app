@@ -1,6 +1,4 @@
 
-
-
 // seccion de servicios
 #content_services{
     
@@ -10,12 +8,18 @@
         margin: 0 auto;
         text-align: center;
         font-size: 25px;
-        color: #1d73b2;
+        color: $colorNaranja;
     }
+
     p{
         text-align: center;
     }
     
+}
+.owl-carousel .owl-item img{
+    width: 70px;
+    display: block;
+    margin: 0 auto;
 }
 
 #section-services{
@@ -53,6 +57,9 @@
         h5{
             font-weight: bold;
         }
+        a{
+            color:$colorNaranja;
+        }
     }
     .cont-gnral2{
         width: 100%;
@@ -68,12 +75,15 @@
         padding: 20px;
         background-color: $content-txt;
         .fab{
-            color: #1d73b2;
+            color: $colorNaranja;
             font-size: 20px;
             margin: 10px 0px;
         }
         h5{
             font-weight: bold;
+        }
+        a{
+            color:$colorNaranja;
         }
     }
     .cont-textInf2{
@@ -81,12 +91,15 @@
         padding: 20px;
         background-color: $content-txt;
         .fab{
-            color: #1d73b2;
+            color: $colorNaranja;
             font-size: 20px;
             margin: 10px 0px;
         }
         h5{
             font-weight: bold;
+        }
+        a{
+            color:$colorNaranja;
         }
     }
     
@@ -107,10 +120,11 @@
             margin: 0 auto;
         }
         .fab{
-            color: #1d73b2;
+            color:$colorNaranja;
             font-size: 20px;
             margin: 10px 0px;
         }
+       
     } 
     .content_textinf{
         width: 60%;
@@ -121,9 +135,12 @@
             font-weight: bold;
         }
         .fab{
-            color: #1d73b2;
+            color: $colorNaranja;
             font-size: 20px;
             margin: 10px 0px;
+        }
+        a{
+            color:$colorNaranja;
         }
     }
 
@@ -140,10 +157,10 @@
 // estilo de la seccion de informes
 #content-informes{
     width: 100%;
-    background-color: #004481;
+    background-color: #EDEEF0;
     h2{
         padding: 30px 0px;
-        color: #fff;
+        color: #000;
     }
     .img-info{
        
@@ -157,7 +174,7 @@
     }
     .cont-texto{
         width: 50%;
-        color: #fff;
+        color: #000;
         padding: 30px;
         h5{
             font-weight: bold;
