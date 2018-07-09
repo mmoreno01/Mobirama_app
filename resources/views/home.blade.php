@@ -349,7 +349,7 @@
                             data-endelementdelay="0.1" 
                             data-linktoslide="next" 
                             style="z-index: 12; white-space: nowrap; padding: 15px 28px; color: rgb(255, 255, 255); text-transform: uppercase; border: 0px none; background: rgb(0, 0, 0); font-size: 12px; letter-spacing: 3px; font-family: Montserrat; border-radius: 0px; display: table; transition: all 0.4s ease 0s; cursor: pointer; min-height: 0px; min-width: 0px; line-height: 17px; margin: 0px; left: 573px; top: 400px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                            buy this theme
+                            Ver más
                     </a>
 
 				</li>
@@ -365,42 +365,42 @@
             <div>
                <!-- <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> -->
                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Contabilidad Outsorcing</P>
+			   <a href="http:/contabilidad"> <P>Contabilidad Outsorcing</P></a>
             </div>
             <div> 
                <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Fiscal</P>
+                <a href="/fiscal"><P>Fiscal</P></a>
             </div>
             <div> 
                     <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Payroll Service</P>
+                <a href="/payroll"><P>Payroll Service</P></a>
             </div>
             <div> 
                     <!-- <a href="/division"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>División Financiera</P>
+                <a href="/division"><P>División Financiera</P></a>
             </div>
             <div> 
                     <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    -->
-                    <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Capital Humano</P>
+                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+				<a href="/capitalHumano"><P>Capital Humano</P></a> 
             </div>
             <div> 
                     <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Banca de Inversión</P>
+                <a href="/bancaInversion"><P>Banca de Inversión</P></a> 
             </div>
             <div> 
                     <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Estaciones de Servicio</P>
+                <a href="/bancaInversion"><P>Estaciones de Servicio</P></a>
             </div>
             <div> 
                     <!-- <a href="/sofom"><i class="fab fa-adn"></i></a>    -->
-                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <P>Sofom</P>
+				<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+				<a href="/sofom"><P>Sofom</P></a>
             </div>
         </div>
 </section>
@@ -490,12 +490,14 @@
         <div class="row">
             <div class="col-md-6 cont-info">
                 <div class="img-info">
-                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
+					<!-- <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt=""> -->
+					<img src="imagenes/1.jpg" alt="">
                 </div>
             </div>
             <div class="col-md-6 cont-info">
                 <div class="img-info">
-                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
+				<img src="imagenes/1.jpg" alt="">
+                    <!-- <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt=""> -->
                 </div>
             </div>
         </div>
@@ -532,17 +534,17 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 cont-img">
-                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+			<a href="http:/ubicacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Ubicacion</h3>
                 <p>Lorem ipsum dolor</p>
             </div>
             <div class="col-md-4 cont-img">
-                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+			<a href="http:/contacto"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Contacto</h3>
                 <p>Lorem ipsum dolor</p>
             </div>
             <div class="col-md-4 cont-img">
-                <img src="imagenes/plane.png.img.320.1520271142016.png" alt="">
+			<a href="http:/cotizacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Cotizacion</h3>
                 <p>Lorem ipsum dolor</p>
             </div>

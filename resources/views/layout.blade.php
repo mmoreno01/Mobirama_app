@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- slider revolution -->
     <link rel="stylesheet" href="{{asset('css/settings.css')}}">
-
+    <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}">
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 content_item animated BounceInRight">
+                <div class="col-md-3 content_item wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
                     <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
                     <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
@@ -118,9 +118,8 @@
 
 	<!-- <script src="js/jquery.js"></script>   -->
     <script src="js/jquery-3.3.1.min.js"></script>
-
- 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>

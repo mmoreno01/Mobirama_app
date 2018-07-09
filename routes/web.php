@@ -42,3 +42,15 @@ Route::get('estacionServicio', function () {
 Route::get('sofom', function () {
     return view('servicios.sofom');
 });
+
+// rutas de la seccion de ubicacion
+
+Route::get ('contacto', function(){
+    return view('contacto.contacto');
+});
+Route::get ('cotizacion', function(){
+    return view('contacto.cotizacion');
+});
+Route::get ('ubicacion', function(){
+    return view('contacto.ubicacion');
+});

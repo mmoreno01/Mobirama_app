@@ -12,6 +12,15 @@
 
 #content_services p {
   text-align: center;
+  color: #000;
+}
+
+#content_services a {
+  text-decoration: none;
+}
+
+#content_services p:hover {
+  color: #ff6633;
 }
 
 .owl-carousel .owl-item img {
@@ -217,6 +226,12 @@
   display: block;
   margin: 0 auto;
   padding: 40px 0px;
+  pointer-events: all;
+}
+
+#rutas-informacion .cont-img img:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
 }
 
 #rutas-informacion .cont-img h3 {
@@ -3473,6 +3488,235 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
+}
+
+#ubicacion {
+  margin: 100px 0px;
+}
+
+#ubicacion h1 {
+  color: #ff6633;
+  text-transform: capitalize;
+  margin: 20px;
+}
+
+#ubicacion h5 {
+  font-size: 30px;
+}
+
+#ubicacion h5 span {
+  color: #ff6633;
+}
+
+#ubicacion ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#ubicacion ul li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#ubicacion ul i {
+  font-size: 20px;
+  color: #ff6633;
+  padding: 0px 10px;
+}
+
+#contacto {
+  margin: 100px 0px;
+}
+
+#content-img img {
+  width: 100%;
+}
+
+#tittle-cotiza h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #7f8185;
+}
+
+#tittle-cotiza span {
+  font-weight: bold;
+  color: #ff6633;
+}
+
+#content-textAyuda .cont-ayuda {
+  padding: 0px 30px;
+}
+
+#content-textAyuda .cont-ayuda h3 {
+  margin: 20px 0px;
+}
+
+#content-textAyuda .cont-ayuda p {
+  padding: 20px 150px;
+}
+
+#content-textAyuda p {
+  text-align: justify;
+}
+
+#content-textAyuda h3 {
+  color: #ff6633;
+  text-align: center;
+}
+
+#form-cotiza {
+  margin-bottom: 50px;
+}
+
+#form-cotiza h1 {
+  color: #ff6633;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+#form-cotiza .form-control:focus {
+  border: 1px solid #ff6633;
+  -webkit-box-shadow: 0 0 0 0.2px #ff6633;
+          box-shadow: 0 0 0 0.2px #ff6633;
+}
+
+#form-cotiza .form-control {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#form-cotiza .content-date {
+  background-color: #dedede;
+  padding: 30px;
+}
+
+#form-cotiza .content-date input {
+  font-size: 12px;
+}
+
+#form-cotiza .content-date select {
+  font-size: 12px;
+}
+
+#form-cotiza .content-dateEmpresa {
+  background-color: #dedede;
+  padding: 30px;
+}
+
+#form-cotiza .content-dateEmpresa input {
+  font-size: 12px;
+}
+
+#form-cotiza .content-dateEmpresa select {
+  font-size: 12px;
+}
+
+#form-cotiza .content-dateEmpresa textarea {
+  font-size: 12px;
+}
+
+#form-cotiza .content-dateEmpresa h3 {
+  font-size: 20px;
+  color: #ff6633;
+  text-align: center;
+}
+
+#form-cotiza .content-dateEmpresa p {
+  font-size: 15px;
+  font-weight: 100;
+  text-align: justify;
+  padding: 0px 100px;
+}
+
+#form-cotiza .content-dateEmpresa .btn-cotizador {
+  background-color: #ff6633;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+#form-cotiza .content-dateEmpresa button:focus {
+  -webkit-box-shadow: 0 0 0 0.2px #fff;
+          box-shadow: 0 0 0 0.2px #fff;
+}
+
+.content-gnrl {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+
+.content-slid {
+  width: 50%;
+  background-color: red;
+  text-align: center;
+}
+
+.search-slider #search-example {
+  color: #fff;
+  font-size: 60px;
+  margin-top: -21px;
+}
+
+.search-slider {
+  font-family: "Roboto Slab", serif;
+  margin-top: 220px;
+}
+
+.search-slider {
+  font-family: "Roboto Slab", serif;
+  margin-top: 220px;
+}
+
+@media screen and (max-width: 992px) {
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #form-cotiza h1 {
+    font-size: 20px;
+  }
+
+  #content-textAyuda .cont-ayuda p {
+    padding: 20px 70px;
+  }
+
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px 0px;
+  }
+
+  #form-cotiza .form-control {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #tittle-cotiza h1 {
+    font-size: 25px;
+  }
+
+  #content-textAyuda .cont-ayuda h3 {
+    font-size: 20px;
+  }
+
+  #content-textAyuda .cont-ayuda p {
+    padding: 0px;
+  }
+
+  #form-cotiza .content-dateEmpresa p {
+    padding: 0px;
+  }
+
+  #form-cotiza .form-control {
+    width: 250px;
+  }
+
+  #form-cotiza h1 {
+    font-size: 20px;
+  }
 }
 
 /*-----------------------------------------------------------------------------
