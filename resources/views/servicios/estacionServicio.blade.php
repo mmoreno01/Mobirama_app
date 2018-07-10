@@ -1,14 +1,18 @@
 @extends ('layout')
 
 @section ('content')
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/2.jpg" uk-img>
+  <h1>Estaciones de Servicio</h1>
+</div>
+
 <section id="content-txt">
-   <div class="cont-title">
+   <!-- <div class="cont-title">
         <h1 class="text-center my-5">Elaboración de Manuales y <span>Procedimientos para Estaciones de Servicio</span> </h1>
-   </div> 
+   </div>  -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-left">
-                <p>Optimizar el funcionamiento y desarrollo de una Estación de Servicio a través de Manuales y Procedimientos que evitan o reducen al máximo la improvisación y permiten el establecimiento de criterios dirigidos a corregir las posibles desviaciones o imprevistos que puedan surgir durante la producción.</p>
+              <p>Optimizar el funcionamiento y desarrollo de una Estación de Servicio a través de Manuales y Procedimientos que evitan o reducen al máximo la improvisación y permiten el establecimiento de criterios dirigidos a corregir las posibles desviaciones o imprevistos que puedan surgir durante la producción.</p>
               <p>Trabajamos estrechamente con nuestros clientes para entender las necesidades del negocio.</p>
               <p>Proporcionamos un amplio análisis sobre riesgos y oportunidades del mercado.</p>
               <p>Aseguramos el crecimiento de los negocios y la rentabilidad de la inversión.</p>

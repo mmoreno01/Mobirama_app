@@ -1,23 +1,28 @@
 @extends ('layout')
 
 @section ('content')
+
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/2.jpg" uk-img>
+  <h1>Banca de Inversión</h1>
+</div>
+
 <section id="content-txt">
-   <div class="cont-title">
-        <h1 class="text-center my-5">Banca de <span>Inversión</span> </h1>
-   </div> 
+   <!-- <div class="cont-title">
+        <h1 class="text-center my-5"> <span></span> </h1>
+   </div>  -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-left">
                 <p>Nuestra Banca de Inversión desarrolla un Plan Estratégico de Financiamiento que busca aumentar la rentabilidad de negocios a través de la obtención de fondos de capital en mercados globales y corporaciones multinacionales.
                         Ubicamos oportunidades de negocio en naciones de Latinoamérica, África, Asia y todo el mundo creando alianzas estratégicas que favorezcan el intercambio comercial y una dinámica empresarial más productiva para las partes involucradas.</p>
-              <p>Trabajamos estrechamente con nuestros clientes para entender las necesidades del negocio</p>
-              <p>Proporcionamos un amplio análisis sobre riesgos y oportunidades del mercado</p>
-              <p>Aseguramos el crecimiento de los negocios y la rentabilidad de la inversión </p>
-              <p>Asesorías en materia fiscal, contable y jurídica para lograr el financiamiento de proyectos</p>
+                <p>Trabajamos estrechamente con nuestros clientes para entender las necesidades del negocio</p>
+                <p>Proporcionamos un amplio análisis sobre riesgos y oportunidades del mercado</p>
+                <p>Aseguramos el crecimiento de los negocios y la rentabilidad de la inversión </p>
+                <p>Asesorías en materia fiscal, contable y jurídica para lograr el financiamiento de proyectos</p>
             </div>
-            <div class="col-md-6 img-right">
+            <!-- <div class="col-md-6 img-right">
                 <img src="imagenes/banca_inversion/bancadeI.png" alt="">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

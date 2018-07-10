@@ -33,34 +33,34 @@
                 <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
                     <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <h5>Titles</h5>
+                            <p class="title-txt">Titles</p>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>

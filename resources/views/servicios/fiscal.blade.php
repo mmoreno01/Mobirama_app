@@ -1,11 +1,16 @@
 @extends('layout')
 
 @section('content')
+
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/fiscal/fiscal.jpg" uk-img>
+  <h1>Fiscal</h1>
+</div>
+
       
 <section id="content-txt">
-         <div class="cont-title">
+         <!-- <div class="cont-title">
             <h1 class="text-center my-5">Fis<span>cal</span> </h1>
-         </div>
+         </div> -->
          <div class="container">
             <div class="row">
                <div class="col-md-6 text-left">

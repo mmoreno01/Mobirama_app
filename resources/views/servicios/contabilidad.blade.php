@@ -2,10 +2,14 @@
 
 @section('content')
 
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/contabilidad/Outsourcing.png" uk-img>
+  <h1>Contabilidad Outsourcing</h1>
+</div>
+
 <section id="content-txt">
-   <div class="cont-title">
+   <!-- <div class="cont-title">
         <h1 class="my-5">Contabilidad <span>Outsourcing</span> </h1>
-   </div> 
+   </div>  -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-left">

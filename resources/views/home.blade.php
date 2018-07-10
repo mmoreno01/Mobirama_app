@@ -423,20 +423,20 @@
                              <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
                         </div>
                         <div class="d-inline  content_textinf"> 
-                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
                             <a href="http://">Ver más</a> 
                         </div>
                         
                         <div class="d-inline cont-textInf1">
                             <i class="fab fa-adn"></i>  
-                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
                             <a href="http://">Ver más</a>
                         </div>
                         <div class="d-inline cont-textInf2">
                             <i class="fab fa-adn"></i>  
-                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
                             <a href="http://">Ver más</a>
                         </div>
@@ -458,7 +458,7 @@
                     </div>
                     <div class="d-inline content_textinf">
                             <i class="fab fa-adn"></i>  
-                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
                             <a href="http://">Ver más</a>
                     </div>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="d-inline content_textinf">
                             <i class="fab fa-adn"></i>  
-                            <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
                             <a href="http://">Ver más</a>
                     </div>
@@ -505,7 +505,7 @@
             <div class="col-md-6 cont-info">
                 <div class="row">
                     <div class="d-inline cont-texto">
-                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                        <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
                     </div>
                     <div class="d-inline cont-icon">
@@ -516,7 +516,7 @@
             <div class="col-md-6 cont-info">
                 <div class="row">
                     <div class="d-inline cont-texto">
-                        <h5>Lorem ipsum dolor sit amet consectetur</h5>
+                        <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
                     </div>
                     <div class="d-inline cont-icon">
@@ -536,17 +536,17 @@
             <div class="col-md-4 cont-img">
 			<a href="http:/ubicacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Ubicacion</h3>
-                <p>Lorem ipsum dolor</p>
+                <p>Acercate a nosotros</p>
             </div>
             <div class="col-md-4 cont-img">
 			<a href="http:/contacto"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Contacto</h3>
-                <p>Lorem ipsum dolor</p>
+                <p>Contacta a los expertos</p>
             </div>
             <div class="col-md-4 cont-img">
 			<a href="http:/cotizacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Cotizacion</h3>
-                <p>Lorem ipsum dolor</p>
+                <p>Realiza un cotizacion de nuestros servicios</p>
             </div>
         </div>
     </div>

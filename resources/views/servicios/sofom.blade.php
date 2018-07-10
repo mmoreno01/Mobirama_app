@@ -1,19 +1,24 @@
 @extends('layout')
 
 @section('content')
+
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/2.jpg" uk-img>
+  <h1>SOFOM</h1>
+</div>
+
 <section id="content-txt">
-   <div class="cont-title">
+   <!-- <div class="cont-title">
         <h1 class="text-center my-5">SO<span>FOM</span> </h1>
-   </div> 
+   </div>  -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-left">
+            <div class="col-md-12 text-left">
                 <p>El crédito vía nómina de Join Business Global Group es una línea de crédito enfocada a beneficiar a los trabajadores de nuestras empresas socias. Es un préstamo personal con tasa y pagos fijos que se descuenta en automático de la nómina de los empleados, por medio de un trámite fácil, rápido y confiable</p>
               
             </div>
-            <div class="col-md-6 img-right">
+            <!-- <div class="col-md-6 img-right">
                 <img src="imagenes/payroll/Payroll.png" alt="">
-            </div>
+            </div> -->
         </div>
        
     </div>

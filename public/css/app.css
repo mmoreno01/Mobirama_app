@@ -65,7 +65,7 @@
   background-color: #EDEEF0;
 }
 
-#section-services .content_textinf h5 {
+#section-services .content_textinf .title-txt {
   font-weight: bold;
 }
 
@@ -96,7 +96,7 @@
   margin: 10px 0px;
 }
 
-#section-services .cont-textInf1 h5 {
+#section-services .cont-textInf1 .title-txt {
   font-weight: bold;
 }
 
@@ -116,7 +116,7 @@
   margin: 10px 0px;
 }
 
-#section-services .cont-textInf2 h5 {
+#section-services .cont-textInf2 .title-txt {
   font-weight: bold;
 }
 
@@ -154,7 +154,7 @@
   background-color: #EDEEF0;
 }
 
-#section-services2 .content_textinf h5 {
+#section-services2 .content_textinf .title-txt {
   font-weight: bold;
 }
 
@@ -203,7 +203,7 @@
   padding: 30px;
 }
 
-#content-informes .cont-texto h5 {
+#content-informes .cont-texto .title-txt {
   font-weight: bold;
 }
 
@@ -241,6 +241,7 @@
 
 #rutas-informacion .cont-img p {
   text-align: center;
+  color: #ff6633;
 }
 
 #img-pricipal {
@@ -375,6 +376,10 @@
   -webkit-transform: scale(1);
 }
 
+#content-txt {
+  margin: 50px 0px;
+}
+
 #content-txt li {
   font-weight: 100;
   list-style: none;
@@ -419,6 +424,10 @@
   font-size: 15px;
   font-weight: 100;
   list-style: none;
+}
+
+#content-txt {
+  margin: 50px 0px;
 }
 
 #content-txt h1 {
@@ -3490,14 +3499,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: rollOut;
 }
 
-#ubicacion {
-  margin: 100px 0px;
+h1 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
-#ubicacion h1 {
-  color: #ff6633;
-  text-transform: capitalize;
-  margin: 20px;
+#ubicacion {
+  margin: 100px 0px;
 }
 
 #ubicacion h5 {
@@ -3524,8 +3532,60 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 0px 10px;
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
 #contacto {
   margin: 100px 0px;
+}
+
+#contacto .form-control {
+  border: 1px solid #ff6633;
+}
+
+#contacto button {
+  background-color: #ff6633;
+  border-color: transparent;
+}
+
+#contacto .form-control:focus {
+  border: 1px solid #ff6633;
+  -webkit-box-shadow: 0 0 0 0.2px #ff6633;
+          box-shadow: 0 0 0 0.2px #ff6633;
+}
+
+#contacto .content-info {
+  padding: 40px;
+}
+
+#contacto .content-info h5 {
+  font-size: 30px;
+}
+
+#contacto .content-info h5 span {
+  color: #ff6633;
+}
+
+#contacto .content-info ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#contacto .content-info ul li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#contacto .content-info ul i {
+  font-size: 20px;
+  color: #ff6633;
+  padding: 0px 10px;
+}
+
+#contacto select option:hover {
+  background-color: #ff6633;
 }
 
 #content-img img {
