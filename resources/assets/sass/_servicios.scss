@@ -137,7 +137,7 @@
 
 #content-txt{
 
-    margin: 50px 0px;
+    // margin: 50px 0px;
 
 li{
     font-weight: 100;
@@ -198,7 +198,7 @@ li{
 
 
 #content-txt{
-    margin: 50px 0px;
+    // margin: 50px 0px;
     h1{
         color: $colorNaranja;
         font-size: 30px;
@@ -210,7 +210,10 @@ li{
         
     }
     .text-left{
-        padding: 0px 40px;
+        padding: 50px 100px;
+        background-color: #d9d9d9;
+        position: relative;
+        top: 40%;
     }
     
     p{

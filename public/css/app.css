@@ -376,10 +376,6 @@
   -webkit-transform: scale(1);
 }
 
-#content-txt {
-  margin: 50px 0px;
-}
-
 #content-txt li {
   font-weight: 100;
   list-style: none;
@@ -426,10 +422,6 @@
   list-style: none;
 }
 
-#content-txt {
-  margin: 50px 0px;
-}
-
 #content-txt h1 {
   color: #ff6633;
   font-size: 30px;
@@ -442,7 +434,10 @@
 }
 
 #content-txt .text-left {
-  padding: 0px 40px;
+  padding: 50px 100px;
+  background-color: #d9d9d9;
+  position: relative;
+  top: 40%;
 }
 
 #content-txt p {

@@ -2,9 +2,14 @@
 
 @section('content')
 
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/contabilidad/Outsourcing.png" uk-img>
-  <h1>Contabilidad Outsourcing</h1>
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Contabilidad Outsourcing</h1>
+
 </div>
+<!-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/contabilidad/Outsourcing.png" uk-img>
+  <h1>Contabilidad Outsourcing</h1>
+</div> -->
 
 <section id="content-txt">
    <!-- <div class="cont-title">
@@ -12,16 +17,18 @@
    </div>  -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-left">
-              <p> Nuestro objetivo es realizar las operaciones financieras bajo el estricto cumplimiento de las normas tributarias, y proveer a la empresa un análisis del comportamiento interno de la organización que permita una toma de decisiones dirigida al cumplimiento exitoso de los objetivos</p>
-              <p>Ofrecemos profesionalismo y rapidez de respuesta a las necesidades específicas del negocio.</p>
+            <div class="col-12 text-left shadow ">
+            <div class="card-text ">
+                 <p> Nuestro objetivo es realizar las operaciones financieras bajo el estricto cumplimiento de las normas tributarias, y proveer a la empresa un análisis del comportamiento interno de la organización que permita una toma de decisiones dirigida al cumplimiento exitoso de los objetivos</p>
+            </div>
+              <p class="p-text">Ofrecemos profesionalismo y rapidez de respuesta a las necesidades específicas del negocio.</p>
               <p>Nuestros procesos profesionales de Contabilidad Outsourcing están avalados.</p>
               <p>Agregamos valor a las empresas en el entorno económico, social y de mercado.</p>
               <p>Creamos respuestas a cada una de las necesidades de nuestros clientes, mediante estrategias sustentables.</p>
             </div>
-            <div class="col-md-6 img-right">
+            <!-- <div class="col-md-6 img-right">
                 <img src="imagenes/contabilidad/conta.png" alt="contabilidad">
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
