@@ -381,25 +381,14 @@
   list-style: none;
 }
 
-#serv-contables p {
-  text-align: center;
-  margin: 20px 0px;
-  font-weight: 100;
-}
-
-#serv-contables img {
-  display: block;
-  margin: 0 auto;
-}
-
-#serv-iconos img {
+.serv-iconos img {
   width: 100px;
   display: block;
   margin: 0 auto;
   opacity: .5;
 }
 
-#serv-iconos img:hover {
+.serv-iconos img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   opacity: 1;
@@ -408,36 +397,37 @@
   cursor: pointer;
 }
 
-#serv-iconos p {
-  text-align: center;
+.serv-iconos p {
+  text-align: center !important;
   color: #ff6633;
   font-weight: bold;
   margin: 20px 0px;
   opacity: .7;
 }
 
-#serv-iconos li {
+.serv-iconos li {
   font-size: 15px;
   font-weight: 100;
   list-style: none;
 }
 
-#content-txt h1 {
+#content-txt {
+  margin: 50px 0px;
+}
+
+#content-txt h2 {
   color: #ff6633;
   font-size: 30px;
   font-weight: 300;
-  padding: 0px 20px;
 }
 
-#content-txt span {
-  color: #7f8185;
+#content-txt .sub-title {
+  color: #ff6633;
+  font-size: 20px;
 }
 
 #content-txt .text-left {
   padding: 50px 100px;
-  background-color: #d9d9d9;
-  position: relative;
-  top: 40%;
 }
 
 #content-txt p {
@@ -449,6 +439,14 @@
   width: 70%;
   margin: 0 auto;
   display: block;
+}
+
+#content-txt ul {
+  padding: 0px;
+}
+
+#content-txt a {
+  color: #ff6633;
 }
 
 #banner a {
@@ -591,11 +589,9 @@
 }
 
 #text-termino h1 {
-  color: #7f8185;
-}
-
-#text-termino h1 span {
   color: #ff6633;
+  font-size: 30px;
+  font-weight: 100;
 }
 
 #text-termino p {
@@ -922,7 +918,6 @@
 }
 
 #navbarTogglerDemo02 .content_img {
-  color: #000;
   margin: 20px 0px;
   padding: 20px;
 }
@@ -931,13 +926,26 @@
   width: 70px;
 }
 
-#navbarTogglerDemo02 .content_img h5 {
-  padding: 10px 0px;
-  color: #000;
+#navbarTogglerDemo02 .content_img p {
+  margin-top: 0px;
+  margin: 0px;
+}
+
+#navbarTogglerDemo02 .content_img .title-txt {
+  color: #ff6633;
+  font-weight: bold;
 }
 
 #navbarTogglerDemo02 .content_serv {
   background-color: #DCDCDC !important;
+}
+
+#navbarTogglerDemo02 .sub-menu1 {
+  padding: 10px 20px;
+}
+
+#navbarTogglerDemo02 .sub-menu2 {
+  padding: 10px 20px;
 }
 
 /*!
@@ -3774,6 +3782,120 @@ h1 {
   }
 }
 
+.text-inicial {
+  margin: 50px 0px;
+  text-align: justify;
+  padding: 0px 100px;
+}
+
+#valores ul {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#valores li {
+  margin: 10px 20px;
+}
+
+#valores li img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#valores li img:hover {
+  opacity: 1;
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+          transform: scale3d(1.1, 1.1, 1);
+}
+
+#valores h1 {
+  color: #ff6633;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+#valores h4 {
+  color: #7f8185;
+}
+
+#valores p {
+  text-align: justify;
+}
+
+#valores .nav-pills .nav-link.active,
+#valores .nav-pills .show > .nav-link {
+  background-color: transparent;
+}
+
+#valores .tab-content {
+  margin: 50px 0px;
+}
+
+#content-txt {
+  margin: 50px 0px;
+}
+
+#content-txt h2 {
+  color: #ff6633;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#content-txt .sub-title {
+  color: #ff6633;
+  font-size: 20px;
+}
+
+#content-txt .text-left {
+  padding: 50px 100px;
+}
+
+#content-txt p {
+  text-align: justify;
+  font-weight: 100;
+}
+
+#content-txt .img-right img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+#content-txt ul {
+  padding: 0px;
+}
+
+#content-txt a {
+  color: #ff6633;
+}
+
+#content-txt .img-iso img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#logos-seg img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#logos-seg h1 {
+  color: #ff6633;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+#logos-seg h3 {
+  text-align: center;
+  color: #ff6633;
+}
+
+#logos-seg p {
+  font-weight: 300;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
@@ -3829,6 +3951,8 @@ footer {
 
 footer img {
   max-width: 10%;
+  float: left;
+  margin: 0px 20px;
 }
 
 footer .icon-social {
@@ -3851,7 +3975,12 @@ footer .content-iconsRedes {
 }
 
 footer .content-iconsRedes p {
-  margin: 20px 0px;
+  margin: 0px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px;
 }
 
 #navbarTogglerDemo02 .content_imgs img {

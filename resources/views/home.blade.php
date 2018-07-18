@@ -395,7 +395,7 @@
             <div> 
                     <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                <a href="/bancaInversion"><P>Estaciones de Servicio</P></a>
+                <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
             </div>
             <div> 
                     <!-- <a href="/sofom"><i class="fab fa-adn"></i></a>    -->
@@ -412,9 +412,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div id="content-imgizq" class="">
+			<div class="uk-background-fixed uk-background-contain uk-height-large uk-width-xlarge" style="background-image: url(imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg"></div>
+
+                <!-- <div id="content-imgizq" class="">
                     <img src="imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg" alt="">
-                </div>
+                </div> -->
             </div>
             <div class="col-md-6">
                 <div class="row">
@@ -423,22 +425,22 @@
                              <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
                         </div>
                         <div class="d-inline  content_textinf"> 
-                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
-                            <a href="http://">Ver más</a> 
+                            <p class="title-txt">Acerca de JBGG</p>
+                            <p>Somos estrictos impulsores del desarrollo y creadores de estrategias de solución para todos nuestros clientes </p>
+                            <a href="/nosotros">Ver más</a> 
                         </div>
                         
                         <div class="d-inline cont-textInf1">
                             <i class="fab fa-adn"></i>  
-                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
+                            <p class="title-txt">Valores Institucionales</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
-                            <a href="http://">Ver más</a>
+                            <a href="/valores">Ver más</a>
                         </div>
                         <div class="d-inline cont-textInf2">
                             <i class="fab fa-adn"></i>  
-                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
+                            <p class="title-txt">Filosofia de la empresa</p>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
-                            <a href="http://">Ver más</a>
+                            <a href="/filosofia">Ver más</a>
                         </div>
                 </div>
             </div>
@@ -489,16 +491,34 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 cont-info">
-                <div class="img-info">
-					<!-- <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt=""> -->
+				<div class="uk-text-center">
+					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/1.jpg" alt="">
+						<div class="uk-position-center">
+							<div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
+							<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Nacionales</h4></div>
+						</div>
+					</div>
+				</div>
+                <!-- <div class="img-info">
+					<img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
 					<img src="imagenes/1.jpg" alt="">
-                </div>
+                </div> -->
             </div>
             <div class="col-md-6 cont-info">
-                <div class="img-info">
-				<img src="imagenes/1.jpg" alt="">
-                    <!-- <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt=""> -->
-                </div>
+				<div class="uk-text-center">
+						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/1.jpg" alt="">
+							<div class="uk-position-center">
+								<div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
+								<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Internacionales</h4></div>
+							</div>
+						</div>
+				</div>
+                <!-- <div class="img-info">
+					<img src="imagenes/1.jpg" alt="">
+                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
+                </div> -->
             </div>
         </div>
         <div class="row">

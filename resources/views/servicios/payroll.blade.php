@@ -1,29 +1,52 @@
 @extends('layout')
 
 @section('content')
-
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/payroll/pyroll.png" uk-img>
-  <h1>Payroll Service</h1>
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Payroll Service</h1>
 </div>
 
 <section id="content-txt">
-   <!-- <div class="cont-title">
-        <h1 class="text-center my-5">Payroll <span>Service</span> </h1>
-   </div>  -->
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-left">
-                <p>Contamos con un equipo multidisciplinario de especialistas encargados de detectar y analizar las necesidades de las organizaciones en materia de administración integral de recursos humanos. Hemos innovado el concepto de gestión de personal al incluir una serie de soluciones que facilitan los procesos operativos internos, permitiendo a las empresas enfocarse en su Core Business con un alto grado de confiabilidad</p>
-              <p>Mejora el aprovechamiento del capital humano</p>
-              <p>Reduce costos y tiempos de operación</p>
-              <p>Asegura la confidencialidad de la información y mejora el control interno</p>
-              <p>Restringe riesgos por incumplimiento fiscal</p>
-            </div>
-            <div class="col-md-6 img-right">
-                <img src="imagenes/payroll/Payroll.png" alt="">
+            <div class="col-12 text-left">
+              <p>Contamos con un equipo multidisciplinario de especialistas encargados de detectar y analizar las necesidades de las organizaciones en materia de administración integral de recursos humanos. Hemos innovado el concepto de gestión de personal al incluir una serie de soluciones que facilitan los procesos operativos internos, permitiendo a las empresas enfocarse en su Core Business con un alto grado de confiabilidad</p>
+              <ul>
+                  <li>Mejora el aprovechamiento del capital humano</li>
+                  <li>Reduce costos y tiempos de operación</li>
+                  <li>Asegura la confidencialidad de la información y mejora el control interno</li>
+                  <li>Restringe riesgos por incumplimiento fiscal</li>
+              </ul>
+              <a href="/home">Más Servicios</a> 
             </div>
         </div>
-        
+        <div class="row serv-iconos">
+            <div class="col-md-4">
+                <img src="imagenes/payroll/nominas.png" alt="BPO Maquila de Nómina" data-toggle="modal" data-target="#BPO">  
+               <p>BPO Maquila de Nómina.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imagenes/payroll/adnempresarial.png" alt="Implementación de HRP" data-toggle="modal" data-target="#Implementa">
+                <p>Implementación de HRP.</p>
+                </div>
+            <div class="col-md-4">
+                <img src="imagenes/payroll/talentoempresarial.png" alt="Payroll Forensic" data-toggle="modal" data-target="#PayFore">
+                <p>Payroll Forensic.</p>
+            </div>
+        </div>
+        <div class="row serv-iconos">
+           <div class="col-md-4">
+               <img src="imagenes/payroll/reclutamientomasivo.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#TaxPay">
+              <p>Tax Payroll Managment.</p>
+           </div>
+           <div class="col-md-4">
+                   <img src="imagenes/payroll/talentoejecutivo.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
+               <p>Asesoría.</p>
+           </div>
+           <div class="col-md-4">
+               <img src="imagenes/payroll/verificacion.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
+               <p>CFDI implementación y operación.</p>
+           </div>
+       </div>
     </div>
 </section>
 
@@ -42,7 +65,7 @@
 
 
 <!--seccion de iconos-->
-<section id="serv-iconos" class="py-5">
+<!-- <section id="serv-iconos" class="py-5">
     <div class="container">
         <div class="row">
            
@@ -77,7 +100,7 @@
                 </div>
             </div>
     </div>
-</section>
+</section> -->
 <!--seccion de iconos-->
 
 <!--Seccion de pop up-->

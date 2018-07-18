@@ -146,23 +146,12 @@ li{
 }
 //fin de efecto del contenido principal
 
-//seccion de servicios contables
 
-#serv-contables{
-    
-    p{
-        text-align: center;
-        margin: 20px 0px;
-        font-weight: 100;
-    }
-    img{
-        display: block;
-        margin: 0 auto;
-    }
-}
 
-//sevicios capitall humano
-#serv-iconos{
+
+
+//<---------  sevicios iconos ---------->
+.serv-iconos{
     img{
         width:  100px;
         display: block;
@@ -177,7 +166,7 @@ li{
 }
 
 p{
-    text-align: center;
+    text-align: center !important;
     color: #ff6633;
     font-weight: bold;
     margin: 20px 0px;
@@ -187,33 +176,26 @@ p{
 li{
     font-size: 15px;
     font-weight: 100;
-    list-style: none;
-  
-    
+    list-style: none;  
 }
 }
+//><----------- fin de servicios iconos ------->
 
-//fin de servicios capital humano
-
-
-
+// ###############--estyle services--###############
 #content-txt{
-    // margin: 50px 0px;
-    h1{
+    margin: 50px 0px;
+    
+    h2{
         color: $colorNaranja;
         font-size: 30px;
         font-weight: 300;
-        padding: 0px 20px;
     }
-     span{
-        color: $colorGrisTitlel;
-        
+    .sub-title{
+        color: $colorNaranja;
+        font-size: 20px;
     }
     .text-left{
-        padding: 50px 100px;
-        background-color: #d9d9d9;
-        position: relative;
-        top: 40%;
+        padding: 50px 100px;       
     }
     
     p{
@@ -226,12 +208,15 @@ li{
             margin: 0 auto;
             display: block;
         }
-      
     }
-    
+    ul{
+        padding: 0px;
+    }
+    a{
+        color: $colorNaranja;
+    }
 }
-
-//fin de servicios contables
+//########------fin de servicios--------########
 
 
 //inicio de banner parallax
@@ -351,8 +336,6 @@ p{
             color: $colorNaranja;
         }
     }
-
-
 p span {
     color: $colorNaranja;
     font-weight: bold;
@@ -361,25 +344,21 @@ p span {
     display: block;
     margin: 0 auto;
 }
-
-
 p{
     text-align: justify;
     padding: 0px 30px;}
 
 }
 
-//terminos
+//########### ---terminos --- ##########
 
 #text-termino{
     margin: 50px 0px;
     h1{
-        color: $colorGrisTitlel;
-        span{
-            color: $colorNaranja;
-        }
+        color: $colorNaranja;
+        font-size: 30px;
+        font-weight: 100;
     }
-    
     p{
         text-align: justify;
         line-height: 30px;
@@ -389,7 +368,7 @@ p{
         }
     } 
 }
-
+//########### --- fin de terminos --- ##########
 
 //  servicio glosario
 #text-glosario{

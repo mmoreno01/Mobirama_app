@@ -54,3 +54,30 @@ Route::get ('cotizacion', function(){
 Route::get ('ubicacion', function(){
     return view('contacto.ubicacion');
 });
+
+// rutas de seccion nostros
+Route::get('nosotros',function(){
+    return view('nosotros.nosotros');
+});
+Route::get('valores',function(){
+    return view('nosotros.valores');
+});
+Route::get('filosofia',function(){
+    return view('nosotros.filosofia');
+});
+
+// rutas de menu
+
+Route::get('politica',function(){
+    return view('menu.politica');
+});
+Route::get('terminos',function(){
+    return view('menu.terminos');
+});
+Route::get('glosario',function(){
+    return view('menu.glosario');
+});
+Route::get('promocion',function(){
+    return view('menu.promocion');
+});
+

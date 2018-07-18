@@ -2,24 +2,38 @@
 
 @section ('content')
 
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/banca_inversion/banca.jpg" uk-img>
-  <h1>Division Financiera</h1>
+
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Division Financiera</h1>
 </div>
 
 <section id="content-txt">
-         <!-- <div class="cont-title">
-            <h1 class="text-center my-5">Division<span> Financiera</span> </h1>
-         </div> -->
          <div class="container">
             <div class="row">
-                <div class="col-md-6 text-left">
-                    <p>A través de nuestra División Financiera hemos logrado impulsar proyectos que promueven el crecimiento económico-social de los Países de Centroamérica. Participando como un ente financiero que sirva de intermediario entre los recursos de los bancos y los empresarios. Implementando Metodologías probadas en otros países de Latino América, políticas, procedimientos, Gobiernos Corporativos, e inclusos Software diseñados por nuestro equipo humano para el correcto control de dichos créditos.
-                        </p>
+                <div class="col-12 text-left">
+                    <p class=" text-center sub-title">Generamos sinergias empresariales a través de una visión global de negocios.</p>
+                    <p>A través de nuestra División Financiera hemos logrado impulsar proyectos que promueven el crecimiento económico-social de los Países de Centroamérica. Participando como un ente financiero que sirva de intermediario entre los recursos de los bancos y los empresarios. Implementando Metodologías probadas en otros países de Latino América, políticas, procedimientos, Gobiernos Corporativos, e inclusos Software diseñados por nuestro equipo humano para el correcto control de dichos créditos.</p>
                     <p>Gracias a nuestra probada experiencia y conocimiento en temas de Inversión, Mach de Negocios, Compra Venta de empresas, implementación de Gobiernos corporativos, Deuda y Bursatilización, hoy muchas empresas internacionales ven en nosotros un excelente aliado de negocios</p>
-                </div>
-                <div class="col-md-6 img-right">
-                        <img src="imagenes/banca_inversion/bancadeI.png" alt="">
-                </div>
+                    <a href="/home">Más Servicios</a> 
+                  </div>
+            </div>
+            <div class="row serv-iconos">
+                  <div class="col-md-4 col-sm-4">
+                          <img src="imagenes/banca_inversion/orientacion.png" alt="Consultoría en la Administración de Empresas">
+                    <p>Proyectos de Exclusividad Internacional.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                          <img src="imagenes/banca_inversion/adquirir.png" alt="Asesoría y Planeación Financiera">
+                      <p>Recursos para Capital y/o deuda que ofrecemos.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                      <img src="imagenes/banca_inversion/fondo.png" alt="Gestión Contable">
+                      <p>Sectores Especializados.</p>
+                  </div>
+                  <!--<div class="col-md-3 col-sm-6">
+                          <img src="imagenes/banca_inversion/estrategia.png" alt="Maquila de Nómina"> 
+                      <p>Cartera de inversionistas estratégicos.</p>
+                  </div>-->
             </div>
          </div>
       </section>
@@ -37,7 +51,7 @@
 
 
      <!--seccion de iconos-->
-<section id="serv-iconos" class="py-5">
+<!-- <section id="serv-iconos" class="py-5">
     <div class="container">
         <div class="row">
             
@@ -54,14 +68,14 @@
                 <img src="imagenes/banca_inversion/fondo.png" alt="Gestión Contable">
                 <p>Sectores Especializados.</p>
             </div>
-            <!--<div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6">
                     <img src="imagenes/banca_inversion/estrategia.png" alt="Maquila de Nómina"> 
                 <p>Cartera de inversionistas estratégicos.</p>
-            </div>-->
+            </div>
             
         </div>
     </div>
-</section>
+</section> -->
 <!--seccion de iconos-->
 
 <!--Pop up de iconos -->

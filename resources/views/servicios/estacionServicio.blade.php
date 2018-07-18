@@ -1,27 +1,59 @@
 @extends ('layout')
 
 @section ('content')
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/2.jpg" uk-img>
-  <h1>Estaciones de Servicio</h1>
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Estaciones de Servicio</h1>
 </div>
 
+
 <section id="content-txt">
-   <!-- <div class="cont-title">
-        <h1 class="text-center my-5">Elaboración de Manuales y <span>Procedimientos para Estaciones de Servicio</span> </h1>
-   </div>  -->
+  
     <div class="container">
         <div class="row">
-            <div class="col-md-6 text-left">
+            <div class="col-12 text-left">
+              <p class="sub-title text-center">Lleve su estación de servicio a niveles de calidad y estandarización “de clase mundial”.</p>
               <p>Optimizar el funcionamiento y desarrollo de una Estación de Servicio a través de Manuales y Procedimientos que evitan o reducen al máximo la improvisación y permiten el establecimiento de criterios dirigidos a corregir las posibles desviaciones o imprevistos que puedan surgir durante la producción.</p>
-              <p>Trabajamos estrechamente con nuestros clientes para entender las necesidades del negocio.</p>
-              <p>Proporcionamos un amplio análisis sobre riesgos y oportunidades del mercado.</p>
-              <p>Aseguramos el crecimiento de los negocios y la rentabilidad de la inversión.</p>
-              <p>Asesorías en materia fiscal, contable y jurídica para lograr el financiamiento de proyecto.</p>
-            </div>
-            <div class="col-md-6 img-right">
-                <img src="imagenes/banca_inversion/bancadeI.png" alt="">
+              <ul>
+                <li>Trabajamos estrechamente con nuestros clientes para entender las necesidades del negocio</li>
+                <li>Proporcionamos un amplio análisis sobre riesgos y oportunidades del mercado</li>
+                <li>Aseguramos el crecimiento de los negocios y la rentabilidad de la inversión</li>
+                <li>Asesorías en materia fiscal, contable y jurídica para lograr el financiamiento de proyecto</li>
+              </ul>
+              <a href="/home">Más Servicios</a> 
             </div>
         </div>
+        <div class="row serv-iconos">
+          
+            <div class="col-md-4">
+                   <img src="imagenes/payroll/nominas.png"  alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Mejora">
+               <p>Mejora de la satisfacción del consumidor.</p>
+            </div>
+            <div class="col-md-4">
+                   <img src="imagenes/payroll/adnempresarial.png" alt="Asesoría y Planeación Financiera"  data-toggle="modal" data-target="#Estandar">
+                <p>Estandarización de actividades.</p>
+            </div>
+            <div class="col-md-4">
+                    <img src="imagenes/payroll/talentoempresarial.png" alt="Gestión Contable" data-toggle="modal" data-target="#Aumento">
+                <p>Aumento de la eficiencia y reducción de costes.</p>
+            </div>
+          
+        </div>
+        <div class="row serv-iconos">
+          
+                <div class="col-md-4">
+                        <img src="imagenes/payroll/reclutamientomasivo.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Potencia"> 
+                   <p>Potenciación de la imagen positiva de la Estación de Servicio.</p>
+                </div>
+                <div class="col-md-4">
+                        <img src="imagenes/payroll/talentoejecutivo.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Impulso">
+                    <p>Impulso de la motivación de los trabajadores.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagenes/payroll/verificacion.png" alt="Gestión Contable"   data-toggle="modal" data-target="#Trabajo">
+                    <p>Trabajo en equipo fortaleciendo el crecimiento en la productividad.</p>
+                </div>
+              
+            </div>
     </div>
 </section>
 
@@ -40,7 +72,7 @@
 
 
 <!--seccion de iconos-->
-<section id="serv-iconos" class="py-5">
+<!-- <section id="serv-iconos" class="py-5">
     <div class="container">
         <div class="row">
           
@@ -75,7 +107,7 @@
               
             </div>
     </div>
-</section>
+</section> -->
 <!--seccion de iconos-->
 
 <!-- Modal -->

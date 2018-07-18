@@ -30,43 +30,43 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-md-9 content_serv">
-                <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="http://"><p class="title-txt">Glosario</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
-                    <div class="row wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="http://"><p class="title-txt">Promociones JB Card</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="http://"><p class="title-txt">Bolsa de Trabajo</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <p class="title-txt">Titles</p>
+                            <a href="http://"><p class="title-txt">Revista Global</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 content_item wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
+                    <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
                     <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
                     <a class="nav-item nav-link mr-4" href="#eventos">Eventos</a>
@@ -95,14 +95,21 @@
 
 
 <footer>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
-               <div class="col-12">
-                   <img src="imagenes/home-icons/jblogo.png" alt="">
-                   <p>Aviso de privacidad</p>
-                   <span>® 2018 l Join Business Global Group ®</span>
-               </div>
+            
+                <div class="d-inline"> 
+                    <img src="imagenes/home-icons/jblogo.png" alt="">
+                </div>
+                <div class="d-inline ">
+                    <ul>
+                        <li>Aviso de privacidad</li>
+                        <li>2018 l Join Business Global Group</li>
+                    </ul>
+                </div>
+                  
+             
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><i class="fab fa-facebook-f"></i></div> 

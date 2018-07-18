@@ -1,30 +1,48 @@
 @extends('layout')
 
 @section('content')
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
 
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/fiscal/fiscal.jpg" uk-img>
-  <h1>Fiscal</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Fiscal</h1>
+
 </div>
+<!-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/fiscal/fiscal.jpg" uk-img>
+  <h1>Fiscal</h1>
+</div> -->
 
       
 <section id="content-txt">
-         <!-- <div class="cont-title">
-            <h1 class="text-center my-5">Fis<span>cal</span> </h1>
-         </div> -->
          <div class="container">
             <div class="row">
-               <div class="col-md-6 text-left">
+               <div class="col-12 text-left">
                   <p>Nuestras amplias habilidades nos permiten implementar mejoras a los procesos contables y fiscales a través de estrategias que permitan obtener una minimización en el impacto fiscal y financiero, cumpliendo siempre con las normatividades vigentes</p>
-                  <p>Equipo de especialistas con conocimientos y experiencia en múltiples industrias y sectores</p>
-                  <p>Brindamos seguridad y tranquilidad en cada proceso</p>
-                  <p>Protegemos tu patrimonio y contribuimos al crecimiento de tu empresa </p>
-                  <p>Reestructuras corporativas, fusiones, escisiones, compraventa de acciones a nivel nacional e internacional y conforme al sector al que pertenezcan, a fin de generar cadenas de valor.</p>
-                  <p>Interpretación y aplicación de tratados internacionales en materia fiscal y de negocios, asesoría en regímenes fiscales preferentes.</p>
-                  <p>Revisión de correcto cumplimiento de obligaciones fiscales e impuestos corporativos.</p>
+                  <p>Tenemos el compromiso de brindarle un servicio de calidad mediante los siguientes servicios:</p>
+                  <ul>
+                    <li>Asesoría y Planeación Fiscal.</li>
+                    <li>Implementación de Defensa Fiscal.</li>
+                    <li>Preparación de Declaración de Impuestos Federales y Estatales.</li>
+                    <li>Presentación de Declaraciones Informativas y Anuales.</li>
+                  </ul>
+                 <a href="/home">Más Servicios</a> 
                </div>
-               <div class="col-md-6 img-right">
-                  <img src="imagenes/fiscal/fiscal1.png" alt="">
-               </div>
+            </div>
+                <div class="row serv-iconos">
+                  <div class="col-md-3 col-sm-6">
+                      <img src="imagenes/fiscal/asesoriafiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
+                    <p>Consultoría Fiscal.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <img src="imagenes/fiscal/defensa.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                    <p>Derecho Corporativo.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <img src="imagenes/fiscal/declaracionestatal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
+                    <p>Litigio Fiscal.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <img src="imagenes/fiscal/declaracionanual.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
+                    <p>Control de Constitucionalidad.</p>            
+                  </div>
             </div>
          </div>
       </section>
@@ -42,27 +60,27 @@
 
 
       <!--seccion de iconos-->
-      <section id="serv-iconos" class="py-5">
+      <!-- <section id="serv-iconos" class="py-5">
          <div class="container">
          <div class="row">
-            <div class="col-md-3 col-sm-6">
-                <img src="imagenes/fiscal/asesoriafiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
-               <p>Consultoría Fiscal.</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <img src="imagenes/fiscal/defensa.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
-               <p>Derecho Corporativo.</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <img src="imagenes/fiscal/declaracionestatal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
-               <p>Litigio Fiscal.</p>
-            </div>
-            <div class="col-md-3 col-sm-6">
-              <img src="imagenes/fiscal/declaracionanual.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
-               <p>Control de Constitucionalidad.</p>            
-            </div>
+              <div class="col-md-3 col-sm-6">
+                  <img src="imagenes/fiscal/asesoriafiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
+                <p>Consultoría Fiscal.</p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <img src="imagenes/fiscal/defensa.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                <p>Derecho Corporativo.</p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <img src="imagenes/fiscal/declaracionestatal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
+                <p>Litigio Fiscal.</p>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <img src="imagenes/fiscal/declaracionanual.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
+                <p>Control de Constitucionalidad.</p>            
+              </div>
          </div>
-      </section>
+      </section> -->
       <!--seccion de iconos-->
 
 <!--Pop up de iconos -->
