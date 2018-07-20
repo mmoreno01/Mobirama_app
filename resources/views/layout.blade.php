@@ -19,7 +19,7 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
     <!-- menu principal -->
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
         <img src="imagenes/home-icons/jblogo.png" width="30" height="30" alt="">
     </a>      
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 content_item wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
                     <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
                     <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>

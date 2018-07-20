@@ -9,7 +9,7 @@
 		- THEMEPUNCH BANNER -
 	#################################
 	-->
-	<div class="tp-banner-container">
+	<div class="tp-banner-container wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5">
 		<div class="tp-banner" >
 			<ul>
 				<!-- SLIDE  -->
@@ -362,42 +362,42 @@
 <!-- seccion de servicios en slider -->
 <section id="content_services" class="my-5">
         <div class=" container owl-carousel">
-            <div>
+            <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                <!-- <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> -->
                <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
 			   <a href="http:/contabilidad"> <P>Contabilidad Outsorcing</P></a>
             </div>
-            <div> 
+            <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.1s">
                <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <a href="/fiscal"><P>Fiscal</P></a>
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
                     <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <a href="/payroll"><P>Payroll Service</P></a>
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.3s"> 
                     <!-- <a href="/division"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <a href="/division"><P>División Financiera</P></a>
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
                     <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
 				<a href="/capitalHumano"><P>Capital Humano</P></a> 
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
                     <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <a href="/bancaInversion"><P>Banca de Inversión</P></a> 
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
                     <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                 <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
             </div>
-            <div> 
+             <div class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
                     <!-- <a href="/sofom"><i class="fab fa-adn"></i></a>    -->
 				<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
 				<a href="/sofom"><P>Sofom</P></a>
@@ -419,27 +419,27 @@
                 </div> -->
             </div>
             <div class="col-md-6">
-                <div class="row">
+                <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
                     
                         <div class="d-inline  content_imgtxt">                           
                              <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
                         </div>
                         <div class="d-inline  content_textinf"> 
-                            <p class="title-txt">Acerca de JBGG</p>
-                            <p>Somos estrictos impulsores del desarrollo y creadores de estrategias de solución para todos nuestros clientes </p>
+                            <p class="title-txt">Sobre nosotros</p>
+                            <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes. </p>
                             <a href="/nosotros">Ver más</a> 
                         </div>
                         
                         <div class="d-inline cont-textInf1">
                             <i class="fab fa-adn"></i>  
                             <p class="title-txt">Valores Institucionales</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>
+                            <p>Estas acciones simbolizan la convicción que nos permite fortalecer nuestro talento.</p>
                             <a href="/valores">Ver más</a>
                         </div>
                         <div class="d-inline cont-textInf2">
                             <i class="fab fa-adn"></i>  
                             <p class="title-txt">Filosofia de la empresa</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <p>Orientamos nuestro que hacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
                             <a href="/filosofia">Ver más</a>
                         </div>
                 </div>
@@ -460,8 +460,10 @@
                     </div>
                     <div class="d-inline content_textinf">
                             <i class="fab fa-adn"></i>  
-                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <p class="title-txt">  Comunicados  </p>
+                            <p>Join Business Global Group es un gran lugar para trabajar en México. 
+								La cultura empresarial de Join Business Global Group es única gracias a sus extraordinarios colaboradores
+							</p> 
                             <a href="http://">Ver más</a>
                     </div>
                     <div class="d-inline content_imgtxt">
@@ -469,8 +471,8 @@
                     </div>
                     <div class="d-inline content_textinf">
                             <i class="fab fa-adn"></i>  
-                            <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p> 
+                            <p class="title-txt">Blog</p>
+                            <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio.</p> 
                             <a href="http://">Ver más</a>
                     </div>
                 </div>
@@ -487,7 +489,7 @@
 
 <!-- seccion de informes general -->
 <section id="content-informes">
-    <h2 class="text-center">Title of the Section</h2>
+    <h2 class="text-center">Sala de prensa </h2>
     <div class="container">
         <div class="row">
             <div class="col-md-6 cont-info">
@@ -556,17 +558,17 @@
             <div class="col-md-4 cont-img">
 			<a href="http:/ubicacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Ubicacion</h3>
-                <p>Acercate a nosotros</p>
+                <p>Acérquese a nosotros </p>
             </div>
             <div class="col-md-4 cont-img">
 			<a href="http:/contacto"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Contacto</h3>
-                <p>Contacta a los expertos</p>
+                <p>Contacte a los expertos </p>
             </div>
             <div class="col-md-4 cont-img">
 			<a href="http:/cotizacion"><img src="imagenes/plane.png.img.320.1520271142016.png" alt=""><a>
                 <h3>Cotizacion</h3>
-                <p>Realiza un cotizacion de nuestros servicios</p>
+                <p>Cotice nuestros servicios</p>
             </div>
         </div>
     </div>

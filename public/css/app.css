@@ -67,10 +67,15 @@
 
 #section-services .content_textinf .title-txt {
   font-weight: bold;
+  margin-top: 0px;
 }
 
 #section-services .content_textinf a {
   color: #ff6633;
+}
+
+#section-services .content_textinf p {
+  margin-top: 0px;
 }
 
 #section-services .cont-gnral2 {
@@ -98,10 +103,15 @@
 
 #section-services .cont-textInf1 .title-txt {
   font-weight: bold;
+  margin-top: 0px;
 }
 
 #section-services .cont-textInf1 a {
   color: #ff6633;
+}
+
+#section-services .cont-textInf1 p {
+  margin-top: 0px;
 }
 
 #section-services .cont-textInf2 {
@@ -118,10 +128,15 @@
 
 #section-services .cont-textInf2 .title-txt {
   font-weight: bold;
+  margin-top: 0px;
 }
 
 #section-services .cont-textInf2 a {
   color: #ff6633;
+}
+
+#section-services .cont-textInf2 p {
+  margin-top: 0px;
 }
 
 #section-services2 {
@@ -156,6 +171,7 @@
 
 #section-services2 .content_textinf .title-txt {
   font-weight: bold;
+  margin-top: 0px;
 }
 
 #section-services2 .content_textinf .fab {
@@ -166,6 +182,10 @@
 
 #section-services2 .content_textinf a {
   color: #ff6633;
+}
+
+#section-services2 .content_textinf p {
+  margin-top: 0px;
 }
 
 #section-services2 #content-img {
