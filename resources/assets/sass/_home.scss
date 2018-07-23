@@ -22,7 +22,7 @@
     p:hover{
         color: $colorNaranja;
     }
-    
+   
 }
 .owl-carousel .owl-item img{
    
@@ -46,23 +46,36 @@
         width: 100%;
         height: 400px;
         background-color: $content-txt;
+        
     }
     .content_imgtxt{
         width: 40%;
         background-color: $content-txt;
         margin-bottom: 10px;
         padding: 20px;
+        opacity: 0;
+        
         img{
             max-height: 120px;
             display: block;
             margin: 0 auto;
+            opacity: 0;
+            transition: all 1s ease-in;
+            transition:traslate(50);
         }
+.fade-in-img{
+    opacity: 1;
+    transition:traslateY(50px);
+}
     } 
     .content_textinf{
         width: 60%;
         margin-bottom: 10px;
         padding: 20px;
         background-color: $content-txt;
+        opacity: 0;
+        transition: all 1s ease-out;
+
         .title-txt{
             font-weight: bold;
             margin-top: 0px;
@@ -74,6 +87,7 @@
             margin-top: 0px;
         }
     }
+   
     .cont-gnral2{
         width: 100%;
         height: 100%;
@@ -87,6 +101,9 @@
         width: 50%;
         padding: 20px;
         background-color: $content-txt;
+        opacity: 0;
+        transition: all 1s ease-out;
+
         .fab{
             color: $colorNaranja;
             font-size: 20px;
@@ -107,6 +124,10 @@
         width: 50%;
         padding: 20px;
         background-color: $content-txt;
+        opacity: 0;
+        transition: all 1s ease-out;
+        transition-delay: .5s;
+
         .fab{
             color: $colorNaranja;
             font-size: 20px;
@@ -123,8 +144,9 @@
             margin-top:0px;
         }
     }
-    
-    
+    .fade-in{
+        opacity: 1;
+    }
 }
 
 #section-services2{

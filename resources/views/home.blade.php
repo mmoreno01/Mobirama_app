@@ -9,13 +9,13 @@
 		- THEMEPUNCH BANNER -
 	#################################
 	-->
-	<div class="tp-banner-container wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5">
+	<div class="tp-banner-container wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
 		<div class="tp-banner" >
 			<ul>
 				<!-- SLIDE  -->
 				<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
-					<img src="imagenes/1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					<img src="imagenes/home/slide.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                  
 					<!-- LAYER NR. 1 -->
@@ -57,11 +57,11 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 4">Faster
+						style="z-index: 4">Join Bussines
 					</div>
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_thin_grey skewfromleftshort customout"
+					{{-- <div class="tp-caption medium_thin_grey skewfromleftshort customout"
 						data-x="285"
 						data-y="122"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -71,8 +71,8 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 5">&
-					</div>
+						style="z-index: 5">
+					</div> --}}
 
 					<!-- LAYER NR. 5 -->
 					<div class="tp-caption medium_thin_grey skewfromrightshort customout"
@@ -85,11 +85,11 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 6">More
+						style="z-index: 6">Global Group
 					</div>
 
 					<!-- LAYER NR. 6 -->
-					<div class="tp-caption large_bold_grey skewfromleftshort customout"
+					{{-- <div class="tp-caption large_bold_grey skewfromleftshort customout"
 						data-x="175"
 						data-y="152"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -99,8 +99,8 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 7">Powerful
-					</div>
+						style="z-index: 7">
+					</div> --}}
 
 					<!-- LAYER NR. 7 -->
 					<div class="tp-caption small_thin_grey customin customout"
@@ -412,7 +412,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-			<div class="uk-background-fixed uk-background-contain uk-height-large uk-width-xlarge" style="background-image: url(imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg"></div>
+			<div class="uk-background-fixed uk-background-cover uk-height-large uk-width-large" style="background-image: url(imagenes/home/acerca.jpg"></div>
 
                 <!-- <div id="content-imgizq" class="">
                     <img src="imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg" alt="">
@@ -421,22 +421,22 @@
             <div class="col-md-6">
                 <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
                     
-                        <div class="d-inline  content_imgtxt">                           
-                             <img src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
+                        <div id="project00" class="d-inline  content_imgtxt">                           
+                             <img  id="projectImg" src="imagenes/negocio-outstanding-opportunity-micro.png.img.320.1524238583197.png" alt="">
                         </div>
-                        <div class="d-inline  content_textinf"> 
+                        <div id="project01" class="d-inline  content_textinf"> 
                             <p class="title-txt">Sobre nosotros</p>
                             <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes. </p>
                             <a href="/nosotros">Ver más</a> 
                         </div>
                         
-                        <div class="d-inline cont-textInf1">
+                        <div id="project02" class="d-inline cont-textInf1">
                             <i class="fab fa-adn"></i>  
                             <p class="title-txt">Valores Institucionales</p>
                             <p>Estas acciones simbolizan la convicción que nos permite fortalecer nuestro talento.</p>
                             <a href="/valores">Ver más</a>
                         </div>
-                        <div class="d-inline cont-textInf2">
+                        <div id="project03" class="d-inline cont-textInf2">
                             <i class="fab fa-adn"></i>  
                             <p class="title-txt">Filosofia de la empresa</p>
                             <p>Orientamos nuestro que hacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
@@ -479,7 +479,7 @@
             </div>
             <div class="col-md-6">
                     <div id="content-img">
-                        <img src="imagenes/happy-middle-age-couple-having-breakfast-outstanding.jpg.img.1600.1528300087162.jpg" alt="">
+                        <img src="imagenes/home/prensa.jpg" alt="">
                     </div>
             </div>
         </div>

@@ -50,12 +50,24 @@
   background-color: #EDEEF0;
   margin-bottom: 10px;
   padding: 20px;
+  opacity: 0;
 }
 
 #section-services .content_imgtxt img {
   max-height: 120px;
   display: block;
   margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  -webkit-transition: traslate(50);
+  transition: traslate(50);
+}
+
+#section-services .content_imgtxt .fade-in-img {
+  opacity: 1;
+  -webkit-transition: traslateY(50px);
+  transition: traslateY(50px);
 }
 
 #section-services .content_textinf {
@@ -63,6 +75,9 @@
   margin-bottom: 10px;
   padding: 20px;
   background-color: #EDEEF0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #section-services .content_textinf .title-txt {
@@ -93,6 +108,9 @@
   width: 50%;
   padding: 20px;
   background-color: #EDEEF0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #section-services .cont-textInf1 .fab {
@@ -118,6 +136,11 @@
   width: 50%;
   padding: 20px;
   background-color: #EDEEF0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
 }
 
 #section-services .cont-textInf2 .fab {
@@ -137,6 +160,10 @@
 
 #section-services .cont-textInf2 p {
   margin-top: 0px;
+}
+
+#section-services .fade-in {
+  opacity: 1;
 }
 
 #section-services2 {

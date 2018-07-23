@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="2s">
+                <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
                     <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
@@ -124,6 +124,8 @@
 </footer>
 
 	<!-- <script src="js/jquery.js"></script>   -->
+            <script src="js/ScrollMagic/jquery.min.js"></script>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uikit.min.js"></script>
@@ -137,7 +139,13 @@
     <script src="js/jquery.themepunch.tools.min.js"></script>
     <script src="js/jquery.themepunch.plugins.min.js"></script>
     <script src="js/slider/slideRevolution.js"></script>
-    <!-- animate -->
+    <!-- scrollmagic -->
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/debug.addlndicators.js"></script>
+    <script src="js/ScrollMagic/main.js"></script>
+
+
+     <!-- animate -->
     <script>
         wow = new WOW(
                         {
