@@ -60,14 +60,14 @@
   opacity: 0;
   -webkit-transition: all 1s ease-in;
   transition: all 1s ease-in;
-  -webkit-transition: traslate(50);
-  transition: traslate(50);
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
 }
 
 #section-services .content_imgtxt .fade-in-img {
   opacity: 1;
-  -webkit-transition: traslateY(50px);
-  transition: traslateY(50px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 #section-services .content_textinf {
@@ -113,7 +113,7 @@
   transition: all 1s ease-out;
 }
 
-#section-services .cont-textInf1 .fab {
+#section-services .cont-textInf1 .fas {
   color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
@@ -143,7 +143,7 @@
           transition-delay: .5s;
 }
 
-#section-services .cont-textInf2 .fab {
+#section-services .cont-textInf2 .fas {
   color: #ff6633;
   font-size: 20px;
   margin: 10px 0px;
@@ -175,12 +175,22 @@
   background-color: #EDEEF0;
   margin-bottom: 10px;
   padding: 20px;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
 }
 
 #section-services2 .content_imgtxt img {
   max-height: 120px;
   display: block;
   margin: 0 auto;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #section-services2 .content_imgtxt .fab {
@@ -189,11 +199,32 @@
   margin: 10px 0px;
 }
 
+#section-services2 .content_imgtxt .fade-in-iconComunicado {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+#section-services2 .content_imgtxt .fade-in-iconBlog {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
 #section-services2 .content_textinf {
   width: 60%;
   margin-bottom: 10px;
   padding: 20px;
   background-color: #EDEEF0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
 }
 
 #section-services2 .content_textinf .title-txt {
@@ -218,6 +249,11 @@
 #section-services2 #content-img {
   width: 100%;
   height: 100%;
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #section-services2 #content-img img {
@@ -225,9 +261,79 @@
   height: 100%;
 }
 
+#section-services2 .fade-in-ContImg {
+  opacity: 1 !important;
+  -webkit-transform: translateX(0px) !important;
+          transform: translateX(0px) !important;
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+  transform: translateX(0px);
+}
+
+#section-services2 .fade-in-comunicado {
+  opacity: 1;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+#section-services2 .fade-in-blog {
+  opacity: 1;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+#section-services2 .fade-in-imgBlog {
+  opacity: 1;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transition-delay: .5s;
+          transition-delay: .5s;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+#section-services2 .fade-in-imgComunicado {
+  opacity: 1;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+#img_nostros {
+  opacity: 0;
+  -webkit-transform: translateX(-90px);
+          transform: translateX(-90px);
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.fade-in-nosotros {
+  opacity: 1 !important;
+  -webkit-transform: translateX(0px) !important;
+          transform: translateX(0px) !important;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
 #content-informes {
   width: 100%;
   background-color: #EDEEF0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #content-informes h2 {
@@ -265,20 +371,39 @@
   margin: 0 auto;
 }
 
+.fade-in-content {
+  opacity: 1 !important;
+  width: 100% !important;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
 #rutas-informacion {
-  margin: 50px 0px;
+  margin: 40px 0px;
+}
+
+#rutas-informacion .cont-img {
+  padding: 20px 0px;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #rutas-informacion .cont-img img {
+  width: 50%;
   display: block;
   margin: 0 auto;
-  padding: 40px 0px;
-  pointer-events: all;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #rutas-informacion .cont-img img:hover {
   -webkit-transform: translateY(-20px);
           transform: translateY(-20px);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 #rutas-informacion .cont-img h3 {
@@ -289,6 +414,30 @@
 #rutas-informacion .cont-img p {
   text-align: center;
   color: #ff6633;
+}
+
+#rutas-informacion .fade-in-ubicacion {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#rutas-informacion .fade-in-contacto {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#rutas-informacion .fade-in-cotizacion {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #img-pricipal {
