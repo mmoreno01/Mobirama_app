@@ -374,7 +374,7 @@
 
 <!-- seccion de servicios en slider -->
 <section id="content_services" class="my-5">
-        <div  class=" container owl-carousel">
+        <div  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                <!-- <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> -->
                <img src="imagenes/home-icons/Contabilidad-Out.png" alt="">
@@ -415,7 +415,9 @@
                 <img src="imagenes/home-icons/Fiscal.png" alt="">
 				<a href="/sofom"><P>Sofom</P></a>
             </div> --}}
+			
         </div>
+		
 </section>
 <!-- fin de la seccion de servicios -->
 
@@ -510,8 +512,8 @@
 					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/bannerConsultorias.jpg" alt="">
 						<div class="uk-position-center">
-							<div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
-							<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Nacionales</h4></div>
+							{{-- <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
+							<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Nacionales</h4></div> --}}
 						</div>
 					</div>
 				</div>
@@ -525,8 +527,8 @@
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/1.jpg" alt="">
 							<div class="uk-position-center">
-								<div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
-								<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Internacionales</h4></div>
+								{{-- <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
+								<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Internacionales</h4></div> --}}
 							</div>
 						</div>
 				</div>
@@ -544,7 +546,9 @@
                         <p> Fuimos elegidos como una de las 50 mejores empresas de consultoría en México.</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
-                        <img src="imagenes/bbva-send-logo-morado.png.img.320.1527087145451.png" alt="">
+						<button class="btn">
+							<span aria-label="Previous">></span>
+						</button>	
                     </div>
                 </div>
             </div>
@@ -555,7 +559,9 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
-                        <img src="imagenes/bbva-send-logo-morado.png.img.320.1527087145451.png" alt="">
+						<button class="btn">
+							<span aria-label="Previous">></span>
+						</button>	
                     </div>
                 </div>
             </div>

@@ -10,15 +10,18 @@
             },
             576: {
                 items: 2,
-                margin: 30
+                margin: 30,
+                nav:true
             },
             768: {
                 items: 3,
-                margin: 30
+                margin: 30,
+                nav:true
             },
             992: {
                 items: 5,
-                margin: 30
+                margin: 30,
+                nav:true
             }
         }
     });

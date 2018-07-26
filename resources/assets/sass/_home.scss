@@ -24,12 +24,36 @@
     }
    
 }
-.owl-carousel .owl-item img{
-   
-    width: 70px;
-    display: block;
-    margin: 0 auto;
+.owl-carousel{
+    position: relative;
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  span{
+      font-size: 30px;
+      color: $colorNaranja;
+  }
+  button.focus{
+      box-shadow: none;
+  }
 }
+
+.owl-prev {
+  left: -2rem;
+}
+
+.owl-next {
+  right: -2rem;
+}
+    .owl-item img{
+   
+        width: 70px;
+        display: block;
+        margin: 0 auto;
+    }
+} 
 
 
 #section-services{
@@ -269,13 +293,13 @@
 // animacion scroll imagen principal nosotros
 #img_nostros{
         opacity: 0;
-        transform:translateX(-90px);
+        // transform:translateX(-90px);
         transition: all 1s ease-out;
 }
 
 .fade-in-nosotros{
     opacity: 1!important;
-    transform:translateX(0px)!important;
+    // transform:translateX(0px)!important;
     transition: all 1s ease-out;
 }
 
@@ -311,11 +335,29 @@
     .cont-icon{
         width: 50%;
         padding: 30px;
-        img{
-           width: 100px;
-           display:block;
-           margin: 0 auto;
+        button{
+           
+                color: #fff;
+                background-color:$colorNaranja;
+                border-color:$colorNaranja;
+                display: block;
+                margin: 0 auto;
+                opacity: .8;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                box-shadow: rgba(173, 173, 173, 0.7) 5px 5px 5px 0px;
+                transition: all 1s ease-in-out;
+
+           span{
+               font-size: 30px;
+              }   font-weight: bold;
         }
+        button:hover{
+            transform: translate(-25px,-25px);
+            transition: all .5s ease-in-out;
+        }
+       
     }
 }
 
@@ -372,10 +414,3 @@
     }
 }
 
-// #content-img{
-//     background: url(imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg) no-repeat center center fixed; 
-//     -webkit-background-size: cover;
-//     -moz-background-size: cover;
-//     -o-background-size: cover;
-//     background-size: cover;
-//   }
