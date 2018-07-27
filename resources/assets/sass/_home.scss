@@ -171,6 +171,7 @@
     }
     .fade-in{
         opacity: 1;
+        transition: all 1s ease-in-out;
     }
 }
 

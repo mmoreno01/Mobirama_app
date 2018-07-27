@@ -6,6 +6,7 @@ $(document).ready(function(){
     // servicios
     var SceneIcons = new ScrollMagic.Scene({
         triggerElement: '#content_services'
+       
     })
     .setClassToggle('#content_services', 'fade-in-Services')
     .addTo(controller);
@@ -16,6 +17,7 @@ $(document).ready(function(){
     //  imagen izquierda nosotros
     var SceneImgNos = new ScrollMagic.Scene({
         triggerElement: '#img_nostros'
+       
     })
     .setClassToggle('#img_nostros', 'fade-in-nosotros')
     .addTo(controller);
@@ -25,9 +27,12 @@ $(document).ready(function(){
     })
     .setClassToggle('#project00', 'fade-in')
     .addTo(controller);
+    
 
     var ourSceneImg = new ScrollMagic.Scene({
-        triggerElement: '#projectImg'
+        triggerElement: '#projectImg',
+        triggerHook:0.9,
+        reverse: false
     })
     .setClassToggle('#projectImg', 'fade-in-img')
     .addTo(controller);

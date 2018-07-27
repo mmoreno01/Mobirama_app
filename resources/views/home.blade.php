@@ -317,7 +317,41 @@
 						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
 					</div>
 				</li>
+	<!-- SLIDE  -->
+<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
+			<!-- MAIN IMAGE -->
+			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
+			<!-- LAYERS -->
 
+			<!-- LAYER NR. 1 -->
+			<div class="tp-caption tp-fade fadeout fullscreenvideo"
+				data-x="0"
+				data-y="0"
+				data-speed="1000"
+				data-start="1100"
+				data-easing="Power4.easeOut"
+				data-endspeed="1500"
+				data-endeasing="Power4.easeIn"
+				data-autoplay="true"
+				data-autoplayonlyfirsttime="false"
+				data-nextslideatend="true"
+				data-forceCover="1"
+				data-dottedoverlay="twoxtwo"
+				data-aspectratio="16:9"
+				data-forcerewind="on"
+				style="z-index: 2">
+
+
+				 <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
+				poster='' data-setup="{}">
+				<source src='videos/TL slide.mp4' type='video/mp4' />
+				</video>
+
+			</div>
+</li>
+
+
+		
 				</li>
 				<!-- SLIDE 2 -->
 				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" > --}}
@@ -427,11 +461,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-			<div id="img_nostros" class="uk-background-fixed uk-background-cover uk-height-1-1 uk-width-xl" style="background-image: url(imagenes/imgs/fondoTasa.jpg"></div>
-
-                <!-- <div id="content-imgizq" class="">
-                    <img src="imagenes/marquee-young-girl-with-dog-with-ipad-tablet-outstanding.jpg.img.1600.1528315188974.jpg" alt="">
-                </div> -->
+				<div id="img_nostros" class="uk-background-fixed uk-background-cover uk-height-1-1 uk-width-xl" style="background-image: url(imagenes/imgs/fondoTasa.jpg"></div>
             </div>
             <div class="col-md-6">
                 <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
