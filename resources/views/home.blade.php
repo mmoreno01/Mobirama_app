@@ -483,7 +483,7 @@
                         </div>
                         <div id="project03" class="d-inline cont-textInf2">
                             <i class="fas fa-users"></i>
-                            <p class="title-txt">Filosofia de la empresa</p>
+                            <p class="title-txt">Filosofia empresarial</p>
                             <p>Orientamos nuestro que hacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
                             <a href="/filosofia">Ver más</a>
                         </div>

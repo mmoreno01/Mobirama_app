@@ -16,8 +16,7 @@ $(document).ready(function(){
     // seccion nosotros
     //  imagen izquierda nosotros
     var SceneImgNos = new ScrollMagic.Scene({
-        triggerElement: '#img_nostros',
-        reverse: false      
+        triggerElement: '#img_nostros'
     })
     .setClassToggle('#img_nostros', 'fade-in-nosotros')
     .addTo(controller);
