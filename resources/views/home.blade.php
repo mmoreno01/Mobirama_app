@@ -466,7 +466,7 @@
             <div class="col-md-6">
                 <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
                     {{-- <div class="d-flex align-items-center">...</div> --}}
-                        <div id="project00" class="d-inline  content_imgtxt d-flex align-items-center">                           
+                        <div id="imgSobre" class="d-inline  content_imgtxt d-flex align-items-center">                           
                              <img  id="projectImg" src="imagenes/home-icons/SobreNosotros.png" alt="">
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
@@ -501,7 +501,7 @@
             <div class="col-md-6">
                 <div class="row">
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
-                        <img id=icon-comunicado src="imagenes/home-icons/Comunicados.png" alt="">
+                        <img src="imagenes/home-icons/Comunicados.png" alt="">
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}

@@ -16,16 +16,16 @@ $(document).ready(function(){
     // seccion nosotros
     //  imagen izquierda nosotros
     var SceneImgNos = new ScrollMagic.Scene({
-        triggerElement: '#img_nostros'
-       
+        triggerElement: '#img_nostros',
+        reverse: false      
     })
     .setClassToggle('#img_nostros', 'fade-in-nosotros')
     .addTo(controller);
 
     var ourScene0 = new ScrollMagic.Scene({
-        triggerElement: '#project00'
+        triggerElement: '#imgSobre'
     })
-    .setClassToggle('#project00', 'fade-in')
+    .setClassToggle('#imgSobre', 'fade-in')
     .addTo(controller);
     
 
@@ -73,13 +73,7 @@ $(document).ready(function(){
         triggerElement: '#icon-comunicado'
     })
     .setClassToggle('#icon-comunicado', 'fade-in-iconComunicado')
-    .addTo(controller);
-
-    var SceneComunicado = new ScrollMagic.Scene({
-        triggerElement: '#icon-blog'
-    })
-    .setClassToggle('#icon-blog', 'fade-in-iconBlog')
-    .addTo(controller);
+    .addTo(controller);   
 
     var SceneComunicado = new ScrollMagic.Scene({
         triggerElement: '#content-img'

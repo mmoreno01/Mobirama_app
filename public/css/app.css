@@ -83,6 +83,8 @@
   margin-bottom: 10px;
   padding: 20px;
   opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 #section-services .content_imgtxt img {
@@ -220,11 +222,6 @@
   max-height: 120px;
   display: block;
   margin: 0 auto;
-  opacity: 0;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
 }
 
 #section-services2 .content_imgtxt .fab {
@@ -234,14 +231,6 @@
 }
 
 #section-services2 .content_imgtxt .fade-in-iconComunicado {
-  opacity: 1;
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out;
-}
-
-#section-services2 .content_imgtxt .fade-in-iconBlog {
   opacity: 1;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
