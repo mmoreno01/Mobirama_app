@@ -14,6 +14,7 @@
 @import"cotizador";
 @import"nosotros";
 @import"politica";
+@import"footer";
 // estilo de slider revolution
 @import"style";
 // Bootstrap
@@ -24,49 +25,3 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-
-// estilo del footer
-footer{  
-      width: 100%;
-      background-color:#808080;
-      color:#fff;
-      padding: 40px 0px;
-
-  img{
-        max-width: 10%;
-        float: left;
-        margin: 0px 20px;
-    }  
-  .icon-social{
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        background-color:$colorNaranja;
-        margin: 10px;
-        border-radius: 50%;
-        display: inline-block;
-        font-size: 20px;
-  i{
-      padding: 10px 0px 10px 0px;
-
-    }
-          }
-.content-iconsRedes{
-  text-align: right;
-  p{
-    margin:0px;
-  }
-}
-ul{
-  list-style: none;
-  padding-left: 0px;
-}
-}
-#navbarTogglerDemo02{
-  .content_imgs{
-      img{
-          width: 30px;
-      }
-  }
-    
-}

@@ -3,16 +3,6 @@ $(document).ready(function(){
     var controller = new ScrollMagic.Controller();
 
 
-    // servicios
-    var SceneIcons = new ScrollMagic.Scene({
-        triggerElement: '#content_services'
-       
-    })
-    .setClassToggle('#content_services', 'fade-in-Services')
-    .addTo(controller);
-    // fin de servicios
-
-
     // seccion nosotros
     //  imagen izquierda nosotros
     var SceneImgNos = new ScrollMagic.Scene({
