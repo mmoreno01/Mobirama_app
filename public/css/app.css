@@ -7,7 +7,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 25px;
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content_services p {
@@ -20,7 +20,7 @@
 }
 
 #content_services p:hover {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 .owl-carousel {
@@ -38,7 +38,7 @@
 .owl-carousel .owl-prev span,
 .owl-carousel .owl-next span {
   font-size: 30px;
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 .owl-carousel .owl-prev button.focus,
@@ -120,7 +120,7 @@
 }
 
 #section-services .content_textinf a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #section-services .content_textinf p {
@@ -148,7 +148,7 @@
 }
 
 #section-services .cont-textInf1 .fas {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
   margin: 10px 0px;
 }
@@ -159,7 +159,7 @@
 }
 
 #section-services .cont-textInf1 a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #section-services .cont-textInf1 p {
@@ -178,7 +178,7 @@
 }
 
 #section-services .cont-textInf2 .fas {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
   margin: 10px 0px;
 }
@@ -189,7 +189,7 @@
 }
 
 #section-services .cont-textInf2 a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #section-services .cont-textInf2 p {
@@ -225,7 +225,7 @@
 }
 
 #section-services2 .content_imgtxt .fab {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
   margin: 10px 0px;
 }
@@ -256,13 +256,13 @@
 }
 
 #section-services2 .content_textinf .fab {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
   margin: 10px 0px;
 }
 
 #section-services2 .content_textinf a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #section-services2 .content_textinf p {
@@ -386,8 +386,8 @@
 
 #content-informes .cont-icon button {
   color: #fff;
-  background-color: #ff6633;
-  border-color: #ff6633;
+  background-color: #1d73b2;
+  border-color: #1d73b2;
   display: block;
   margin: 0 auto;
   opacity: .8;
@@ -454,7 +454,7 @@
 
 #rutas-informacion .cont-img p {
   text-align: center;
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #rutas-informacion .fade-in-ubicacion {
@@ -653,13 +653,13 @@
 }
 
 #content-txt h2 {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 30px;
   font-weight: 300;
 }
 
 #content-txt .sub-title {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
 }
 
@@ -683,7 +683,7 @@
 }
 
 #content-txt a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #banner a {
@@ -721,12 +721,12 @@
 }
 
 #comoFunciona h2 {
-  color: #ff6633;
+  color: #1d73b2;
   text-align: center;
 }
 
 #comoFunciona span {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
   font-size: 20px;
 }
@@ -747,12 +747,12 @@
 }
 
 #serv-comoFunciona h2 {
-  color: #ff6633;
+  color: #1d73b2;
   text-align: center;
 }
 
 #serv-comoFunciona span {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
   font-size: 20px;
 }
@@ -773,12 +773,12 @@
 }
 
 #serv-caulRequisito h2 {
-  color: #ff6633;
+  color: #1d73b2;
   text-align: center;
 }
 
 #serv-caulRequisito span {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
   font-size: 20px;
 }
@@ -804,11 +804,11 @@
 }
 
 #logos-seg h1 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #logos-seg p span {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -826,7 +826,7 @@
 }
 
 #text-termino h1 {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 30px;
   font-weight: 100;
 }
@@ -846,7 +846,7 @@
 }
 
 #text-glosario h1 {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #text-glosario h1 span {
@@ -859,7 +859,7 @@
 }
 
 #text-glosario p span {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
   font-size: 20px;
 }
@@ -875,7 +875,7 @@
 }
 
 #promo-text h1 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #promo-text p {
@@ -891,7 +891,7 @@
 }
 
 #promo-text span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-salud h2 {
@@ -900,7 +900,7 @@
 }
 
 #content-salud h2 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-salud img {
@@ -920,7 +920,7 @@
 }
 
 #content-salud .popup h2 {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-salud ul {
@@ -938,7 +938,7 @@
 }
 
 #content-viajes h2 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-viajes img {
@@ -958,7 +958,7 @@
 }
 
 #content-viajes .popup h2 {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-viajes ul {
@@ -975,7 +975,7 @@
 }
 
 #content-educacion h2 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-educacion img {
@@ -995,7 +995,7 @@
 }
 
 #content-educacion .popup h2 {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-educacion ul {
@@ -1169,7 +1169,7 @@
 }
 
 #navbarTogglerDemo02 .content_img .title-txt {
-  color: #ff6633;
+  color: #1d73b2;
   font-weight: bold;
 }
 
@@ -3753,7 +3753,7 @@ h1 {
 }
 
 #ubicacion h5 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #ubicacion ul {
@@ -3768,7 +3768,7 @@ h1 {
 
 #ubicacion ul i {
   font-size: 20px;
-  color: #ff6633;
+  color: #1d73b2;
   padding: 0px 10px;
 }
 
@@ -3782,11 +3782,11 @@ h1 {
 }
 
 #contacto .form-control {
-  border: 1px solid #ff6633;
+  border: 1px solid #1d73b2;
 }
 
 #contacto button {
-  background-color: #ff6633;
+  background-color: #1d73b2;
   border-color: transparent;
 }
 
@@ -3805,7 +3805,7 @@ h1 {
 }
 
 #contacto .content-info h5 span {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #contacto .content-info ul {
@@ -3820,12 +3820,12 @@ h1 {
 
 #contacto .content-info ul i {
   font-size: 20px;
-  color: #ff6633;
+  color: #1d73b2;
   padding: 0px 10px;
 }
 
 #contacto select option:hover {
-  background-color: #ff6633;
+  background-color: #1d73b2;
 }
 
 #content-img img {
@@ -3840,7 +3840,7 @@ h1 {
 
 #tittle-cotiza span {
   font-weight: bold;
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-textAyuda .cont-ayuda {
@@ -3860,7 +3860,7 @@ h1 {
 }
 
 #content-textAyuda h3 {
-  color: #ff6633;
+  color: #1d73b2;
   text-align: center;
 }
 
@@ -3869,16 +3869,16 @@ h1 {
 }
 
 #form-cotiza h1 {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 30px;
   text-align: center;
   margin: 30px 0px;
 }
 
 #form-cotiza .form-control:focus {
-  border: 1px solid #ff6633;
-  -webkit-box-shadow: 0 0 0 0.2px #ff6633;
-          box-shadow: 0 0 0 0.2px #ff6633;
+  border: 1px solid #1d73b2;
+  -webkit-box-shadow: 0 0 0 0.2px #1d73b2;
+          box-shadow: 0 0 0 0.2px #1d73b2;
 }
 
 #form-cotiza .form-control {
@@ -3918,7 +3918,7 @@ h1 {
 
 #form-cotiza .content-dateEmpresa h3 {
   font-size: 20px;
-  color: #ff6633;
+  color: #1d73b2;
   text-align: center;
 }
 
@@ -3930,7 +3930,7 @@ h1 {
 }
 
 #form-cotiza .content-dateEmpresa .btn-cotizador {
-  background-color: #ff6633;
+  background-color: #1d73b2;
   color: #fff;
   display: block;
   margin: 0 auto;
@@ -4046,7 +4046,7 @@ h1 {
 }
 
 #valores h1 {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 30px;
   margin-top: 0px;
 }
@@ -4073,13 +4073,13 @@ h1 {
 }
 
 #content-txt h2 {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 30px;
   font-weight: 300;
 }
 
 #content-txt .sub-title {
-  color: #ff6633;
+  color: #1d73b2;
   font-size: 20px;
 }
 
@@ -4103,7 +4103,7 @@ h1 {
 }
 
 #content-txt a {
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #content-txt .img-iso img {
@@ -4126,7 +4126,7 @@ h1 {
 
 #logos-seg h3 {
   text-align: center;
-  color: #ff6633;
+  color: #1d73b2;
 }
 
 #logos-seg p {
@@ -4196,7 +4196,7 @@ footer .icon-social {
   width: 40px;
   height: 40px;
   text-align: center;
-  background-color: #ff6633;
+  background-color: #1d73b2;
   margin: 10px;
   border-radius: 50%;
   display: inline-block;

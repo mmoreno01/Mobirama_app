@@ -13,13 +13,13 @@
 		<div class="tp-banner" >
 			<ul>
 				<!-- SLIDE  -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+				{{-- <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" > --}}
 					<!-- MAIN IMAGE -->
-					<img src="imagenes/home/slide.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					{{-- <img src="imagenes/home/slide.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
                     <!-- LAYERS -->
                  
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption lightgrey_divider skewfromrightshort customout"
+					{{-- <div class="tp-caption lightgrey_divider skewfromrightshort customout"
 						data-x="85"
 						data-y="224"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -30,7 +30,7 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 2">
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 2 -->
 					<!-- <div class="tp-caption customin customout"
@@ -47,7 +47,7 @@
 					</div> -->
 
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption  very_large_text skewfromrightshort customout"
+					{{-- <div class="tp-caption  very_large_text skewfromrightshort customout"
 						data-x="80"
 						data-y="96"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -58,10 +58,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 4;">Join 
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption large_text skewfromleftshort customout"
+					{{-- <div class="tp-caption large_text skewfromleftshort customout"
 						data-x="210"
 						data-y="112"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -73,10 +73,10 @@
 						data-captionhidden="on"
 						style="z-index: 5">
 						<span style="border-color:1px solid orange;">Business</span>
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 5 -->
-					<div class="tp-caption large_text skewfromrightshort customout"
+					{{-- <div class="tp-caption large_text skewfromrightshort customout"
 						data-x="80"
 						data-y="155"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -87,10 +87,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 6">Global 
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 6 -->
-					<div class="tp-caption large_text  skewfromleftshort customout"
+					{{-- <div class="tp-caption large_text  skewfromleftshort customout"
 						data-x="220"
 						data-y="155"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -101,10 +101,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 7">Group
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 7 -->
-					<div class="tp-caption small_light_white  customin customout"
+					{{-- <div class="tp-caption small_light_white  customin customout"
 						data-x="80"
 						data-y="240"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -116,7 +116,7 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-size: 20px; letter-spacing: 3px;">Construyendo redes que conecten<br> el mundo de los negocios
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 8 -->
 					{{-- <div class="tp-caption skewfromrightshort customout"
@@ -133,7 +133,7 @@
 					</div> --}}
 
 					<!-- LAYER NR. 9 -->
-					<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+					{{-- <div class="tp-caption large_bold_darkblue skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="60"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -148,7 +148,7 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/iso9001.png" alt="" data-ww="100" data-hh="100">
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 10 -->
 					{{-- <div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
@@ -193,7 +193,7 @@
 					</div> --}}
 
 					<!-- LAYER NR. 13 -->
-					<div class="tp-caption skewfromrightshort customout"
+					{{-- <div class="tp-caption skewfromrightshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-200"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -208,7 +208,7 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7); ">
 						<img src="imagenes/home-icons/GPTW.png" alt="" data-ww="100" data-hh="100">
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 14 -->
 					{{-- <div class="tp-caption medium_bold_orange skewfromleftshort customout"
@@ -300,7 +300,7 @@
 					</div> --}}
 
 					<!-- LAYER NR. 20 -->
-					<div class="tp-caption  skewfromleftshort customout"
+					{{-- <div class="tp-caption  skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-50"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -316,9 +316,9 @@
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
 					</div>
-				</li>
+				</li> --}}
 	<!-- SLIDE  -->
-<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
+		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
 			<!-- MAIN IMAGE -->
 			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
 			<!-- LAYERS -->
@@ -344,15 +344,49 @@
 
 				 <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
 				poster='' data-setup="{}">
-				<source src='videos/TL slide.mp4' type='video/mp4' />
+				<source src='videos/moburama jancheik.mp4' type='video/mp4' />
 				</video>
 
 			</div>
-</li>
+		</li>
 
 
 		
 				</li>
+				<!-- SLIDE  -->
+		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">
+			<!-- MAIN IMAGE -->
+			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
+			<!-- LAYERS -->
+
+			<!-- LAYER NR. 1 -->
+			<div class="tp-caption tp-fade fadeout fullscreenvideo"
+				data-x="0"
+				data-y="0"
+				data-speed="1000"
+				data-start="1100"
+				data-easing="Power4.easeOut"
+				data-endspeed="1500"
+				data-endeasing="Power4.easeIn"
+				data-autoplay="true"
+				data-autoplayonlyfirsttime="false"
+				data-nextslideatend="true"
+				data-forceCover="1"
+				data-dottedoverlay="twoxtwo"
+				data-aspectratio="16:9"
+				data-forcerewind="on"
+				style="z-index: 2">
+
+
+				 <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
+				poster='' data-setup="{}">
+				<source src='videos/mobirama tl.mp4' type='video/mp4' />
+				</video>
+
+			</div>
+		</li>
+
+
 				<!-- SLIDE 2 -->
 				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" > --}}
 					<!-- MAIN IMAGE -->
@@ -555,7 +589,7 @@
             <div class="col-md-6 cont-info">
 				<div  class="uk-text-center">
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/1.jpg" alt="">
+							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/bannerConsultorias.jpg" alt="">
 							<div class="uk-position-center">
 								{{-- <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
 								<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Internacionales</h4></div> --}}
@@ -585,8 +619,8 @@
             <div class="col-md-6 cont-info">
                 <div class="row">
                     <div class="d-inline cont-texto">
-                        <p class="title-txt">Lorem ipsum dolor sit amet consectetur</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint porro nulla neque</p>         
+                        <p class="title-txt">Juicio de Resolución Exclusiva de Fondo</p>
+                        <p>El procedimiento se sustenta en los principios de celeridad, oralidad, resolución sustantiva y proporcionalidad, para lograr una efectiva tutela judicial.</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
 						<button class="btn">
@@ -605,17 +639,17 @@
     <div class="container">
         <div class="row">
             <div id="content_ubicacion" class="col-md-4 cont-img">
-				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""><a>
+				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
                 <h3>Ubicacion</h3>
                 <p>Acérquese a nosotros </p>
             </div>
             <div id="ruta-contacto" class="col-md-4 cont-img">
-				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""><a>
+				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
                 <h3>Contacto</h3>
                 <p>Contacte a los expertos </p>
             </div>
             <div id="ruta-cotizacion" class="col-md-4 cont-img">
-				<a href="http:/cotizacion"><img src="imagenes/home-icons/Cotizacion.png" alt=""><a>
+				<a href="http:/cotizacion"><img src="imagenes/home-icons/Cotizacion.png" alt=""></a>
                 <h3>Cotizacion</h3>
                 <p>Cotice nuestros servicios</p>
             </div>
