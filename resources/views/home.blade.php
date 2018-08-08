@@ -494,8 +494,9 @@
 <section id="section-services">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-				<div id="img_nostros" class="uk-background-fixed uk-background-cover uk-height-1-1 uk-width-xl" style="background-image: url(imagenes/imgs/fondoTasa.jpg"></div>
+            <div class="col-md-6 content-imgNosotros">
+				{{-- <div id="img_nostros" class="uk-background-fixed uk-background-cover uk-height-1-1 uk-width-xl" style="background-image: url(imagenes/imgs/fondoTasa.jpg"></div> --}}
+                <img  src="imagenes/home/acercade.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
@@ -545,10 +546,10 @@
 							</p> 
                             <a href="http://">Ver más</a>
                     </div>
-                    <div id="img-blog" class="d-inline content_imgtxt d-flex align-items-center">
-                        <img id="icon-blog" src="imagenes/home-icons/Blog.png" alt="">
+                    <div id="img-blog" class="d-inline content-blog content_imgtxt d-flex align-items-center">
+                        <img src="imagenes/home-icons/Blog.png" alt="">
                     </div>
-                    <div id="cont-blog" class="d-inline content_textinf">
+                    <div id="cont-blog" class="d-inline content-blog content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}
                             <p class="title-txt">Blog</p>
                             <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio.</p> 
@@ -568,7 +569,7 @@
 
 <!-- seccion de informes general -->
 <section id="content-informes">
-    <h2 class="text-center">Sala de prensa </h2>
+    <h2 class="text-center">prensa</h2>
     <div class="container">
         <div class="row">
             <div class="col-md-6 cont-info">

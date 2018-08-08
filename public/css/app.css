@@ -61,6 +61,24 @@
   margin: 0 auto;
 }
 
+#section-services .content-imgNosotros {
+  overflow: hidden;
+}
+
+#section-services .content-imgNosotros img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
+#section-services .content-imgNosotros img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  -webkit-transition: .3s ease-out;
+  transition: .3s ease-out;
+}
+
 #section-services #content-imgizq {
   width: 100%;
   height: 100%;
@@ -125,6 +143,8 @@
   width: 50%;
   padding: 20px;
   background-color: #EDEEF0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #section-services .cont-textInf1 .fas {
@@ -150,6 +170,8 @@
   width: 50%;
   padding: 20px;
   background-color: #EDEEF0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #section-services .cont-textInf2 .fas {
@@ -199,6 +221,8 @@
   margin-bottom: 10px;
   padding: 20px;
   background-color: #EDEEF0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #section-services2 .content_textinf .title-txt {
@@ -230,6 +254,10 @@
   height: 100%;
 }
 
+#section-services2 .content-blog {
+  margin-bottom: 0px;
+}
+
 #content-informes {
   width: 100%;
   background-color: #EDEEF0;
@@ -238,6 +266,8 @@
 #content-informes h2 {
   padding: 30px 0px;
   color: #000;
+  text-transform: uppercase;
+  letter-spacing: 10px;
 }
 
 #content-informes .img-info img {
