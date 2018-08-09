@@ -13,11 +13,12 @@
 		<div class="tp-banner" >
 			<ul>
 				<!-- SLIDE  -->
-				{{-- <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" > --}}
+				<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
-					{{-- <img src="imagenes/home/slide.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
+					<img src="imagenes/home/black1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
                  
+				 
 					<!-- LAYER NR. 1 -->
 					{{-- <div class="tp-caption lightgrey_divider skewfromrightshort customout"
 						data-x="85"
@@ -46,24 +47,11 @@
 						style="z-index: 3"><img src="imagenes/images/woman.png" alt="">
 					</div> -->
 
-					<!-- LAYER NR. 3 -->
-					{{-- <div class="tp-caption  very_large_text skewfromrightshort customout"
-						data-x="80"
-						data-y="96"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="800"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 4;">Join 
-					</div> --}}
 
 					<!-- LAYER NR. 4 -->
-					{{-- <div class="tp-caption large_text skewfromleftshort customout"
-						data-x="210"
-						data-y="112"
+					<div class="tp-caption large_text skewfromleftshort customout"
+						data-x="80"
+						data-y="150"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="500"
 						data-start="900"
@@ -72,8 +60,8 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 5">
-						<span style="border-color:1px solid orange;">Business</span>
-					</div> --}}
+						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100;">Mobirama</span>
+					</div>
 
 					<!-- LAYER NR. 5 -->
 					{{-- <div class="tp-caption large_text skewfromrightshort customout"
@@ -89,24 +77,55 @@
 						style="z-index: 6">Global 
 					</div> --}}
 
-					<!-- LAYER NR. 6 -->
-					{{-- <div class="tp-caption large_text  skewfromleftshort customout"
-						data-x="220"
-						data-y="155"
+					<!-- LAYER NR. texto iso -->
+					<div class="tp-caption fade"
+						data-x="710"
+						data-y="90"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="300"
-						data-start="1100"
+						data-start="1600"
 						data-easing="Back.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 7">Group
-					</div> --}}
+						style="z-index: 7">
+						<span style="font-size: 15px;  color: #fff;">Norma Internacional ISO 9001</span>
+					</div>
+
+					<!-- LAYER NR. texto GPTW -->
+					<div class="tp-caption fade"
+						data-x="710"
+						data-y="230"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="300"
+						data-start="1900"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 7">
+						<span style="font-size: 15px;  color: #fff;">Con la confianza que nos distingue</span>
+					</div>
+
+					<!-- LAYER NR. texto GPTW -->
+					<div class="tp-caption fade"
+						data-x="710"
+						data-y="380"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="300"
+						data-start="2300"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 7">
+						<span style="font-size: 15px;  color: #fff;">Fuimos elegidos como una de las 50<br> mejores empresas deconsultoría<br> en México</span>
+					</div>
 
 					<!-- LAYER NR. 7 -->
-					{{-- <div class="tp-caption small_light_white  customin customout"
+					<div class="tp-caption small_light_white  customin customout"
 						data-x="80"
-						data-y="240"
+						data-y="200"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="500"
@@ -116,7 +135,7 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-size: 20px; letter-spacing: 3px;">Construyendo redes que conecten<br> el mundo de los negocios
-					</div> --}}
+					</div>
 
 					<!-- LAYER NR. 8 -->
 					{{-- <div class="tp-caption skewfromrightshort customout"
@@ -133,7 +152,7 @@
 					</div> --}}
 
 					<!-- LAYER NR. 9 -->
-					{{-- <div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+					<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="60"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -148,52 +167,10 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/iso9001.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
-
-					<!-- LAYER NR. 10 -->
-					{{-- <div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="125"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1650"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 11">Of Happy Users
-					</div> --}}
-
-					<!-- LAYER NR. 11 -->
-					{{-- <div class="tp-caption medium_bold_red skewfromrightshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="200"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1800"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 12">Rekord Breaking
-					</div> --}}
-
-					<!-- LAYER NR. 12 -->
-					{{-- <div class="tp-caption medium_light_red skewfromrightshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="center" data-voffset="-10"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1850"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 13">Sales on CodeCanyon
-					</div> --}}
+					</div>
 
 					<!-- LAYER NR. 13 -->
-					{{-- <div class="tp-caption skewfromrightshort customout"
+					<div class="tp-caption skewfromrightshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-200"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -208,99 +185,11 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7); ">
 						<img src="imagenes/home-icons/GPTW.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
+					</div>
 
-					<!-- LAYER NR. 14 -->
-					{{-- <div class="tp-caption medium_bold_orange skewfromleftshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="340"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="2000"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 15">4.7<span style="font-weight:300;">/5 Stars</span>
-					</div> --}}
-
-					<!-- LAYER NR. 15 -->
-					{{-- <div class="tp-caption customin customout"
-						data-x="right" data-hoffset="-90"
-						data-y="bottom" data-voffset="-103"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="2050"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 16"><img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
-
-					<!-- LAYER NR. 16 -->
-					{{-- <div class="tp-caption customin customout"
-						data-x="right" data-hoffset="-115"
-						data-y="bottom" data-voffset="-103"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="2100"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 17"><img src="imagenes/images/star.png" alt="" data-ww="20" data-hh="20">
-					</div> --}}
-
-					<!-- LAYER NR. 17 -->
-					{{-- <div class="tp-caption customin customout"
-						data-x="right" data-hoffset="-140"
-						data-y="bottom" data-voffset="-103"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="2150"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 18"><img src="imagenes/images/star.png" alt="" data-ww="20" data-hh="20">
-					</div> --}}
-
-					<!-- LAYER NR. 18 -->
-					{{-- <div class="tp-caption customin customout"
-						data-x="right" data-hoffset="-165"
-						data-y="bottom" data-voffset="-103"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="2200"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 19"><img src="imagenes/images/star.png" alt="" data-ww="20" data-hh="20">
-					</div> --}}
-
-					<!-- LAYER NR. 19 -->
-					{{-- <div class="tp-caption customin customout"
-						data-x="right" data-hoffset="-190"
-						data-y="bottom" data-voffset="-103"
-						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:5;scaleY:5;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="1000"
-						data-start="2250"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 20"><img src="imagenes/images/star.png" alt="" data-ww="20" data-hh="20">
-					</div> --}}
-
+				
 					<!-- LAYER NR. 20 -->
-					{{-- <div class="tp-caption  skewfromleftshort customout"
+					<div class="tp-caption  skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-50"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -316,15 +205,15 @@
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
 					</div>
-				</li> --}}
+				</li>
 	<!-- SLIDE  -->
-		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
+		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> --}}
 			<!-- MAIN IMAGE -->
 			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			<div class="tp-caption tp-fade fadeout fullscreenvideo"
+			{{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -347,20 +236,20 @@
 				<source src='videos/moburama jancheik.mp4' type='video/mp4' />
 				</video>
 
-			</div>
+			</div> --}}
 		</li>
 
 
 		
 				</li>
 				<!-- SLIDE  -->
-		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">
+		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> --}}
 			<!-- MAIN IMAGE -->
 			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			<div class="tp-caption tp-fade fadeout fullscreenvideo"
+			{{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -383,40 +272,73 @@
 				<source src='videos/mobirama tl.mp4' type='video/mp4' />
 				</video>
 
-			</div>
+			</div> --}}
 		</li>
 
-
 				<!-- SLIDE 2 -->
-				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" > --}}
+				<li data-transition="boxfade" data-slotamount="7" data-masterspeed="1000" >
 					<!-- MAIN IMAGE -->
-					{{-- <img src="imagenes/2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
+					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
+					<div class="tp-caption very_large_text fade"
+						data-x="80"
+						data-y="160"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1300"
+						data-easing="Power4.easeIn"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8; ;  font-size: 60px; letter-spacing: 3px;">Capital Humano
+					</div>
+					<!-- LAYER NR.  -->
+					<div class="tp-caption small_light_white  customin customout"
+						data-x="80"
+						data-y="260"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1900"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Reclutamiento Puro
+					</div>
 
-                    
-                    {{-- <div class="tp-caption tentered_white_huge lft tp-resizeme start" 
-                            data-x="center" 
-                            data-y="center"
-                            data-endspeed="300"
-                            data-easing="Power4.easeOut" 
-                            data-start="1100" 
-                            data-speed="300" 
-                            data-hoffset="0" 
-                            style="color: rgb(255, 255, 255); text-transform: uppercase; font-size: 40px; letter-spacing: 6px; font-family: Montserrat; font-weight: 400; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 57px; border-width: 0px; margin: 0px; padding: 0px; left: 278px; top: 280px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-							Creative Premium Template
-                    </div> --}}
-                    {{-- <div class="tp-caption tentered_white_huge lfb tp-resizeme start" 
-                            data-endspeed="300" 
-                            data-easing="Power4.easeOut" 
-                            data-start="800" 
-                            data-speed="600" 
-                            data-y="300" 
-                            data-hoffset="0" 
-                            data-x="center" 
-                            style="color: rgb(255, 255, 255); font-size: 13px; text-transform: uppercase; letter-spacing: 10px; transition: all 0s ease 0s; min-height: 0px; min-width: 0px; line-height: 18px; border-width: 0px; margin: 0px; padding: 0px; left: 457.5px; top: 350px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                                ready to use for everyone
-                    </div> --}}
+					<!-- LAYER NR.  -->
+					<div class="tp-caption small_light_white  customin customout"
+						data-x="80"
+						data-y="300"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1900"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8;font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Búsqueda de Talento Ejecutivo
+					</div>
+            
+					<!-- LAYER NR.  -->
+					<div class="tp-caption small_light_white  customin customout"
+						data-x="80"
+						data-y="340"
+						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="800"
+						data-start="1900"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Estudios de Verificación de Datos
+					</div>
+            
                     {{-- <a href="#" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0 start hasclicklistener" 
                             data-x="center" 
                             data-y="350" 
