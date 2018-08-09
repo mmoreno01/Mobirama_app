@@ -540,7 +540,7 @@
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}
-                            <p class="title-txt">  Comunicados  </p>
+                            <p class="title-txt">Alianzas Estrategicas</p>
                             <p>Join Business Global Group es un gran lugar para trabajar en México. 
 								La cultura empresarial de Join Business Global Group es única gracias a sus extraordinarios colaboradores
 							</p> 
@@ -551,7 +551,7 @@
                     </div>
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}
-                            <p class="title-txt">Blog</p>
+                            <p class="title-txt">Certificaciones</p>
                             <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio.</p> 
                             <a href="http://">Ver más</a>
                     </div>
@@ -559,7 +559,7 @@
             </div>
             <div class="col-md-6">
                     <div id="content-img">
-                        <img  src="imagenes/imgs/fodoBlog.jpg" alt="">
+                        <img  src="imagenes/home/alianza1.jpg" alt="">
                     </div>
             </div>
         </div>
@@ -575,10 +575,12 @@
             <div class="col-md-6 cont-info">
 				<div class="uk-text-center">
 					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/bannerConsultorias.jpg" alt="">
+												<div class="overlay overlay-bg"></div>
+
+						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/noticias.jpg" alt="">
 						<div class="uk-position-center">
-							{{-- <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
-							<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Nacionales</h4></div> --}}
+							<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Noticias &</h3></div>
+							<div class="uk-transition-slide-bottom-small"><h3 class="uk-margin-remove">Comunicados</h3></div>
 						</div>
 					</div>
 				</div>
@@ -590,10 +592,10 @@
             <div class="col-md-6 cont-info">
 				<div  class="uk-text-center">
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/bannerConsultorias.jpg" alt="">
+							<div class="overlay overlay-bg"></div>
+							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/blog.jpg" alt="">
 							<div class="uk-position-center">
-								{{-- <div class="uk-transition-slide-top-small"><h4 class="uk-margin-remove">Noticias</h4></div>
-								<div class="uk-transition-slide-bottom-small"><h4 class="uk-margin-remove">Internacionales</h4></div> --}}
+								<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Blog</h3></div>
 							</div>
 						</div>
 				</div>
@@ -641,8 +643,8 @@
         <div class="row">
             <div id="content_ubicacion" class="col-md-4 cont-img">
 				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
-                <h3>Ubicacion</h3>
-                <p>Acérquese a nosotros </p>
+                <h3>bolsa de trabajo</h3>
+                <p>Acérquese a nosotros</p>
             </div>
             <div id="ruta-contacto" class="col-md-4 cont-img">
 				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>

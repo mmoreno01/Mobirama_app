@@ -322,6 +322,23 @@
   transition: all .5s ease-in-out;
 }
 
+#content-informes .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#content-informes .overlay-bg {
+  background: rgba(4, 9, 30, 0.2);
+  z-index: 9;
+}
+
+#content-informes .uk-position-center {
+  z-index: 9;
+}
+
 #rutas-informacion {
   margin: 40px 0px;
 }
@@ -350,6 +367,8 @@
 #rutas-informacion .cont-img h3 {
   text-align: center;
   font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 #rutas-informacion .cont-img p {
