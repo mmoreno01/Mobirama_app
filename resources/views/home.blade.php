@@ -60,7 +60,7 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 5">
-						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100;">Mobirama</span>
+						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100; text-shadow: 5px 5px 5px rgba(0,0,0,.7); ">Mobirama</span>
 					</div>
 
 					<!-- LAYER NR. 5 -->
@@ -134,7 +134,7 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 8; font-size: 20px; letter-spacing: 3px;">Construyendo redes que conecten<br> el mundo de los negocios
+						style="z-index: 8; font-size: 20px; letter-spacing: 3px; ">Construyendo redes que conecten<br> el mundo de los negocios
 					</div>
 
 					<!-- LAYER NR. 8 -->
@@ -281,7 +281,7 @@
 					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption very_large_text fade"
+					<div class="tp-caption  fade"
 						data-x="80"
 						data-y="160"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -292,7 +292,8 @@
 						data-endspeed="500"
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
-						style="z-index: 8; ;  font-size: 60px; letter-spacing: 3px;">Capital Humano
+						style="z-index: 8; 
+						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.7); ">Capital Humano
 					</div>
 					<!-- LAYER NR.  -->
 					<div class="tp-caption small_light_white  customin customout"
