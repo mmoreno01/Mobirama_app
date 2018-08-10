@@ -69,11 +69,12 @@
                 </div>
                 <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
-                    <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>
-                    <a class="nav-item nav-link mr-4" href="#eventos">Eventos</a>
-                    <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="#contacto">Contacto</a> 
+                    <a translate="menuServicios" class="nav-item nav-link mr-4" href="#content_services">Servicios</a>
+                    <a class="nav-item nav-link mr-4" href="#section-services">Nosotros</a>
+                    <a class="nav-item nav-link mr-4" href="#section-services2">Alianzas</a>
+                    <a class="nav-item nav-link mr-4" href="#content-informes">Noticias</a>
+                    {{-- <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a> --}}
+                    <a class="nav-item nav-link mr-4" href="#rutas-informacion">Contacto</a> 
                 </div>
             </div>
                 

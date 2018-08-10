@@ -365,8 +365,8 @@
                         </div>
                         <div id="project03" class="d-inline cont-textInf2">
                             <i class="fas fa-users"></i>
-                            <p class="title-txt">Filosofia empresarial</p>
-                            <p>Orientamos nuestro que hacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
+                            <p class="title-txt">Filosofía Empresarial</p>
+                            <p>Orientamos nuestro quehacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
                             <a href="/filosofia">Ver más</a>
                         </div>
                 </div>
@@ -490,7 +490,7 @@
             <div id="content_ubicacion" class="col-md-4 cont-img">
 				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
-                <p>Nos mantenemos en la constante búsqueda del mejor talento.</p>
+                <p>Forma parte de una red global de profesionales.</p>
             </div>
             <div id="ruta-contacto" class="col-md-4 cont-img">
 				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
