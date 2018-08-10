@@ -49,7 +49,7 @@
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                     </div>
-                    <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                    {{-- <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
                             <a href="http://"><p class="title-txt">Promociones JB Card</p></a>
@@ -65,7 +65,7 @@
                             <a href="http://"><p class="title-txt">Revista Global</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
@@ -107,7 +107,7 @@
                 <div class="d-inline ">
                     <ul>
                         <li>Aviso de privacidad</li>
-                        <li>2018 l Join Business Global Group</li>
+                        <li>2018 | Mobirama</li>
                     </ul>
                 </div>
                   

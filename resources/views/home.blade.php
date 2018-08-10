@@ -17,36 +17,6 @@
 					<!-- MAIN IMAGE -->
 					<img src="imagenes/home/black1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
-                 
-				 
-					<!-- LAYER NR. 1 -->
-					{{-- <div class="tp-caption lightgrey_divider skewfromrightshort customout"
-						data-x="85"
-						data-y="224"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1200"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 2">
-					</div> --}}
-
-					<!-- LAYER NR. 2 -->
-					<!-- <div class="tp-caption customin customout"
-						data-x="center" data-hoffset="100"
-						data-y="bottom" data-voffset="0"
-						data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="700"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						style="z-index: 3"><img src="imagenes/images/woman.png" alt="">
-					</div> -->
-
 
 					<!-- LAYER NR. 4 -->
 					<div class="tp-caption large_text skewfromleftshort customout"
@@ -62,20 +32,6 @@
 						style="z-index: 5">
 						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100; text-shadow: 5px 5px 5px rgba(0,0,0,.7); ">Mobirama</span>
 					</div>
-
-					<!-- LAYER NR. 5 -->
-					{{-- <div class="tp-caption large_text skewfromrightshort customout"
-						data-x="80"
-						data-y="155"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="300"
-						data-start="1000"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 6">Global 
-					</div> --}}
 
 					<!-- LAYER NR. texto iso -->
 					<div class="tp-caption fade"
@@ -137,20 +93,7 @@
 						style="z-index: 8; font-size: 20px; letter-spacing: 3px; ">Construyendo redes que conecten<br> el mundo de los negocios
 					</div>
 
-					<!-- LAYER NR. 8 -->
-					{{-- <div class="tp-caption skewfromrightshort customout"
-						data-x="816"
-						data-y="207"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1750"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 9"><img src="imagenes/home-icons/iso9001.png" alt="" data-ww="52" data-hh="44">
-					</div> --}}
-
+					
 					<!-- LAYER NR. 9 -->
 					<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
@@ -339,25 +282,6 @@
 						data-captionhidden="on"
 						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Estudios de Verificación de Datos
 					</div>
-            
-                    {{-- <a href="#" class="tp-caption lfb tp-resizeme rs-parallaxlevel-0 start hasclicklistener" 
-                            data-x="center" 
-                            data-y="350" 
-                            data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                            data-speed="500" 
-                            data-start="1200" 
-                            data-easing="Power3.easeInOut" 
-                            data-splitin="none" 
-                            data-splitout="none" 
-                            data-elementdelay="0.1" 
-                            data-endelementdelay="0.1" 
-                            data-linktoslide="next" 
-                            style="z-index: 12; white-space: nowrap; padding: 15px 28px; color: rgb(255, 255, 255); text-transform: uppercase; border: 0px none; background: rgb(0, 0, 0); font-size: 12px; letter-spacing: 3px; font-family: Montserrat; border-radius: 0px; display: table; transition: all 0.4s ease 0s; cursor: pointer; min-height: 0px; min-width: 0px; line-height: 17px; margin: 0px; left: 573px; top: 400px; visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1);">
-                            Ver más
-                    </a> --}}
-
-				{{-- </li> --}}
-
 			</ul>
 		</div>
 	</div>
@@ -464,9 +388,8 @@
                     <div id="cont-comunicado" class="d-inline content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}
                             <p class="title-txt">Alianzas Estrategicas</p>
-                            <p>Join Business Global Group es un gran lugar para trabajar en México. 
-								La cultura empresarial de Join Business Global Group es única gracias a sus extraordinarios colaboradores
-							</p> 
+                            <p>Nuestras alianzas nos permiten desarrollar proyectos con la seguridad de optimizar los recursos de nuestros clientes,
+							 ofreciendo una excelente calidad de servicios</p> 
                             <a href="http://">Ver más</a>
                     </div>
                     <div id="img-blog" class="d-inline content-blog content_imgtxt d-flex align-items-center">
@@ -475,7 +398,7 @@
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
                             {{-- <i class="fab fa-adn"></i>   --}}
                             <p class="title-txt">Certificaciones</p>
-                            <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio.</p> 
+                            <p>Somos una empresa consciente de nuestra responsabilidad y compromisos asumidos con nuestros clientes, colaboradores y México.</p> 
                             <a href="http://">Ver más</a>
                     </div>
                 </div>
@@ -532,8 +455,8 @@
             <div class="col-md-6 cont-info">
                 <div class="row">
                     <div class="d-inline cont-texto">
-                        <p class="title-txt"> “Las 50 Empresas de Consultoría más Importantes en México” </p>
-                        <p> Fuimos elegidos como una de las 50 mejores empresas de consultoría en México.</p>         
+                        <p class="title-txt">Noticias </p>
+                        <p> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
 						<button class="btn">
@@ -545,8 +468,8 @@
             <div class="col-md-6 cont-info">
                 <div class="row">
                     <div class="d-inline cont-texto">
-                        <p class="title-txt">Juicio de Resolución Exclusiva de Fondo</p>
-                        <p>El procedimiento se sustenta en los principios de celeridad, oralidad, resolución sustantiva y proporcionalidad, para lograr una efectiva tutela judicial.</p>         
+                        <p class="title-txt">BLog</p>
+                        <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
 						<button class="btn">
@@ -567,7 +490,7 @@
             <div id="content_ubicacion" class="col-md-4 cont-img">
 				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
-                <p>Acérquese a nosotros</p>
+                <p>Nos mantenemos en la constante búsqueda del mejor talento.</p>
             </div>
             <div id="ruta-contacto" class="col-md-4 cont-img">
 				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
