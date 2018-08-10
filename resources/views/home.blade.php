@@ -456,12 +456,13 @@
                 <div class="row">
                     <div class="d-inline cont-texto">
                         <p class="title-txt">Noticias </p>
-                        <p> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
+                        <p class="text-intro"> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
-						<button class="btn">
-							<span aria-label="Previous">></span>
-						</button>	
+							<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+								<span class="details">Ver más</span>
+								<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
+							</a>							
                     </div>
                 </div>
             </div>
@@ -469,12 +470,13 @@
                 <div class="row">
                     <div class="d-inline cont-texto">
                         <p class="title-txt">BLog</p>
-                        <p>Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
+                        <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
                     </div>
                     <div class="d-inline cont-icon d-flex align-items-center">
-						<button class="btn">
-							<span aria-label="Previous">></span>
-						</button>	
+						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+							<span class="details">Ver más</span>
+							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
+						</a>
                     </div>
                 </div>
             </div>
