@@ -61,22 +61,9 @@
   margin: 0 auto;
 }
 
-#section-services .content-imgNosotros {
-  overflow: hidden;
-}
-
 #section-services .content-imgNosotros img {
   width: 100%;
   height: 100%;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
-}
-
-#section-services .content-imgNosotros img:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
 }
 
 #section-services #content-imgizq {
@@ -283,6 +270,7 @@
   width: 50%;
   color: #000;
   padding: 30px;
+  display: inline-block;
 }
 
 #content-informes .cont-texto .title-txt {
@@ -298,8 +286,8 @@
 }
 
 #content-informes .cont-icon {
-  width: 50%;
   padding: 30px;
+  display: inline-block;
 }
 
 #content-informes .cont-icon .details {
@@ -321,6 +309,7 @@
   border-radius: 20px;
   overflow: hidden;
   color: #fff;
+  margin: 0 auto;
 }
 
 #content-informes .cont-icon .details-btn .details {
@@ -383,7 +372,7 @@
 }
 
 #rutas-informacion .cont-img img {
-  width: 50%;
+  width: 150px;
   display: block;
   margin: 0 auto;
   -webkit-transition: all 1s ease-in-out;
@@ -407,6 +396,67 @@
 #rutas-informacion .cont-img p {
   text-align: center;
   color: #1d73b2;
+}
+
+@media (max-width: 1200px) {
+  #section-services .content-imgNosotros {
+    margin-bottom: 30px;
+  }
+
+  #section-services .content-imgNosotros img {
+    height: 400px;
+  }
+
+  #section-services2 .content-img {
+    margin-top: 30px;
+    padding: 0px;
+  }
+
+  #section-services2 #content-img img {
+    height: 400px;
+  }
+
+  #content-informes .cont-texto {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  #section-services .content_imgtxt {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  #section-services .content_textinf {
+    width: 100%;
+  }
+
+  #section-services .cont-textInf1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #section-services .cont-textInf2 {
+    width: 100%;
+  }
+
+  #section-services2 .content_imgtxt {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  #section-services2 .content_textinf {
+    width: 100%;
+  }
+
+  #content-informes .cont-texto {
+    width: 100%;
+    padding: 30px;
+  }
+
+  #content-informes .cont-info {
+    padding: 10px;
+  }
 }
 
 #img-pricipal {

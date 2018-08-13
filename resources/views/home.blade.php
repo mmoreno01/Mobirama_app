@@ -150,13 +150,13 @@
 					</div>
 				</li>
 	<!-- SLIDE  -->
-		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> --}}
+		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
 			<!-- MAIN IMAGE -->
-			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
+			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			{{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
+			<!-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -179,20 +179,20 @@
 				<source src='videos/moburama jancheik.mp4' type='video/mp4' />
 				</video>
 
-			</div> --}}
+			</div> -->
 		</li>
 
 
 		
 				</li>
 				<!-- SLIDE  -->
-		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> --}}
+		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
 			<!-- MAIN IMAGE -->
-			{{-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> --}}
+			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			{{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
+			<!-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -215,7 +215,7 @@
 				<source src='videos/mobirama tl.mp4' type='video/mp4' />
 				</video>
 
-			</div> --}}
+			</div> -->
 		</li>
 
 				<!-- SLIDE 2 -->
@@ -287,7 +287,7 @@
 	</div>
 <!-- fin de slider revolution -->
 
-<!-- seccion de servicios en slider -->
+<!-- Seccion de servicios  slider -->
 <section id="content_services" class="my-5">
         <div  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
@@ -324,30 +324,21 @@
                     <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
                 <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
                 <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
-            </div>
-             {{-- <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                    <!-- <a href="/sofom"><i class="fab fa-adn"></i></a>    -->
-                <img src="imagenes/home-icons/Fiscal.png" alt="">
-				<a href="/sofom"><P>Sofom</P></a>
-            </div> --}}
-			
-        </div>
-		
+            </div>	
+        </div>	
 </section>
 <!-- fin de la seccion de servicios -->
 
 
-<!-- primera seccion de servicios temporales -->
+<!--Seccion Nosotros -->
 <section id="section-services">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 content-imgNosotros">
-				{{-- <div id="img_nostros" class="uk-background-fixed uk-background-cover uk-height-1-1 uk-width-xl" style="background-image: url(imagenes/imgs/fondoTasa.jpg"></div> --}}
+            <div class="col-sm-12 col-md-12 col-xl-6 content-imgNosotros d-none d-xl-block">
                 <img  src="imagenes/home/acercade.jpg" alt="">
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-xl-6">
                 <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
-                    {{-- <div class="d-flex align-items-center">...</div> --}}
                         <div id="imgSobre" class="d-inline  content_imgtxt d-flex align-items-center">                           
                              <img  id="projectImg" src="imagenes/home-icons/SobreNosotros.png" alt="">
                         </div>
@@ -371,22 +362,26 @@
                         </div>
                 </div>
             </div>
+			<!-- imagen para md-sm-xs -->
+			<div class="col-sm-12 col-md-12 col-xl-12 content-imgNosotros d-xl-none" style="margin-top: 30px; padding: 0px;">
+                <img  src="imagenes/home/acercade.jpg" alt="">
+            </div>
+			<!-- imagen para md-sm-xs -->
         </div>
     </div>
 </section>
-<!--fin  primera seccion de servicios temporales -->
+<!--Fin de seccion nosotros -->
 
-<!-- segunda seccion de servicios temporales -->
+<!-- Seccion aliazas y certificaciones -->
 <section id="section-services2">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-xl-6">
                 <div class="row">
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
                         <img src="imagenes/home-icons/Comunicados.png" alt="">
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf">
-                            {{-- <i class="fab fa-adn"></i>   --}}
                             <p class="title-txt">Alianzas Estrategicas</p>
                             <p>Nuestras alianzas nos permiten desarrollar proyectos con la seguridad de optimizar los recursos de nuestros clientes,
 							 ofreciendo una excelente calidad de servicios</p> 
@@ -396,14 +391,13 @@
                         <img src="imagenes/home-icons/Blog.png" alt="">
                     </div>
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
-                            {{-- <i class="fab fa-adn"></i>   --}}
                             <p class="title-txt">Certificaciones</p>
                             <p>Somos una empresa consciente de nuestra responsabilidad y compromisos asumidos con nuestros clientes, colaboradores y México.</p> 
                             <a href="http://">Ver más</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-12 col-md-12 col-xl-6 content-img">
                     <div id="content-img">
                         <img  src="imagenes/home/alianza1.jpg" alt="">
                     </div>
@@ -411,18 +405,17 @@
         </div>
     </div>
 </section>
-<!-- fin  segunda seccion de servicios temporales -->
+<!-- Fin de seccion alianzas y certificaciones -->
 
-<!-- seccion de informes general -->
+<!-- Seccion de prensa -->
 <section id="content-informes">
     <h2 class="text-center">prensa</h2>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 cont-info">
+            <div class="col-sm-12 col-md-6 cont-info">
 				<div class="uk-text-center">
 					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-												<div class="overlay overlay-bg"></div>
-
+						<div class="overlay overlay-bg"></div>
 						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/noticias.jpg" alt="">
 						<div class="uk-position-center">
 							<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Noticias &</h3></div>
@@ -430,12 +423,9 @@
 						</div>
 					</div>
 				</div>
-                <!-- <div class="img-info">
-					<img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
-					<img src="imagenes/1.jpg" alt="">
-                </div> -->
             </div>
-            <div class="col-md-6 cont-info">
+			<!-- imagen para disposivilos lg, xl-->
+            <div class="col-sm-12 col-md-6 cont-info d-none d-md-block">
 				<div  class="uk-text-center">
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 							<div class="overlay overlay-bg"></div>
@@ -445,47 +435,59 @@
 							</div>
 						</div>
 				</div>
-                <!-- <div class="img-info">
-					<img src="imagenes/1.jpg" alt="">
-                    <img src="imagenes/Login_June-bmovil.jpg.img.1176.1528216817889.jpg" alt="">
-                </div> -->
             </div>
+				<!-- fin imagen para disposivilos lg, xl-->
         </div>
         <div class="row">
-            <div class="col-md-6 cont-info">
-                <div class="row">
-                    <div class="d-inline cont-texto">
+            <div class="col-sm-12 col-md-6 cont-info">
+             
+                    <div class=" cont-texto">
                         <p class="title-txt">Noticias </p>
                         <p class="text-intro"> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
                     </div>
-                    <div class="d-inline cont-icon d-flex align-items-center">
+                    <div class=" cont-icon">
 							<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 								<span class="details">Ver más</span>
 								<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
 							</a>							
                     </div>
-                </div>
+                
             </div>
-            <div class="col-md-6 cont-info">
-                <div class="row">
-                    <div class="d-inline cont-texto">
+
+			<!-- post para  dispostivos medianos -->
+			<div class="col-sm-12 col-md-6 cont-info d-md-none">
+				<div  class="uk-text-center">
+						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
+							<div class="overlay overlay-bg"></div>
+							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/blog.jpg" alt="">
+							<div class="uk-position-center">
+								<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Blog</h3></div>
+							</div>
+						</div>
+				</div>
+            </div>
+			<!-- fin post para  dispostivos medianos -->
+
+            <div class="col-sm-12 col-md-6 cont-info">
+              
+                    <div class=" cont-texto">
                         <p class="title-txt">BLog</p>
                         <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
                     </div>
-                    <div class="d-inline cont-icon d-flex align-items-center">
+                    <div class=" cont-icon ">
 						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 							<span class="details">Ver más</span>
 							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
 						</a>
                     </div>
-                </div>
+              
             </div>
         </div>
     </div>
 </section>
-<!-- seccion de informes general -->
+<!-- Fin de seccion de prensa -->
 
-<!-- // seccion de rutas de informacion -->
+<!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">
     <div class="container">
         <div class="row">
@@ -507,7 +509,7 @@
         </div>
     </div>
 </section>
-<!-- fin de seccion de rutas de informacion -->
+<!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
 
 
 
