@@ -474,7 +474,7 @@
                         <p class="title-txt">BLog</p>
                         <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
                     </div>
-                    <div class=" cont-icon ">
+                    <div class=" cont-icon">
 						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 							<span class="details">Ver más</span>
 							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
