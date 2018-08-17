@@ -510,15 +510,4 @@
     </div>
 </section>
 <!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
-
-
-
-    <!-- <h1>hola mun</h1> -->
-    <!-- <ul> -->
-        <!-- @foreach($users as $user) -->
-        <!-- <li> {{$user}}</li>     -->
-        <!-- @endforeach  -->
-
-    <!-- </ul> -->
-    <!-- <button class="btn btn-danger">Ver más</button> -->
 @endsection

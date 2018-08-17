@@ -15,7 +15,7 @@
 //     return view('.slider.slider');
 // });
 
-Route::get('home', 'UserController@index');
+Route::get('clientes', 'UserController@index');
 
 // rutas de  la seccion de servicios
 Route::get('contabilidad', function () {

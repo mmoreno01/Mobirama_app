@@ -2,22 +2,25 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Service;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
     public function index(){
 
-    $users = [
-        'moike',
-        'mile',
-        'raul',
-        'lalo',
-    ];
+    // $users = DB::table('services')->get();
 
-        return view('home', [
-            'users' => $users
-        ]);
+        $users = Service::all();
+
+        return View('clientes')
+        ->with('users', Service::all());
+       
+
+        // return view('clientes', [
+        //     'users' => $users
+        // ]);
     }
 
   public function services(){
