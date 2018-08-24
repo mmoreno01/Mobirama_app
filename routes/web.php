@@ -17,6 +17,10 @@
 
 Route::get('clientes', 'UserController@index');
 
+Route::get('home', function(){
+    return view('home');
+});
+
 // rutas de  la seccion de servicios
 Route::get('contabilidad', function () {
     return view('servicios.contabilidad');

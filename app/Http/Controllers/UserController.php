@@ -23,7 +23,7 @@ class UserController extends Controller
         // ]);
     }
 
-  public function services(){
-      return view('servicios.servicios');
-  } 
+//   public function services(){
+//       return view('servicios.servicios');
+//   } 
 }

@@ -289,43 +289,54 @@
 
 <!-- Seccion de servicios  slider -->
 <section id="content_services" class="my-5">
-        <div  class=" container owl-carousel owl-theme owl-loaded">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+			        <img src="imagenes/home-icons/mservice.png"  alt="">
+
+			</div>
+			<div class="col-md-6">
+			        <img src="imagenes/home-icons/m-p.png"  alt="">
+			</div>
+		</div>
+	</div>
+        <!--<div  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
-               <!-- <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> -->
+               <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> 
                <img src="imagenes/home-icons/Contabilidad-Out.png" alt="">
 			   <a href="http:/contabilidad"> <P>Contabilidad Outsorcing</P></a>
         </div>
         <div id="icon02" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.1s">
-               <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    -->
+               <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    
                 <img src="imagenes/home-icons/Fiscal.png" alt="">
                 <a href="/fiscal"><P>Fiscal</P></a>
         </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
-                    <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  -->
+                    <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  
                 <img src="imagenes/home-icons/Payroll.png" alt="">
                 <a href="/payroll"><P>Payroll Service</P></a>
             </div>
              <div id="icon04" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.3s"> 
-                    <!-- <a href="/division"><i class="fab fa-adn"></i></a>    -->
+                    <!-- <a href="/division"><i class="fab fa-adn"></i></a>    
                 <img src="imagenes/home-icons/Div-Financiera.png" alt="">
                 <a href="/division"><P>División Financiera</P></a>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
-                    <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    -->
+                    <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    
                 <img src="imagenes/home-icons/CapitalHumano.png" alt="">
 				<a href="/capitalHumano"><P>Capital Humano</P></a> 
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                    <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    -->
+                    <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    
                 <img src="imagenes/home-icons/Fiscal.png" alt="">
                 <a href="/bancaInversion"><P>Banca de Inversión</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                    <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    -->
+                    <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    
                 <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
                 <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
             </div>	
-        </div>	
+        </div>-->
 </section>
 <!-- fin de la seccion de servicios -->
 

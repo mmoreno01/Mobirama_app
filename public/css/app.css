@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);#content_services {
-  margin: 20px 0px;
+  padding: 70px 0px;
+}
+
+#content_services img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 #content_services .fab {
@@ -4119,7 +4125,7 @@ footer {
 }
 
 footer img {
-  max-width: 10%;
+  max-width: 40%;
   float: left;
   margin: 0px 20px;
 }

@@ -23,7 +23,7 @@
     <!-- menu principal -->
     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
-        <img src="imagenes/home-icons/mobirama.jpg" width="30" height="30" alt="">
+        <img src="imagenes/home-icons/m-w.png" width="40%" height="30" alt="">
     </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -101,18 +101,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-            
                 <div class="d-inline"> 
-                    <img src="imagenes/home-icons/jblogo.png" alt="">
+                    <img src="imagenes/home-icons/m-w.png" alt="">
                 </div>
                 <div class="d-inline ">
                     <ul>
                         <li>Aviso de privacidad</li>
                         <li>2018 | Mobirama</li>
                     </ul>
-                </div>
-                  
-             
+                </div> 
+                <!-- <img src="imagenes/home-icons/m-w.png" alt="">
+                <p>Aviso de privacidad 2018 <span></span></P>-->
+
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><i class="fab fa-facebook-f"></i></div> 

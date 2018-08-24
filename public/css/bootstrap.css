@@ -6080,7 +6080,14 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color:#16395f !important;
+  background: rgba(99,152,194,1);
+background: -moz-linear-gradient(left, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(99,152,194,1)), color-stop(100%, rgba(50,50,99,1)));
+background: -webkit-linear-gradient(left, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
+background: -o-linear-gradient(left, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
+background: -ms-linear-gradient(left, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
+background: linear-gradient(to right, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6398c2', endColorstr='#323263', GradientType=1 );
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
