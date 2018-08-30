@@ -34,17 +34,20 @@
                 <div class="col-md-9 content_serv">
                 <div class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                             <a href="/politica"><i class="fas fa-check"></i></a>
+                            <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                             <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                             <a href="/terminos"><i class="fas fa-clipboard-list"></i></a>
+                            <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                             <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
                         <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
+                           <!-- <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
+                           <a href="http://"><i class="fas fa-book-open"></i></a>
                             <a href="http://"><p class="title-txt">Glosario</p></a>
                             <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
                         </div>
@@ -101,10 +104,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="d-inline"> 
+               <img src="imagenes/home-icons/m-w.png" alt="">
+               <p>Aviso de privacidad 2018 | Mobirama</p>
+               <!-- <div class=""> 
                     <img src="imagenes/home-icons/m-w.png" alt="">
                 </div>
-                <div class="d-inline ">
+                <div class=" ">
                     <ul>
                         <li>Aviso de privacidad</li>
                         <li>2018 | Mobirama</li>

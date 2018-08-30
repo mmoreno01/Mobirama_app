@@ -279,9 +279,20 @@
         }
     }
     .cont-icon{
-       
+       position: relative;
         padding: 30px;
         display: inline-block;
+
+        .btn-noticia{
+            width: 120px;
+            background-color: $azulRey;
+            color:$white;
+            border-radius: 20px;
+            text-transform: uppercase;
+            box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+            position: absolute;
+            top: 0;
+        }
        
        .details{
         visibility: hidden;

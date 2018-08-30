@@ -1,0 +1,177 @@
+//style of the view Mobirama Services
+
+#section_nosotros{
+    padding: 90px 0 100px 0;
+    padding-bottom: 0px;
+
+    .about-us-intro{
+        h2{
+            font-size:28px;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    .content-layout{
+        clear: both;
+        padding-left: 48px;
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .content-icon{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: $azulRey;
+    background: transparent;
+    height: 60px;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    border-radius: 0%;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    line-height: 56px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 60px;
+    text-align: left;
+    font-size: 28px;
+    }
+    .content-text{
+        position: relative;
+        h5{
+            position: relative;
+            display: block;
+            padding-top: 6px;
+            margin-bottom: 30px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+    .about-us-img {
+            position: relative;
+       
+        overflow: hidden;
+    }
+    .about-us-stick-bottom{
+        top: 20px;
+       
+    }
+}
+
+#section_services{
+    padding: 100px 0 50px 0;
+    margin-bottom: 30px;
+   i{
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+   }
+   .owl-carousel {
+    p{
+        padding: 10px;
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+    text-align: center;
+    text-decoration: none;
+    }
+   }
+   a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+   }
+
+   .txt-services{
+    background-color: $colorSect;
+   }
+}
+.content-icons{
+    padding: 30px 0px;
+}
+
+// style carousel services
+#nav-tabContent{
+    padding: 80px 100px;    
+    h2{
+        color: $azulRey;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0px;
+    }
+    p{
+        margin-top: 0px;
+        color: gray;
+   }
+   
+}
+// End style carousel services
+
+
+// style carousel services
+#carousel_services{
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        color: $white;
+        background-color: transparent;
+        border-color:transparent; 
+    }
+    .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+        border-color:transparent;
+    }
+    .content-icon{
+        padding: 50px 0px 10px;
+        }
+    .nav-link{
+        text-align: center;
+        p{
+            color: $white;
+        }
+    }
+    i{
+        color: $white;
+        font-size: 50px;
+        text-align: center;
+    }
+   
+}
+// end style carousel services
+
+
+// style tecnologies solutions 
+#section-solutions{
+    padding: 70px 0px;
+
+    .content_title{
+        padding: 30px 0px;
+        h2{
+            color: $azulRey;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+    img{
+        width: 250px;
+    }
+}
+// end style tecnologies solutions 
+
+#section_ExitCase{
+h2{
+    color: $white;
+    text-align: center;
+}
+    .bg-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+           background: rgba(4, 9, 30, 0.5);
+    }
+    .owl-carousel{
+        padding: 50px 0px;
+    }
+}

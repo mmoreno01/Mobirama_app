@@ -12,8 +12,19 @@
             margin: 0px;
         }
         .title-txt{
-                color: $colorNaranja;
+                color: $black;
                 font-weight: bold;
+        }
+        i{
+                color: $azulRey;
+                padding-bottom:10px; 
+                font-size: 30px;
+                text-align: center;
+                transition: all .5 ease-in;
+        }
+        i:hover{
+            transform: scale(1.1);
+            transition: all .5 ease;
         }
     }
     .content_serv{
@@ -26,8 +37,32 @@
     .sub-menu2{
         padding: 10px 20px;
     }
-}
 
+   
+}
+@media  (max-width: 768px){
+  
+        .navbar-dark 
+        .navbar-brand {
+            width: 150px;
+            img{
+                width: 200px;
+            }
+        } 
+}
+@media  (max-width: 576px){
+    .navbar-dark .navbar-brand {
+        width: 150px;
+    }
+    header a{
+        width: 150px;
+
+        img{
+            width: 100%;
+        }
+    }
+   
+}
 
 // contenido submenu
 

@@ -7,10 +7,12 @@ footer{
     padding: 40px 0px;
 
 img{
-      max-width: 40%;
-      float: left;
-      margin: 0px 20px;
+      width: 300px;
   }  
+  p{
+      margin-top:0px;
+      padding-left: 20px;
+  }
 .icon-social{
       width: 40px;
       height: 40px;
@@ -43,4 +45,37 @@ padding-left: 0px;
     }
 }
   
+}
+
+@media(max-width: 768px){
+    footer{
+        img {
+            width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        p{
+            text-align: center;
+        }
+        .content-iconsRedes{
+            text-align: center;
+        }
+    } 
+}
+@media  (max-width: 576px){
+    footer {
+        img {
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        p{
+            text-align: center;
+        }
+        .content-iconsRedes{
+            text-align: center;
+        }
+        
+    }
+   
 }

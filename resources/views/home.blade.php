@@ -12,14 +12,47 @@
 	<div class="tp-banner-container wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
 		<div class="tp-banner" >
 			<ul>
+
+			<!-- SLIDE  -->
+		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> 
+			<!-- MAIN IMAGE -->
+			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
+			<!-- LAYERS -->
+
+			<!-- LAYER NR. 1 -->
+			 <div class="tp-caption tp-fade fadeout fullscreenvideo"
+				data-x="0"
+				data-y="0"
+				data-speed="1000"
+				data-start="1100"
+				data-easing="Power4.easeOut"
+				data-endspeed="1500"
+				data-endeasing="Power4.easeIn"
+				data-autoplay="true"
+				data-autoplayonlyfirsttime="false"
+				data-nextslideatend="true"
+				data-forceCover="1"
+				data-dottedoverlay="twoxtwo"
+				data-aspectratio="16:9"
+				data-forcerewind="on"
+				style="z-index: 2">
+
+
+				<video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
+				<source src='videos/intro-1_1mp4.mp4' type='video/mp4' />
+				</video>
+
+			</div> 
+		</li>
+
 				<!-- SLIDE  -->
-				<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" >
-					<!-- MAIN IMAGE -->
+				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" > --}}
+					<!-- MAIN IMAGE 
 					<img src="imagenes/home/black1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption large_text skewfromleftshort customout"
+					{{-- <div class="tp-caption large_text skewfromleftshort customout"
 						data-x="80"
 						data-y="150"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -31,10 +64,10 @@
 						data-captionhidden="on"
 						style="z-index: 5">
 						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100; text-shadow: 5px 5px 5px rgba(0,0,0,.7); ">Mobirama</span>
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. texto iso -->
-					<div class="tp-caption fade"
+					{{-- <div class="tp-caption fade"
 						data-x="710"
 						data-y="90"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -46,10 +79,10 @@
 						data-captionhidden="on"
 						style="z-index: 7">
 						<span style="font-size: 15px;  color: #fff;">Norma Internacional ISO 9001</span>
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. texto GPTW -->
-					<div class="tp-caption fade"
+					{{-- <div class="tp-caption fade"
 						data-x="710"
 						data-y="230"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -61,10 +94,10 @@
 						data-captionhidden="on"
 						style="z-index: 7">
 						<span style="font-size: 15px;  color: #fff;">Con la confianza que nos distingue</span>
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. texto GPTW -->
-					<div class="tp-caption fade"
+					{{-- <div class="tp-caption fade"
 						data-x="710"
 						data-y="380"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -76,10 +109,10 @@
 						data-captionhidden="on"
 						style="z-index: 7">
 						<span style="font-size: 15px;  color: #fff;">Fuimos elegidos como una de las 50<br> mejores empresas deconsultoría<br> en México</span>
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 7 -->
-					<div class="tp-caption small_light_white  customin customout"
+					{{-- <div class="tp-caption small_light_white  customin customout"
 						data-x="80"
 						data-y="200"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -91,11 +124,11 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-size: 20px; letter-spacing: 3px; ">Construyendo redes que conecten<br> el mundo de los negocios
-					</div>
+					</div> --}}
 
 					
 					<!-- LAYER NR. 9 -->
-					<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+					{{-- <div class="tp-caption large_bold_darkblue skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="60"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -110,10 +143,10 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/iso9001.png" alt="" data-ww="100" data-hh="100">
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR. 13 -->
-					<div class="tp-caption skewfromrightshort customout"
+					{{-- <div class="tp-caption skewfromrightshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-200"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -128,11 +161,11 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7); ">
 						<img src="imagenes/home-icons/GPTW.png" alt="" data-ww="100" data-hh="100">
-					</div>
+					</div> --}}
 
 				
 					<!-- LAYER NR. 20 -->
-					<div class="tp-caption  skewfromleftshort customout"
+					{{-- <div class="tp-caption  skewfromleftshort customout"
 						data-x="right" data-hoffset="-90"
 						data-y="bottom" data-voffset="-50"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -147,7 +180,7 @@
 						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
-					</div>
+					</div> --}}
 				</li>
 	<!-- SLIDE  -->
 		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
@@ -185,7 +218,7 @@
 
 		
 				</li>
-				<!-- SLIDE  -->
+		<!-- SLIDE  -->
 		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
 			<!-- MAIN IMAGE -->
 			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
@@ -292,11 +325,11 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-			        <img src="imagenes/home-icons/mservice.png"  alt="">
+			     <a href="/mobiramaServices"><img src="imagenes/home-icons/mservice.png"  alt="Mobirama Service"></a>
 
 			</div>
 			<div class="col-md-6">
-			        <img src="imagenes/home-icons/m-p.png"  alt="">
+			    <a href="#"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
 			</div>
 		</div>
 	</div>
@@ -349,7 +382,7 @@
                 <img  src="imagenes/home/acercade.jpg" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-xl-6">
-                <div class="row wow fadeIn"  data-wow-duration="1s" data-wow-delay="2s">
+                <div class="row">
                         <div id="imgSobre" class="d-inline  content_imgtxt d-flex align-items-center">                           
                              <img  id="projectImg" src="imagenes/home-icons/SobreNosotros.png" alt="">
                         </div>
@@ -420,7 +453,7 @@
 
 <!-- Seccion de prensa -->
 <section id="content-informes">
-    <h2 class="text-center">prensa</h2>
+    <h2 class="text-center">Noticias</h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 cont-info">
@@ -457,10 +490,11 @@
                         <p class="text-intro"> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
                     </div>
                     <div class=" cont-icon">
-							<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+					<button class="btn btn-noticia">Ver más</button>
+						<!--	<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 								<span class="details">Ver más</span>
 								<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-							</a>							
+							</a>-->							
                     </div>
                 
             </div>
@@ -483,13 +517,14 @@
               
                     <div class=" cont-texto">
                         <p class="title-txt">BLog</p>
-                        <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas de julio aumentan las compras para el hogar en tiendas de autoservicio</p>         
+                        <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas</p>         
                     </div>
                     <div class=" cont-icon">
-						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+						<button class="btn btn-noticia">Ver más</button>
+				<!--		<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 							<span class="details">Ver más</span>
 							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-						</a>
+						</a>-->
                     </div>
               
             </div>

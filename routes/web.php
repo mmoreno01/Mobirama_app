@@ -22,6 +22,9 @@ Route::get('home', function(){
 });
 
 // rutas de  la seccion de servicios
+Route::get('mobiramaServices', function(){
+    return view('mobiramaServices.mobiramaServices');
+});
 Route::get('contabilidad', function () {
     return view('servicios.contabilidad');
 });
