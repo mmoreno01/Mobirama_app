@@ -1,8 +1,9 @@
 @extends('layout')
 
 @section('content')
-<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Banca de Inversión</h1>
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/m-service/bg-ms.jpg');">
+    <!-- <h1 >Banca de Inversión</h1> -->
+    <img class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0" src="imagenes/home-icons/mservice.png" alt="">
 </div>
 
 <!--section nosotros-->
@@ -199,42 +200,28 @@
 <!-- section exit case -->
 <section id="section_ExitCase" style="background: url(imagenes/m-service/city.jpg); background-position: center center;background-repeat: no-repeat;background-attachment: initial;position: relative; background-size: cover;">
     <div class="bg-overlay"></div>
-    <div><h2>casos de exito</h2></div>
-     <div  class=" container owl-carousel owl-theme owl-loaded" >
-            <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
-               <a href="http:/contabilidad">   </a> 
+            <h2>casos de exito</h2>
+     <div  class= "container  owl-carousel owl-theme  owl-loaded" >
+            <div  class="item wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                <img src="imagenes/solutions_img/bticho.png" alt="">
-			   <a href="http:/contabilidad"> <P>Contabilidad Outsorcing</P></a>
-        </div>
-        <div id="icon02" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.1s">
-                <a href="/fiscal"></a>    
+            </div>
+            <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.1s">
                 <img src="imagenes/solutions_img/pawa.png" alt="">
-                <a href="/fiscal"><P>Fiscal</P></a>
-        </div>
-             <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
-                     <a href="/payroll"></a>  
+            </div>
+             <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
                      <img src="imagenes/solutions_img/pinsa.jpg" alt="">
-                     <a href="/payroll"><P>Payroll Service</P></a>
             </div>
-             <div id="icon04" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.3s"> 
-                     <a href="/division"></a>    
+             <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.3s"> 
                      <img src="imagenes/solutions_img/pyg.png" alt="">
-                     <a href="/division"><P>División Financiera</P></a>
             </div>
-             <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
-                     <a href="/capitalHumano"></a>    
+             <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
                      <img src="imagenes/solutions_img/santos.png" alt="">
-                     <a href="/capitalHumano"><P>Capital Humano</P></a> 
             </div>
-             <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                     <a href="/bancaInversion"></a>    
+             <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
                 <img src="imagenes/home-icons/Fiscal.png" alt="">
-                <a href="/bancaInversion"><P>Banca de Inversión</P></a> 
             </div>
-             <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                     <a href="/estacionServicio"></a>    
+             <div class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
                 <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
-                <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
             </div>	
         </div>
 </section>

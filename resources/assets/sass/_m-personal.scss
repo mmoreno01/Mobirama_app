@@ -1,0 +1,76 @@
+// style view mobirama personal
+
+// style sections about-us
+#section-about-us{
+    padding: 100px 0px 50px;
+    .about-us-intro{
+        h2{
+            font-size:28px;
+            color: $azulRey;
+            font-weight: bold;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
+// End style sections about-us
+
+#section-services-personal{
+
+    .parallax {
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+.content-carousel{
+    padding: 30px;
+    margin: 50px 0px;
+    h2{
+        color: $white;
+        padding-bottom: 20px;
+    }
+}
+.item-icon{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 60px 0px; 
+    border-radius: 5px;
+    i{
+        font-size: 40px;
+    }
+    p{
+        font-weight: bold;
+    }
+}
+.item-icon:hover{
+    background-color: #EABA2D;
+    i{
+        color: #fff;
+    }
+}
+.bg-overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.4);
+    position: absolute;
+   
+}
+.icon-yellow{
+    color: #EABA2D;
+}
+
+.icon-red{
+    color: #DA2329;
+}
+.icon-blue{
+    color:#5C83EF;
+}
+.icon-green{
+    color: #67A559;
+}
+
+
+}

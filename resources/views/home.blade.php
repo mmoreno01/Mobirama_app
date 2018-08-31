@@ -329,7 +329,7 @@
 
 			</div>
 			<div class="col-md-6">
-			    <a href="#"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
+			    <a href="/mobiramaPersonal"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
 			</div>
 		</div>
 	</div>

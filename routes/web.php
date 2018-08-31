@@ -25,6 +25,9 @@ Route::get('home', function(){
 Route::get('mobiramaServices', function(){
     return view('mobiramaServices.mobiramaServices');
 });
+Route::get('mobiramaPersonal', function(){
+    return view('mobiramaPersonal.mobiramaPersonal');
+});
 Route::get('contabilidad', function () {
     return view('servicios.contabilidad');
 });
