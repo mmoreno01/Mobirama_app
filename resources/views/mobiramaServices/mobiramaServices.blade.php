@@ -85,11 +85,11 @@
 <!--fin section nosotros-->
 
 <!--carousel slider services-->
-<section id="carousel_services">
+<section id="carousel_services"  style="background: url(imagenes/m-service/bg-nodo.jpg); background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="owl-carousel owl-theme  nav nav-tabs content-icon"  id="nav-tab" role="tablist" style="background: url(imagenes/m-service/bg-nodo.jpg); background-position: center center;background-repeat: no-repeat;background-attachment: fixed; background-size: cover;">
+                <div class="owl-carousel owl-theme  nav nav-tabs content-icon"  id="nav-tab" role="tablist">
                             <div>
                                 <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
                                     <i class="fab fa-wpforms"></i>
@@ -128,7 +128,11 @@
                             </div>
 
                 </div>
-                         <div class="tab-content" id="nav-tabContent">
+            </div>
+            <div class="row">
+                <div class="col-12">
+
+               <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                                       <h2> BPO Maquila de Nómina</h2>
                                      <p><span>servicio</span></p>  
@@ -168,7 +172,8 @@
                                         Construcción de XML y timbrado de recibos de nómina conforme a los catálogos de información del SAT (versión 3.3 y sucedáneas)  
                                 </div>
                         </div> 
-            </div>
+                    </div>
+                </div>    
         </div>
     </div>
 </section>

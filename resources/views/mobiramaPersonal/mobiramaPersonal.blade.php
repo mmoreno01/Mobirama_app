@@ -50,27 +50,27 @@ align-items: center;">
             <div class="col-12 content-carousel">
                 <h2 class="text-center">Nuestros Servicios</h2>
                 <div class="owl-carousel owl-theme">
-                    <div class="item-icon">
+                    <div id="item01" class="item-icon">
                         <i class="icon-yellow far fa-edit"></i>
                         <P>ANÁLISIS DE PERFIL</P>
                     </div>
-                    <div class="item-icon">
+                    <div id="item02" class="item-icon">
                             <i class="icon-red fas fa-users"></i>
                             <P>RECLUTAMIENTO</P>
                     </div>
-                    <div  class="item-icon">
+                    <div id="item03" class="item-icon">
                             <i class="icon-blue fas fa-user-check"></i>
                             <P>SELECCIÓN</P>
                     </div>
-                    <div class="item-icon">
+                    <div id="item04" class="item-icon">
                             <i class="icon-green fas fa-clock"></i>
                             <P> TIEMPOS DE RESPUESTA</P>
                     </div>
-                    <div class="item-icon"> 
+                    <div id="item05" class="item-icon"> 
                             <i class="fas fa-user-check"></i>
                             <P>Tax Payroll Managment</P>
                     </div>
-                    <div class="item-icon"> 
+                    <div id="item06" class="item-icon"> 
                             <i class="fas fa-user-check"></i>
                             <P>Tax Payroll Managment</P>
                     </div>

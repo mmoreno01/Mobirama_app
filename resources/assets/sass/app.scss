@@ -17,6 +17,8 @@
 @import"footer";
 @import"m-service";
 @import"m-personal";
+@import"filosofia";
+@import"valores";
 // estilo de slider revolution
 @import"style";
 // Bootstrap
@@ -25,5 +27,18 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.parallax{
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+.overlay{
+  background: rgba(34, 34, 34, 0.48);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 

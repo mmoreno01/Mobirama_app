@@ -1,0 +1,58 @@
+
+// ########################### --- estilo de valores ----###########################
+#valores{
+    ul{
+        border-bottom: 1px solid #dee2e6;
+    }
+   li{
+       margin: 10px 20px;
+        img{
+            width: 150px;
+            display: block;
+            margin: 0 auto;            
+        }
+        img:hover{
+            opacity: 1;
+            transform: scale3d(1.1,1.1,1);
+        }
+   } 
+   h1{
+    color:$colorNaranja;
+    font-size: 30px;
+    margin-top: 0px;
+   }
+   h4{
+    color:$colorGrisTitlel;
+    }
+    p{
+        text-align: justify;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+        background-color: transparent;
+    }
+    .tab-content{
+        margin: 50px 0px;
+    }
+}
+
+
+//media queryes
+
+@media(max-width:1200px){
+    #valores {
+        ul{
+            li {
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+@media(max-width:992px){
+    #valores {
+        ul{
+            li {
+                margin:0px;
+            }
+        }
+    }
+}

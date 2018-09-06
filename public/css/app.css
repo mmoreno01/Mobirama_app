@@ -4064,49 +4064,6 @@ h1 {
   padding: 0px 100px;
 }
 
-#valores ul {
-  border-bottom: 1px solid #dee2e6;
-}
-
-#valores li {
-  margin: 10px 20px;
-}
-
-#valores li img {
-  width: 150px;
-  display: block;
-  margin: 0 auto;
-}
-
-#valores li img:hover {
-  opacity: 1;
-  -webkit-transform: scale3d(1.1, 1.1, 1);
-          transform: scale3d(1.1, 1.1, 1);
-}
-
-#valores h1 {
-  color: #1d73b2;
-  font-size: 30px;
-  margin-top: 0px;
-}
-
-#valores h4 {
-  color: #7f8185;
-}
-
-#valores p {
-  text-align: justify;
-}
-
-#valores .nav-pills .nav-link.active,
-#valores .nav-pills .show > .nav-link {
-  background-color: transparent;
-}
-
-#valores .tab-content {
-  margin: 50px 0px;
-}
-
 #content-txt {
   margin: 50px 0px;
 }
@@ -4349,7 +4306,10 @@ footer ul {
 }
 
 #nav-tabContent {
-  padding: 80px 100px;
+  margin: 30px 0px;
+  padding: 50px 100px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
 }
 
 #nav-tabContent h2 {
@@ -4361,7 +4321,14 @@ footer ul {
 
 #nav-tabContent p {
   margin-top: 0px;
-  color: gray;
+  color: #000;
+}
+
+#nav-tabContent p span {
+  font-weight: 600;
+  color: grey;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 #carousel_services .nav-tabs .nav-link.active,
@@ -4391,7 +4358,16 @@ footer ul {
 #carousel_services i {
   color: #fff;
   font-size: 50px;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
   text-align: center;
+}
+
+#carousel_services i:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
 }
 
 #carousel_services .owl-carousel .owl-prev,
@@ -4441,7 +4417,7 @@ footer ul {
 }
 
 #section_ExitCase .owl-carousel {
-  padding: 50px 0px;
+  padding: 20px 0px;
 }
 
 #section_ExitCase .owl-carousel img {
@@ -4490,6 +4466,10 @@ footer ul {
   text-align: center;
   padding: 60px 0px;
   border-radius: 5px;
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  -webkit-transition: all 0.4s cubic-bezier(0.2, 0.85, 0.4, 1.275) !important;
+  transition: all 0.4s cubic-bezier(0.2, 0.85, 0.4, 1.275) !important;
 }
 
 #section-services-personal .item-icon i {
@@ -4498,10 +4478,6 @@ footer ul {
 
 #section-services-personal .item-icon p {
   font-weight: bold;
-}
-
-#section-services-personal .item-icon:hover {
-  background-color: #EABA2D;
 }
 
 #section-services-personal .item-icon:hover i {
@@ -4513,6 +4489,40 @@ footer ul {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
+}
+
+#section-services-personal #item01:hover {
+  -webkit-transition: all 0.4s center(0.2, 0.85, 0.4, 1.275) !important;
+  transition: all 0.4s center(0.2, 0.85, 0.4, 1.275) !important;
+  background-color: #EABA2D;
+}
+
+#section-services-personal #item01:hover P {
+  color: #fff;
+}
+
+#section-services-personal #item02:hover {
+  background-color: #DA2329;
+}
+
+#section-services-personal #item02:hover P {
+  color: #fff;
+}
+
+#section-services-personal #item03:hover {
+  background-color: #5C83EF;
+}
+
+#section-services-personal #item03:hover P {
+  color: #fff;
+}
+
+#section-services-personal #item04:hover {
+  background-color: #67A559;
+}
+
+#section-services-personal #item04:hover P {
+  color: #fff;
 }
 
 #section-services-personal .icon-yellow {
@@ -4529,6 +4539,158 @@ footer ul {
 
 #section-services-personal .icon-green {
   color: #67A559;
+}
+
+#content-mision {
+  padding: 100px 0px;
+}
+
+#content-mision .content-title-mision {
+  padding: 0;
+}
+
+#content-mision .content-title-mision h1 {
+  font-size: 30px;
+  position: relative;
+  padding-bottom: 5px;
+  color: #1d73b2;
+  font-weight: 600;
+}
+
+#content-mision .content-title-mision h1:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #7f8185;
+}
+
+#content-mision p {
+  text-align: justify;
+}
+
+#content-mision img {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0);
+          box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0);
+}
+
+#content-vision {
+  padding: 100px 0px;
+  background-color: #EDEEF0;
+}
+
+#content-vision .content-title-vision {
+  padding: 0;
+}
+
+#content-vision .content-title-vision h1 {
+  font-size: 30px;
+  position: relative;
+  padding-bottom: 5px;
+  color: #1d73b2;
+  font-weight: 600;
+}
+
+#content-vision .content-title-vision h1:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #7f8185;
+}
+
+#content-vision p {
+  text-align: justify;
+}
+
+#content-vision img {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0);
+          box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0);
+}
+
+@media (max-width: 576px) {
+  #content-mision {
+    padding: 50px 0px;
+  }
+
+  #content-mision p {
+    padding: 20px;
+  }
+
+  .content-title-mision {
+    padding: 0px 20px !important;
+  }
+
+  #content-vision {
+    padding: 50px 0px;
+  }
+
+  #content-vision p {
+    padding: 20px;
+  }
+
+  .content-title-vision {
+    padding: 0px 20px !important;
+  }
+}
+
+#valores ul {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#valores li {
+  margin: 10px 20px;
+}
+
+#valores li img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#valores li img:hover {
+  opacity: 1;
+  -webkit-transform: scale3d(1.1, 1.1, 1);
+          transform: scale3d(1.1, 1.1, 1);
+}
+
+#valores h1 {
+  color: #1d73b2;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+#valores h4 {
+  color: #7f8185;
+}
+
+#valores p {
+  text-align: justify;
+}
+
+#valores .nav-pills .nav-link.active,
+#valores .nav-pills .show > .nav-link {
+  background-color: transparent;
+}
+
+#valores .tab-content {
+  margin: 50px 0px;
+}
+
+@media (max-width: 1200px) {
+  #valores ul li {
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  #valores ul li {
+    margin: 0px;
+  }
 }
 
 /*-----------------------------------------------------------------------------
@@ -4575,5 +4737,23 @@ website:   	http://www.themepunch.com
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.parallax {
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.overlay {
+  background: rgba(34, 34, 34, 0.48);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 

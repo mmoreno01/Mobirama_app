@@ -99,7 +99,10 @@
 
 // style carousel services
 #nav-tabContent{
-    padding: 80px 100px;    
+    margin: 30px 0px;
+    padding: 50px 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
     h2{
         color: $azulRey;
         font-size: 20px;
@@ -108,7 +111,13 @@
     }
     p{
         margin-top: 0px;
-        color: gray;
+        color: #000;
+        span{
+            font-weight: 600;
+            color: grey;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
    }
    
 }
@@ -137,7 +146,12 @@
     i{
         color: $white;
         font-size: 50px;
+        transition: ease-in 0.5s;
         text-align: center;
+    }
+    i:hover{
+        transform: translateY(-10px);
+        transition: ease-in 0.3s;
     }
     .owl-carousel .owl-prev, .owl-next {
         position: absolute;
@@ -187,12 +201,11 @@ h2{
         background: rgba(0, 0, 0, 0.7);
     }
     .owl-carousel{
-        padding: 50px 0px;
+        padding: 20px 0px;
         img{
             width: 150px;
             display: block;
             margin: 0 auto;
         }
     }
-   
 }
