@@ -132,14 +132,14 @@
 </footer>
 
 	<!-- <script src="js/jquery.js"></script>   -->
-            <script src="js/ScrollMagic/jquery.min.js"></script>
-
+    <script src="js/ScrollMagic/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uikit.min.js"></script>
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/multi-carousel.js"></script>
     <!-- animate js -->
     <script src="js/wow.min.js"></script>
     <!-- slider revolution -->

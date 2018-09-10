@@ -378,10 +378,10 @@
 <section id="section-services">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-xl-6 content-imgNosotros d-none d-xl-block">
+            <div class="col-sm-12 col-md-12 col-lg-6 content-imgNosotros d-none d-lg-block">
                 <img  src="imagenes/home/acercade.jpg" alt="">
             </div>
-            <div class="col-sm-12 col-md-12 col-xl-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
                         <div id="imgSobre" class="d-inline  content_imgtxt d-flex align-items-center">                           
                              <img  id="projectImg" src="imagenes/home-icons/SobreNosotros.png" alt="">
@@ -407,7 +407,7 @@
                 </div>
             </div>
 			<!-- imagen para md-sm-xs -->
-			<div class="col-sm-12 col-md-12 col-xl-12 content-imgNosotros d-xl-none" style="margin-top: 30px; padding: 0px;">
+			<div class="col-sm-12 col-md-12 col-lg-12 content-imgNosotros d-lg-none" style="margin-top: 30px; padding: 0px;">
                 <img  src="imagenes/home/acercade.jpg" alt="">
             </div>
 			<!-- imagen para md-sm-xs -->
@@ -420,7 +420,7 @@
 <section id="section-services2">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-xl-6">
+            <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
                         <img src="imagenes/home-icons/Comunicados.png" alt="">
@@ -441,10 +441,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-xl-6 content-img">
-                    <div id="content-img">
-                        <img  src="imagenes/home/alianza1.jpg" alt="">
-                    </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 content-img-alianza">
+                <img  src="imagenes/home/alianza1.jpg" alt="">
             </div>
         </div>
     </div>

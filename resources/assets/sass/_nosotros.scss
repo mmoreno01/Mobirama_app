@@ -42,3 +42,54 @@
     height: 300px;
 }
 }
+
+#our-clients{
+    padding: 100px 0px;
+    .content-title-clients{
+        h1{
+            font-size: 30px;
+        position: relative;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: 'Dosis','Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        h1:before{
+            content:'';
+            position: absolute;
+            background-color: $azulRey;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            border-radius: 10px;
+        }
+    }
+    .owl-carousel{
+        padding: 50px 0px;
+        img{
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+            -webkit-transition: 350ms;
+            -moz-transition: 350ms;
+            -o-transition: 350ms;
+            transition: 350ms;
+            opacity: .6;
+            -webkit-filter: grayscale(100%);
+            -moz-filter: grayscale(100%);
+            -ms-filter: grayscale(100%);
+            -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+        img:hover{
+            transition: ease-in-out .5s;
+            opacity:1;
+            filter: grayscale(0%);
+        }
+    }
+    .owl-carousel .owl-prev span, .owl-carousel .owl-next span {
+        font-size: 30px;
+        color: #1d73b2;
+        display: none;
+    }
+    
+}

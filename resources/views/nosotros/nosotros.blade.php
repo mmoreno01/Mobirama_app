@@ -29,10 +29,48 @@
 </section>
 <!--end section-about-us-->
 
-<!---->
+<!--section-slogan-->
 <section id="section-bgimg-about">
     <div class="content-img parallax"  style="background-image: url('imagenes/nosotros/abouts-us.jpg'); background-position: center center; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
         <div class="overlay"></div>
+    </div>
+</section>
+<!-- Siempre te ayudaremos a hacer crecer tu negocio
+Nuestra misión es brindarle la más alta calidad de servicio y solución -->
+
+<!--section-slogan-->
+<section id="our-clients">   
+    <div class="container">
+        <div class="row">
+            <div class="col-12 content-title-clients">
+                <h1>Nuestros Clientes</h1>
+            </div>
+            <div class="owl-carousel  owl-loaded">
+                <div>
+                    <img src="imagenes/nosotros/clients/logo1.jpg" alt="">
+                </div>
+                <div>
+                        <img src="imagenes/nosotros/clients/logo2.jpg" alt="">
+
+                </div>
+                <div>
+                        <img src="imagenes/nosotros/clients/logo1.jpg" alt="">
+
+                </div>
+                <div>
+                        <img src="imagenes/nosotros/clients/logo2.jpg" alt="">
+
+                </div>
+                <div>
+                        <img src="imagenes/nosotros/clients/logo1.jpg" alt="">
+
+                </div>
+                <div>
+                        <img src="imagenes/nosotros/clients/logo2.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 @stop
