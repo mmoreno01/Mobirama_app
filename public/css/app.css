@@ -1241,6 +1241,10 @@
   }
 }
 
+.modal-backdrop {
+  z-index: 9;
+}
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
@@ -4807,6 +4811,34 @@ footer ul {
   #valores ul li {
     margin: 0px;
   }
+}
+
+#panel-acceso .bg-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+}
+
+#panel-acceso .content-card {
+  padding: 200px 0px;
+}
+
+#content-dashboard {
+  padding: 50px 0px;
+}
+
+#content-dashboard .card-header h1 {
+  font-size: 20px;
+}
+
+#content-dashboard .card-header h2 {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+#form_vacante {
+  padding: 50px 0px;
 }
 
 /*-----------------------------------------------------------------------------

@@ -22,7 +22,7 @@ class ServiceSeeder extends Seeder
         ]);
 
         DB::table('services')->insert([
-            'servicio' => 'contabilidad',
+            'servicio' => 'contabilidad'
         ]);
 
     }

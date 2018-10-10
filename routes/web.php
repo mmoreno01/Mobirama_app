@@ -1,15 +1,6 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+use illuminate\http\Request;
 
 // Route::get('/', function () {
 //     return view('.slider.slider');
@@ -17,9 +8,32 @@
 
 Route::get('clientes', 'UserController@index');
 
+// muestra el home
 Route::get('home', function(){
     return view('home');
 });
+
+//ruta comprueba si inicio sesion
+Route::get('/', 'Auth\LoginController@showLoginForm'); 
+   
+//ruta para vista individual
+Route::get('dashboard','DashboardController@index')->name('dashboard');
+
+Route::post('dashboard','FormDasboardController@sendData');
+// Route::post('dashboard', function(Request $request){
+//     return $request->all();
+// });
+
+// Route::get('dashboard','Auth\DashboardController@index');
+
+//rutas de login
+Route::post('login', 'Auth\LoginController@login')->name('login');
+
+//Ruta para cerrar sesion
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+
+
 
 // rutas de  la seccion de servicios
 Route::get('mobiramaServices', function(){
@@ -91,3 +105,26 @@ Route::get('promocion',function(){
     return view('menu.promocion');
 });
 
+
+// Auth::routes();
+
+  // Authentication Routes...
+//   Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+//   Route::post('login', 'Auth\LoginController@login');
+//   Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+  // Registration Routes...
+//   Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+//   Route::post('register', 'Auth\RegisterController@register');
+
+  // Password Reset Routes...
+//   Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+//   Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+//   Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+//   Route::post('password/reset', 'Auth\ResetPasswordController@reset');
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+// Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');

@@ -25,6 +25,7 @@
     <a class="navbar-brand" href="/home">
         <img src="imagenes/home-icons/m-w.png" width="40%" height="30" alt="">
     </a> 
+    <span class="title-menu mr">menu</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -70,15 +71,49 @@
                         </div>
                     </div> --}}
                 </div>
+
                 <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                    <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <a translate="menuServicios" class="nav-item nav-link mr-4" href="#content_services">Servicios</a>
+                    <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
+                    <a class="nav-item nav-link mr-4" href="#content_services">Servicios</a>
                     <a class="nav-item nav-link mr-4" href="#section-services">Nosotros</a>
                     <a class="nav-item nav-link mr-4" href="#section-services2">Alianzas</a>
                     <a class="nav-item nav-link mr-4" href="#content-informes">Noticias</a>
                     {{-- <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a> --}}
                     <a class="nav-item nav-link mr-4" href="#rutas-informacion">Contacto</a> 
+                     <a class="nav-item nav-link mr-4 active" href="/" >Acceder</a> 
                 </div>
+                <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">iniciar seccion</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                </div>
+                            <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                   <div class="col-12">
+                                       <div class="form-group">
+                                           <label for="">Usuario</label>
+                                           <input type="text" class="form-control">
+                                       </div>
+                                       <div class="form-group">
+                                           <label for="">Contraseña</label>
+                                           <input type="password" class="form-control">
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Enviar</button>
+                        </div>
+                            </div>
+                    </div>
+                    </div>
             </div>
                 
         </div>
@@ -94,7 +129,13 @@
     <title>Document</title>
 </head>
 <body>
-
+    {{-- <div class="container">
+        <hr>
+        @if(session()->has('flash'))
+            <div class="alert alert-info">{{ session('flash') }}</div>
+        @endif
+    </div> --}}
+            
 <!-- contenido principa -->
 @yield('content')
 
