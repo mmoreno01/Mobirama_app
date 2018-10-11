@@ -17,8 +17,8 @@ class CreateVacantesTable extends Migration
             $table->increments('id');
             $table->string('titulo');
             $table->string('edad');
-            $table->string('descripcion');
-            $table->string('experiencia');
+            $table->string('descripcion', 1000);
+            $table->string('experiencia', 1000);
             $table->timestamps();
         });
     }
