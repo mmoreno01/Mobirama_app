@@ -19,12 +19,23 @@ Route::get('/', 'Auth\LoginController@showLoginForm');
 //ruta para vista individual
 Route::get('dashboard','DashboardController@index')->name('dashboard');
 
+//ruta para editar una vacante
+Route::get('/dashboard/{id}/editar','DashboardController@edit');
+
+//ruta para actualizar datos de una vacante
+Route::put('/dashboard/{id}/editar','DashboardController@update');
+
+//ruta para eliminar una vacante de la base de datos
+Route::delete('dashboard/{vacante}', 'DashboardController@destroy');
+
+// ruta envia los datos del formulario a la BD
 Route::post('dashboard','FormDasboardController@sendData');
 // Route::post('dashboard', function(Request $request){
 //     return $request->all();
 // });
 
 // Route::get('dashboard','Auth\DashboardController@index');
+
 
 //rutas de login
 Route::post('login', 'Auth\LoginController@login')->name('login');

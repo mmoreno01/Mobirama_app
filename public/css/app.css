@@ -4841,6 +4841,41 @@ footer ul {
   padding: 50px 0px;
 }
 
+#form_vacante .content-buttons {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#form_vacante .card-header i {
+  color: #28a745;
+  font-size: 50px;
+}
+
+#form_vacante .card-header h3 {
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
+
+#table_vacantes {
+  padding: 50px 0px;
+}
+
+#editar_vacante {
+  padding: 50px 0px;
+}
+
+#editar_vacante .card-header i {
+  color: #28a745;
+  font-size: 50px;
+}
+
+#editar_vacante .card-header h3 {
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT

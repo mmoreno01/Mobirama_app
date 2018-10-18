@@ -1,5 +1,6 @@
 #content-dashboard{
     padding: 50px 0px;
+   
     .card-header{
         h1{
             font-size:20px;
@@ -12,6 +13,47 @@
     }
 }
 
+
 #form_vacante{
     padding: 50px 0px;
+    .content-buttons{
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.03);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
+    .card-header{
+        i{
+            color:#28a745;
+            font-size: 50px;
+        }
+    }
+    .card-header{
+        h3{
+            padding: 0px 20px;
+            text-transform: uppercase;
+        }
+    }
 }
+
+#table_vacantes{
+    padding: 50px 0px;
+}
+
+// estilo de la vista editar de dashboard
+#editar_vacante{
+    padding: 50px 0px;
+    .card-header{
+        i{
+            color:#28a745;
+            font-size: 50px;
+        }
+    }
+    .card-header{
+        h3{
+            padding: 0px 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+// fin estilo de la vista editar de dashboard

@@ -23,50 +23,41 @@
 </section>
 {{-- fin seccion de card de identificacion de administrador --}}
 
+
 {{-- seccion de alta de vacante, edicion y eluminacion --}}
 <section id="form_vacante">
     <div class="container">
-        <form method="POST" action="{{ route('dashboard') }}">
+            @if(session('info'))
+                    <div class="alert alert-success" role="alert">
+                        {{session('info')}}
+                    </div>
+             @endif   
+        <form class="" method="POST" action="{{ route('dashboard') }}">
         {{csrf_field()}}
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-6"> 
-                                <h3 class="text-center">Crea una nueva vacante</h3>
-
+                    <div class="card-header text-center">
+                            <i class="fas fa-user-plus d-inline"></i>
+                           <h3 class=" d-inline">Crear vacante</h3>
+                    </div>
                         <div class="form-group">
-                            <label for="">Titulo</label>
-                            <input type="text" class="form-control" name="titulo">
-                        </div>
-                        <div class="form-group">
-                            <label for="">Edad</label>
-                            <input type="text" class="form-control" name="edad">
+                            <label for="titulo">Titulo</label>
+                            <input type="text" class="form-control" name="titulo" required>
                         </div>
                         <div class="form-group">
-                            <label for="">Estudios</label>
-                            <textarea type="text" class="form-control" name="descripcion"></textarea>
+                            <label for="edad">Edad</label>
+                            <input type="text" class="form-control" name="edad" required>
                         </div>
                         <div class="form-group">
-                            <label for="">Experiencia Laboral</label>
-                            <textarea type="text" class="form-control" name="experiencia"></textarea>
+                            <label for="descripcion">Estudios</label>
+                            <textarea type="text" class="form-control" name="descripcion" required></textarea>
                         </div>
-                </div>
-                <div class="col-md-6">
-                    @if(session('info'))
-                        <div class="alert alert-success" role="alert">
-                            {{session('info')}}
+                        <div class="form-group">
+                            <label for="experiencia">Experiencia Laboral</label>
+                            <textarea type="text" class="form-control" name="experiencia" required></textarea>
                         </div>
-                    @endif   
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="form-group">
-                                    <button class="btn btn-success  w-50">Publicar</button>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-warning white  w-50">Editar</button>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-danger   w-50">Eliminar</button>
-                                </div>
-                            </div>
+                         <div class="form-group ">
+                                    <button class="btn btn-success  w-100">Publicar</button>
                         </div>
                 </div>
             </div>
@@ -74,6 +65,7 @@
     </div>
 </section>
 {{-- fin seccion de alta de vacante, edicion y eluminacion --}}
+
 
 {{-- seccion de la tabla de administracion de vacantes --}}
 <section id="table_vacantes">
@@ -85,6 +77,8 @@
                 <th scope="col">Edad</th>
                 <th scope="col">Preparacion</th>
                 <th scope="col">Experiencia</th>
+                <th scope="col">Accion</th>
+
             </thead>
             <tbody>
                 @foreach($vacantes as $vacante)
@@ -93,6 +87,16 @@
                     <td>{{$vacante->edad}}</td>
                     <td>{{$vacante->descripcion}}</td>
                     <td>{{$vacante->experiencia}}</td>
+                    <td> 
+                        <a href="/dashboard/{{$vacante->id}}/editar" class="btn btn-warning btn-xs">Editar</a>
+                    </td>
+                    <td>
+                        <form method="POST" action="dashboard/{{$vacante->id}}">
+                        @method('DELETE')
+                        @csrf
+                            <button class="btn btn-danger btn-xs">Eliminar </button>                     
+                        </form>
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
