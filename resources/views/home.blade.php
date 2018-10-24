@@ -536,7 +536,7 @@
     <div class="container">
         <div class="row">
             <div id="content_ubicacion" class="col-md-4 cont-img">
-				<a href="http:/ubicacion"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
+				<a href="http:/contacto.bolsaTrabajo"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>

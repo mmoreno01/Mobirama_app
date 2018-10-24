@@ -60,27 +60,6 @@
                                     <button class="btn btn-success  w-100">Actualizar</button>
                         </div>
                 </div>
-                {{-- <div class="col-md-6">
-                        @if(session('info'))
-                            <div class="alert alert-success" role="alert">
-                                {{session('info')}}
-                            </div>
-                        @endif   
-                        <div class="card">
-                            <div class="card-header">
-                                <div class="form-group">
-                                    <button class="btn btn-success  w-50">Actualizar</button>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-warning white  w-50" disabled>Editar</button>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn btn-danger   w-50" disabled>Eliminar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
             </form>
         </div>
 </section> 

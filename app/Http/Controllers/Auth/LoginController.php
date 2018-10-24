@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Auth;
 class LoginController extends Controller
 {
-    //comprueva autentificacion
+    //comprueba autentificacion
     public function __construct(){
         
         $this->middleware('guest', ['only' => 'showLoginForm']);
@@ -39,7 +39,6 @@ class LoginController extends Controller
     }
 
     //metodo para cerrie de sesion
-
     public function logout(){
 
         Auth::logout();

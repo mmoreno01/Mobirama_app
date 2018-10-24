@@ -25,17 +25,13 @@ Route::get('/dashboard/{id}/editar','DashboardController@edit');
 //ruta para actualizar datos de una vacante
 Route::put('/dashboard/{id}/editar','DashboardController@update');
 
+Route::get('/dashboard/editar', 'Auth\DashboardController@showViewEdit');
+
 //ruta para eliminar una vacante de la base de datos
 Route::delete('dashboard/{vacante}', 'DashboardController@destroy');
 
 // ruta envia los datos del formulario a la BD
 Route::post('dashboard','FormDasboardController@sendData');
-// Route::post('dashboard', function(Request $request){
-//     return $request->all();
-// });
-
-// Route::get('dashboard','Auth\DashboardController@index');
-
 
 //rutas de login
 Route::post('login', 'Auth\LoginController@login')->name('login');
@@ -86,9 +82,9 @@ Route::get ('contacto', function(){
 Route::get ('cotizacion', function(){
     return view('contacto.cotizacion');
 });
-Route::get ('ubicacion', function(){
-    return view('contacto.ubicacion');
-});
+
+// Route::post('bolsaTrabajo', '');
+Route::get ('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
 
 // rutas de seccion nostros
 Route::get('nosotros',function(){

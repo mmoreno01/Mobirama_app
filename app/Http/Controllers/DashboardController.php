@@ -2,10 +2,14 @@
 
 namespace App\Http\Controllers;
 use App\Models\Vacante;
+use Auth;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
+    // public function __construct(){
+    //     $this->middleware('guest', ['only' => 'showViewEdit']);
+    // }
     //metodo para eliminar un registro de la base de datos
     public function destroy(Vacante $vacante)
     {
