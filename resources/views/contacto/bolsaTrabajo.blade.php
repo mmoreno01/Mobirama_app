@@ -64,8 +64,8 @@
                 </div>
                 <div class="card-body">   
                     <h3 class="" style="font-size: 15px;">Edad  {{ $vacante->edad }}</h3>
-                    <br>
-                    {{ $vacante->descripcion }} <br>
+       
+                    {{ $vacante->descripcion }} 
                     {{ $vacante->experiencia }} 
                 </div>
 

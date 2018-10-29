@@ -14,13 +14,13 @@
 			<ul>
 
 			<!-- SLIDE  -->
-		<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> 
+		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  --}}
 			<!-- MAIN IMAGE -->
 			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			 <div class="tp-caption tp-fade fadeout fullscreenvideo"
+			 {{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -35,15 +35,15 @@
 				data-dottedoverlay="twoxtwo"
 				data-aspectratio="16:9"
 				data-forcerewind="on"
-				style="z-index: 2">
+				style="z-index: 2"> --}}
 
 
-				<video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
+				{{-- <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
 				<source src='videos/intro-1_1mp4.mp4' type='video/mp4' />
 				</video>
 
 			</div> 
-		</li>
+		</li> --}}
 
 				<!-- SLIDE  -->
 				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" > --}}
@@ -257,7 +257,7 @@
 					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption  fade"
+					{{-- <div class="tp-caption  fade"
 						data-x="80"
 						data-y="160"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -270,7 +270,22 @@
 						data-captionhidden="on"
 						style="z-index: 8; 
 						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.7); ">Capital Humano
+					</div> --}}
+
+					<div class="tp-caption  fade"
+						data-x="50"
+						data-y="200"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="2300"
+						data-easing="Back.easeOut"
+						data-endspeed="500"
+						data-endeasing="Power4.easeIn"
+						data-captionhidden="on"
+						style="z-index: 21;">
+						<img src="imagenes/home-icons/Mo-w.png" alt="" data-ww="100%" data-hh="100">
 					</div>
+
 					<!-- LAYER NR.  -->
 					<div class="tp-caption small_light_white  customin customout"
 						data-x="80"
@@ -322,7 +337,7 @@
 
 <!-- Seccion de servicios  slider -->
 <section id="content_services" class="my-5">
-	<div class="container">
+	{{-- <div class="container">
 		<div class="row">
 			<div class="col-md-6">
 			     <a href="/mobiramaServices"><img src="imagenes/home-icons/mservice.png"  alt="Mobirama Service"></a>
@@ -332,7 +347,7 @@
 			    <a href="/mobiramaPersonal"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
 			</div>
 		</div>
-	</div>
+	</div> --}}
         <!--<div  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> 
@@ -423,7 +438,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
-                        <img src="imagenes/home-icons/Comunicados.png" alt="">
+                        <img src="imagenes/home-icons/alianzas.png" alt="">
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf">
                             <p class="title-txt">Alianzas Estrategicas</p>
@@ -432,7 +447,7 @@
                             <a href="http://">Ver más</a>
                     </div>
                     <div id="img-blog" class="d-inline content-blog content_imgtxt d-flex align-items-center">
-                        <img src="imagenes/home-icons/Blog.png" alt="">
+                        <img src="imagenes/home-icons/certificacion.png" alt="">
                     </div>
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
                             <p class="title-txt">Certificaciones</p>
@@ -536,7 +551,7 @@
     <div class="container">
         <div class="row">
             <div id="content_ubicacion" class="col-md-4 cont-img">
-				<a href="http:/contacto.bolsaTrabajo"><img src="imagenes/home-icons/Ubicacion.png" alt=""></a>
+				<a href="http:/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>

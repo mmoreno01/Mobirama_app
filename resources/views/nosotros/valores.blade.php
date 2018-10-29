@@ -111,27 +111,27 @@
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
-                                    <img src="imagenes/valores/Servicio Excelencia.png" alt="">
+                                    <img src="imagenes/valores/se.png" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
-                                    <img src="imagenes/valores/Innovacion.png" alt="">
+                                    <img src="imagenes/valores/inov.png" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">
-                                    <img src="imagenes/valores/Integridad.png" alt="">
+                                    <img src="imagenes/valores/int.png" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-Tequipo-tab" data-toggle="pill" href="#pills-Tequipo" role="tab" aria-controls="pills-Tequipo" aria-selected="false">
-                                    <img src="imagenes/valores/Trabajo en Equipo.png" alt="">
+                                    <img src="imagenes/valores/te.png" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="pills-profesional-tab" data-toggle="pill" href="#pills-profesional" role="tab" aria-controls="pills-profesional" aria-selected="false">
-                                    <img src="imagenes/valores/Profesionalismo.png" alt="">
+                                    <img src="imagenes/valores/prof.png" alt="">
                                 </a>
                             </li>
                         </ul>

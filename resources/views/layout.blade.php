@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous"')}}>
+    <link rel="stylesheet" href="{{asset('https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous')}}">
 
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
@@ -23,7 +23,7 @@
     <!-- menu principal -->
     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
-        <img src="imagenes/home-icons/m-w.png" width="40%" height="30" alt="">
+        <img src="imagenes/home-icons/Mo-w.png" width="40%" height="30" alt="">
     </a> 
     <span class="title-menu mr">menu</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -145,7 +145,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-               <img src="imagenes/home-icons/m-w.png" alt="">
+               <img src="imagenes/home-icons/Mo-w.png" alt="">
                <p>Aviso de privacidad 2018 | Mobirama</p>
                <!-- <div class=""> 
                     <img src="imagenes/home-icons/m-w.png" alt="">
