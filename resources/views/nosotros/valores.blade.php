@@ -2,7 +2,7 @@
 
 @section('content')
 
-<<!--section id="valores">
+<!--section id="valores">
     <div class="container">
         <div class="row">
             <div class=" col-lg-12  col-md-3">

@@ -76,16 +76,19 @@ Route::get('sofom', function () {
 
 // rutas de la seccion de ubicacion
 
-Route::get ('contacto', function(){
-    return view('contacto.contacto');
-});
+// Route::get ('contacto', function(){
+//     return view('contacto.contacto');
+// });
+Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
+
 Route::get ('cotizacion', function(){
     return view('contacto.cotizacion');
 });
 
-// Route::post('bolsaTrabajo', '');
-Route::get ('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
-
+// route::;
+Route::get('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
+// 
+Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
 // rutas de seccion nostros
 Route::get('nosotros',function(){
     return view('nosotros.nosotros');

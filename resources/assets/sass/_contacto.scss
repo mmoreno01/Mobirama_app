@@ -18,7 +18,7 @@ button{
     box-shadow: 0 0 0 0.2px #ff6633;
 }
 .content-info{
-    padding: 40px;
+   
     h5{
         font-size: 30px;
         span{
@@ -38,12 +38,45 @@ button{
             padding: 0px 10px;
         }
     }
+    .icon{
+      
+        span{
+            font-size: 30px;
+            font-weight: 500;
+            color: #00387a;
+            margin-right: 30px;
+        }
+    }
+    .contact-details{
+      
+        h5{
+            font-weight: 300;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        p{
+            margin: 0px;
+            margin-top: 0px;
+        }
+    }
+    .contact-adress{
+        margin-bottom: 10px;
+    }
 }
 
 select{
     option:hover{
         background-color: $colorNaranja;
     }
+ }
+
+ .style-textarea{
+    height: 200px;
+    margin-top: 0px;
+    padding: 15px;
+ }
+ .inp-text{
+     padding: 15px;
  }
 
 }

@@ -9,49 +9,54 @@
 <!-- fin de la imagen principal -->
 <section id="ubicacion">
     <div class="container">
+        @if(session('info'))
+                <div class="alert alert-success" role="alert">
+                    {{session('info')}}
+                </div>
+            @endif   
         <div class="row">
             <div class="col-md-6">
                 <h1>POSTÚLATE AHORA</h1>
-                  <form method="POST" action"">
+                    {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => true ]) !!}
+                    @csrf
                       <div class="row">
                           <div class="col-md-6 col-sm-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="titulo" value="" placeholder="Nombre">
+                                    {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre', 'required'] ) !!}
                                 </div>
                           </div>
                           <div class="col-md-6 col-sm-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="titulo" value="" placeholder="Apellidos"> 
+                                    {!! Form::text('apellido', null, [ 'class' => 'form-control', 'placeholder' => 'Apellidos', 'required'] ) !!}
                                 </div>
                           </div>
                       </div>
                       <div class="row">
                           <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="edad" value="" placeholder="Correo">
+                                    {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'correo', 'required'] ) !!}
                                 </div>
                           </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="experiencia" value="" placeholder="Teléfono"></textarea>
+                                    {!! Form::tel('telefono', null, [  'class' => 'form-control', 'placeholder' => 'Teléfono', 'required'] ) !!}
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="experiencia" value="" placeholder="Edad"></textarea>
+                                    {!! Form::number('edad', null, [ 'class' => 'form-control', 'placeholder' => 'Edad', 'required'] ) !!}
                             </div>
                         </div>
                       </div>
                       <div class="form-group">
-                            <label for="experiencia">Adjunta tu CV</label>
-                            <input type="file" class="form-control" name="experiencia" value=""></textarea>
+                                    {!! Form::file('image') !!}
                       </div>
                     <div class="form-group">
-                            <button class="btn btn-success  w-100">Enviar solicitud</button>
+                                    {!! Form::submit('guardar', ['class' => 'btn btn-primary']) !!}
                     </div>
-            </form>
+            {!! Form::close() !!}
             </div>
             <div class="col-md-6">
             <div class="content-title">
@@ -74,37 +79,7 @@
             <div class="accordion" id="accordionExample">
   
                 {{ $vacantes->appends(['sort' => 'votes'])->links() }}
-             {{-- {{ $vacantes->links() }} --}}
-                    {{-- {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => 'true']) !!}
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="form-group">
-                            {!! form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Nombre']); !!}
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="form-group">
-                            {!! form::text('name', null, ['class' => 'form-control', 'placeholder' => 'Nombre']); !!}
-                        </div>
-                    </div>
-                <div>
-                <div class="row">
-                    <div class="col-md-12">
-                         <div class="form-group">
-                            {!! form::text('mail', null, ['class' => 'form-control', 'placeholder' => 'Correo Electronico']); !!}
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="form-group">
-                            {!! form::text('mail', null, ['class' => 'form-control', 'placeholder' => 'Correo Electronico']); !!}
-                        </div>
-                    </div>
-                </div>
-                    {!! Form::close() !!} --}}
-
-                    
+             {{-- {{ $vacantes->links() }} --}}  
             </div>
         </div>
     </div>

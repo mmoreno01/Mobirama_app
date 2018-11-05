@@ -1,67 +1,65 @@
 @extends('layout')
 
 @section('content')
-<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/2.jpg" uk-img>
+<div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagenes/bg_header/nosotros.jpg" uk-img>
   <h1>Contacto</h1>
 </div>
 <section id="contacto">
         <div class="container">      
                 <div class="row">
-                        <div class="col-md-6  content-form">
-                                <form  method="POST" action=".php/datos_form.php" name="forma">
-               
-                                        <div class="form-group">
-                                                <input class="form-control" type="text" name="name" ng-model="name" placeholder="Nombre" required>
-                                                <!-- <div ng-show="forma.name.$dirty">
-                                                        <p class="help-block text-danger" ng-show="forma.name.$error.required">El campo nombre es obligatorio</p> -->
-                                                <!-- </div> -->
+                        <div class="col-md-8  content-form">
+                                {!! Form::open(['route' => 'contacto.contacto', 'method' => 'POST' ]) !!}
+                                @csrf
+                                <div class="row">
+                                        <div class="col-lg-6">
+                                             <div class="form-group">
+                                                   {!! Form::text('nombre', null, [  'class' => 'form-control inp-text ', 'placeholder' => 'Nombre', 'required'] ) !!}
+                                             </div>
+                                             <div class="form-group">
+                                                   {!! Form::email('email', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Correo electrónico', 'required'] ) !!}
+                                             </div>
+                                             <div class="form-group">
+                                                   {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono', 'required'] ) !!}
+                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                                <input type="email" class="form-control" name="mail" ng-model="mail" placeholder="Correo" required>
-                                                <!-- <div ng-show="forma.mail.$dirty && forma.mail.$invalid"> 
-                                                        <p class="help-block text-danger" ng-show="forma.mail.$error.required">El campo email es obligatorio</p> 
-                                                        <p class="help-block text-danger">email invalido</p> 
-                                                </div> -->
-                                        </div>
-                                        <div class="form-group">
-                                                <input type="text" class="form-control"  name="phone" ng-model="phone"  placeholder="Telefono" required>
-                                                <!-- <div ng-show="forma.phone.$dirty">
-                                                        <p class="help-block text-danger" ng-show="forma.phone.$error.required">El campo telefono es obligatorio</p>
-                                                </div> -->
-                                        </div>
-                                        <div class="form-group">
-                                                <select class="form-control"  name="service" id="" ng-model="service" placeholder="Servicios">
-                                                        <option value="contabilidad">CONTABILIDAD</option>
-                                                        <option value="fiscal">FISCAL</option>
-                                                        <option value="payroll">PAYROLL SERVICE</option>
-                                                        <option value="division financiera">DIVISIÓN FINANCIERA</option>
-                                                        <option value="capital humano">CAPITAL HUMANO</option>
-                                                        <option value="estacion de servicio">ESTACION DE SERVICIO</option>
-                                                        <option value="sofom">SOFOM</option>
-                                                        <option value="maquila de nomina">MAQUILA DE NOMINA</option>
-                                                        <option value="auditoria">AUDITORIA</option>
-                                                </select>
-                                                        <!-- <div ng-show="forma.service.$dirty">
-                                                        <p class="help-block text-danger" ng-show="forma.service.$error.required">El campo servicios es obligatorio</p>
-                                                        </div> -->
-                                        </div>
-                                        <div class="form-group">
-                                                <textarea  class="form-control" name="mensaje" ng-model="mensaje" id="" cols="30" rows="3" placeholder="Escribe un mensaje aquí"></textarea>
-                                        </div>
-                                        
-                                        <div class="form-group">
-                                                <button  type="submit" class="btn btn-primary" ng-disabled="forma.$invalid">Enviar</button>
-                                        </div>
-                                </form>
+                                        <div class="col-lg-6 form-group">
+                                                   {!! Form::textarea('mensaje', null, [ 'class' => 'form-control style-textarea', 'placeholder' => 'Mensaje', 'required'] ) !!}
+                                        </div>    
+                                          <div class="col-lg-12 form-group">
+                                                   {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
+                                        </div>    
+                                </div>  
+                                {!! Form::close() !!}
                         </div> 
-                        <div class="col-md-6">
+                        <div class="col-md-4 d-flex flex-column ass">
                                 <div class="content-info">
-                                        <h5> <span>Join</span> Bussines Global Group</h5>
-                                        <ul>
-                                                <li><i class="fas fa-map-marker-alt"></i>Insurgentes Sur 619, Napoles</li>
-                                                <li><i class="fas fa-phone"></i>555555555555</li>
-                                                <li><i class="far fa-envelope"></i>atencionaclientes@jbglobalgroup.com.mx</li>
-                                        </ul>
+                                <div class="contact-adress d-flex flex-row">
+                                        <div class="icon">
+                                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                        </div>
+                                        <div class="contact-details">
+                                                <h5>Insurgentes Sur 619</h5>
+                                                <p>Col.Nápoles, 03810, CDMX</p>
+                                        </div>
+                                </div>
+                                <div class="contact-adress d-flex flex-row">
+                                        <div class="icon">
+                                                <span><i class="fas fa-phone"></i></span>
+                                        </div>
+                                        <div class="contact-details">
+                                                <h5> 41 96 30 00</h5>
+                                                <p>Lunes a Viernes 9 am a 6 pm</p>
+                                        </div>
+                                </div>
+                                <div class="contact-adress d-flex flex-row">
+                                        <div class="icon">
+                                                <span><i class="fas fa-envelope"></i></span>
+                                        </div>
+                                        <div class="contact-details">
+                                                <h5>atencionaclientes@mobirama.mx</h5>
+                                                <p>Envíanos tu consulta en cualquier momento!</p>
+                                        </div>
+                                </div>
                                 </div>
                         </div>       
                 </div>

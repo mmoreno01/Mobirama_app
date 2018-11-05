@@ -3856,10 +3856,6 @@ h1 {
           box-shadow: 0 0 0 0.2px #ff6633;
 }
 
-#contacto .content-info {
-  padding: 40px;
-}
-
 #contacto .content-info h5 {
   font-size: 30px;
 }
@@ -3884,8 +3880,40 @@ h1 {
   padding: 0px 10px;
 }
 
+#contacto .content-info .icon span {
+  font-size: 30px;
+  font-weight: 500;
+  color: #00387a;
+  margin-right: 30px;
+}
+
+#contacto .content-info .contact-details h5 {
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#contacto .content-info .contact-details p {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+#contacto .content-info .contact-adress {
+  margin-bottom: 10px;
+}
+
 #contacto select option:hover {
   background-color: #1d73b2;
+}
+
+#contacto .style-textarea {
+  height: 200px;
+  margin-top: 0px;
+  padding: 15px;
+}
+
+#contacto .inp-text {
+  padding: 15px;
 }
 
 #content-img img {
