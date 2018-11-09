@@ -5,11 +5,11 @@ h1{
 #contacto{
     margin: 100px 0px;
 .form-control{
-    border: 1px solid $colorNaranja;
+    border: 1px solid $azulMarino;
    
 }
 button{
-    background-color: $colorNaranja;
+    background-color: $azulMarino;
     border-color: transparent;
 }
 
@@ -22,7 +22,7 @@ button{
     h5{
         font-size: 30px;
         span{
-            color: $colorNaranja;
+            color: $azulMarino;
         }
     }
     ul{
@@ -34,7 +34,7 @@ button{
         }
         i{
             font-size: 20px;
-            color: $colorNaranja;
+            color: $azulMarino;
             padding: 0px 10px;
         }
     }
@@ -66,7 +66,7 @@ button{
 
 select{
     option:hover{
-        background-color: $colorNaranja;
+        background-color: $azulMarino;
     }
  }
 
@@ -77,6 +77,9 @@ select{
  }
  .inp-text{
      padding: 15px;
+ }
+ .btn{
+     background-color: $azulMarino;
  }
 
 }

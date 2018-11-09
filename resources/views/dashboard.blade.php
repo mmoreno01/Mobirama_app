@@ -27,11 +27,7 @@
 {{-- seccion de alta de vacante, edicion y eluminacion --}}
 <section id="form_vacante">
     <div class="container">
-            @if(session('info'))
-                    <div class="alert alert-success" role="alert">
-                        {{session('info')}}
-                    </div>
-             @endif   
+            @include('common.success')
         <form class="" method="POST" action="{{ route('dashboard') }}">
         {{csrf_field()}}
             <div class="row d-flex justify-content-center">

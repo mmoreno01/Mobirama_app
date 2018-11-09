@@ -8,25 +8,26 @@
         <div class="container">      
                 <div class="row">
                         <div class="col-md-8  content-form">
+                                 @include('common.success')
                                 {!! Form::open(['route' => 'contacto.contacto', 'method' => 'POST' ]) !!}
                                 @csrf
                                 <div class="row">
                                         <div class="col-lg-6">
                                              <div class="form-group">
-                                                   {!! Form::text('nombre', null, [  'class' => 'form-control inp-text ', 'placeholder' => 'Nombre', 'required'] ) !!}
+                                                {!! Form::text('nombre', null, [  'class' => 'form-control inp-text ', 'placeholder' => 'Nombre', 'required'] ) !!}
                                              </div>
                                              <div class="form-group">
-                                                   {!! Form::email('email', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Correo electrónico', 'required'] ) !!}
+                                                {!! Form::email('email', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Correo electrónico', 'required'] ) !!}
                                              </div>
                                              <div class="form-group">
-                                                   {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono', 'required'] ) !!}
+                                                {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono', 'required'] ) !!}
                                              </div>
                                         </div>
                                         <div class="col-lg-6 form-group">
-                                                   {!! Form::textarea('mensaje', null, [ 'class' => 'form-control style-textarea', 'placeholder' => 'Mensaje', 'required'] ) !!}
+                                                {!! Form::textarea('mensaje', null, [ 'class' => 'form-control style-textarea', 'placeholder' => 'Mensaje', 'required'] ) !!}
                                         </div>    
                                           <div class="col-lg-12 form-group">
-                                                   {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
+                                                {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
                                         </div>    
                                 </div>  
                                 {!! Form::close() !!}

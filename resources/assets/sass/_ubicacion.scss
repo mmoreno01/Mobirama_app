@@ -2,27 +2,35 @@ h1{
     font-size: 50px;
     font-weight: bold;
 }
-#ubicacion{
+#Form-contact{
     margin: 100px 0px;
     
     h5{
         font-size: 30px;
         span{
-            color: $colorNaranja;
+            color: $azulMarino;
         }
     }
     ul{
         list-style: none;
         padding: 0px;
-        li{
-            margin: 20px;
-            font-size: 20px;
-        }
         i{
             font-size: 20px;
-            color: $colorNaranja;
+            color: $azulMarino;
             padding: 0px 10px;
         }
     }
+    .form-postulation{
+        h1{
+            font-size: 30px;
+        }
+            .form-control {
+                border: 1px solid #1d73b2;
+            }
+        .btn-primary{
+            background-color: #1d73b2;
+        }   
+    }
+   
    
 }

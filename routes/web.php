@@ -75,19 +75,16 @@ Route::get('sofom', function () {
 });
 
 // rutas de la seccion de ubicacion
-
-// Route::get ('contacto', function(){
-//     return view('contacto.contacto');
-// });
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
+Route::post('contacto', 'contactoController@store');
 
 Route::get ('cotizacion', function(){
     return view('contacto.cotizacion');
 });
 
-// route::;
+// muestra la bolsa de trabajo
 Route::get('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
-// 
+// rota  muestra el formulario de postulacion
 Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
 // rutas de seccion nostros
 Route::get('nosotros',function(){
@@ -99,6 +96,16 @@ Route::get('valores',function(){
 Route::get('filosofia',function(){
     return view('nosotros.filosofia');
 });
+
+// rutas de alianzas
+Route::get('alianzas',function(){
+    return view('alianzas.alianzas');
+});
+
+Route::get('certificaciones',function(){
+    return view('alianzas.certificaciones');
+});
+
 
 // rutas de menu
 

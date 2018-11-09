@@ -7,54 +7,61 @@
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Integrate a Nuestro Equipo</h1>
 </div>
 <!-- fin de la imagen principal -->
-<section id="ubicacion">
+
+<section id="Form-contact">
     <div class="container">
-        @if(session('info'))
-                <div class="alert alert-success" role="alert">
-                    {{session('info')}}
-                </div>
-            @endif   
+           @if($errors->any())
+           <div class="alert alert-danger">
+               <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+               </ul>
+           </div>
+           @endif
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 form-postulation">
+             @include('common.success')
                 <h1>POSTÚLATE AHORA</h1>
                     {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => true ]) !!}
                     @csrf
                       <div class="row">
-                          <div class="col-md-6 col-sm-12">
+                          <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
-                                    {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre', 'required'] ) !!}
+                                    {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre'] ) !!}
                                 </div>
                           </div>
-                          <div class="col-md-6 col-sm-12">
+                          <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
-                                    {!! Form::text('apellido', null, [ 'class' => 'form-control', 'placeholder' => 'Apellidos', 'required'] ) !!}
-                                </div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-12">
-                                <div class="form-group">
-                                    {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'correo', 'required'] ) !!}
+                                    {!! Form::text('apellido', null, [ 'class' => 'form-control', 'placeholder' => 'Apellidos'] ) !!}
                                 </div>
                           </div>
                       </div>
                       <div class="row">
-                        <div class="col-md-6 col-sm-12">
+                          <div class="col-md-12 p-3">
+                                <div class="form-group">
+                                    {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'correo'] ) !!}
+                                </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 col-sm-12 p-3">
                             <div class="form-group">
-                                    {!! Form::tel('telefono', null, [  'class' => 'form-control', 'placeholder' => 'Teléfono', 'required'] ) !!}
+                                    {!! Form::tel('telefono', null, [  'class' => 'form-control', 'placeholder' => 'Teléfono'] ) !!}
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-12 p-3">
                             <div class="form-group">
-                                    {!! Form::number('edad', null, [ 'class' => 'form-control', 'placeholder' => 'Edad', 'required'] ) !!}
+                                    {!! Form::number('edad', null, [ 'class' => 'form-control', 'placeholder' => 'Edad'] ) !!}
                             </div>
                         </div>
                       </div>
                       <div class="form-group">
-                                    {!! Form::file('image') !!}
+                                {!! Form::label('*Añadir CV.', null, ['class' => 'control-label form-group'] )!!}
+                                {!! Form::file('image') !!}
                       </div>
                     <div class="form-group">
-                                    {!! Form::submit('guardar', ['class' => 'btn btn-primary']) !!}
+                                    {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
                     </div>
             {!! Form::close() !!}
             </div>
@@ -68,18 +75,20 @@
                     <h1 class="card-title" style="font-size: 20px;">  {{ $vacante->titulo}} </h1>
                 </div>
                 <div class="card-body">   
-                    <h3 class="" style="font-size: 15px;">Edad  {{ $vacante->edad }}</h3>
-       
-                    {{ $vacante->descripcion }} 
-                    {{ $vacante->experiencia }} 
+                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">Edad </h3>
+                            <p style="margin: 10px 0px;"> {{ $vacante->edad }}</p>
+                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">descripcion </h3>
+                            <p style="margin: 10px 0px;"> {{ $vacante->descripcion }} </p>
+                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">experiencia </h3>
+                            <p style="margin: 10px 0px;"> {{ $vacante->experiencia }} </p>
                 </div>
 
 
             @endforeach
             <div class="accordion" id="accordionExample">
   
-                {{ $vacantes->appends(['sort' => 'votes'])->links() }}
-             {{-- {{ $vacantes->links() }} --}}  
+                {{-- {{ $vacantes->appends(['sort' => 'votes'])->links() }} --}}
+             {{ $vacantes->links() }}  
             </div>
         </div>
     </div>

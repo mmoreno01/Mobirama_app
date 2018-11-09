@@ -444,7 +444,7 @@
                             <p class="title-txt">Alianzas Estrategicas</p>
                             <p>Nuestras alianzas nos permiten desarrollar proyectos con la seguridad de optimizar los recursos de nuestros clientes,
 							 ofreciendo una excelente calidad de servicios</p> 
-                            <a href="http://">Ver más</a>
+                            <a href="/alianzas">Ver más</a>
                     </div>
                     <div id="img-blog" class="d-inline content-blog content_imgtxt d-flex align-items-center">
                         <img src="imagenes/home-icons/certificacion.png" alt="">
@@ -452,7 +452,7 @@
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
                             <p class="title-txt">Certificaciones</p>
                             <p>Somos una empresa consciente de nuestra responsabilidad y compromisos asumidos con nuestros clientes, colaboradores y México.</p> 
-                            <a href="http://">Ver más</a>
+                            <a href="/certificaciones">Ver más</a>
                     </div>
                 </div>
             </div>

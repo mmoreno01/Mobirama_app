@@ -26,11 +26,7 @@
 {{-- seccion de formulario de edicion de la vacante --}}
 <section id="editar_vacante">
     <div class="container">
-        @if(session('info'))
-            <div class="alert alert-success" role="alert">
-                {{session('info')}}
-            </div>
-        @endif   
+            @include('common.succes')
         <form method="POST" action="/dashboard/{{$vacantes->id}}/editar">
         @method('PUT')
        {{csrf_field()}}

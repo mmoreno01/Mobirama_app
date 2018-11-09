@@ -13,7 +13,7 @@
         margin: 0 auto;
         text-align: center;
         font-size: 25px;
-        color: $colorNaranja;
+        color: $azulMarino;
     }
 
     p{
@@ -25,7 +25,7 @@
     }
 
     p:hover{
-        color: $colorNaranja;
+        color: $azulMarino;
     }
    
 }
@@ -38,7 +38,7 @@
   transform: translateY(-50%);
   span{
       font-size: 30px;
-      color: $colorNaranja;
+      color: $azulMarino;
   }
   button.focus{
       box-shadow: none;
@@ -114,7 +114,7 @@
             margin-top: 0px;
         }
         a{
-            color:$colorNaranja;
+            color:$azulMarino;
         }
         p{
             margin-top: 0px;
@@ -137,7 +137,7 @@
         box-sizing: border-box;
 
         .fas{
-            color: $colorNaranja;
+            color: $azulMarino;
             font-size: 20px;
             margin: 10px 0px;
         }
@@ -146,7 +146,7 @@
             margin-top:0px;
         }
         a{
-            color:$colorNaranja;
+            color:$azulMarino;
         }
         p{
             margin-top:0px;
@@ -159,7 +159,7 @@
         box-sizing: border-box;
 
         .fas{
-            color: $colorNaranja;
+            color: $azulMarino;
             font-size: 20px;
             margin: 10px 0px;
         }
@@ -168,7 +168,7 @@
             margin-top:0px;
         }
         a{
-            color:$colorNaranja;
+            color:$azulMarino;
         }
         p{
             margin-top:0px;
@@ -194,7 +194,7 @@
 
 
         .fab{
-            color:$colorNaranja;
+            color:$azulMarino;
             font-size: 20px;
             margin: 10px 0px;
         }       
@@ -210,12 +210,12 @@
             margin-top: 0px;
         }
         .fab{
-            color: $colorNaranja;
+            color: $azulMarino;
             font-size: 20px;
             margin: 10px 0px;
         }
         a{
-            color:$colorNaranja;
+            color:$azulMarino;
         }
         p{
             margin-top: 0px;
@@ -304,7 +304,7 @@
         display: flex; 
        }
        .details-btn {
-        background-color: $colorNaranja;
+        background-color: $azulMarino;
         width: 40px;
         height: 40px;
         border-radius: 20px;
@@ -334,7 +334,7 @@
                 color: #fff;
                 font-weight: 600;
             }
-            background: $colorNaranja;
+            background: $azulMarino;
             box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
         }
     }   
@@ -386,7 +386,7 @@
         }
         p{
             text-align: center;
-            color: $colorNaranja;
+            color: $azulMarino;
         }
     }
     
