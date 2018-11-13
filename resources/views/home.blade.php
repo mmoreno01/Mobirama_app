@@ -28,7 +28,7 @@
 			<ul>
 
 			<!-- SLIDE  -->
-			<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  
+			<li data-transition="fade" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  
 			<!-- MAIN IMAGE -->
  			<!-- LAYERS -->
 
@@ -52,7 +52,7 @@
 
 
 				<video autoplay="true" muted class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
-					<source src='videos/1.3 mp.mp4' type='video/mp4' />
+					<source src='videos/Mobirama + BG mp.mp4' type='video/mp4' />
 				</video>
 
 			</div> 
@@ -265,7 +265,7 @@
 		{{-- </li> --}}
 
 				<!-- SLIDE 2 -->
-				<li data-transition="boxfade" data-slotamount="7" data-masterspeed="1000" >
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
 					<!-- MAIN IMAGE -->
 					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
@@ -472,12 +472,16 @@
 
 <!-- Seccion de prensa -->
 <section id="content-informes">
-    <h2 class="text-center">News lettler</h2>
-    <div class="container">
-		<div>
-			  <img class="w-100" src="imagenes/home/bg-chumano.jpg" >
+    {{-- <h2 class="text-center">News lettler</h2> --}}
+    {{-- <div class="container"> --}}
+		<div class="content_newsletter parallax d-flex justify-content-center"  style="background-image: url('imagenes/home/newslett1.jpg'); background-position: center-top; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
+			<div class="overlay"></div>
+				<div class="title-newsletter ">
+					<h2>Newsletter</h2>
+				</div>
+			<a class="btn btn-primary " href="/letter">Ver mas</a>
 		</div>
-		<button class="btn"><a href="/letter">Ver mas</a>
+		
         {{-- <div class="row"> --}}
 
             {{-- <div class="col-sm-12 col-md-6 cont-info">
@@ -553,7 +557,7 @@
               
             {{-- </div> --}}
         {{-- </div> --}}
-    </div>
+    {{-- </div> --}}
 </section>
 <!-- Fin de seccion de prensa -->
 
