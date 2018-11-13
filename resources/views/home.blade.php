@@ -2,6 +2,20 @@
 
 @section('content')
 
+{{-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+	<video width="320" height="240"  autoplay>
+		<source src="videos/1.3 mp.mp4" type="video/mp4" >
+	</video>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imagenes/home/bg-chumano.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imagenes/home/nosoo.jpg" alt="Second slide">
+    </div>    
+  </div>
+</div> --}}
+
 <!-- START REVOLUTION SLIDER 5.0 -->
 
  <!--
@@ -14,13 +28,12 @@
 			<ul>
 
 			<!-- SLIDE  -->
-		{{-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  --}}
+			<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  
 			<!-- MAIN IMAGE -->
-			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
-			<!-- LAYERS -->
+ 			<!-- LAYERS -->
 
 			<!-- LAYER NR. 1 -->
-			 {{-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
+			 <div class="tp-caption tp-fade fadeout fullscreenvideo"
 				data-x="0"
 				data-y="0"
 				data-speed="1000"
@@ -35,15 +48,15 @@
 				data-dottedoverlay="twoxtwo"
 				data-aspectratio="16:9"
 				data-forcerewind="on"
-				style="z-index: 2"> --}}
+				style="z-index: 2"> 
 
 
-				{{-- <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
-				<source src='videos/intro-1_1mp4.mp4' type='video/mp4' />
+				<video autoplay="true" muted class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
+					<source src='videos/1.3 mp.mp4' type='video/mp4' />
 				</video>
 
 			</div> 
-		</li> --}}
+		</li> 
 
 				<!-- SLIDE  -->
 				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" > --}}
@@ -181,7 +194,7 @@
 						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
 						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
 					</div> --}}
-				</li>
+				{{-- </li> --}}
 	<!-- SLIDE  -->
 		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
 			<!-- MAIN IMAGE -->
@@ -213,11 +226,11 @@
 				</video>
 
 			</div> -->
-		</li>
+		{{-- </li> --}}
 
 
 		
-				</li>
+				{{-- </li> --}}
 		<!-- SLIDE  -->
 		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
 			<!-- MAIN IMAGE -->
@@ -249,7 +262,7 @@
 				</video>
 
 			</div> -->
-		</li>
+		{{-- </li> --}}
 
 				<!-- SLIDE 2 -->
 				<li data-transition="boxfade" data-slotamount="7" data-masterspeed="1000" >
@@ -257,7 +270,7 @@
 					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
-					{{-- <div class="tp-caption  fade"
+					<div class="tp-caption  fade"
 						data-x="80"
 						data-y="160"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -270,9 +283,9 @@
 						data-captionhidden="on"
 						style="z-index: 8; 
 						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.7); ">Capital Humano
-					</div> --}}
+					</div>
 
-					<div class="tp-caption  fade"
+					{{-- <div class="tp-caption  fade"
 						data-x="50"
 						data-y="200"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
@@ -284,7 +297,7 @@
 						data-captionhidden="on"
 						style="z-index: 21;">
 						<img src="imagenes/home-icons/Mo-w.png" alt="" data-ww="100%" data-hh="100">
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR.  -->
 					<div class="tp-caption small_light_white  customin customout"
@@ -335,58 +348,7 @@
 	</div>
 <!-- fin de slider revolution -->
 
-<!-- Seccion de servicios  slider -->
-<section id="content_services" class="my-5">
-	{{-- <div class="container">
-		<div class="row">
-			<div class="col-md-6">
-			     <a href="/mobiramaServices"><img src="imagenes/home-icons/mservice.png"  alt="Mobirama Service"></a>
 
-			</div>
-			<div class="col-md-6">
-			    <a href="/mobiramaPersonal"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
-			</div>
-		</div>
-	</div> --}}
-        <!--<div  class=" container owl-carousel owl-theme owl-loaded">
-            <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
-               <a href="http:/contabilidad"> <i class="fab fa-adn"></i>  </a> 
-               <img src="imagenes/home-icons/Contabilidad-Out.png" alt="">
-			   <a href="http:/contabilidad"> <P>Contabilidad Outsorcing</P></a>
-        </div>
-        <div id="icon02" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.1s">
-               <!-- <a href="/fiscal"><i class="fab fa-adn"></i></a>    
-                <img src="imagenes/home-icons/Fiscal.png" alt="">
-                <a href="/fiscal"><P>Fiscal</P></a>
-        </div>
-             <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
-                    <!-- <a href="/payroll"><i class="fab fa-adn"></i></a>  
-                <img src="imagenes/home-icons/Payroll.png" alt="">
-                <a href="/payroll"><P>Payroll Service</P></a>
-            </div>
-             <div id="icon04" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.3s"> 
-                    <!-- <a href="/division"><i class="fab fa-adn"></i></a>    
-                <img src="imagenes/home-icons/Div-Financiera.png" alt="">
-                <a href="/division"><P>División Financiera</P></a>
-            </div>
-             <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
-                    <!-- <a href="/capitalHumano"><i class="fab fa-adn"></i></a>    
-                <img src="imagenes/home-icons/CapitalHumano.png" alt="">
-				<a href="/capitalHumano"><P>Capital Humano</P></a> 
-            </div>
-             <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                    <!-- <a href="/bancaInversion"><i class="fab fa-adn"></i></a>    
-                <img src="imagenes/home-icons/Fiscal.png" alt="">
-                <a href="/bancaInversion"><P>Banca de Inversión</P></a> 
-            </div>
-             <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                    <!-- <a href="/estacionServicio"><i class="fab fa-adn"></i></a>    
-                <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
-                <a href="/estacionServicio"><P>Estaciones de Servicio</P></a>
-            </div>	
-        </div>-->
-</section>
-<!-- fin de la seccion de servicios -->
 
 
 <!--Seccion Nosotros -->
@@ -398,13 +360,16 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
-                        <div id="imgSobre" class="d-inline  content_imgtxt d-flex align-items-center">                           
-                             <img  id="projectImg" src="imagenes/home-icons/SobreNosotros.png" alt="">
-                        </div>
-                        <div id="project01" class="d-inline  content_textinf"> 
+                        <div id="imgSobre" class="d-inline  content_textinf ">                           
                             <p class="title-txt">Nosotros</p>
                             <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes. </p>
                             <a href="/nosotros">Ver más</a> 
+                        </div>
+                        <div id="project01" class="d-inline  content_textinf"> 
+                            <p class="title-txt">Ventejas Competitivas</p>
+                            {{-- <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. </p> --}}
+							<img src="imagenes/home-icons/Ventajas.gif">
+                            <a href="/">Ver más</a> 
                         </div>
                         
                         <div id="project02" class="d-inline cont-textInf1">
@@ -430,6 +395,47 @@
     </div>
 </section>
 <!--Fin de seccion nosotros -->
+
+<!-- Seccion de servicios  slider -->
+<section id="content_services" class="my-5">
+	<div class="contitle-services">
+		<h2>Nuestras Soluciones</h2>
+	</div>
+	{{-- <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+			     <a href="/mobiramaServices"><img src="imagenes/home-icons/mservice.png"  alt="Mobirama Service"></a>
+
+			</div>
+			<div class="col-md-6">
+			    <a href="/mobiramaPersonal"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
+			</div>
+		</div>
+	</div> --}}
+         <div  class=" container owl-carousel owl-theme owl-loaded">
+            <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
+               <img src="imagenes/home-icons/Contabilidad-Out.png" alt="">
+			   <a href="http:/contabilidad"> <P> Payroll Service</P></a>
+        </div>
+             <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
+                <img src="imagenes/home-icons/Payroll.png" alt="">
+                <a href="/payroll"><P>Payroll Service Capital Humano</P></a>
+            </div>
+             <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
+                <img src="imagenes/home-icons/CapitalHumano.png" alt="">
+				<a href="/capitalHumano"><P>Juridico</P></a> 
+            </div>
+             <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
+                <img src="imagenes/home-icons/Fiscal.png" alt="">
+                <a href="/bancaInversion"><P>Maquila de Seguridad Social</P></a> 
+            </div>
+             <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
+                <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
+                <a href="/estacionServicio"><P>Contabilidad Outsorcing</P></a>
+            </div>	
+        </div>
+</section>
+<!-- fin de la seccion de servicios -->
 
 <!-- Seccion aliazas y certificaciones -->
 <section id="section-services2">
@@ -466,10 +472,15 @@
 
 <!-- Seccion de prensa -->
 <section id="content-informes">
-    <h2 class="text-center">Noticias</h2>
+    <h2 class="text-center">News lettler</h2>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 cont-info">
+		<div>
+			  <img class="w-100" src="imagenes/home/bg-chumano.jpg" >
+		</div>
+		<button class="btn"><a href="/letter">Ver mas</a>
+        {{-- <div class="row"> --}}
+
+            {{-- <div class="col-sm-12 col-md-6 cont-info">
 				<div class="uk-text-center">
 					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 						<div class="overlay overlay-bg"></div>
@@ -480,9 +491,9 @@
 						</div>
 					</div>
 				</div>
-            </div>
+            </div> --}}
 			<!-- imagen para disposivilos lg, xl-->
-            <div class="col-sm-12 col-md-6 cont-info d-none d-md-block">
+            {{-- <div class="col-sm-12 col-md-6 cont-info d-none d-md-block">
 				<div  class="uk-text-center">
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 							<div class="overlay overlay-bg"></div>
@@ -492,11 +503,11 @@
 							</div>
 						</div>
 				</div>
-            </div>
+            </div> --}}
 				<!-- fin imagen para disposivilos lg, xl-->
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-6 cont-info">
+        {{-- </div> --}}
+        {{-- <div class="row"> --}}
+            {{-- <div class="col-sm-12 col-md-6 cont-info">
              
                     <div class=" cont-texto">
                         <p class="title-txt">Noticias </p>
@@ -504,16 +515,16 @@
                     </div>
                     <div class=" cont-icon">
 					<button class="btn btn-noticia">Ver más</button>
-						<!--	<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 								<span class="details">Ver más</span>
 								<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-							</a>-->							
+							</a>						
                     </div>
                 
-            </div>
+            </div> --}}
 
 			<!-- post para  dispostivos medianos -->
-			<div class="col-sm-12 col-md-6 cont-info d-md-none">
+			{{-- <div class="col-sm-12 col-md-6 cont-info d-md-none">
 				<div  class="uk-text-center">
 						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
 							<div class="overlay overlay-bg"></div>
@@ -523,10 +534,10 @@
 							</div>
 						</div>
 				</div>
-            </div>
+            </div> --}}
 			<!-- fin post para  dispostivos medianos -->
 
-            <div class="col-sm-12 col-md-6 cont-info">
+            {{-- <div class="col-sm-12 col-md-6 cont-info">
               
                     <div class=" cont-texto">
                         <p class="title-txt">BLog</p>
@@ -534,14 +545,14 @@
                     </div>
                     <div class=" cont-icon">
 						<button class="btn btn-noticia">Ver más</button>
-				<!--		<a href="#" class="details-btn d-flex justify-content-center align-items-center">
+						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
 							<span class="details">Ver más</span>
 							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-						</a>-->
-                    </div>
+						</a>
+                    </div> --}}
               
-            </div>
-        </div>
+            {{-- </div> --}}
+        {{-- </div> --}}
     </div>
 </section>
 <!-- Fin de seccion de prensa -->
@@ -550,21 +561,21 @@
 <section id="rutas-informacion">
     <div class="container">
         <div class="row">
-            <div id="content_ubicacion" class="col-md-4 cont-img">
+            <div id="content_ubicacion" class="col-md-6 cont-img">
 				<a href="http:/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>
-            <div id="ruta-contacto" class="col-md-4 cont-img">
+            <div id="ruta-contacto" class="col-md-6 cont-img">
 				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
                 <h3>Contacto</h3>
                 <p>Contacte a los expertos </p>
             </div>
-            <div id="ruta-cotizacion" class="col-md-4 cont-img">
+            {{-- <div id="ruta-cotizacion" class="col-md-4 cont-img">
 				<a href="http:/cotizacion"><img src="imagenes/home-icons/Cotizacion.png" alt=""></a>
                 <h3>Cotizacion</h3>
                 <p>Cotice nuestros servicios</p>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>

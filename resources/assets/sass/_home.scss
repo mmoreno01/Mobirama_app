@@ -3,7 +3,7 @@
 #content_services{
     padding: 70px 0px;
     img{
-        width: 80%;
+        width: 50%;
         display: block;
         margin: 0 auto;
     }
@@ -27,8 +27,18 @@
     p:hover{
         color: $azulMarino;
     }
-   
+    .contitle-services{
+        h2{
+            padding: 30px 0px;
+            margin: 0px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            font-weight: 600;
+        }
+    }
 }
+
 .owl-carousel{
     position: relative;
 .owl-prev,
@@ -103,7 +113,7 @@
 
     } 
     .content_textinf{
-        width: 60%;
+        width: 50%;
         margin-bottom: 10px;
         padding: 20px;
         background-color: $content-txt;
@@ -249,6 +259,7 @@
         color: #000;
         text-transform: uppercase;
         letter-spacing: 10px;
+        font-weight: 600;
     }
     .img-info{
        

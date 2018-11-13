@@ -74,13 +74,18 @@ Route::get('sofom', function () {
     return view('servicios.sofom');
 });
 
+//News letter
+Route::get('letter', function () {
+    return view('letter');
+});
+
 // rutas de la seccion de ubicacion
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
 Route::post('contacto', 'contactoController@store');
 
-Route::get ('cotizacion', function(){
-    return view('contacto.cotizacion');
-});
+// Route::get ('cotizacion', function(){
+//     return view('contacto.cotizacion');
+// });
 
 // muestra la bolsa de trabajo
 Route::get('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
