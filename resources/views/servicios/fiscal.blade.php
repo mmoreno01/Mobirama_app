@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/fiscal/fiscal-img.jpg');">
 
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Fiscal</h1>
 
@@ -28,19 +28,19 @@
             </div>
                 <div class="row serv-iconos">
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/asesoriafiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
+                      <img src="imagenes/fiscal/consultor-fiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal.</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/defensa.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                      <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
                     <p>Derecho Corporativo.</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/declaracionestatal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
+                      <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
                     <p>Litigio Fiscal.</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                    <img src="imagenes/fiscal/declaracionanual.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
+                    <img src="imagenes/fiscal/constit.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
                     <p>Control de Constitucionalidad.</p>            
                   </div>
             </div>

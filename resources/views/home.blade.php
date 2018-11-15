@@ -2,354 +2,9 @@
 
 @section('content')
 
-{{-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-	<video width="320" height="240"  autoplay>
-		<source src="videos/1.3 mp.mp4" type="video/mp4" >
-	</video>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="imagenes/home/bg-chumano.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="imagenes/home/nosoo.jpg" alt="Second slide">
-    </div>    
-  </div>
-</div> --}}
-
-<!-- START REVOLUTION SLIDER 5.0 -->
-
- <!--
-	#################################
-		- THEMEPUNCH BANNER -
-	#################################
-	-->
-	<div class="tp-banner-container wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-		<div class="tp-banner" >
-			<ul>
-
-			<!-- SLIDE  -->
-			<li data-transition="fade" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7">  
-			<!-- MAIN IMAGE -->
- 			<!-- LAYERS -->
-
-			<!-- LAYER NR. 1 -->
-			 <div class="tp-caption tp-fade fadeout fullscreenvideo"
-				data-x="0"
-				data-y="0"
-				data-speed="1000"
-				data-start="1100"
-				data-easing="Power4.easeOut"
-				data-endspeed="1500"
-				data-endeasing="Power4.easeIn"
-				data-autoplay="true"
-				data-autoplayonlyfirsttime="false"
-				data-nextslideatend="true"
-				data-forceCover="1"
-				data-dottedoverlay="twoxtwo"
-				data-aspectratio="16:9"
-				data-forcerewind="on"
-				style="z-index: 2"> 
-
-
-				<video autoplay="true" muted class="video-js vjs-default-skin" preload="none" width="100%" height="100%"poster='' data-setup="{}">
-					<source src='videos/Mobirama + BG mp.mp4' type='video/mp4' />
-				</video>
-
-			</div> 
-		</li> 
-
-				<!-- SLIDE  -->
-				{{-- <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1500" > --}}
-					<!-- MAIN IMAGE 
-					<img src="imagenes/home/black1.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-                    <!-- LAYERS -->
-
-					<!-- LAYER NR. 4 -->
-					{{-- <div class="tp-caption large_text skewfromleftshort customout"
-						data-x="80"
-						data-y="150"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="900"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 5">
-						<span style="font-size: 60px; text-transform: uppercase; letter-spacing: 15px; font-family: Montserrat; font-weight: 100; text-shadow: 5px 5px 5px rgba(0,0,0,.7); ">Mobirama</span>
-					</div> --}}
-
-					<!-- LAYER NR. texto iso -->
-					{{-- <div class="tp-caption fade"
-						data-x="710"
-						data-y="90"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="300"
-						data-start="1600"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">
-						<span style="font-size: 15px;  color: #fff;">Norma Internacional ISO 9001</span>
-					</div> --}}
-
-					<!-- LAYER NR. texto GPTW -->
-					{{-- <div class="tp-caption fade"
-						data-x="710"
-						data-y="230"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="300"
-						data-start="1900"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">
-						<span style="font-size: 15px;  color: #fff;">Con la confianza que nos distingue</span>
-					</div> --}}
-
-					<!-- LAYER NR. texto GPTW -->
-					{{-- <div class="tp-caption fade"
-						data-x="710"
-						data-y="380"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="300"
-						data-start="2300"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 7">
-						<span style="font-size: 15px;  color: #fff;">Fuimos elegidos como una de las 50<br> mejores empresas deconsultoría<br> en México</span>
-					</div> --}}
-
-					<!-- LAYER NR. 7 -->
-					{{-- <div class="tp-caption small_light_white  customin customout"
-						data-x="80"
-						data-y="200"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1300"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8; font-size: 20px; letter-spacing: 3px; ">Construyendo redes que conecten<br> el mundo de los negocios
-					</div> --}}
-
-					
-					<!-- LAYER NR. 9 -->
-					{{-- <div class="tp-caption large_bold_darkblue skewfromleftshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="60"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1600"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 10; background-color:#fff; border-radius: 10px; 
-						webkit-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
-						<img src="imagenes/home-icons/iso9001.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
-
-					<!-- LAYER NR. 13 -->
-					{{-- <div class="tp-caption skewfromrightshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="bottom" data-voffset="-200"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1900"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 14; background-color:#fff; border-radius: 10px;
-						webkit-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7); ">
-						<img src="imagenes/home-icons/GPTW.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
-
-				
-					<!-- LAYER NR. 20 -->
-					{{-- <div class="tp-caption  skewfromleftshort customout"
-						data-x="right" data-hoffset="-90"
-						data-y="bottom" data-voffset="-50"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="2300"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 21; background-color:#fff; border-radius: 10px;
-						webkit-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						-moz-box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);
-						box-shadow: 5px 5px 5px 0px rgba(173,173,173,.7);">
-						<img src="imagenes/home-icons/50Consultorias.png" alt="" data-ww="100" data-hh="100">
-					</div> --}}
-				{{-- </li> --}}
-	<!-- SLIDE  -->
-		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
-			<!-- MAIN IMAGE -->
-			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
-			<!-- LAYERS -->
-
-			<!-- LAYER NR. 1 -->
-			<!-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
-				data-x="0"
-				data-y="0"
-				data-speed="1000"
-				data-start="1100"
-				data-easing="Power4.easeOut"
-				data-endspeed="1500"
-				data-endeasing="Power4.easeIn"
-				data-autoplay="true"
-				data-autoplayonlyfirsttime="false"
-				data-nextslideatend="true"
-				data-forceCover="1"
-				data-dottedoverlay="twoxtwo"
-				data-aspectratio="16:9"
-				data-forcerewind="on"
-				style="z-index: 2">
-
-
-				 <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
-				poster='' data-setup="{}">
-				<source src='videos/moburama jancheik.mp4' type='video/mp4' />
-				</video>
-
-			</div> -->
-		{{-- </li> --}}
-
-
-		
-				{{-- </li> --}}
-		<!-- SLIDE  -->
-		<!-- <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"  data-fstransition="zoomout" data-fsmasterspeed="1000" data-fsslotamount="7"> -->
-			<!-- MAIN IMAGE -->
-			<!-- <img src="images/video_forest.jpg"  alt="video_forest"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
-			<!-- LAYERS -->
-
-			<!-- LAYER NR. 1 -->
-			<!-- <div class="tp-caption tp-fade fadeout fullscreenvideo"
-				data-x="0"
-				data-y="0"
-				data-speed="1000"
-				data-start="1100"
-				data-easing="Power4.easeOut"
-				data-endspeed="1500"
-				data-endeasing="Power4.easeIn"
-				data-autoplay="true"
-				data-autoplayonlyfirsttime="false"
-				data-nextslideatend="true"
-				data-forceCover="1"
-				data-dottedoverlay="twoxtwo"
-				data-aspectratio="16:9"
-				data-forcerewind="on"
-				style="z-index: 2">
-
-
-				 <video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
-				poster='' data-setup="{}">
-				<source src='videos/mobirama tl.mp4' type='video/mp4' />
-				</video>
-
-			</div> -->
-		{{-- </li> --}}
-
-				<!-- SLIDE 2 -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
-					<!-- MAIN IMAGE -->
-					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
-					<!-- LAYERS -->
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption  fade"
-						data-x="80"
-						data-y="160"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="1300"
-						data-easing="Power4.easeIn"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8; 
-						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.7); ">Capital Humano
-					</div>
-
-					{{-- <div class="tp-caption  fade"
-						data-x="50"
-						data-y="200"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="500"
-						data-start="2300"
-						data-easing="Back.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 21;">
-						<img src="imagenes/home-icons/Mo-w.png" alt="" data-ww="100%" data-hh="100">
-					</div> --}}
-
-					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
-						data-x="80"
-						data-y="260"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1900"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Reclutamiento Puro
-					</div>
-
-					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
-						data-x="80"
-						data-y="300"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1900"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8;font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Búsqueda de Talento Ejecutivo
-					</div>
-            
-					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
-						data-x="80"
-						data-y="340"
-						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
-						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-						data-speed="800"
-						data-start="1900"
-						data-easing="Power4.easeOut"
-						data-endspeed="500"
-						data-endeasing="Power4.easeIn"
-						data-captionhidden="on"
-						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Estudios de Verificación de Datos
-					</div>
-			</ul>
-		</div>
-	</div>
+<!-- slider revolution -->
+@include('sliderRevolution')
 <!-- fin de slider revolution -->
-
-
-
 
 <!--Seccion Nosotros -->
 <section id="section-services">
@@ -367,21 +22,19 @@
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
                             <p class="title-txt">Ventejas Competitivas</p>
-                            {{-- <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. </p> --}}
-							<img src="imagenes/home-icons/Ventajas.gif">
-                            <a href="/">Ver más</a> 
+							<img src="imagenes/home/competive.gif">
                         </div>
                         
                         <div id="project02" class="d-inline cont-textInf1">
-                          	<i class="fas fa-check-circle"></i>
-                            <p class="title-txt">Valores Institucionales</p>
-                            <p>Estas acciones simbolizan la convicción que nos permite fortalecer nuestro talento.</p>
+						    <i class="fas fa-users"></i>
+                            <p class="title-txt">Filosofía Empresarial</p>
+							<p>Orientamos nuestro quehacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
                             <a href="/valores">Ver más</a>
                         </div>
                         <div id="project03" class="d-inline cont-textInf2">
-                            <i class="fas fa-users"></i>
-                            <p class="title-txt">Filosofía Empresarial</p>
-                            <p>Orientamos nuestro quehacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
+							<i class="fas fa-check-circle"></i>
+							<p class="title-txt">Valores Institucionales</p>
+							<p>Estas acciones simbolizan la convicción que nos permite fortalecer nuestro talento.</p>
                             <a href="/filosofia">Ver más</a>
                         </div>
                 </div>
@@ -397,7 +50,7 @@
 <!--Fin de seccion nosotros -->
 
 <!-- Seccion de servicios  slider -->
-<section id="content_services" class="my-5">
+<section id="content_services"  name="content_services" class="my-5">
 	<div class="contitle-services">
 		<h2>Nuestras Soluciones</h2>
 	</div>
@@ -414,24 +67,24 @@
 	</div> --}}
          <div  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
-               <img src="imagenes/home-icons/Contabilidad-Out.png" alt="">
-			   <a href="http:/contabilidad"> <P> Payroll Service</P></a>
+                <a href="http:/payroll"><img src="imagenes/home-icons/Payroll.png" alt="payroll service"></a>
+			   <a href="http:/payroll"> <P> Payroll Service</P></a>
         </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
-                <img src="imagenes/home-icons/Payroll.png" alt="">
-                <a href="/payroll"><P>Payroll Service Capital Humano</P></a>
+                <a href="/capitalHumano"><img src="imagenes/home-icons/CapitalHumano.png" alt="payroll"></a>
+                <a href="/capitalHumano"><P>Capital Humano</P></a>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
-                <img src="imagenes/home-icons/CapitalHumano.png" alt="">
-				<a href="/capitalHumano"><P>Juridico</P></a> 
+                <a href="/fiscal"><img src="imagenes/home-icons/CapitalHumano.png" alt="Juridico Fiscal"></a> 
+				<a href="/fiscal"><P>Juridico Fiscal</P></a> 
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                <img src="imagenes/home-icons/Fiscal.png" alt="">
-                <a href="/bancaInversion"><P>Maquila de Seguridad Social</P></a> 
+                 <a href="#"><img src="imagenes/home-icons/Fiscal.png" alt="Maquila de Seguridad Social"></a>
+                <a href="#"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <img src="imagenes/home-icons/Doc-Estaciones.png" alt="">
-                <a href="/estacionServicio"><P>Contabilidad Outsorcing</P></a>
+                <a href="/contabilidad"><img src="imagenes/home-icons/Contabilidad-Out.png" alt="estacioned de Servicio"></a>
+                <a href="/contabilidad"><P>Contabilidad Outsorcing</P></a>
             </div>	
         </div>
 </section>

@@ -21,11 +21,11 @@
         </div>
         <div class="row serv-iconos">
             <div class="col-md-4">
-                <img src="imagenes/payroll/nominas.png" alt="BPO Maquila de Nómina" data-toggle="modal" data-target="#BPO">  
+                <img src="imagenes/payroll/bpo-mqquila.png" alt="BPO Maquila de Nómina" data-toggle="modal" data-target="#BPO">  
                <p>BPO Maquila de Nómina.</p>
             </div>
             <div class="col-md-4">
-                <img src="imagenes/payroll/adnempresarial.png" alt="Implementación de HRP" data-toggle="modal" data-target="#Implementa">
+                <img src="imagenes/payroll/imp-hrp.png" alt="Implementación de HRP" data-toggle="modal" data-target="#Implementa">
                 <p>Implementación de HRP.</p>
                 </div>
             <div class="col-md-4">
@@ -35,15 +35,15 @@
         </div>
         <div class="row serv-iconos">
            <div class="col-md-4">
-               <img src="imagenes/payroll/reclutamientomasivo.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#TaxPay">
+               <img src="imagenes/payroll/taks-pay.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#TaxPay">
               <p>Tax Payroll Managment.</p>
            </div>
            <div class="col-md-4">
-                   <img src="imagenes/payroll/talentoejecutivo.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
+                   <img src="imagenes/payroll/asesorias.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
                <p>Asesoría.</p>
            </div>
            <div class="col-md-4">
-               <img src="imagenes/payroll/verificacion.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
+               <img src="imagenes/payroll/cfdi.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
                <p>CFDI implementación y operación.</p>
            </div>
        </div>

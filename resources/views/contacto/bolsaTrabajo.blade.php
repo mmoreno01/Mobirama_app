@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- imagen principal -->
-<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/bg_header/nosotros.jpg');">
+<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/home/bolsa.jpg');">
     <div class="overlay"></div>
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Integrate a Nuestro Equipo</h1>
 </div>
@@ -29,7 +29,7 @@
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
                                     {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre'] ) !!}
-                                </div>
+                                </div
                           </div>
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">

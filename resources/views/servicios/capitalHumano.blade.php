@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('content')
-<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/capital_humano/capitalHumano.jpg');">
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Capital Humano</h1>
 </div>
 
@@ -26,16 +26,16 @@
         <div class="row serv-iconos">
            
            <div class="col-md-4">
-                   <img src="imagenes/capital_humano/reclutamiento-puro.png" alt="Consultoría en la Administración de Empresas">
+                   <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas">
                   
               <p>Reclutamiento Puro</p>
            </div>
            <div class="col-md-4">
-                   <img src="imagenes/capital_humano/talentoejecutivo.png" alt="Asesoría y Planeación Financiera">
+                   <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera">
                <p>Búsqueda de Talento Ejecutivo</p>
            </div>
            <div class="col-md-4">
-               <img src="imagenes/capital_humano/datos.png" alt="Gestión Contable">
+               <img src="imagenes/capital_humano/est-veri.png" alt="Gestión Contable">
                <p>Estudios de Verificación de Datos</p>
            </div>
           

@@ -25,7 +25,6 @@
     <a class="navbar-brand" href="/home">
         <img src="imagenes/home-icons/Mo-w.png" width="40%" height="30" alt="">
     </a> 
-    <span class="title-menu mr">menu</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -74,12 +73,12 @@
 
                 <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <a class="nav-item nav-link mr-4" href="#content_services">Servicios</a>
-                    <a class="nav-item nav-link mr-4" href="#section-services">Nosotros</a>
-                    <a class="nav-item nav-link mr-4" href="#section-services2">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="#content-informes">Noticias</a>
+                    <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
+                    <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
+                    <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
+                    <a class="nav-item nav-link mr-4" href="/newsletter">Newsletter</a>
                     {{-- <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a> --}}
-                    <a class="nav-item nav-link mr-4" href="#rutas-informacion">Contacto</a> 
+                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a> 
                      <a class="nav-item nav-link mr-4 active" href="/" >Acceder</a> 
                 </div>
                 <!-- Modal -->
