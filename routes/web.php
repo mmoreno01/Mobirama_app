@@ -74,6 +74,10 @@ Route::get('sofom', function () {
     return view('servicios.sofom');
 });
 
+Route::get('juridico', function () {
+    return view('servicios.juridico');
+});
+
 //News letter
 Route::get('letter', function () {
     return view('letter');
