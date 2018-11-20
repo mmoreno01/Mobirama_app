@@ -15,35 +15,49 @@
          <div class="container">
             <div class="row">
                <div class="col-12 text-left">
-                  <p>Nuestras amplias habilidades nos permiten implementar mejoras a los procesos contables y fiscales a través de estrategias que permitan obtener una minimización en el impacto fiscal y financiero, cumpliendo siempre con las normatividades vigentes</p>
-                  <p>Tenemos el compromiso de brindarle un servicio de calidad mediante los siguientes servicios:</p>
-                  <ul>
+                  <p>Nuestros profesionistas se capacitan constantemente para brindar un servicio de calidad, que asegure a nuestros clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales, así como también ofrecer estrategias adecuadas para disminuir la carga tributaria, siempre dentro del marco legal correspondiente.</p>
+                  {{-- <p>Tenemos el compromiso de brindarle un servicio de calidad mediante los siguientes servicios:</p> --}}
+                  {{-- <ul>
                     <li>Asesoría y Planeación Fiscal.</li>
                     <li>Implementación de Defensa Fiscal.</li>
                     <li>Preparación de Declaración de Impuestos Federales y Estatales.</li>
                     <li>Presentación de Declaraciones Informativas y Anuales.</li>
-                  </ul>
+                  </ul> --}}
                  <a href="/home">Más Servicios</a> 
                </div>
             </div>
                 <div class="row serv-iconos">
                   <div class="col-md-3 col-sm-6">
                       <img src="imagenes/fiscal/consultor-fiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
-                    <p>Consultoría Fiscal.</p>
+                    <p>Consultoría Fiscal Local e Internacional</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
                       <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
-                    <p>Derecho Corporativo.</p>
+                    <p>Transacciones y Derecho Financiero </p>
                   </div>
                   <div class="col-md-3 col-sm-6">
                       <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
-                    <p>Litigio Fiscal.</p>
+                    <p>Reestructuras Corporativas Holding</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <img src="imagenes/fiscal/constit.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
-                    <p>Control de Constitucionalidad.</p>            
+                    <p>Proyectos de Inversión e Infraestructura </p>            
                   </div>
-            </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                        <p>Asesoría Patrimonial</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                        <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                        <p>Cumplimiento Fiscal</p>
+                    </div>
+                </div>
          </div>
       </section>
       <!--Seccion del banner Magazine-->
