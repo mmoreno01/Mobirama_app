@@ -44,7 +44,7 @@
                     <p>Proyectos de Inversión e Infraestructura </p>            
                   </div>
                 </div>
-                <div class="row">
+                <div class="row serv-iconos">
                     <div class="col-md-4">
                         <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
                         <p>Asesoría Patrimonial</p>
