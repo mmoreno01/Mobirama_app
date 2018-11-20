@@ -88,7 +88,7 @@ Route::post('contacto', 'contactoController@store');
 // });
 
 // muestra la bolsa de trabajo
-Route::get('contacto.bolsaTrabajo', 'JobController@index')->name('contacto.bolsaTrabajo');
+Route::get('contacto.bolsaTrabajo', 'jobController@index')->name('contacto.bolsaTrabajo');
 // rota  muestra el formulario de postulacion
 Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
 // rutas de seccion nostros
