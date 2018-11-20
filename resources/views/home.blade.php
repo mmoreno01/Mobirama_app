@@ -83,8 +83,12 @@
                 <a href="#"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/contabilidad"><img src="imagenes/services/Contabilidad-Out.png" alt="estacioned de Servicio"></a>
+                <a href="/contabilidad"><img src="imagenes/services/Fiscal.png" alt="estacioned de Servicio"></a>
                 <a href="/contabilidad"><P>Contabilidad Outsorcing</P></a>
+            </div>
+            <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
+                <a href="/juridico"><img src="imagenes/services/Fiscal.png" alt="estacioned de Servicio"></a>
+                <a href="/juridico"><P>Juridico</P></a>
             </div>	
         </div>
 </section>
