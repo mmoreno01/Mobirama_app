@@ -21,7 +21,7 @@
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
                                     {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre'] ) !!}
-                                </div
+                                </div>
                           </div>
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
