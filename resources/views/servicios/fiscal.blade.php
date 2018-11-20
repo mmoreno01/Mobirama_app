@@ -33,7 +33,7 @@
                   </div>
                   <div class="col-md-3 col-sm-6">
                       <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
-                    <p>Transacciones y Derecho Financiero </p>
+                    <p>Transacciones y Derecho Financiero</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
                       <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
@@ -104,18 +104,14 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ConsultoriaLabel">Consultoría Fiscal</h5>
+              <h5 class="modal-title" id="ConsultoriaLabel">Consultoría Fiscal Local e Internacional</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
               <ul>
-                    <li>Aplicación de estímulos fiscales</li>
-                    <li>Confirmación de criterios y consulta sobre situaciones fiscales reales y concretas </li>
-                    <li>Ingenierías y estructuras fisca </li>
-                    <li>Servicios fiscales internacionales y aplicación de tratados en materia fiscal</li>
-                    <li>Asesoría patrimonial</li>
+                    <li>Ofrecemos un análisis e interpretación sobre diversas disposiciones fiscales nacionales e internacionales, con objeto de que nuestros clientes cuenten con certeza jurídica para optimizar las cargas tributarias que les correspondan, así como la prevención de la doble tributación internacional, atendiendo las disposiciones fiscales vigentes.</li>
               </ul>
             </div>
           </div>
@@ -127,19 +123,22 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="DerechoLabel">Derecho Corporativo</h5>
+              <h5 class="modal-title" id="DerechoLabel">Transacciones y Derecho Financiero</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
+            <p>Llevamos a cabo análisis financieros desde un punto de vista fiscal de los diversos tipos de financiamientos que obtengan u otorguen nuestros clientes, bien sean en nuestro país o en el extranjero. También participamos en operaciones de financiamiento a través de mercados bursátiles y bursatilización de activos.</p> 
+            <p>Derecho corporativo:</p>
                 <ul>
-                    <li>ADN empresarial (due-diligence)</li>
-                    <li>Reestructuras corporativas: constitución, transformación, fusión, escisión y liquidación de sociedades</li>
-                    <li>Gobierno corporativo</li>
-                    <li>Tecnología, propiedad industrial, patentes, marcas comerciales y derechos de autor</li>
-                    <li> Asesoría a empresas mexicanas con inversión extranjera así como a inversionistas extranjeros en el cumplimiento de las disposiciones legales en la materia</li>
-                    <li>Litigio mercantil y arbitraje</li>
+                    <li>Preparación, negociación y revisión de contratos.</li>
+                    <li>Restructuras corporativas.</li>
+                    <li>Atención a conflictos entre accionistas.</li>
+                    <li>Implementación de gobierno corporativo.</li>
+                    <li>Compras de gobierno.</li>
+                    <li>Organización y estructura de negocios familiares.</li>
+                    <li>Atención de consultas generales respecto a las posibles consecuencias legales de ciertas decisiones.</li>
                 </ul>
             </div>
           </div>
@@ -151,21 +150,21 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="LitigioLabel">Litigio Fiscal</h5>
+              <h5 class="modal-title" id="LitigioLabel">Reestructuras Corporativas Holding</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
+            <p>Llevamos a cabo el análisis sobre las implicaciones fiscales derivadas de proyectos de reestructuración tales como escisiones, fusiones, adquisiciones y cualquier clase de reestructuración corporativa con el fin de que nuestros clientes operen de una manera más eficiente tanto en México como en el extranjero.</p>
+               <p>Fusiones y adquisiciones:</p>
                 <ul>
-                    <li>Defensa fiscal en contra de actos o resoluciones de autoridades fiscales federales y en materia de seguridad social</li>
-                    <li>Recursos de revocación (SAT)</li>
-                    <li>Juicio de nulidad (TFJFA)</li>
-                    <li>Amparo</li>
-                    <li>Atención y seguimiento de auditorías iniciadas por parte de las autoridades fiscales</li>
-                    <li>Acuerdos conclusivos ante la PRODECON</li>
-                    <li>Atención de Procedimiento Administrativo en Materia Aduanera</li>
-                    <li>Atención de procedimiento administrativo de ejecución: embargos de cuentas bancarias, requerimientos de pago y embargo, intervención con cargo a la caja, remoción y designación de depositar</li>
+                    <li>Análisis de riesgos en la toma de decisiones de adquisición o fusión de empresas.</li>
+                    <li>Due Diligence.</li>
+                    <li>Compra y venta de empresas.</li>
+                    <li>Fusiones y escisiones.</li>
+                    <li>Co-inversiones.</li>
+                    <li>Asociaciones estratégicas.</li>
                 </ul>
             </div>
           </div>
@@ -177,16 +176,13 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="controlConsLabel">Control de Constitucionalidad</h5>
+              <h5 class="modal-title" id="controlConsLabel">Proyectos de Inversión e Infraestructura </h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <ul>
-                    <li>Promoción de juicios de amparo en contra de leyes tributarias inconstitucionales (ISR, IVA, IEPS, impuesto predial)</li>
-                    <li>Promoción de juicio de amparo en contra actos de autoridad (aseguramiento precautorio)</li>
-              </ul>
+                  <p>Efectuamos diferentes análisis desde un punto de vista fiscal, respecto a la manera más conveniente de invertir y estructurar proyectos de inversión e infraestructura, incluyendo la revisión y elaboración de los aspectos fiscales a considerar dentro de los modelos financieros que se utilizan para evaluar este tipo de proyectos, atendiendo en todo momento a las expectativas propias de cada compañía. De igual forma, la Firma cuenta con una sólida especialización y experiencia en las áreas de Desarrollos Inmobiliarios y de Fondos de Inversión Extranjeros invirtiendo en proyectos a mediano y largo plazo. A este respecto, contamos con amplia experiencia en el establecimiento de estructuras o vehículos de inversión inmobiliarios, atendiendo a las características y áreas del mercado, tales como Fideicomisos de Infraestructura y Bienes Raíces (FIBRAS), Sociedades de Infraestructura y Bienes Raíces (SIBRAS), fideicomisos o sociedades mercantiles, etc.</p>
             </div>
           </div>
         </div>
