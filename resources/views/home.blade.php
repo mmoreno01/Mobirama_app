@@ -71,7 +71,7 @@
 			   <a href="http:/payroll"> <P> Payroll Service</P></a>
         </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.2s">
-                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="payroll"></a>
+                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                 <a href="/capitalHumano"><P>Capital Humano</P></a>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
@@ -83,11 +83,11 @@
                 <a href="#"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/contabilidad"><img src="imagenes/services/Contabilidad.png" alt="estacioned de Servicio"></a>
+                <a href="/contabilidad"><img src="imagenes/services/Contabilidad.png" alt="Contabilidad"></a>
                 <a href="/contabilidad"><P>Contabilidad Outsorcing</P></a>
             </div>
             <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/juridico"><img src="imagenes/services/Legal.png" alt="estacioned de Servicio"></a>
+                <a href="/juridico"><img src="imagenes/services/Legal.png" alt="juridico"></a>
                 <a href="/juridico"><P>Juridico</P></a>
             </div>	
         </div>
