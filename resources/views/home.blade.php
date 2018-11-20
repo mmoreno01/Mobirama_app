@@ -219,12 +219,12 @@
     <div class="container">
         <div class="row">
             <div id="content_ubicacion" class="col-md-6 cont-img">
-				<a href="http:/bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
+				<a href="/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>
             <div id="ruta-contacto" class="col-md-6 cont-img">
-				<a href="http:/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
+				<a href="/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
                 <h3>Contacto</h3>
                 <p>Contacte a los expertos </p>
             </div>
