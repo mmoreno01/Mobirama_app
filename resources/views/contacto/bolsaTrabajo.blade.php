@@ -10,18 +10,10 @@
 
 <section id="Form-contact">
     <div class="container">
-           @if($errors->any())
-           <div class="alert alert-danger">
-               <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-               </ul>
-           </div>
-           @endif
         <div class="row">
             <div class="col-md-6 form-postulation">
-             @include('common.success')
+                @include('common.errors')
+                @include('common.success')
                 <h1>POSTÚLATE AHORA</h1>
                     {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => true ]) !!}
                     @csrf

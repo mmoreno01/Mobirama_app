@@ -164,7 +164,7 @@
                     <div class="icon-social"><i class="fab fa-twitter"></i></div> 
                     <div class="icon-social"><i class="fab fa-linkedin-in"></i></div> 
                     <div class="icon-social"><i class="fab fa-youtube"></i></div> 
-                    <p>Construyendo redes que conecten el mundo de los negocios</p>
+                    <p>Trazando el éxito de los negocios</p>
                
             </div>
         </div>
