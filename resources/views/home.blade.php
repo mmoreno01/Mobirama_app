@@ -76,18 +76,18 @@
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.4s"> 
                 <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
-				<a href="/fiscal"><P>Juridico Fiscal</P></a> 
+				<a href="/fiscal"><P>Fiscal</P></a> 
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                 <a href="#"><img src="imagenes/services/Fiscal.png" alt="Maquila de Seguridad Social"></a>
+                 <a href="#"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
                 <a href="#"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/contabilidad"><img src="imagenes/services/Fiscal.png" alt="estacioned de Servicio"></a>
+                <a href="/contabilidad"><img src="imagenes/services/Contabilidad.png" alt="estacioned de Servicio"></a>
                 <a href="/contabilidad"><P>Contabilidad Outsorcing</P></a>
             </div>
             <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/juridico"><img src="imagenes/services/Fiscal.png" alt="estacioned de Servicio"></a>
+                <a href="/juridico"><img src="imagenes/services/Legal.png" alt="estacioned de Servicio"></a>
                 <a href="/juridico"><P>Juridico</P></a>
             </div>	
         </div>
