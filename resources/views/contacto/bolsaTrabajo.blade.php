@@ -55,35 +55,31 @@
                     <div class="form-group">
                                     {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
                     </div>
-            {!! Form::close() !!}
-            </div>
+                {!! Form::close() !!}
+            </div>{{-- end col-6 --}}
             <div class="col-md-6">
-            <div class="content-title">
-                <h2 class="text-center">Nuestras vacantes</h2>
-            </div>
-    
-            @foreach ($vacantes as $vacante)
-                <div class="card-header">
-                    <h1 class="card-title" style="font-size: 20px;">  {{ $vacante->titulo}} </h1>
+                <div class="content-title">
+                    <h2 class="text-center">Nuestras vacantes</h2>
                 </div>
-                <div class="card-body">   
-                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">Edad </h3>
-                            <p style="margin: 10px 0px;"> {{ $vacante->edad }}</p>
-                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">descripcion </h3>
-                            <p style="margin: 10px 0px;"> {{ $vacante->descripcion }} </p>
-                    <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">experiencia </h3>
-                            <p style="margin: 10px 0px;"> {{ $vacante->experiencia }} </p>
-                </div>
-
-
-            @endforeach
-            <div class="accordion" id="accordionExample">
-  
+        
+                @foreach ($vacantes as $vacante)
+                    <div class="card-header">
+                        <h1 class="card-title" style="font-size: 20px;">  {{ $vacante->titulo}} </h1>
+                    </div>
+                    <div class="card-body">   
+                        <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">Edad </h3>
+                                <p style="margin: 10px 0px;"> {{ $vacante->edad }}</p>
+                        <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">descripcion </h3>
+                                <p style="margin: 10px 0px;"> {{ $vacante->descripcion }} </p>
+                        <h3 style="font-weight: bold; text-transform: uppercase; font-size: 15px; margin-top: 0px; margin:0px;">experiencia </h3>
+                                <p style="margin: 10px 0px;"> {{ $vacante->experiencia }} </p>
+                    </div>
+                @endforeach
                 {{-- {{ $vacantes->appends(['sort' => 'votes'])->links() }} --}}
-             {{ $vacantes->links() }}  
-            </div>
-        </div>
-    </div>
+                {{ $vacantes->links() }}  
+            </div>{{-- end col-6 --}}
+        </div>{{-- end row --}}
+    </div>{{-- end container --}}
 </section>
 
 @endsection
