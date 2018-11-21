@@ -1086,7 +1086,7 @@
 
 @media (max-width: 992px) {
   #content-txt .text-left {
-    padding: 0px;
+    padding: 0px !important;
   }
 
   #content-txt .img-right img {
@@ -1096,7 +1096,7 @@
 
 @media (max-width: 768px) {
   #content-txt .text-left {
-    padding: 0px 30px;
+    padding: 0px 30px !important;
   }
 
   #content-txt .img-right img {
@@ -1169,7 +1169,7 @@
   }
 
   #content-txt .text-left {
-    padding: 0px 30px;
+    padding: 0px 30px !important;
   }
 
   #content-txt .img-right img {

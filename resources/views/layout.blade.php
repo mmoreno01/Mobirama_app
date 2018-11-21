@@ -129,12 +129,6 @@
     <title>Mobirama</title>
 </head>
 <body>
-    {{-- <div class="container">
-        <hr>
-        @if(session()->has('flash'))
-            <div class="alert alert-info">{{ session('flash') }}</div>
-        @endif
-    </div> --}}
             
 <!-- contenido principa -->
 @yield('content')
@@ -162,7 +156,7 @@
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
-                    <div class="icon-social"><a href="https://twitter.com/MobiramaC" target="_blank"><i class="fab fa-twitter"></i></a> </div> 
+                    <div class="icon-social"><a href="https://twitter.com/MobiramaMX" target="_blank"><i class="fab fa-twitter"></i></a> </div> 
                     <div class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div> 
                     <!-- <div class="icon-social"><a href="http://"><i class="fab fa-youtube"></i></a></div>  -->
                     <p>Trazando el éxito de los negocios</p>
@@ -192,9 +186,7 @@
     <script src="js/ScrollMagic.min.js"></script>
     <script src="js/debug.addlndicators.js"></script>
     <script src="js/ScrollMagic/main.js"></script>
-
-
-     <!-- animate -->
+    <!-- animate -->
     <script>
         wow = new WOW(
                         {

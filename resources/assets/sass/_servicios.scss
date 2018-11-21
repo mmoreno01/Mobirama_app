@@ -521,7 +521,7 @@ p{
 @media  (max-width: 992px) {
     // contabilidad texto e imagen
     #content-txt .text-left {
-      padding: 0px;
+      padding: 0px!important;
   }
   #content-txt .img-right img {
       width: 90%;
@@ -534,7 +534,7 @@ p{
     
     // contabilidad texto e imagen
     #content-txt .text-left {
-        padding: 0px 30px;
+        padding: 0px 30px!important;
     }
     #content-txt .img-right img {
         width: 100%;
@@ -609,7 +609,7 @@ p{
     }
 // contabilidad texto e imagen
     #content-txt .text-left {
-        padding: 0px 30px;
+        padding: 0px 30px!important;
     }
     #content-txt .img-right img {
         width: 90%;
