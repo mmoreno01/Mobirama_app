@@ -21,6 +21,7 @@
                 <div class="col-md-4">
                         <img src="imagenes/alianzas/legadmi.png" alt="">
                 </div>
+            </div>
             <div class="row">
                 <div class="col-md-4">
                             <img src="imagenes/alianzas/central.jpg" alt="">
@@ -31,7 +32,6 @@
                 <div class="col-md-4">
                             <img src="imagenes/alianzas/American.png" alt="">
                 </div>
-            </div>
             </div>
         </div>
 </section>
