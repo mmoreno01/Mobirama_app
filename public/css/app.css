@@ -4282,7 +4282,11 @@ h1 {
 }
 
 #second-text {
-  padding: 50px 0px;
+  padding: 100px 0px;
+}
+
+#second-text p {
+  text-align: justify;
 }
 
 #content-txt {
