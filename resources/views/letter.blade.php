@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="imagenes/home/img-Blog.jpg" class="card-img-top" alt="">
+                    <img src="imagenes/home/Img-Blog.png" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Mobirama</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate, magni libero quidem optio numquam incidunt placeat reprehenderit</p>
