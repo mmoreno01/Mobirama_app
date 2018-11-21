@@ -83,7 +83,7 @@
                 <a href="#"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
-                <a href="/contabilidad"><img src="imagenes/services/Legal.png" alt="Contabilidad"></a>
+                <a href="/contabilidad"><img src="imagenes/services/Contabilidad.png" alt="Contabilidad"></a>
                 <a href="/contabilidad"><P>Contabilidad Outsorcing</P></a>
             </div>
             <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 

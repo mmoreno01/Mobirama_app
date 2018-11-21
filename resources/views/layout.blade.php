@@ -38,19 +38,19 @@
                              <a href="/politica"><i class="fas fa-check"></i></a>
                             <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                             <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                            {{-- <p>Lorem ipsum dolors! Dolorem ipsum debiti</p> --}}
                         </div>
                         <div class="col-4 content_img">
                              <a href="/terminos"><i class="fas fa-clipboard-list"></i></a>
                             <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                             <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                            {{-- <p>Lorem ipsum dolors! Dolorem ipsum debiti</p> --}}
                         </div>
                         <div class="col-4 content_img">
                            <!-- <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                            <a href="http://"><i class="fas fa-book-open"></i></a>
                             <a href="http://"><p class="title-txt">Glosario</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
+                            {{-- <p>Lorem ipsum dolors! Dolorem ipsum debiti</p> --}}
                         </div>
                     </div>
                     {{-- <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
@@ -126,7 +126,7 @@
     </div>    
 </header>
 <!-- fin del menu principal -->
-    <title>Document</title>
+    <title>Mobirama</title>
 </head>
 <body>
     {{-- <div class="container">
