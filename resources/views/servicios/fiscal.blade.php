@@ -21,37 +21,37 @@
             </div>
                 <div class="row serv-iconos">
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/consultor-fiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
+                      <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal Local e Internacional</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Transacciones">
+                      <img src="imagenes/fiscal/new-icons/Transacciones-Derecho.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Transacciones">
                     <p>Transacciones y Derecho Financiero</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                      <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Proyectos">
+                      <img src="imagenes/fiscal/new-icons/RestructurasCorp.png" alt="Gestión Contable" data-toggle="modal" data-target="#Proyectos">
                     <p>Reestructuras Corporativas Holding</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                    <img src="imagenes/fiscal/constit.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
+                    <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
                     <p>Proyectos de Inversión e Infraestructura </p>            
                   </div>
                 </div>
                 <div class="row serv-iconos">
                 <div class="col-md-4">
-                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Capital">
+                        <img src="imagenes/fiscal/new-icons/CapitalPrivado.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Capital">
                         <p>Capital Privado y Capital de Riesgo </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Asesoría">
+                        <img src="imagenes/fiscal/new-icons/AsesoriaPatrimonial.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Asesoría">
                         <p>Asesoría Patrimonial</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Alianzas">
+                        <img src="imagenes/fiscal/new-icons/AlianzasEstrategicas.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Alianzas">
                         <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
                     </div>
                     <div class="col-md-4">
-                        <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
+                        <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
                         <p>Cumplimiento Fiscal</p>
                     </div>
                 </div>
