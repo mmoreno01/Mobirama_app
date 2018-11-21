@@ -377,11 +377,11 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Payroll Forensic.
-					</div>
-                </li>
+					</div> --}}
+                {{-- </li> --}}
 			</ul>
 		</div>
-	</div> --}}
+	</div>
 <!-- fin de slider revolution -->
 
 
