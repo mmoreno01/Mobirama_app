@@ -3,6 +3,7 @@
         items:3,
         margin:30,
         loop:true,
+        autoplay,
         responsive: {
             0: {
                 items :1
