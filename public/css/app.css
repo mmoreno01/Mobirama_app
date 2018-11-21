@@ -4985,6 +4985,14 @@ footer ul {
   padding: 100px 0px;
 }
 
+#content-aliances {
+  padding: 50px 0px;
+}
+
+#content-aliances .owl-carousel img {
+  width: 300px;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
