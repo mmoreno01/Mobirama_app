@@ -20,19 +20,19 @@
                             <img src="imagenes/alianzas/softland.png" alt="">
     
                     </div>
-                    <div>
+                    <div  class="d-flex align-items-center">
                             <img src="imagenes/alianzas/legadmi.png" alt="">
     
                     </div>
-                    <div>
+                    <div  class="d-flex align-items-center">
                             <img src="imagenes/alianzas/central.jpg" alt="">
     
                     </div>
-                    <div>
+                    <div  class="d-flex align-items-center">
                             <img src="imagenes/alianzas/UCC.png" alt="">
     
                     </div>
-                    <div>
+                    <div  class="d-flex align-items-center">
                             <img src="imagenes/alianzas/American.png" alt="">
     
                     </div>
