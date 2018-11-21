@@ -5010,6 +5010,10 @@ footer ul {
   font-weight: bold;
 }
 
+#content-img-certifications .card-body .btn {
+  background-color: #1d73b2;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
