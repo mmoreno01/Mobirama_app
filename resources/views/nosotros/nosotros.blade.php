@@ -38,7 +38,7 @@
 <!-- Siempre te ayudaremos a hacer crecer tu negocio
 Nuestra misión es brindarle la más alta calidad de servicio y solución -->
 
-<section>
+<section id="second-text">
     <div class="container">
         <div class="row">
             <div class="col-12">
