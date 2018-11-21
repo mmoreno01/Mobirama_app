@@ -4996,6 +4996,20 @@ footer ul {
   margin: 0 auto;
 }
 
+#content-img-certifications {
+  padding: 100px 0px;
+}
+
+#content-img-certifications .card-img-top {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#content-img-certifications .card-img-top {
+  font-weight: bold;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT
