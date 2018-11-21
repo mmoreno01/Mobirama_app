@@ -14,15 +14,15 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="imagenes/home-icons/img-muestra.svg" class="card-img-top" alt="">
+                    <img src="imagenes/home/img-Blog.jpg" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">card title</h5>
+                        <h5 class="card-title">Mobirama</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate, magni libero quidem optio numquam incidunt placeat reprehenderit</p>
                         <a href="newsletter/Mobirama.pdf" class="btn btn-primary"   target="_blank" >Ver más</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            {{-- <div class="col-md-4">
                 <div class="card">
                     <img src="imagenes/home-icons/img-muestra.svg" class="card-img-top" alt="">
                     <div class="card-body">
@@ -31,8 +31,8 @@
                         <a href="#" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </div> --}}
+            {{-- <div class="col-md-4">
                 <div class="card">
                     <img src="imagenes/home-icons/img-muestra.svg" class="card-img-top" alt="">
                     <div class="card-body">
@@ -41,7 +41,7 @@
                         <a href="#" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
