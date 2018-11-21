@@ -12,31 +12,26 @@
     <section id="content-aliances">   
         <div class="container">
             <div class="row">
-                <div class="owl-carousel  owl-loaded">
-                    <div class="d-flex align-items-center">
+                <div class="col-md-4">
                         <img src="imagenes/alianzas/Fortia.png" alt="">
-                    </div>
-                    <div class="d-flex align-items-center">
-                            <img src="imagenes/alianzas/softland.png" alt="">
-    
-                    </div>
-                    <div  class="d-flex align-items-center">
-                            <img src="imagenes/alianzas/legadmi.png" alt="">
-    
-                    </div>
-                    <div  class="d-flex align-items-center">
-                            <img src="imagenes/alianzas/central.jpg" alt="">
-    
-                    </div>
-                    <div  class="d-flex align-items-center">
-                            <img src="imagenes/alianzas/UCC.png" alt="">
-    
-                    </div>
-                    <div  class="d-flex align-items-center">
-                            <img src="imagenes/alianzas/American.png" alt="">
-    
-                    </div>
                 </div>
+                <div class="col-md-4">
+                        <img src="imagenes/alianzas/softland.png" alt="">
+                </div>
+                <div class="col-md-4">
+                        <img src="imagenes/alianzas/legadmi.png" alt="">
+                </div>
+            <div class="row">
+                <div class="col-md-4">
+                            <img src="imagenes/alianzas/central.jpg" alt="">
+                </div>
+                <div class="col-md-4">
+                            <img src="imagenes/alianzas/UCC.png" alt="">
+                </div>
+                <div class="col-md-4">
+                            <img src="imagenes/alianzas/American.png" alt="">
+                </div>
+            </div>
             </div>
         </div>
 </section>
