@@ -117,7 +117,7 @@
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Join Business Global Group – Payroll Services asume el proceso de nómina de su empresa a través de un sólido esquema que cubre todos los aspectos de esta disciplina, basados en nuestra metodología certificada bajo la norma ISO 9001 – 2015</li>
+                    <li>Payroll Services asume el proceso de nómina de su empresa a través de un sólido esquema que cubre todos los aspectos de esta disciplina, basados en nuestra metodología certificada bajo la norma ISO 9001 – 2015</li>
                     <li>Ayudamos a nuestros clientes a optimizar sus costos, brindando un servicio integral y estabilidad en su gestión, haciendo un traje a la medida de sus necesidades y elevando su productividad</li>
                     <li>Nosotros asumimos la responsabilidad del proceso contratado, esta puede incluir la adquisición de una nueva tecnología con valor agregado</li>
                 </ul>
@@ -158,7 +158,7 @@
             <div class="modal-body">
                 <ul>
                     <li>
-                            Join Business Global Group – Payroll Services es la única empresa en México que ofrece los servicios de blindaje a los sistemas de nóminas, a través del uso de métodos de Auditoría Forense, lo cual permite a las empresas prevenir y detectar fraudes en la administración de estos sistemas, usando para ello una metodología propia que combina las normas de auditoria, reglas ACFE y mejores prácticas de la industria, 
+                            Payroll Services es la única empresa en México que ofrece los servicios de blindaje a los sistemas de nóminas, a través del uso de métodos de Auditoría Forense, lo cual permite a las empresas prevenir y detectar fraudes en la administración de estos sistemas, usando para ello una metodología propia que combina las normas de auditoria, reglas ACFE y mejores prácticas de la industria, 
                             así como el aprovechamiento de fuentes internas y externas de información.
 
                     </li>

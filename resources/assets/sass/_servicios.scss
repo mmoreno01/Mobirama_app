@@ -653,12 +653,12 @@ p{
 // pop up servicios
 
 .modal-content{
-    border: 1px solid  rgba(255, 102, 51, 0.8);
+    border: 1px solid $azulMarino;
  
 }
 
 .modal-header{
-     background: rgba(255, 102, 51, 0.8);
+     background: $azulMarino;
     h5{
         color: #fff;
     }

@@ -27,8 +27,7 @@
                     <img src="imagenes/home-icons/img-muestra.svg" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">card title</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate, magni libero quidem optio numquam incidunt placeat reprehenderit</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+    g                   <a href="#" class="btn btn-primary">Ver más</a>
                     </div>
                 </div>
             </div> --}}
