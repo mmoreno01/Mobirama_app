@@ -33,7 +33,7 @@
                     <p>Reestructuras Corporativas Holding</p>
                   </div>
                   <div class="col-md-3 col-sm-6">
-                    <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
+                    <img src="imagenes/fiscal/new-icons/inversion-infrestructura.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
                     <p>Proyectos de Inversión e Infraestructura </p>            
                   </div>
                 </div>
