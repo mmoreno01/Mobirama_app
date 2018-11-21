@@ -16,10 +16,10 @@
                     <h1>Nuestros Clientes</h1>
                 </div>
                 <div class="owl-carousel  owl-loaded">
-                    <div>
+                    <div class="d-flex align-items-center">
                         <img src="imagenes/alianzas/Fortia.png" alt="">
                     </div>
-                    <div>
+                    <div class="d-flex align-items-center">
                             <img src="imagenes/alianzas/softland.png" alt="">
     
                     </div>
