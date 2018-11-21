@@ -216,13 +216,13 @@
 		
 
 				<!-- SLIDE 2 CAPITAL HUMANO -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
+				{{-- <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" > --}}
 					<!-- MAIN IMAGE -->
-					<img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					{{-- <img src="imagenes/home/bg-chumano.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
 					<!-- LAYERS -->
                    
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption  fade"
+					{{-- <div class="tp-caption  fade"
 						data-x="80"
 						data-y="160"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -235,7 +235,7 @@
 						data-captionhidden="on"
 						style="z-index: 8; 
 						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.7); ">Capital Humano
-					</div>
+					</div> --}}
 
 					{{-- <div class="tp-caption  fade"
 						data-x="50"
@@ -252,7 +252,7 @@
 					</div> --}}
 
 					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
+					{{-- <div class="tp-caption small_light_white  customin customout"
 						data-x="80"
 						data-y="260"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -264,10 +264,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Reclutamiento Puro
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
+					{{-- <div class="tp-caption small_light_white  customin customout"
 						data-x="80"
 						data-y="300"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -279,10 +279,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8;font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Búsqueda de Talento Ejecutivo
-					</div>
+					</div> --}}
             
 					<!-- LAYER NR.  -->
-					<div class="tp-caption small_light_white  customin customout"
+					{{-- <div class="tp-caption small_light_white  customin customout"
 						data-x="80"
 						data-y="340"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -295,17 +295,17 @@
 						data-captionhidden="on"
 						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Estudios de Verificación de Datos
 					</div>
-                </li>
+                </li> --}}
 
                 
 
 				<!-- SLIDE 3 PAYROLL -->
-				<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" >
+				{{-- <li data-transition="fade" data-slotamount="7" data-masterspeed="1000" > --}}
 					<!-- MAIN IMAGE -->
-					<img src="imagenes/payroll/pyroll.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+					{{-- <img src="imagenes/payroll/pyroll.png"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> --}}
 					<!-- LAYERS -->
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption  fade"
+					{{-- <div class="tp-caption  fade"
 						data-x="80"
 						data-y="160"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -318,7 +318,7 @@
 						data-captionhidden="on"
 						style="z-index: 8; 
 						font-size: 60px; color:#16395f; font-weight: bold; letter-spacing: 3px;  text-shadow: 5px 5px 5px rgba(255,255,255,.9); ">Payroll Service
-					</div>
+					</div> --}}
 
 					{{-- <div class="tp-caption  fade"
 						data-x="50"
@@ -335,7 +335,7 @@
 					</div> --}}
 
 					<!-- LAYER NR.  -->
-					<div class="tp-caption  customin customout"
+					{{-- <div class="tp-caption  customin customout"
 						data-x="80"
 						data-y="260"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -347,10 +347,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">BPO Maquila de Nómina.
-					</div>
+					</div> --}}
 
 					<!-- LAYER NR.  -->
-					<div class="tp-caption   customin customout"
+					{{-- <div class="tp-caption   customin customout"
 						data-x="80"
 						data-y="300"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -362,10 +362,10 @@
 						data-endeasing="Power4.easeIn"
 						data-captionhidden="on"
 						style="z-index: 8;font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">Implementación de HRP.
-					</div>
+					</div> --}}
             
 					<!-- LAYER NR.  -->
-					<div class="tp-caption   customin customout"
+					{{-- <div class="tp-caption   customin customout"
 						data-x="80"
 						data-y="340"
 						data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -381,7 +381,7 @@
                 </li>
 			</ul>
 		</div>
-	</div>
+	</div> --}}
 <!-- fin de slider revolution -->
 
 
