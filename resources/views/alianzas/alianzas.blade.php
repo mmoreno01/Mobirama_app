@@ -32,11 +32,11 @@
     
                     </div>
                     <div>
-                            <img src="imagenes/alianzas/UCC.jpg" alt="">
+                            <img src="imagenes/alianzas/UCC.png" alt="">
     
                     </div>
                     <div>
-                            <img src="imagenes/alianzas/American.jpg" alt="">
+                            <img src="imagenes/alianzas/American.png" alt="">
     
                     </div>
                 </div>
