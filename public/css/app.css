@@ -558,6 +558,11 @@
   #section-services2 .content_textinf {
     width: 100%;
   }
+
+  #content-informes .title-newsletter h2 {
+    padding: 10px;
+    letter-spacing: 10px;
+  }
 }
 
 #img-pricipal {
