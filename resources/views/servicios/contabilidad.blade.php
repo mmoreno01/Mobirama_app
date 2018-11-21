@@ -31,15 +31,15 @@
         <div class="row serv-iconos">
             
             <div class="col-md-4 col-sm-4">
-                    <img src="imagenes/contabilidad/empresa.png" alt="Consultoría en la Administración de Empresas">
+                    <img src="imagenes/icons-rh/est-veri.png" alt="Consultoría en la Administración de Empresas">
                     <p>Consultoría en la Administración de Empresas.</p>
             </div>
             <div class="col-md-4 col-sm-4">
-                    <img src="imagenes/contabilidad/asesoria.png" alt="Asesoría y Planeación Financiera">
+                    <img src="imagenes/icons-rh/asesoria.png" alt="Asesoría y Planeación Financiera">
                     <p>Asesoría y Planeación Financiera.</p>
             </div>
             <div class="col-md-4 col-sm-4">
-                    <img src="imagenes/contabilidad/contable.png" alt="Gestión Contable">
+                    <img src="imagenes/icons-rh/contable.png" alt="Gestión Contable">
                     <p>Gestión Contable.</p>
             </div>
             <!-- <div class="col-md-3 col-sm-6">
