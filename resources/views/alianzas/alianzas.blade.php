@@ -7,4 +7,14 @@
         <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Alianzas</h1>
     </div>
 <!-- fin de la imagen principal -->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+</section>
 @endsection

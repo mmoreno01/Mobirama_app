@@ -17,7 +17,7 @@
                             <h1>Quienes somos</h1>
                         </div>
                         <article class="text-inicial">
-                            <p>Somos un grupo consultor multidisciplinario, estrictos impulsores del desarrollo y creadores de estrategias de solución para todos nuestros clientes. Hemos creado una red de negocios de talla mundial. Nos enfocamos en diseñar e implementar soluciones que puedan ser rentables en todos los sectores y en cualquier país del mundo. Apostamos por un modelo de negocio que tiene como eje central participar activamente en el desarrollo organizacional de las empresas, a través de la optimización de recursos y acelerando la rentabilidad de las operaciones mediante consultoría en materia: Fiscal, Jurídica, Contable, Nóminas y Financiera.</p>
+                            <p>durante nuestra trayectoria hemos prestado nuestros servicios profesionales a más de 3000 industrias de diversos sectores económicos, en cada relación se ha implementado un estricto protocolo técnico y una metodología precisa para el logro de los objetivos de nuestros clientes, realizamos análisis para el desarrollo y ejecución de planes de negocios específicos en tiempo y forma, estableciendo acciones y soluciones personalizadas en relación con la expectativa de metas, la finalidad es garantizar la mejora continua y la consolidación de la empresa en su ámbito de competencia comercial.</p>
                             <!-- <p>Contamos con equipos de emprendedores, porque tenemos un fuerte vínculo con universidades de distintos países de América Latina, coadyuvamos en la formación multimodal que los jóvenes universitarios deben tener, porque las exigencias actuales del mundo de los negocios, no deben limitarse a un conocimiento local de las leyes, la parte financiera, tributaria y del propio recurso humano, estamos generando un Fondo de Inversión que apoye esta metodología y que genere especialistas técnicos con conocimientos globales que se especialicen en el cierre de negocios. </p> -->
                         </article>
                     </div>
@@ -38,8 +38,18 @@
 <!-- Siempre te ayudaremos a hacer crecer tu negocio
 Nuestra misión es brindarle la más alta calidad de servicio y solución -->
 
-<!--section-slogan-->
-<section id="our-clients">   
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p>Nuestra experiencia nos ha permitido apoyar y acompañar a nuestros clientes en el diagnóstico de problemáticas y riesgos e implementación de planes de contención y de mejora, sirviendo nuestras acciones para planificar mediante las conclusiones del dictamen técnico-profesional la estrategia para mitigar las contingencias y perfilar la empresa para elevar su competitividad.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--section-slogan
+ <section id="our-clients">   
     <div class="container">
         <div class="row">
             <div class="col-12 content-title-clients">
@@ -72,5 +82,5 @@ Nuestra misión es brindarle la más alta calidad de servicio y solución -->
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @stop
