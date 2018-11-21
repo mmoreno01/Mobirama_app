@@ -77,7 +77,7 @@
                     <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
                     <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="/newsletter">Newsletter</a>
+                    <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
                     {{-- <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a> --}}
                     <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a> 
                      <a class="nav-item nav-link mr-4 active" href="/" >Acceder</a> 
