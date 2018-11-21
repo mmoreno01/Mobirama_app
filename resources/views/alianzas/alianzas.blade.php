@@ -12,9 +12,6 @@
     <section id="content-aliances">   
         <div class="container">
             <div class="row">
-                <div class="col-12 content-title-clients">
-                    <h1>Nuestros Clientes</h1>
-                </div>
                 <div class="owl-carousel  owl-loaded">
                     <div class="d-flex align-items-center">
                         <img src="imagenes/alianzas/Fortia.png" alt="">
