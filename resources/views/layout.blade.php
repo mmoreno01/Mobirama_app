@@ -160,10 +160,10 @@
 
             </div>
             <div class="col-md-6 content-iconsRedes">
-                    <div class="icon-social"><i class="fab fa-facebook-f"></i></div> 
-                    <div class="icon-social"><i class="fab fa-twitter"></i></div> 
-                    <div class="icon-social"><i class="fab fa-linkedin-in"></i></div> 
-                    <div class="icon-social"><i class="fab fa-youtube"></i></div> 
+                    <div class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
+                    <div class="icon-social"><a href="http://" target="_blank"><i class="fab fa-twitter"></i></a> </div> 
+                    <div class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div> 
+                    <!-- <div class="icon-social"><a href="http://"><i class="fab fa-youtube"></i></a></div>  -->
                     <p>Trazando el éxito de los negocios</p>
                
             </div>
