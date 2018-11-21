@@ -8,13 +8,39 @@
     </div>
 <!-- fin de la imagen principal -->
 
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                
+
+    <section id="content-aliances">   
+        <div class="container">
+            <div class="row">
+                <div class="col-12 content-title-clients">
+                    <h1>Nuestros Clientes</h1>
+                </div>
+                <div class="owl-carousel  owl-loaded">
+                    <div>
+                        <img src="imagenes/alianzas/Fortia.png" alt="">
+                    </div>
+                    <div>
+                            <img src="imagenes/alianzas/softland.png" alt="">
+    
+                    </div>
+                    <div>
+                            <img src="imagenes/alianzas/legadmi.png" alt="">
+    
+                    </div>
+                    <div>
+                            <img src="imagenes/alianzas/central.jpg" alt="">
+    
+                    </div>
+                    <div>
+                            <img src="imagenes/alianzas/UCC.jpg" alt="">
+    
+                    </div>
+                    <div>
+                            <img src="imagenes/alianzas/American.jpg" alt="">
+    
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 @endsection
