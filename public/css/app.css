@@ -5006,7 +5006,7 @@ footer ul {
   margin: 0 auto;
 }
 
-#content-img-certifications .card-img-top {
+#content-img-certifications .card-body h5 {
   font-weight: bold;
 }
 

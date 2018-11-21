@@ -16,7 +16,7 @@
                     <img src="imagenes/home-icons/iso9001.png" width="286px"  height="180px" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">ISO 9001</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate, magni libero quidem optio numquam incidunt placeat reprehenderit</p>
+                            <p class="card-text">Trabajamos bajo un ambiente laboral de excelencia y sistemas de gestión que aseguran el adecuado cumplimiento de las metas de nuestros clientes.</p>
                             <a href="newsletter/Mobirama.pdf" class="btn btn-primary"   target="_blank" >Ver más</a>
                         </div>
                 </div>
@@ -26,7 +26,7 @@
                             <img src="imagenes/home-icons/GPTW.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Great Place To Work</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi voluptate, magni libero quidem optio numquam incidunt placeat reprehenderit</p>
+                                    <p class="card-text">Nos ubicamos dentro del grupo de las 100 mejores cien empresas para trabajar en el país.</p>
                                     <a href="newsletter/Mobirama.pdf" class="btn btn-primary"   target="_blank" >Ver más</a>
                                 </div>
                         </div>
