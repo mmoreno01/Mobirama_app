@@ -34,10 +34,9 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
-                <div class="col-sm-12 col-md-9 content_serv">
-                            
+                <div class="col-sm-12 col-md-9 content_serv">    
 
-                        <div class=" container loop owl-carousel owl-theme owl-loaded">
+                        <div class="container owl-carousel owl-theme owl-loaded">
                             <div>
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
