@@ -484,6 +484,10 @@
   #content-informes .cont-texto {
     padding: 10px;
   }
+
+  #menu-second {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
@@ -494,6 +498,10 @@
 
   #section-services2 .content-img-alianza img {
     margin-top: 30px;
+  }
+
+  #menu-first {
+    display: none;
   }
 }
 

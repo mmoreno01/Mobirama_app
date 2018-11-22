@@ -467,7 +467,9 @@
         }
     } 
     //-----fin seccion prensa---- >
-
+ #menu-second{
+     display: none;
+ }
 }
 
 @media (max-width:992px){
@@ -481,6 +483,9 @@
             }
         }
             
+        }
+        #menu-first{
+            display: none;
         }
 }
 
