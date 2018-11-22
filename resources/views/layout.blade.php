@@ -68,24 +68,6 @@
                             </div>
                         </div>
                     </div>
-
-                    {{-- <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
-                        <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <a href="http://"><p class="title-txt">Promociones JB Card</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                        </div>
-                        <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <a href="http://"><p class="title-txt">Bolsa de Trabajo</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                        </div>
-                        <div class="col-4 content_img">
-                            <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
-                            <a href="http://"><p class="title-txt">Revista Global</p></a>
-                            <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                        </div>
-                    </div> --}}
                 </div>
 
                 <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
@@ -94,7 +76,6 @@
                     <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
                     <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
-                    {{-- <a class="nav-item nav-link mr-4" href="#alianza">Asociaciones y Alianzas</a> --}}
                     <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a> 
                      <a class="nav-item nav-link mr-4 active" href="/" >Acceder</a> 
                 </div>
@@ -157,24 +138,11 @@
             <div class="col-md-6">
                <img src="imagenes/home-icons/m-whitef.png" alt="Mobirama">
                <p>Aviso de privacidad 2018 | Mobirama</p>
-               <!-- <div class=""> 
-                    <img src="imagenes/home-icons/m-w.png" alt="">
-                </div>
-                <div class=" ">
-                    <ul>
-                        <li>Aviso de privacidad</li>
-                        <li>2018 | Mobirama</li>
-                    </ul>
-                </div> 
-                <!-- <img src="imagenes/home-icons/m-w.png" alt="">
-                <p>Aviso de privacidad 2018 <span></span></P>-->
-
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
                     <div class="icon-social"><a href="https://twitter.com/MobiramaMX" target="_blank"><i class="fab fa-twitter"></i></a> </div> 
                     <div class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div> 
-                    <!-- <div class="icon-social"><a href="http://"><i class="fab fa-youtube"></i></a></div>  -->
                     <p>Trazando el éxito de los negocios</p>
                
             </div>
