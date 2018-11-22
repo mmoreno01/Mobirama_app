@@ -136,7 +136,7 @@
 				<div class="title-newsletter ">
 					<h2>Newsletter</h2>
 				</div>
-			<a class="btn btn-primary " href="/letter">Ver mas</a>
+			<a class="btn btn-primary " href="/letter">Ver más</a>
 		</div>
 		
         {{-- <div class="row"> --}}

@@ -5,7 +5,7 @@
 <div class="bg-overlay"></div>
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-4 content-card">
+        <div class="col-md-4 content-card">
             <div class="card">
                     <div class="card-header">
                             <h3 class="card-title text-center">Acceso a la aplicacion</h3>
