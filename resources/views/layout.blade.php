@@ -38,7 +38,7 @@
                     <div id="menu-first" class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             
 
-                        <div class=" container carouselMenu  owl-theme owl-loaded">
+                        <div class=" container carouselMenu owl-carousel owl-theme owl-loaded">
                             <div class="content_img">
                                 <a href="/politica"><i class="fas fa-check"></i></a>
                                 <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
