@@ -53,6 +53,20 @@
                             {{-- <p>Lorem ipsum dolors! Dolorem ipsum debiti</p> --}}
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="owl-carousel owl-theme owl-loaded">
+                            <div>
+                                <a href="/politica"><i class="fas fa-check"></i></a>
+                            </div>
+                            <div>
+                                <a href="#"><i class="fas fa-clipboard-list"></i></a>
+                            </div>
+                            <div>
+                                <a href="/glosario"><i class="fas fa-book-open"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                     {{-- <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
