@@ -35,7 +35,6 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">
-                    <div id="menu-first" class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             
 
                         <div class=" container loop owl-carousel owl-theme owl-loaded">
@@ -52,7 +51,7 @@
                                 <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
                         </div>
-                    </div>
+                   
                     {{-- <div class="row sub-menu2 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                         <div class="col-4 content_img">
                             <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
