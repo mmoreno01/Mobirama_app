@@ -26,7 +26,7 @@
     <!-- menu principal -->
     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
-        <img src="imagenes/home-icons/m-white.png" width="30" height="30" alt="">
+        <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="">
     </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
