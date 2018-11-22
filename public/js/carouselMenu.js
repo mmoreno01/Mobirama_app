@@ -4,7 +4,9 @@ $('.loop').owlCarousel({
     margin:10,
     responsive: {
         320: {
-            items :1
+            items :1,
+            margin: 30,
+            nav:true
         },
         576: {
             items: 1,
