@@ -3,7 +3,7 @@ $('.loop').owlCarousel({
     loop:false,
     margin:10,
     responsive: {
-        0: {
+        320: {
             items :1
         },
         576: {
