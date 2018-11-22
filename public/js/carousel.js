@@ -27,7 +27,7 @@
         }
     });
 
-    $('.carouselMenu').owlCarousel({
+    $('.loop').owlCarousel({
         center: true,
         items:3,
         loop:false,
