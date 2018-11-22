@@ -7,6 +7,10 @@ $('.loop').owlCarousel({
         0: {
             items :1
         },
+        320:{
+            items: 2,
+            margin: 30,
+        },
         576: {
             items: 2,
             margin: 30,
