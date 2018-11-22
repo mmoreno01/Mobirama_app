@@ -39,15 +39,15 @@
                             
 
                         <div class=" container loop owl-carousel owl-theme owl-loaded">
-                            <div class="content_img">
+                            <div>
                                 <a href="/politica"><i class="fas fa-check"></i></a>
                                 <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
                             </div>
-                            <div  class="content_img">
+                            <div >
                                 <a href="#"><i class="fas fa-clipboard-list"></i></a>
                                 <a href="#"><p class="title-txt">Terminos de uso</p></a>
                             </div>
-                            <div  class="content_img">
+                            <div >
                                 <a href="/glosario"><i class="fas fa-book-open"></i></a>
                                 <a href="/glosario"><p class="title-txt">Glosario</p></a>
                             </div>
