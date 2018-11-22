@@ -56,7 +56,7 @@
         <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <img src="imagenes/politicas/mejoramiento.png" alt="Mobirama">
+                    <img src="imagenes/politicas/Mejoramiento.png" alt="Mobirama">
                     <h3>Mejoramiento Continuo</h3>
                     <p>Mantener un adecuado Sistema de Gestión de la Calidad, enfocado hacia las necesidades del cliente y en permanente mejoramiento.</p>
                 </div>
