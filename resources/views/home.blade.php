@@ -29,13 +29,13 @@
 						    <i class="fas fa-users"></i>
                             <p class="title-txt">Filosofía Empresarial</p>
 							<p>Orientamos nuestro quehacer diario para contribuir al desarrollo de México, la firma y nuestros clientes.</p> 
-                            <a href="/valores">Ver más</a>
+                            <a href="/filosofia ">Ver más</a>
                         </div>
                         <div id="project03" class="d-inline cont-textInf2">
 							<i class="fas fa-check-circle"></i>
 							<p class="title-txt">Valores Institucionales</p>
 							<p>Estas acciones simbolizan la convicción que nos permite fortalecer nuestro talento.</p>
-                            <a href="/filosofia">Ver más</a>
+                            <a href="/valores">Ver más</a>
                         </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
 			</div>
 		</div>
 	</div> --}}
-         <div  class=" container owl-carousel owl-theme owl-loaded">
+         <div  class=" container carouselServices owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                 <a href="http:/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
 			   <a href="http:/payroll"> <P> Payroll Service</P></a>

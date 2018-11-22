@@ -1,6 +1,6 @@
 
 
-    $('.owl-carousel').owlCarousel({
+    $('.carouselServices').owlCarousel({
         items:3,
         margin:30,
         loop:true,
