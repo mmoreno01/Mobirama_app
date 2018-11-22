@@ -1,4 +1,4 @@
-(function($){
+
 
     $('.owl-carousel').owlCarousel({
         items:3,
@@ -27,7 +27,7 @@
         }
     });
 
-    $('.carousel-menu').owlCarousel({
+    $('.carouselMenu').owlCarousel({
         center: true,
         items:3,
         loop:false,
@@ -55,7 +55,6 @@
     });
     
     
-})(jQuery);
 
 // $(document).ready(function(){
 //     $(".owl-carousel").owlCarousel();
