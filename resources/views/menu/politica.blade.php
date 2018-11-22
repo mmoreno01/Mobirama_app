@@ -39,12 +39,12 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-5">
-                <img src="imagenes/politicas/Satisfaccion-ISO.png" alt="Mobirama">
+                <img src="imagenes/politicas/satisfaccion.png" alt="Mobirama">
                 <h3>Satisfacción del Cliente</h3>
                 <p>Garantizar la satisfacción del cliente en todos los servicios prestados por la compañía.</p>
             </div>
             <div class="col-md-5">
-                <img src="imagenes/politicas/Desempenio-ISO.png" alt="Mobirama">
+                <img src="imagenes/politicas/desempeño.png" alt="Mobirama">
                 <h3>Desempeño de los Procesos</h3>
                 <p>Fortalecer el desarrollo de la Organización mediante el seguimiento y mejoramiento continuo, incrementando la eficacia y eficiencia de sus procesos
                     </p>
@@ -56,12 +56,12 @@
         <div class="row">
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
-                    <img src="imagenes/politicas/Mejoramiento-ISO.png" alt="Mobirama">
+                    <img src="imagenes/politicas/mejoramiento.png" alt="Mobirama">
                     <h3>Mejoramiento Continuo</h3>
                     <p>Mantener un adecuado Sistema de Gestión de la Calidad, enfocado hacia las necesidades del cliente y en permanente mejoramiento.</p>
                 </div>
                 <div class="col-md-5">
-                    <img src="imagenes/politicas/Personal-ISO.png" alt="Mobirama">
+                    <img src="imagenes/politicas/personal.png" alt="Mobirama">
                    <h3>Personal Cualificado</h3>
                     <p>Gestionar y administrar un capital humano, permanentemente cualificado para satisfacer a nuestras partes interesadas mediante la oportunidad y calidad en la prestación de los servicios</p>
                 </div>
