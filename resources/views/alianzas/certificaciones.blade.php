@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="imagenes/home-icons/iso9001.png" width="286px"  height="180px" class="card-img-top" alt="">
+                    <img src="imagenes/distintivos/iso9001.png" width="286px"  height="180px" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title">ISO 9001</h5>
                             <p class="card-text">Trabajamos bajo un ambiente laboral de excelencia y sistemas de gestión que aseguran el adecuado cumplimiento de las metas de nuestros clientes.</p>
@@ -23,7 +23,7 @@
             </div>
             <div class="col-md-4">
                     <div class="card">
-                            <img src="imagenes/home-icons/GPTW.png" width="286px"  height="180px" class="card-img-top" alt="">
+                            <img src="imagenes/distintivos/GPTW.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">Great Place To Work</h5>
                                     <p class="card-text">Nos ubicamos dentro del grupo de las 100 mejores empresas para trabajar en el país.</p>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-4">
                     <div class="card">
-                            <img src="imagenes/home-icons/50Consultorias.png" width="286px"  height="180px" class="card-img-top" alt="">
+                            <img src="imagenes/distintivos/recursosHumanos.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">50 Consultorias</h5>
                                     <p class="card-text">A lo largo de nuestra trayectoria hemos trabajado para las mejores empresas en el país, siendo reconocidos como una de las 50 empresas de consultoría de México.</p>
