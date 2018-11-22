@@ -40,16 +40,16 @@
 
                         <div class=" container loop owl-carousel owl-theme owl-loaded">
                             <div>
-                                <a href="/politica"><i class="fas fa-check"></i></a>
-                                <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
+                                  <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
                             <div >
-                                <a href="#"><i class="fas fa-clipboard-list"></i></a>
-                                <a href="#"><p class="title-txt">Terminos de uso</p></a>
+                                  <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
                             <div >
-                                <a href="/glosario"><i class="fas fa-book-open"></i></a>
-                                <a href="/glosario"><p class="title-txt">Glosario</p></a>
+                                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
                         </div>
                     </div>
