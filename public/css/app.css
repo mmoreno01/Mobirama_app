@@ -506,6 +506,10 @@
   #section-services2 .content-img-alianza img {
     margin-top: 30px;
   }
+
+  #menu-first {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
