@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
-                <div class="col-md-9 content_serv">
+                <div class="col-sm-12 col-md-9 content_serv">
                     <div id="menu-first" class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             
 
@@ -72,7 +72,7 @@
                     </div> --}}
                 </div>
 
-                <div class="col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-sm-12 col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
                     <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
