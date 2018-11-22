@@ -173,6 +173,7 @@
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/carouselMenu.js"></script>
     <script src="js/multi-carousel.js"></script>
     <!-- animate js -->
     <script src="js/wow.min.js"></script>
