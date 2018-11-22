@@ -35,7 +35,7 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-md-9 content_serv">
-                    <div class="row sub-menu1 wow slideInLeft  d-none d-lg-block" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="row sub-menu1   d-none d-lg-block wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             <div class="col-4 content_img">
                                 <a href="/politica"><i class="fas fa-check"></i></a>
                                 <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">
