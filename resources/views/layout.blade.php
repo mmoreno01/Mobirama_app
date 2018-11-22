@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="imagenes/home-icons/m-favicon.png">
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     <!-- estilo carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
@@ -24,7 +26,7 @@
     <!-- menu principal -->
     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
-        <img src="imagenes/home-icons/Mo-w.png" width="40%" height="30" alt="">
+        <img src="imagenes/home-icons/m-withe.png" width="40%" height="30" alt="">
     </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -153,7 +155,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-               <img src="imagenes/home-icons/Mo-w.png" alt="">
+               <img src="imagenes/home-icons/m-whitef.png" alt="Mobirama">
                <p>Aviso de privacidad 2018 | Mobirama</p>
                <!-- <div class=""> 
                     <img src="imagenes/home-icons/m-w.png" alt="">
