@@ -484,10 +484,6 @@
   #content-informes .cont-texto {
     padding: 10px;
   }
-
-  #menu-second {
-    display: none;
-  }
 }
 
 @media (max-width: 992px) {
@@ -500,7 +496,7 @@
     margin-top: 30px;
   }
 
-  #menu-first {
+  #menu-second {
     display: none;
   }
 }
