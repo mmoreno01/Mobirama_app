@@ -36,7 +36,7 @@
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
 
-                        <div class=" owl-carousel owl-theme owl-loaded">
+                        <div class="owl-carousel owl-theme">
                             <div>
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
