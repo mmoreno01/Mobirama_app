@@ -574,6 +574,12 @@
   width: 100%;
 }
 
+.uk-height-large h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
 .cont-titleResp h1 {
   color: #fff;
   padding: 20px;
