@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- imagen principal -->
-<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/bg_header/nosotros.jpg');">
+<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Nosotros.jpg');">
     <div class="overlay"></div>
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Nosotros</h1>
 </div>

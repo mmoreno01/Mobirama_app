@@ -1,9 +1,11 @@
 @extends('layout')
 
 @section('content')
-<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/payroll/pyroll.png');">
+<!--imagen principal-->
+<div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Payroll.jpg');">
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Payroll Service</h1>
 </div>
+<!--fi imagen principal-->
 
 <section id="content-txt">
     <div class="container">

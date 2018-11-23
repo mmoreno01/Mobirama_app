@@ -79,8 +79,8 @@
 				<a href="/fiscal"><P>Fiscal</P></a> 
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2.5s"> 
-                 <a href="#"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
-                <a href="#"><P>Maquila de Seguridad Social</P></a> 
+                 <a href="/maquilaNomina"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
+                <a href="/maquilaNomina"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s"> 
                 <a href="/contabilidad"><img src="imagenes/services/Contabilidad .png" alt="Contabilidad"></a>
