@@ -36,19 +36,19 @@
                   </div>
                 </div>
                 <div class="row serv-iconos">
-                <div class="col-md-3">
+                <div class="col-sm-6 col-md-3">
                         <img src="imagenes/fiscal/new-icons/CapitalPrivado.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Capital">
                         <p>Capital Privado y Capital de Riesgo </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <img src="imagenes/fiscal/new-icons/AsesoriaPatrimonial.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Asesoría">
                         <p>Asesoría Patrimonial</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <img src="imagenes/fiscal/new-icons/AlianzasEstrategicas.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Alianzas">
                         <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-6 col-md-3">
                         <img src="imagenes/fiscal/new-icons/CumplimientoFiscal.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
                         <p>Cumplimiento Fiscal</p>
                     </div>
