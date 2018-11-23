@@ -73,9 +73,11 @@ Route::get('estacionServicio', function () {
 Route::get('sofom', function () {
     return view('servicios.sofom');
 });
-
 Route::get('juridico', function () {
     return view('servicios.juridico');
+});
+Route::get('maquilaNomina', function () {
+    return view('servicios.maquilaNomina');
 });
 
 //News letter
