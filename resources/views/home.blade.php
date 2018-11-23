@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 content-imgNosotros d-none d-lg-block">
-                <img  src="imagenes/home/acercade.jpg" alt="">
+                <img  src="imagenes/home/seccion-nosotros.jpg" alt="">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 content-img-alianza">
-                <img  src="imagenes/home/alianza1.jpg" alt="">
+                <img  src="imagenes/home/seccion-alianza.jpg" alt="">
             </div>
         </div>
     </div>
