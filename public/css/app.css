@@ -646,7 +646,7 @@
 }
 
 #content-txt ul {
-  padding-left: 40px;
+  padding-left: 40px !important;
 }
 
 #content-txt a {
