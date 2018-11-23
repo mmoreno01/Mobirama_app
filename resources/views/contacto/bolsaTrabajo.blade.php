@@ -7,7 +7,6 @@
     <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Integrate a Nuestro Equipo</h1>
 </div>
 <!-- fin de la imagen principal -->
-
 <section id="Form-contact">
     <div class="container">
         <div class="row">
