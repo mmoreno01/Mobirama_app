@@ -32,7 +32,7 @@
                       <div class="row">
                           <div class="col-md-12 p-3">
                                 <div class="form-group">
-                                    {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'correo'] ) !!}
+                                    {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'Correo'] ) !!}
                                 </div>
                           </div>
                       </div>

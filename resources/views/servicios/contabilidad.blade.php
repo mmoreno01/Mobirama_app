@@ -13,14 +13,14 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-left">
-              <p class="sub-title text-center">Colaboramos en el potencial de tu negocio ofreciéndote la siguiente gama de servicios</p>
-              <p>Trabajamos junto con ustedes; para agregar valor a su Empresa en el entorno económico, social y de mercado. Somos expertos profesionistas que creamos respuestas a cada una de sus necesidades; mediante estrategias sustentables.</p>
+              <p class="sub-title text-center">Aportamos valor a las empresas al proporcionar un capital humano altamente efectivo y dispuesto a lograr los objetivos organizacionales.</p>
+              <p>La visión estratégica se encuentra destinada a la organización y aprovechamiento de los recursos humanos, permitiendo  a las empresas laborar bajo un alto grado de efectividad y óptimos resultados incrementando su competitividad dentro del mercado.</p>
               <ul>
                   <li>Consultoría en la Administración de Empresas.</li>
                   <li>Asesoría y Planeación Financiera.</li>
                   <li>Gestión Contable.</li>
               </ul>
-              <a href="/home">Más Servicios</a> 
+              <a href="home#content_services">Más Servicios</a> 
             </div>
         </div>
         <div class="row serv-iconos">

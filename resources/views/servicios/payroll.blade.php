@@ -19,7 +19,7 @@
                   <li>Asegura la confidencialidad de la información y mejora el control interno</li>
                   <li>Restringe riesgos por incumplimiento fiscal</li>
               </ul>
-              <a href="/home">Más Servicios</a> 
+              <a href="home#content_services">Más Servicios</a> 
             </div>
         </div>
         <div class="row serv-iconos">

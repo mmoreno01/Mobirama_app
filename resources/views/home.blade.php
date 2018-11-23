@@ -102,7 +102,7 @@
                         <img src="imagenes/home-icons/certificacion.png" alt="">
                     </div>
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
-                            <p class="title-txt">Certificaciones</p>
+                            <p class="title-txt">Certificaciones y Distintivos</p>
                             <p>Somos una empresa consciente de nuestra responsabilidad y compromisos asumidos con nuestros clientes, colaboradores y México.</p> 
                             <a href="/certificaciones">Ver más</a>
                     </div>

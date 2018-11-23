@@ -13,7 +13,17 @@
          <div class="container">
             <div class="row">
                <div class="col-12 text-left">
-                  <p>Nuestros profesionistas se capacitan constantemente para brindar un servicio de calidad, que asegure a nuestros clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales, así como también ofrecer estrategias adecuadas para disminuir la carga tributaria, siempre dentro del marco legal correspondiente.</p>
+                  <p>Cada profesionista de Mobirama se capacita constantemente para brindar un servicio de calidad, que asegure a los clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales, así como también ofrecer estrategias adecuadas para disminuir la carga tributaria, siempre dentro del marco legal correspondiente.</p>
+                    <ul>
+                      <li>Consultoría Fiscal Local e Internacional</li>
+                      <li>Transacciones y Derecho Financiero</li>
+                      <li>Reestructuras Corporativas Holding</li>
+                      <li>Proyectos de Inversión e Infraestructura</li>
+                      <li>Capital Privado y Capital de Riesgo</li>
+                      <li>Asesoría Patrimonial</li>
+                      <li>Alianzas Estratégicas (Joint Ventures) y Due Diligence</li>
+                      <li>Cumplimiento Fiscal</li>
+                    </ul>
                  <a href="home#content_services">Más Servicios</a> 
                </div>
             </div>

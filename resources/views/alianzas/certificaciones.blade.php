@@ -35,8 +35,8 @@
                     <div class="card">
                             <img src="imagenes/distintivos/recursosHumanos.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">
-                                    <h5 class="card-title">50 Consultorias</h5>
-                                    <p class="card-text">A lo largo de nuestra trayectoria hemos trabajado para las mejores empresas en el país, siendo reconocidos como una de las 50 empresas de consultoría de México.</p>
+                                    <h5 class="card-title">50 Empresas de Consultoría más Importantes en México.</h5>
+                                    <p class="card-text">Nos posicionamos como una de las empresas líderes en el sector de Recursos Humanos, ocupando la posición número 14 del ranking “Las Mejores Consultoras de Recursos Humanos en México”.</p>
                                     <!-- <a href="newsletter/Mobirama.pdf" class="btn btn-primary"   target="_blank" >Ver más</a> -->
                                 </div>
                         </div>
