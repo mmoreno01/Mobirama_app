@@ -22,7 +22,7 @@
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
                             <p class="title-txt">Ventejas Competitivas</p>
-							<img src="imagenes/home/competive.gif">
+							<img src="imagenes/home/m-mogif.gif">
                         </div>
                         
                         <div id="project02" class="d-inline cont-textInf1">
