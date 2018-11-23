@@ -51,7 +51,7 @@
                         <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
+                        <img src="imagenes/fiscal/new-icons/CumplimientoFiscal.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
                         <p>Cumplimiento Fiscal</p>
                     </div>
                 </div>

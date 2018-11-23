@@ -29,7 +29,7 @@
                 <p>Implementación de HRP.</p>
                 </div>
             <div class="col-md-4">
-                <img src="imagenes/payroll/talentoempresarial.png" alt="Payroll Forensic" data-toggle="modal" data-target="#PayFore">
+                <img src="imagenes/payroll/Payroll-Forenstic.png" alt="Payroll Forensic" data-toggle="modal" data-target="#PayFore">
                 <p>Payroll Forensic.</p>
             </div>
         </div>
