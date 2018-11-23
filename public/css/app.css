@@ -4238,6 +4238,16 @@ footer .icon-social i {
   color: #fff;
 }
 
+footer .icon-social:hover {
+  background-color: #fff;
+  -webkit-transition: ease-out 2s;
+  transition: ease-out 2s;
+}
+
+footer .icon-social:hover i {
+  color: #1d73b2;
+}
+
 footer .content-iconsRedes {
   text-align: right;
 }

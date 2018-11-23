@@ -14,7 +14,7 @@
             <div class="row">
                <div class="col-12 text-left">
                   <p>Nuestros profesionistas se capacitan constantemente para brindar un servicio de calidad, que asegure a nuestros clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales, así como también ofrecer estrategias adecuadas para disminuir la carga tributaria, siempre dentro del marco legal correspondiente.</p>
-                 <a href="/home">Más Servicios</a> 
+                 <a href="home#content_services">Más Servicios</a> 
                </div>
             </div>
                 <div class="row serv-iconos">
