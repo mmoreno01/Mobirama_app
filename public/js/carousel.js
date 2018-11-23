@@ -1,7 +1,7 @@
 
 
-    $('.carouselServices').owlCarousel({
-        items:3,
+    $('.owl-carousel').owlCarousel({
+        items:4,
         margin:30,
         loop:true,
         autoplay,
