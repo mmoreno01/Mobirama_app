@@ -646,7 +646,7 @@
 }
 
 #content-txt ul {
-  padding: 0px;
+  padding-left: 40px;
 }
 
 #content-txt a {
@@ -1011,7 +1011,7 @@
   }
 
   #content-txt .text-left {
-    padding: 0px 30px !important;
+    padding: 0px 50px !important;
   }
 
   #content-txt .img-right img {
