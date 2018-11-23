@@ -22,15 +22,15 @@ img{
       border-radius: 50%;
       display: inline-block;
       font-size: 20px;
+      transition: all 0.3s ease-in;
 i{
     padding: 10px 0px 10px 0px;
     color: #fff;
-
   }
         }
 .icon-social:hover{
     background-color: #fff;
-    transition: ease-out 2s;
+    transition: ease-out 0.3s;
     i{
         color: $azulMarino;
     }

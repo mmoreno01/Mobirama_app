@@ -4231,6 +4231,8 @@ footer .icon-social {
   border-radius: 50%;
   display: inline-block;
   font-size: 20px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 footer .icon-social i {
@@ -4240,8 +4242,8 @@ footer .icon-social i {
 
 footer .icon-social:hover {
   background-color: #fff;
-  -webkit-transition: ease-out 2s;
-  transition: ease-out 2s;
+  -webkit-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
 }
 
 footer .icon-social:hover i {
