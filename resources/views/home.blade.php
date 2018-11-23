@@ -54,17 +54,6 @@
 	<div class="contitle-services">
 		<h2>Nuestras Soluciones</h2>
 	</div>
-	{{-- <div class="container">
-		<div class="row">
-			<div class="col-md-6">
-			     <a href="/mobiramaServices"><img src="imagenes/home-icons/mservice.png"  alt="Mobirama Service"></a>
-
-			</div>
-			<div class="col-md-6">
-			    <a href="/mobiramaPersonal"><img src="imagenes/home-icons/m-p.png"  alt="Mobirama Personal"></a>
-			</div>
-		</div>
-	</div> --}}
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="2s">
                 <a href="http:/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>

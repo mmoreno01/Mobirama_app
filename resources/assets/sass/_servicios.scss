@@ -21,136 +21,10 @@
     }
 }
 
-//efecto imagen prfincipal
-.content-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.content-1 {
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    background: rgba(246, 76, 0, 0.4);
-    top: 0;
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    margin-left: -750px;
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
-}
-.content-2 {
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    background: rgba(246, 76, 0, 0.4);
-    top: 0;
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg);
-    margin-left: -800px;
-    transition: all 500ms;
-    -webkit-transition: all 500ms;
-}
-
-.content-3 {
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    background: rgba(246, 76, 0, 0.4);
-    top: 0;
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(30deg);
-    margin-left: -800px;
-    margin-top: -500px;
-    transition: all 900ms;
-    -webkit-transition: all 900ms;
-    box-shadow: 0px 1px 20px -5px black;
-}
-.content-4 {
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    background: rgba(246, 76, 0, 0.4);
-    top: 0;
-    transform: rotate(-30deg);
-    -webkit-transform: rotate(30deg);
-    margin-left: -850px;
-    margin-top: -500px;
-    transition: all 700ms;
-    -webkit-transition: all 700ms;
-}
-
-.content-img:hover .content-1{
-    width: 100%;
-    transition: all 900ms;
-    -webkit-transition: all 900ms;
-}
-
-.content-img:hover .content-2{
-    width: 100%;
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
-}
-
-.content-img:hover .content-3{
-    width: 100%;
-    transition: all 500ms;
-    -webkit-transition: all 500ms;
-}
-
-.content-img:hover .content-4{
-     width: 100%; 
-     transition: all 700ms; 
-     -webkit-transition: all 700ms; 
-}
-
-.content-txt {
-    position: absolute;
-    top: 0;
-    width: 800px;
-    padding: 10px;
-    z-index: 10;
-    color: white;
-    text-align: justify;
-    margin-left: 45px;
-    margin-top: 100px;
-}
-.content-txt h2{
-    font-size: 30px;
-    opacity: 0;
-    transform: scale(0.2);
-    -webkit-transform: scale(0.2);
-    transition: all 300ms;
-    -webkit-transition:all 300ms;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.content-img:hover h2{
-    opacity: 1;
-    transition: all 300ms;
-    -webkit-transition: all 300ms;
-    transform: scale(1);
-    -webkit-transform: scale(1);
-}
-
-
-#content-txt{
-
-    // margin: 50px 0px;
-
-li{
-    font-weight: 100;
-    list-style: none;
-}
-}
-//fin de efecto del contenido principal
 
 
 
-
-
-//<---------  sevicios iconos ---------->
+//<--------- #############----- sevicios iconos ----#################---------->
 .serv-iconos{
     img{
         width:  130px;
@@ -177,9 +51,9 @@ li{
     list-style: none;  
 }
 }
-//><----------- fin de servicios iconos ------->
+//><----------- ######################----fin de servicios iconos------########################### ---------------->
 
-// ###############--estyle services--###############
+// --------------###############--estyle services--###############--------------------------
 #content-txt{
     margin: 50px 0px;
     
@@ -214,10 +88,10 @@ li{
         color: $azulMarino;
     }
 }
-//########------fin de servicios--------########
+//####################################------fin de servicios------##############################-------
 
 
-//inicio de banner parallax
+//-----------###########----inicio de banner parallax----#############------------
 #banner{
     a{
         color: #fff;
@@ -271,7 +145,7 @@ p{
     }
 }
 
-//como funciona sofom
+//--------------------############----como funciona sofom-----#############--------------------------
 
 #serv-comoFunciona{
     margin: 50px 0px;
@@ -320,7 +194,7 @@ p{
 }
 
 
-//seccion logos
+// <--------------------- ########--seccion logos--######---------------------------->
 #logos-seg{
 
     margin: 50px 0px;
@@ -348,48 +222,8 @@ p{
 
 }
 
-//########### ---terminos --- ##########
 
-#text-termino{
-    margin: 50px 0px;
-    h1{
-        color: $azulMarino;
-        font-size: 30px;
-        font-weight: 100;
-    }
-    p{
-        text-align: justify;
-        line-height: 30px;
-        padding: 0px 50px;
-        span{
-            font-weight: bold;
-        }
-    } 
-}
-//########### --- fin de terminos --- ##########
 
-//  servicio glosario
-#text-glosario{
-    margin: 50px 0px;
-    h1{
-        color: $azulMarino;
-        span{
-            color: $colorGrisTitlel;
-
-        }
-
-    }
-
-    p{
-        font-weight:100;
-        padding: 0px 50px;
-        span{
-            color: $azulMarino;
-            font-weight: bold;
-            font-size: 20px;
-        }
-    }
-}
 
 //estilo de promociones
 
