@@ -52,20 +52,6 @@
                                 <a href="http://"><p class="title-txt">Glosario</p></a>
                             </div>
                     </div>
-                        <!-- <div class=" container active-review-carusel owl-carousel">
-                            <div class="item">
-                                  <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
-                            </div>
-                            <div class="item">
-                                  <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
-                            </div>
-                            <div class="item">
-                                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                                <a href="/capitalHumano"><P>Capital Humano</P></a>
-                            </div>
-                        </div> -->
                 </div>
                 <div class="col-sm-12 col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
