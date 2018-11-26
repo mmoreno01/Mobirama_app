@@ -1124,12 +1124,12 @@
   padding: 10px 20px;
 }
 
-#active-review-carusel .item img {
+#active-review-carusel img {
   display: block;
   margin: 0 auto;
 }
 
-#active-review-carusel .item p {
+#active-review-carusel p {
   text-align: center;
 }
 
