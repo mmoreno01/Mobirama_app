@@ -36,7 +36,7 @@
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
 
-                        <div class=" container active-review-carusel">
+                        <div class=" container active-review-carusel owl-carousel">
                             <div class="item">
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
