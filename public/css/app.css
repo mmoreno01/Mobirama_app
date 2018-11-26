@@ -1124,6 +1124,15 @@
   padding: 10px 20px;
 }
 
+#active-review-carusel .item img {
+  display: block;
+  margin: 0 auto;
+}
+
+#active-review-carusel .item a {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .navbar-dark
 .navbar-brand {
