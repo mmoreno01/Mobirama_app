@@ -11,7 +11,8 @@
 }
 
 #content_services img:hover {
-  opacity: .8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out;
 }
@@ -617,12 +618,13 @@
   width: 130px;
   display: block;
   margin: 0 auto;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .serv-iconos img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  opacity: 1;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
