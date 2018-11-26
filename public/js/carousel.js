@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 
     $('#owl-services').owlCarousel({
         items:4,
@@ -43,7 +43,7 @@
             576: {
                 items: 2,
                 margin: 30,
-                nav:true|
+                nav:true
             },
             768: {
                 items: 3,
@@ -59,7 +59,6 @@
     });
    
     
+});
 
-// $(document).ready(function(){
-//     $(".owl-carousel").owlCarousel();
-//   });
+   
