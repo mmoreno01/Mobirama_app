@@ -4,12 +4,13 @@
         items:4,
         margin:30,
         loop:true,
-        autoplay:false,
+        autoplay:true,
         autoplayHoverPause:false,
-        autoplaySpeed:7000,
+        autoplaySpeed:6000,
         responsive: {
             0: {
-                items :1
+                items :1,
+                nav:true
             },
             576: {
                 items: 2,
