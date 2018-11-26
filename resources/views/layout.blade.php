@@ -35,16 +35,19 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
-                    <div class="row bg-scroll" >
-                        <div class="col-sm-4 col-md-4">
+                    <div class="row " style="width: 100%;
+                    border: 1px solid #ddd;
+                    background: #f1f1f1;
+                    overflow-x: scroll;" >
+                        <div class="col-4">
                                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
                         </div>
-                        <div class="col-sm-4 col-md-4">
+                        <div class="col-4">
                                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
                         </div>
-                        <div class="col-sm-4 col-md-4">
+                        <div class="col-4">
                                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
                         </div>
