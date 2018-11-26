@@ -8,7 +8,11 @@
         margin: 0 auto;
         transition: all 1s ease-in-out;
     }
-
+   
+        img:hover{
+            transform:translateY(-20px);
+            transition: all .2s ease-out;
+               }
     .fab{
         display: block;
         margin: 0 auto;
