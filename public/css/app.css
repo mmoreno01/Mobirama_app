@@ -45,8 +45,7 @@
 #content_services .owl-carousel .owl-prev,
 #content_services .owl-next {
   position: absolute;
-  top: 50%;
-  right: 5% !important;
+  top: 50% !important;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
