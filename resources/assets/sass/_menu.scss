@@ -44,8 +44,12 @@
     .sub-menu2{
         padding: 10px 20px;
     }
-
-   
+   .bg-scroll{
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    overflow-x: scroll;
+   }
 }
 
 

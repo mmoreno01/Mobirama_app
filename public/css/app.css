@@ -1133,6 +1133,13 @@
   padding: 10px 20px;
 }
 
+#navbarTogglerDemo02 .bg-scroll {
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #f1f1f1;
+  overflow-x: scroll;
+}
+
 @media (max-width: 768px) {
   .navbar-dark
 .navbar-brand {
