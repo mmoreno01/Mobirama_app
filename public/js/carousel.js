@@ -4,9 +4,8 @@
         items:4,
         margin:30,
         loop:true,
-        autoplay,
         autoplayHoverPause:true,
-        autoplaySpeed:9000, 
+        autoplaySpeed:7000,
         responsive: {
             0: {
                 items :1
