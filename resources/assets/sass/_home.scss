@@ -43,7 +43,7 @@
     }
     .owl-carousel .owl-prev, .owl-next {
         position: absolute;
-        top: 50%!important;
+        top: 30%!important;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
         span{
@@ -51,10 +51,10 @@
         }
     }
     .owl-next{
-        right: 5%!important;
+        right: 3%!important;
     }
     .owl-prev{
-        
+        left: 3%!important;
     }
 }
 
