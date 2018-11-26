@@ -36,16 +36,16 @@
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
 
-                        <div id="owl-menu" class=" container owl-carousel owl-theme owl-loaded">
-                            <div>
+                        <div class=" container active-review-carusel">
+                            <div class="item">
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
-                            <div >
+                            <div class="item">
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
-                            <div >
+                            <div class="item">
                                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                 <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
