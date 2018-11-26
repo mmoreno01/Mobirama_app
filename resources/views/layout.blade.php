@@ -35,8 +35,21 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
-
-                        <div class=" container active-review-carusel owl-carousel">
+                    <div class="row">
+                        <div class="col-sm-4">
+                               <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
+                        </div>
+                        <div class="col-sm-4">
+                               <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
+                        </div>
+                        <div class="col-sm-4">
+                               <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+                                  <a href="/capitalHumano"><P>Capital Humano</P></a>
+                        </div>
+                    </div>
+                        <!-- <div class=" container active-review-carusel owl-carousel">
                             <div class="item">
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                   <a href="/capitalHumano"><P>Capital Humano</P></a>
@@ -49,7 +62,7 @@
                                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                                 <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
-                        </div>
+                        </div> -->
                 </div>
                 <div class="col-sm-12 col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
