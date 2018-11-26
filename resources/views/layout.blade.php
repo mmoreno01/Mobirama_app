@@ -35,27 +35,23 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
-                    <div class="row">
-                            <div class="row sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
-                                    <div class="col-4 content_img">
-                                         <a href="/politica"><i class="fas fa-check"></i></a>
-                                        <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
-                                        <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
-                                        <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                                    </div>
-                                    <div class="col-4 content_img">
-                                         <a href="/terminos"><i class="fas fa-clipboard-list"></i></a>
-                                        <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
-                                        <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
-                                        <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                                    </div>
-                                    <div class="col-4 content_img">
-                                       <!-- <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
-                                       <a href="http://"><i class="fas fa-book-open"></i></a>
-                                        <a href="http://"><p class="title-txt">Glosario</p></a>
-                                        <p>Lorem ipsum dolors! Dolorem ipsum debiti</p>
-                                    </div>
-                                </div>
+                    <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                            <div class="col-4 content_img">
+                                <a href="/politica"><i class="fas fa-check"></i></a>
+                                <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
+                                <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
+                            </div>
+                            <div class="col-4 content_img">
+                                <a href="/terminos"><i class="fas fa-clipboard-list"></i></a>
+                                <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
+                                <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
+                            </div>
+                            <div class="col-4 content_img">
+                                <!-- <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
+                                <a href="http://"><i class="fas fa-book-open"></i></a>
+                                <a href="http://"><p class="title-txt">Glosario</p></a>
+                            </div>
+                    </div>
                         <!-- <div class=" container active-review-carusel owl-carousel">
                             <div class="item">
                                   <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
@@ -70,7 +66,7 @@
                                 <a href="/capitalHumano"><P>Capital Humano</P></a>
                             </div>
                         </div> -->
-             
+                </div>
                 <div class="col-sm-12 col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
