@@ -153,22 +153,7 @@
         transform: translateY(-10px);
         transition: ease-in 0.3s;
     }
-    .owl-carousel .owl-prev, .owl-next {
-        position: absolute;
-        top: 50%;
-        right: 5%!important;
-        -webkit-transform: translateY(-50%);
-        transform: translateY(-50%);
-        span{
-            font-size: 50px;
-        }
-    }
-    .owl-next{
-        right: 5%!important;
-    }
-    .owl-prev{
-        
-    }
+   
    
 }
 // end style carousel services
