@@ -1116,21 +1116,21 @@
   background-color: #DCDCDC !important;
 }
 
+#navbarTogglerDemo02 .content_serv img {
+  display: block;
+  margin: 0 auto;
+}
+
+#navbarTogglerDemo02 .content_serv p {
+  text-align: center;
+}
+
 #navbarTogglerDemo02 .sub-menu1 {
   padding: 10px 20px;
 }
 
 #navbarTogglerDemo02 .sub-menu2 {
   padding: 10px 20px;
-}
-
-#active-review-carusel img {
-  display: block;
-  margin: 0 auto;
-}
-
-#active-review-carusel p {
-  text-align: center;
 }
 
 @media (max-width: 768px) {
