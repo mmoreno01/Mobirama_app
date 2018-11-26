@@ -4473,6 +4473,7 @@ footer ul {
 #carousel_services .owl-next {
   position: absolute;
   top: 50%;
+  right: 5% !important;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -4480,6 +4481,10 @@ footer ul {
 #carousel_services .owl-carousel .owl-prev span,
 #carousel_services .owl-next span {
   font-size: 50px;
+}
+
+#carousel_services .owl-next {
+  right: 5% !important;
 }
 
 #section-solutions {
