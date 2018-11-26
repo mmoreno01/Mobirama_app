@@ -5,7 +5,9 @@
         margin:30,
         loop:true,
         autoplay,
-        autoplayTimeout: 6000,
+        autoplayTimeout:7000,
+        autoplayHoverPause:true,
+        autoplaySpeed:5000, 
         responsive: {
             0: {
                 items :1
