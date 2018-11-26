@@ -7,7 +7,7 @@
         autoplay:true,
         autoplayHoverPause:true,
         autoplayTimeout:6000,
-        auttoplaySpeed:5000,
+        auttoplaySpeed:6000,
         responsive: {
             0: {
                 items :1,
