@@ -38,18 +38,15 @@
                     <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
                             <div class="col-4 content_img">
                                 <a href="/politica"><i class="fas fa-check"></i></a>
-                                <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
                                 <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
                             </div>
                             <div class="col-4 content_img">
-                                <a href="/terminos"><i class="fas fa-clipboard-list"></i></a>
-                                <!--<img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
-                                <a href="/terminos"><p class="title-txt">Terminos de uso</p></a>
+                                <a href="#"><i class="fas fa-clipboard-list"></i></a>
+                                <a href="#"><p class="title-txt">Terminos de uso</p></a>
                             </div>
                             <div class="col-4 content_img">
-                                <!-- <img src="imagenes/house-loan-opportunity_page.png.img.320.1519851211549.png" alt="">-->
-                                <a href="http://"><i class="fas fa-book-open"></i></a>
-                                <a href="http://"><p class="title-txt">Glosario</p></a>
+                                <a href="/glosario"><i class="fas fa-book-open"></i></a>
+                                <a href="/glosario"><p class="title-txt">Glosario</p></a>
                             </div>
                     </div>
                 </div>

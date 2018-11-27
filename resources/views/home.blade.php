@@ -4,7 +4,7 @@
 
 <!-- slider revolution -->
 {{-- @include('sliderRevolution') --}}
-<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+<div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
         <video autoplay="true" muted loop width="100%" height="100%">
 				<source src='videos/INTRO BANNER 3 4 web.mp4' type='video/mp4' />
 		</video>

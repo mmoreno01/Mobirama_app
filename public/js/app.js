@@ -13868,7 +13868,8 @@ module.exports = Cancel;
 
 __webpack_require__(12);
 __webpack_require__(43);
-module.exports = __webpack_require__(44);
+__webpack_require__(44);
+module.exports = __webpack_require__(45);
 
 
 /***/ }),
@@ -47386,6 +47387,12 @@ if (false) {
 
 /***/ }),
 /* 44 */
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed: ModuleBuildError: Module build failed: \r\n @import \"effects/2d-transitions/grow\";\r\n^\r\n      File to import not found or unreadable: effects/2d-transitions/grow.\r\n      in C:\\laragon\\www\\app\\resources\\assets\\sass\\hover.scss (line 16, column 2)\n    at runLoaders (C:\\laragon\\www\\app\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at C:\\laragon\\www\\app\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at C:\\laragon\\www\\app\\node_modules\\loader-runner\\lib\\LoaderRunner.js:230:18\n    at context.callback (C:\\laragon\\www\\app\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at Object.asyncSassJobQueue.push [as callback] (C:\\laragon\\www\\app\\node_modules\\sass-loader\\lib\\loader.js:55:13)\n    at Object.done [as callback] (C:\\laragon\\www\\app\\node_modules\\neo-async\\async.js:7974:18)\n    at options.error (C:\\laragon\\www\\app\\node_modules\\node-sass\\lib\\index.js:294:32)");
+
+/***/ }),
+/* 45 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
