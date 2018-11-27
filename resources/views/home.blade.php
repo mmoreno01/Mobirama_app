@@ -57,8 +57,8 @@
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
                 <a href="http:/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
-			   <a href="http:/payroll"> <P> Payroll Service</P></a>
-        </div>
+			    <a href="http:/payroll"> <P> Payroll Service</P></a>
+            </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
                 <a href="/capitalHumano"><P>Capital Humano</P></a>
@@ -69,7 +69,7 @@
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
                  <a href="/maquilaNomina"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
-                <a href="/maquilaNomina"><P>Maquila de Seguridad Social</P></a> 
+                 <a href="/maquilaNomina"><P>Maquila de Seguridad Social</P></a> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.5s"> 
                 <a href="/contabilidad"><img src="imagenes/services/Contabilidad .png" alt="Contabilidad"></a>
