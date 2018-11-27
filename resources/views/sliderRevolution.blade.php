@@ -35,7 +35,7 @@
 
 
 				<video autoplay="true" muted width="100%" >
-					<source src='videos/size 2 mp.mp4' type='video/mp4' />
+					<source src='videos/Banner-2_2 SD.mp4' type='video/mp4' />
 				</video>
 
 			</div> 

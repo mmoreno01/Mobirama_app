@@ -7,7 +7,7 @@
 <!-- fin de slider revolution -->
 
 <!--Seccion Nosotros -->
-<section id="section-services" class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+<section id="section-services" class=" wow fadeInDown" data-wow-duration="1s" data-wow-delay="2s">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 content-imgNosotros d-none d-lg-block">
@@ -51,7 +51,7 @@
 
 <!-- Seccion de servicios  slider -->
 <section id="content_services"  name="content_services" class="my-5">
-	<div class="contitle-services">
+	<div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
 		<h2>Nuestras Soluciones</h2>
 	</div>
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
@@ -84,7 +84,7 @@
 <!-- fin de la seccion de servicios -->
 
 <!-- Seccion aliazas y certificaciones -->
-<section id="section-services2">
+<section id="section-services2" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -92,7 +92,7 @@
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
                         <img src="imagenes/home-icons/alianzas.png" alt="">
                     </div>
-                    <div id="cont-comunicado" class="d-inline content_textinf">
+                    <div id="cont-comunicado" class="d-inline content_textinf ">
                             <p class="title-txt">Alianzas Estrategicas</p>
                             <p>Nuestras alianzas nos permiten desarrollar proyectos con la seguridad de optimizar los recursos de nuestros clientes,
 							 ofreciendo una excelente calidad de servicios</p> 
@@ -117,15 +117,15 @@
 <!-- Fin de seccion alianzas y certificaciones -->
 
 <!-- Seccion de prensa -->
-<section id="content-informes">
+<section id="content-informes" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
     {{-- <h2 class="text-center">News lettler</h2> --}}
     {{-- <div class="container"> --}}
 		<div class="content_newsletter parallax d-flex justify-content-center"  style="background-image: url('imagenes/home/newslett1.jpg'); background-position: center-top; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
 			<div class="overlay"></div>
-				<div class="title-newsletter ">
+				<div class="title-newsletter wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
 					<h2>Newsletter</h2>
 				</div>
-			<a class="btn btn-primary " href="/letter">Ver más</a>
+			<a class="btn btn-primary wow fadeInDown" href="/letter" data-wow-duration="1s" data-wow-delay="1.5s">Ver más</a>
 		</div>
 		
         {{-- <div class="row"> --}}
