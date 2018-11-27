@@ -34,7 +34,7 @@
 				fullScreenOffsetContainer: ""> 
 
 
-				<video autoplay="true" muted width="100%" >
+				<video autoplay="true" muted loop width="100%" >
 					<source src='videos/Banner-2_2 SD.mp4' type='video/mp4' />
 				</video>
 

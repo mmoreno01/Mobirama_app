@@ -84,7 +84,7 @@
 <!-- fin de la seccion de servicios -->
 
 <!-- Seccion aliazas y certificaciones -->
-<section id="section-services2" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s">
+<section id="section-services2" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -122,10 +122,10 @@
     {{-- <div class="container"> --}}
 		<div class="content_newsletter parallax d-flex justify-content-center"  style="background-image: url('imagenes/home/newslett1.jpg'); background-position: center-top; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
 			<div class="overlay"></div>
-				<div class="title-newsletter wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
+				<div class="title-newsletter wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 					<h2>Newsletter</h2>
 				</div>
-			<a class="btn btn-primary wow fadeInDown" href="/letter" data-wow-duration="1s" data-wow-delay="1.5s">Ver más</a>
+			<a class="btn btn-primary wow fadeInUp" href="/letter" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
 		</div>
 		
         {{-- <div class="row"> --}}
@@ -211,13 +211,13 @@
 <section id="rutas-informacion">
     <div class="container">
         <div class="row">
-            <div id="content_ubicacion" class="col-md-6 cont-img">
+            <div id="content_ubicacion" class="col-md-6 cont-img wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
 				<a href="/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>
-            <div id="ruta-contacto" class="col-md-6 cont-img">
-				<a href="/contacto"><img src="imagenes/home-icons/Contacto.png" alt=""></a>
+            <div id="ruta-contacto" class="col-md-6 cont-img wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
+				<a href="/contacto" class="wow fadeInUp" ><img src="imagenes/home-icons/Contacto.png" alt=""></a>
                 <h3>Contacto</h3>
                 <p>Contacte a los expertos </p>
             </div>
