@@ -7,7 +7,7 @@
 <!-- fin de slider revolution -->
 
 <!--Seccion Nosotros -->
-<section id="section-services">
+<section id="section-services" class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 content-imgNosotros d-none d-lg-block">
