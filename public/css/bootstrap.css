@@ -241,7 +241,7 @@ button {
 
 button:focus {
   outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+  outline: 5px auto #fff;
 }
 
 input,
@@ -4308,9 +4308,10 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
+/* se cambio el color del controno manual */
 .navbar-dark .navbar-toggler {
   color: transparent;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
 }
 
 .navbar-dark .navbar-toggler-icon {

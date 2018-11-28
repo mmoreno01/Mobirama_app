@@ -441,8 +441,14 @@
   display: block;
   margin-bottom: 20px;
   position: absolute;
+  background-color: transparent;
   bottom: 20px;
+  border: 2px solid #fff;
+}
+
+#content-informes .content_newsletter .btn:hover {
   background-color: #1d73b2;
+  border-color: #1d73b2;
 }
 
 #content-informes .parallax {

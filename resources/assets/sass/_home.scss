@@ -27,7 +27,7 @@
         font-weight: 600;
         text-transform: uppercase;
     }
-    
+
     a{
         text-decoration: none;
     }
@@ -398,8 +398,13 @@
                 display: block;
                 margin-bottom: 20px;
                 position: absolute;
+                background-color: transparent;
                 bottom: 20px;
+                border: 2px solid #fff;
+            }
+            .btn:hover{
                 background-color: $azulMarino;
+                border-color:$azulMarino;
             }
         } 
         .parallax{

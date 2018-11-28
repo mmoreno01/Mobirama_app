@@ -35,7 +35,7 @@
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
                 <div class="col-sm-12 col-md-9 content_serv">    
-                    <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+                    <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.9">
                             <div class="col-4 content_img">
                                 <a href="/politica"><i class="fas fa-check"></i></a>
                                 <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
@@ -50,14 +50,18 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3 content_item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+                <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
                     <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
                     <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
                     <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
-                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a> 
-                    <a class="nav-item nav-link mr-4 active" href="/" >Acceder</a> 
+                    <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>
+                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>  
+                    <a href="/" class="nav-item nav-link mr-4">
+                      <i class="fas fa-address-card"></i>
+                      Acceder
+                    </a>
                 </div>
             </div>   
         </div>
@@ -83,7 +87,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-               <img src="imagenes/home-icons/m-whitef.png" alt="Mobirama">
+              <a href="/home"><img src="imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
                <p>Aviso de privacidad 2018 | Mobirama</p>
                <!-- <div class=""> 
                     <img src="imagenes/home-icons/m-w.png" alt="">
