@@ -4801,6 +4801,42 @@ footer ul {
   margin: 50px 0px;
 }
 
+#slider-valores {
+  padding: 50px 0px;
+}
+
+#slider-valores .slider-nav {
+  padding: 50px 0px;
+}
+
+#slider-valores .slider-nav .content-icon img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+#slider-valores .slider-for .cont-desc-img img {
+  display: block;
+  margin: 0 auto;
+}
+
+#slider-valores .slider-for h1 {
+  color: #1d73b2;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+#slider-valores .slider-for h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+#slider-valores .slider-for p {
+  text-align: justify;
+}
+
 @media (max-width: 1200px) {
   #valores ul li {
     margin: 10px 0px;
@@ -5021,5 +5057,13 @@ website:   	http://www.themepunch.com
 
 body {
   font-family: "Poppins";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins" !important;
 }
 

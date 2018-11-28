@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="{{asset('css/settings.css')}}">
     <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}">
+    <!--slick-slider-->
+
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
+    <!-- Add the new slick-theme.css if you want the default styling-->
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick-theme.css')}}"/>
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
@@ -83,7 +88,7 @@
 
 
 
-<footer>
+<footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -115,6 +120,8 @@
 </footer>
 
 	<!-- <script src="js/jquery.js"></script>   -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/ScrollMagic/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -135,6 +142,9 @@
     <script src="js/ScrollMagic.min.js"></script>
     <script src="js/debug.addlndicators.js"></script>
     <script src="js/ScrollMagic/main.js"></script>
+    <!--slick-slider-->
+    
+    <script type="text/javascript" src="css/slick/slick.min.js"></script>
     <!-- animate -->
     <script>
         wow = new WOW(
@@ -150,5 +160,52 @@
     </script> 
     <!-- vue js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+     <script type="text/javascript">
+   $('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+
+});
+$('.slider-nav').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay:true,
+  asNavFor: '.slider-for',
+  centerMode: true,
+  focusOnSelect: true,
+  
+   responsive: [{
+
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        infinite: true
+      }
+
+    }, {
+
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        dots: true
+      }
+
+    }, {
+
+      breakpoint: 576,
+    
+ settings: {
+        slidesToShow: 1,
+        dots: false
+      }
+    }]
+});
+				
+</script>
+
 </body>
 </html>

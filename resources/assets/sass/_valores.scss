@@ -35,6 +35,43 @@
     }
 }
 
+#slider-valores{
+    padding: 50px 0px;
+    .slider-nav{
+        padding: 50px 0px;
+        .content-icon{
+            img{
+                width: 200px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .slider-for{
+        .cont-desc-img{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        h1{
+            color: $azulMarino;
+            text-transform: uppercase;
+            font-size: 25px;
+            
+        }
+        h4{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 15px;
+            letter-spacing: 5px;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+}
 
 //media queryes
 
@@ -55,4 +92,11 @@
             }
         }
     }
+}
+
+@media(max-width:576px){
+    #slider-valores {
+
+    }
+
 }

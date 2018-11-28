@@ -104,7 +104,8 @@
 </div><!-- container 
 </section>-->
 
-<section  id="valores">
+
+<!--<section  id="valores">
     <div class="container">
         <div class="row">
             <div class="col-sm-3 col-md-3 col-lg-12">
@@ -198,9 +199,96 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- tsab-content -->
+                        </div> tsab-content 
             </div>
         </div>
     </div>
+</section>-->
+
+
+<section id="slider-valores">
+    <div class="container">
+        <section class="slider-nav slider">
+                <div class="content-icon">
+                        <img src="imagenes/valores/se.png" alt="">
+                </div>
+                <div class="content-icon">
+                        <img src="imagenes/valores/inov.png" alt="">
+                </div>
+                <div class="content-icon">
+                        <img src="imagenes/valores/int.png" alt="">
+                </div>
+                <div class="content-icon">
+                        <img src="imagenes/valores/te.png" alt="">
+                </div>
+                <div class="content-icon">
+                        <img src="imagenes/valores/prof.png" alt="">
+                </div>
+        </section>
+        <section class="slider-for slider" data-sizes="50vw">
+                <div>
+                        <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12">
+                                    <h4>Valores</h4>
+                                    <h1>Servicio de Excelencia</h1>
+                                    <p>Servir a nuestros clientes con calidad resolviendo sus necesidades, asegurando su permanencia mediante una comunicación eficaz, clara y estrecha.</p>
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 cont-desc-img">
+                                    <img src="imagenes/valores/exelencia.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                </div>
+                <div>
+                        <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12">
+                                    <h4>Valores</h4>
+                                    <h1>Innovación</h1>
+                                    <p>Cumplir con los compromisos adquiridos, utilizando nuestra creatividad y conocimiento en todo momento para mejorar la satisfacción al cliente, elevando la calidad y confiabilidad en todos nuestros servicios.</p>
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 cont-desc-img">
+                                    <img src="imagenes/valores/inova.jpg" class="img-responsive" alt="">
+                                </div>
+                        </div>
+                </div>
+                <div>
+                        <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12">
+                                    <h4>Valores</h4>
+                                    <h1>Integridad</h1>
+                                    <p>Actuar con honestidad, ética y rectitud, realizar todas nuestras actividades con base en nuestros valores mediante un clima de disciplina y respeto.</p>
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 cont-desc-img">
+                                    <img src="imagenes/valores/inte.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                </div>
+                <div>
+                        <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12">
+                                    <h4>Valores</h4>
+                                    <h1>Trabajo en Equipo</h1>
+                                    <p>Integrar esfuerzos colaborar en conjunto para el logro de nuestros objetivos mediante el desarrollo de nuestro talento, fomentando siempre el compañerismo y respeto.</p>
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 cont-desc-img">
+                                    <img src="imagenes/valores/equipo.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                </div>
+                <div>
+                        <div class="row">
+                                <div class="col-lg-4 col-md-12 col-sm-12  col-xs-12">
+                                    <h4>Valores</h4>
+                                    <h1>Profesionalismo</h1>
+                                    <p>Actuar siempre comprometidos en la aplicación de nuestros conocimientos, realizar nuestro trabajo con entrega, responsabilidad y seriedad.</p>
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 cont-desc-img">
+                                    <img src="imagenes/valores/prof.jpg" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                </div>
+        </section>
+</div>
+ 
 </section>
+
 @stop
