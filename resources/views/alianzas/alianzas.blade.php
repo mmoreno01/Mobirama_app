@@ -12,19 +12,19 @@
     <section id="content-aliances">   
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                         <img src="imagenes/alianzas/Fortia.png" alt="">
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                         <img src="imagenes/alianzas/softland.png" alt="">
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                         <img src="imagenes/alianzas/legadmi.png" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 col-md-4">
-                            <img src="imagenes/alianzas/central.jpg" alt="">
+                            <img src="imagenes/alianzas/Contadores-Auditores-Consultores-Logo-UCCS.png" alt="">
                 </div>
                 <div class="col-sm-4 col-md-4">
                             <img src="imagenes/alianzas/UCC.png" alt="">

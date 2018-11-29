@@ -1,17 +1,54 @@
 #content-img-certifications{
     padding: 100px 0px;
     .card-img-top{
-        width: 50%;
+        width: 200px;
         display: block;
         margin: 0 auto;
     }
     .card-body{
         h5{
             font-weight: bold;
+            color: $azulMarino;
         }
         .btn-primary{
             background-color: $azulMarino;
         }
+        p{
+            text-align: justify;
+        }
+
+    }
+    .card{
+        border-color:transparent;
     }
     
+}
+
+
+//media queries
+
+@media(max-width:768px){
+    #title-certificaion{
+        h1{
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+    }
+}
+
+@media(max-width:576px){
+    #title-certificaion{
+        h1{
+            font-size: 25px;
+            letter-spacing: 0px;
+        }
+    }
+    .card-body{
+        h5{
+            text-align: center;
+        }
+    }
+    .content-card{
+        padding: 20px 0px;
+    }
 }

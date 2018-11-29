@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- imagen principal -->
-    <div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Certificaciones.jpg');">
+    <div id="title-certificaion" class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Certificaciones.jpg');">
         <div class="overlay"></div>
         <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Certificaciones y Distintivos</h1>
     </div>
@@ -11,7 +11,7 @@
 <section id="content-img-certifications">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 content-card">
                 <div class="card">
                     <img src="imagenes/distintivos/iso9001.png" width="286px"  height="180px" class="card-img-top" alt="">
                         <div class="card-body">
@@ -21,7 +21,7 @@
                         </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 content-card">
                     <div class="card">
                             <img src="imagenes/distintivos/GPTW.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">
@@ -31,7 +31,7 @@
                                 </div>
                     </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 content-card">
                     <div class="card">
                             <img src="imagenes/distintivos/recursosHumanos.png" width="286px"  height="180px" class="card-img-top" alt="">
                                 <div class="card-body">

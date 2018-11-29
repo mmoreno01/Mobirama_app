@@ -4085,7 +4085,6 @@ h1 {
   font-size: 30px;
   position: relative;
   padding-bottom: 10px;
-  font-family: 'Dosis','Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #content-nosotros .title-about-us h1:before {
@@ -4131,7 +4130,6 @@ h1 {
   position: relative;
   padding-bottom: 10px;
   text-align: center;
-  font-family: 'Dosis','Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #our-clients .content-title-clients h1:before {
@@ -4181,8 +4179,29 @@ h1 {
   padding: 100px 0px;
 }
 
-#second-text p {
+#second-text .content-secondtxt p {
   text-align: justify;
+}
+
+@media (max-width: 992px) {
+  #content-nosotros .content-img-aboutus img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  #content-nosotros .text-inicial {
+    text-align: justify;
+    padding: 0px 20px;
+  }
+
+  #content-nosotros .title-about-us h1 {
+    text-align: center;
+  }
+
+  #second-text .content-secondtxt p {
+    padding: 0px 20px;
+  }
 }
 
 #content-txt {
@@ -4975,22 +4994,57 @@ footer ul {
   margin: 0 auto;
 }
 
+#content-aliances .content-soluctions {
+  padding: 30px;
+}
+
 #content-img-certifications {
   padding: 100px 0px;
 }
 
 #content-img-certifications .card-img-top {
-  width: 50%;
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
 
 #content-img-certifications .card-body h5 {
   font-weight: bold;
+  color: #1d73b2;
 }
 
 #content-img-certifications .card-body .btn-primary {
   background-color: #1d73b2;
+}
+
+#content-img-certifications .card-body p {
+  text-align: justify;
+}
+
+#content-img-certifications .card {
+  border-color: transparent;
+}
+
+@media (max-width: 768px) {
+  #title-certificaion h1 {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  #title-certificaion h1 {
+    font-size: 25px;
+    letter-spacing: 0px;
+  }
+
+  .card-body h5 {
+    text-align: center;
+  }
+
+  .content-card {
+    padding: 20px 0px;
+  }
 }
 
 #content-textNomina {

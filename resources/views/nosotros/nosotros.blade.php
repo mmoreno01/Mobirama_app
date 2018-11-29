@@ -21,7 +21,7 @@
                             <!-- <p>Contamos con equipos de emprendedores, porque tenemos un fuerte vínculo con universidades de distintos países de América Latina, coadyuvamos en la formación multimodal que los jóvenes universitarios deben tener, porque las exigencias actuales del mundo de los negocios, no deben limitarse a un conocimiento local de las leyes, la parte financiera, tributaria y del propio recurso humano, estamos generando un Fondo de Inversión que apoye esta metodología y que genere especialistas técnicos con conocimientos globales que se especialicen en el cierre de negocios. </p> -->
                         </article>
                     </div>
-                    <div class="col-md-6 content-img-aboutus">
+                    <div class="col-md-6 content-img-aboutus  d-none d-sm-block d-print-block">
                         <img src="imagenes/nosotros/somos.jpg" alt="">
                     </div>
                 </div>
@@ -42,7 +42,9 @@ Nuestra misión es brindarle la más alta calidad de servicio y solución -->
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p>Nuestra experiencia nos ha permitido apoyar y acompañar a nuestros clientes en el diagnóstico de problemáticas y riesgos e implementación de planes de contención y de mejora, sirviendo nuestras acciones para planificar mediante las conclusiones del dictamen técnico-profesional la estrategia para mitigar las contingencias y perfilar la empresa para elevar su competitividad.</p>
+             <article class="content-secondtxt"> 
+                    <p>Nuestra experiencia nos ha permitido apoyar y acompañar a nuestros clientes en el diagnóstico de problemáticas y riesgos e implementación de planes de contención y de mejora, sirviendo nuestras acciones para planificar mediante las conclusiones del dictamen técnico-profesional la estrategia para mitigar las contingencias y perfilar la empresa para elevar su competitividad.</p>
+             </article>
             </div>
         </div>
     </div>

@@ -8,7 +8,6 @@
         font-size: 30px;
         position: relative;
         padding-bottom: 10px;
-        font-family: 'Dosis','Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     h1:before{
         content:'';
@@ -51,7 +50,6 @@
         position: relative;
         padding-bottom: 10px;
         text-align: center;
-        font-family: 'Dosis','Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
         h1:before{
             content:'';
@@ -97,7 +95,55 @@
 
 #second-text{
     padding: 100px 0px;
-    p{
-        text-align: justify;
+    .content-secondtxt{
+        p{
+            text-align: justify;
+        }
     }
+  
+}
+
+
+//media queryes
+
+@media(max-width:1200px){
+   
+}
+@media(max-width:992px){
+    #content-nosotros{
+        .content-img-aboutus{
+            img{
+                width: 100%;
+            }
+        }
+    }  
+}
+
+@media(max-width:768px){
+    
+}
+
+
+
+@media(max-width:576px){
+   
+    #content-nosotros{
+        .text-inicial{
+            text-align: justify;
+            padding: 0px 20px;
+        }
+         .title-about-us{
+            h1{
+                text-align: center;
+            }
+         } 
+    }
+
+    #second-text{
+        .content-secondtxt{
+            p{
+                padding: 0px 20px;
+            }
+    }
+}
 }

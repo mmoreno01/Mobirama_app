@@ -180,7 +180,7 @@ $('.slider-nav').slick({
   
    responsive: [{
 
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
         slidesToShow: 3,
         infinite: true
