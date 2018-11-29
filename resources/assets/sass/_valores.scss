@@ -96,7 +96,9 @@
 
 @media(max-width:576px){
     #slider-valores {
-
+        .slider-nav{
+            padding: 0px;
+        }
     }
 
 }

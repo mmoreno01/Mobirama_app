@@ -4849,6 +4849,12 @@ footer ul {
   }
 }
 
+@media (max-width: 576px) {
+  #slider-valores .slider-nav {
+    padding: 0px;
+  }
+}
+
 #text-termino {
   margin: 50px 0px;
 }
