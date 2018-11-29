@@ -1,3 +1,17 @@
 #content-textNomina{
     padding: 50px 0px;
 }
+
+
+
+
+//media queries
+
+@media(max-width:576px){
+    #content-maquila{
+        h1{
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+    }
+}

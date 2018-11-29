@@ -1,6 +1,30 @@
 
 #card-letter{
     padding: 100px 0px;
-
+.card-body{
+    h5{
+        color: $azulMarino;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: justify;
+        margin-top: 0px;
+    }
+    .btn-primary{
+        background-color: $azulMarino;
+    }
+}
     
 }
+
+//media queries
+
+@media(max-width:576px){
+    #content-title-letter{
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+

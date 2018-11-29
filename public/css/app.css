@@ -4984,6 +4984,27 @@ footer ul {
   padding: 100px 0px;
 }
 
+#card-letter .card-body h5 {
+  color: #1d73b2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#card-letter .card-body p {
+  text-align: justify;
+  margin-top: 0px;
+}
+
+#card-letter .card-body .btn-primary {
+  background-color: #1d73b2;
+}
+
+@media (max-width: 576px) {
+  #content-title-letter h1 {
+    font-size: 30px;
+  }
+}
+
 #content-aliances {
   padding: 100px 0px;
 }
@@ -5035,7 +5056,6 @@ footer ul {
 @media (max-width: 576px) {
   #title-certificaion h1 {
     font-size: 25px;
-    letter-spacing: 0px;
   }
 
   .card-body h5 {
@@ -5049,6 +5069,13 @@ footer ul {
 
 #content-textNomina {
   padding: 50px 0px;
+}
+
+@media (max-width: 576px) {
+  #content-maquila h1 {
+    font-size: 30px;
+    letter-spacing: 10px;
+  }
 }
 
 /*-----------------------------------------------------------------------------
