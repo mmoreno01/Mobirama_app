@@ -43,12 +43,14 @@ h1{
 
 //media queries
 
-@media(max-width:768px){
+@media(max-width:992px){
     #Form-contact{
-        .content-vacantesVierw{
+        .form-postulation{
             padding-bottom: 30px;
-            background-color: red;
         }
+         .btn-primary{
+             width: 100%;
+         }
     }
 }
 

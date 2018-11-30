@@ -3810,10 +3810,13 @@ h1 {
   text-transform: uppercase;
 }
 
-@media (max-width: 768px) {
-  #Form-contact .content-vacantesVierw {
+@media (max-width: 992px) {
+  #Form-contact .form-postulation {
     padding-bottom: 30px;
-    background-color: red;
+  }
+
+  #Form-contact .btn-primary {
+    width: 100%;
   }
 }
 
