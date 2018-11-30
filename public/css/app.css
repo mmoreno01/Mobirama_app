@@ -3808,15 +3808,22 @@ h1 {
 #Form-contact .content-title h2 {
   font-size: 30px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
   #Form-contact .form-postulation {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
   }
 
   #Form-contact .btn-primary {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
   }
 }
 
