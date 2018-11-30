@@ -32,5 +32,28 @@ h1{
         }   
     }
    
+    .content-title{
+        h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+//media queries
+
+@media(max-width:768px){
+    #Form-contact{
+        .content-vacantesVierw{
+            padding-bottom: 30px;
+            background-color: red;
+        }
+    }
+}
+
+
+@media(max-width:576px){
    
 }
+
