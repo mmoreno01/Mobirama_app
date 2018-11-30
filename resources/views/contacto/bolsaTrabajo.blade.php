@@ -10,7 +10,7 @@
 <section id="Form-contact">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-6 form-postulation">
+            <div class="col-sm-12 col-md-12 col-lg-6 form-postulation">
                 @include('common.errors')
                 @include('common.success')
                 <h1>POSTÚLATE AHORA</h1>
@@ -56,7 +56,7 @@
                     </div>
                 {!! Form::close() !!}
             </div>{{-- end col-6 --}}
-            <div class="col-sm-12 col-md-6 content-vacantesVierw">
+            <div class="col-sm-12 col-md-12 col-lg-6 content-vacantesVierw">
                 <div class="content-title">
                     <h2 class="text-center">Nuestras vacantes</h2>
                 </div>
