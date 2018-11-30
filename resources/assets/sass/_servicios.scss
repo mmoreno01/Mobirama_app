@@ -90,10 +90,13 @@ li{
         }
     }
     ul{
-        padding-left: 0px;
+        padding-left: 15px!important;
     }
     a{
         color: $azulMarino;
+    }
+    .serv-iconos{
+        padding: 30px 0px;
     }
 }
 //####################################------fin de servicios------##############################-------
@@ -441,9 +444,6 @@ p{
     #content-txt{
         .text-left {
             padding: 0px 30px!important;
-        }
-        ul{
-            padding-left: 0px;
         }
     } 
     

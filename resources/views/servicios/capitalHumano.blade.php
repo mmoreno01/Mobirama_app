@@ -2,9 +2,9 @@
 
 @section('content')
 <!--imagen principal-->
-<div class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/CapitalHumano.jpg');">
+<div class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/CapitalHumano.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Capital Humano</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 100,0">Capital Humano</h1>
 </div>
 <!--fin de imagen principal-->
 
@@ -12,7 +12,7 @@
 <section id="content-txt">
       <div class="container">
         <div class="row">
-            <div class="col-12 text-left">
+            <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
               <p class="sub-title text-center">Damos valor a su empresa al proporcionar un capital humano altamente efectivo y dispuesto a lograr los objetivos organizacionales.</p>  
               <p> Nuestra visión estratégica de soluciones, destinada a la organización y aprovechamiento de los recursos humanos, permite a las empresas laborar bajo un alto grado de efectividad y óptimos resultados incrementando su competitividad dentro del mercado.</p>
               
@@ -27,16 +27,16 @@
         </div>
         <div class="row serv-iconos">
            
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                    <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas">
                   
               <p>Reclutamiento Puro</p>
            </div>
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                    <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera">
                <p>Búsqueda de Talento Ejecutivo</p>
            </div>
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                <img src="imagenes/capital_humano/est-veri.png" alt="Gestión Contable">
                <p>Estudios de Verificación de Datos</p>
            </div>

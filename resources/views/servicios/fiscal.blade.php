@@ -2,14 +2,14 @@
 
 @section('content')
 <!-- imagen principal -->
-<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Fiscal.jpg');">
+<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn"  data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Fiscal.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Fiscal</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 50,0">Fiscal</h1>
 </div>
 <!-- fin imagen principal -->
 
       
-<section id="content-txt">
+<section id="content-txt" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
          <div class="container">
             <div class="row">
                <div class="col-12 text-left">
@@ -28,37 +28,37 @@
                </div>
             </div>
                 <div class="row serv-iconos">
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                       <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal Local e Internacional</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                       <img src="imagenes/fiscal/new-icons/Transacciones-Derecho.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Transacciones">
                     <p>Transacciones y Derecho Financiero</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                       <img src="imagenes/fiscal/new-icons/RestructurasCorp.png" alt="Gestión Contable" data-toggle="modal" data-target="#Proyectos">
                     <p>Reestructuras Corporativas Holding</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
                     <img src="imagenes/fiscal/new-icons/inversion-infrestructura.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
                     <p>Proyectos de Inversión e Infraestructura </p>            
                   </div>
                 </div>
                 <div class="row serv-iconos">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                         <img src="imagenes/fiscal/new-icons/CapitalPrivado.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Capital">
                         <p>Capital Privado y Capital de Riesgo </p>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                         <img src="imagenes/fiscal/new-icons/AsesoriaPatrimonial.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Asesoría">
                         <p>Asesoría Patrimonial</p>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                         <img src="imagenes/fiscal/new-icons/AlianzasEstrategicas.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Alianzas">
                         <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
                     </div>
-                    <div class="col-sm-6 col-md-3">
+                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
                         <img src="imagenes/fiscal/new-icons/CumplimientoFiscal.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
                         <p>Cumplimiento Fiscal</p>
                     </div>
@@ -82,7 +82,7 @@
       <!-- <section id="serv-iconos" class="py-5">
          <div class="container">
          <div class="row">
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="1.3s">
                   <img src="imagenes/fiscal/asesoriafiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                 <p>Consultoría Fiscal.</p>
               </div>

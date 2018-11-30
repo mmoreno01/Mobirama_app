@@ -208,12 +208,12 @@
 
 <section id="slider-valores">
     <div class="container">
-        <section class="slider-nav slider d-none d-md-block d-print-block">
+        <section class="slider-nav slider d-none d-md-block d-print-block wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">
                 <div class="content-icon">
                         <img src="imagenes/valores/se.png" alt="">
                 </div>
                 <div class="content-icon">
-                        <img src="imagenes/valores/inov.png" alt="">
+                        <img src="imagenes/valores/inov.png"  alt="">
                 </div>
                 <div class="content-icon">
                         <img src="imagenes/valores/int.png" alt="">
@@ -225,7 +225,7 @@
                         <img src="imagenes/valores/prof.png" alt="">
                 </div>
         </section>
-        <section class="slider-for slider" data-sizes="50vw">
+        <section class="slider-for slider wow fadeInDown" data-sizes="50vw" data-wow-duration="1s" data-wow-delay="1.5s">
                 <div>
                         <div class="row">
                                 <div class="col-lg-4 col-md-12 col-sm-12  ">

@@ -2,14 +2,14 @@
 
 @section('content')
 <!--imagen principal-->
-<div id="content-maquila" class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/SeguridadSocial.jpg');">
+<div id="content-maquila" class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/SeguridadSocial.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Maquila de Seguridad <br>social </h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown"  data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 100,0">Maquila de Seguridad <br>social </h1>
 </div>
 <!--fin de imagen principal-->
 
 <!--seccion de contenido-->
-<section id="content-textNomina">
+<section id="content-textNomina" class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="1.3s">
  <div class="container">
      <div class="row">
          <div class="col-md-12">

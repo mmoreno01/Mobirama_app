@@ -2,16 +2,16 @@
 
 @section('content')
 <!--imagen principal-->
-<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Juridico.jpg');">
+<div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"  uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Juridico.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 90,0">Juridico</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 90,0">Juridico</h1>
 </div>
 <!--fin imagen principal-->
       
 <section id="content-txt">
          <div class="container">
             <div class="row">
-               <div class="col-12 text-left">
+               <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
                   <p>Las amplias habilidades de los colaboradores nos permiten implementar mejoras a los procesos contables y fiscales a través de estrategias que permitan obtener una minimización en el impacto fiscal y financiero, cumpliendo siempre con las normatividades vigentes</p>
                   <p>Tenemos el compromiso de brindarle un servicio de calidad mediante los siguientes servicios:</p>
                   <ul>
@@ -24,19 +24,19 @@
                </div>
             </div>
                 <div class="row serv-iconos">
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.1s">
                       <img src="imagenes/fiscal/consultor-fiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.3s">
                       <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
                     <p>Derecho Corporativo.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.6s">
                       <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
                     <p>Litigio Fiscal.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
                     <img src="imagenes/fiscal/constit.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
                     <p>Control de Constitucionalidad.</p>            
                   </div>

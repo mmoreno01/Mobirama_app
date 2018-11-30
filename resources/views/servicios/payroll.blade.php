@@ -2,16 +2,16 @@
 
 @section('content')
 <!--imagen principal-->
-<div class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Payroll.jpg');">
+<div class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Payroll.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 50,0">Payroll Service</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 50,0">Payroll Service</h1>
 </div>
 <!--fi imagen principal-->
 
 <section id="content-txt">
     <div class="container">
         <div class="row">
-            <div class="col-12 text-left">
+            <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
               <p>Contamos con un equipo multidisciplinario de especialistas encargados de detectar y analizar las necesidades de las organizaciones en materia de administración integral de recursos humanos. Hemos innovado el concepto de gestión de personal al incluir una serie de soluciones que facilitan los procesos operativos internos, permitiendo a las empresas enfocarse en su Core Business con un alto grado de confiabilidad</p>
               <ul>
                   <li>Mejora el aprovechamiento del capital humano</li>
@@ -23,29 +23,29 @@
             </div>
         </div>
         <div class="row serv-iconos">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                 <img src="imagenes/payroll/bpo-mqquila.png" alt="BPO Maquila de Nómina" data-toggle="modal" data-target="#BPO">  
                <p>BPO Maquila de Nómina.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                 <img src="imagenes/payroll/imp-hrp.png" alt="Implementación de HRP" data-toggle="modal" data-target="#Implementa">
                 <p>Implementación de HRP.</p>
                 </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                 <img src="imagenes/payroll/Payroll-Forenstic.png" alt="Payroll Forensic" data-toggle="modal" data-target="#PayFore">
                 <p>Payroll Forensic.</p>
             </div>
         </div>
         <div class="row serv-iconos">
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                <img src="imagenes/payroll/taks-pay.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#TaxPay">
               <p>Tax Payroll Managment.</p>
            </div>
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                    <img src="imagenes/payroll/asesorias.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
                <p>Asesoría.</p>
            </div>
-           <div class="col-md-4">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                <img src="imagenes/payroll/cfdi.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
                <p>CFDI implementación y operación.</p>
            </div>
