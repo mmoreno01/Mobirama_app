@@ -596,6 +596,14 @@
     padding: 10px;
     letter-spacing: 10px;
   }
+
+  .uk-height-large h1 {
+    font-size: 30px;
+  }
+
+  #content-txt ul {
+    padding: 0px;
+  }
 }
 
 #img-pricipal {
@@ -680,7 +688,7 @@
 }
 
 #content-txt ul {
-  padding-left: 40px !important;
+  padding-left: 0px;
 }
 
 #content-txt a {
@@ -1045,7 +1053,11 @@
   }
 
   #content-txt .text-left {
-    padding: 0px 50px !important;
+    padding: 0px 30px !important;
+  }
+
+  #content-txt ul {
+    padding-left: 0px;
   }
 
   #content-txt .img-right img {

@@ -90,7 +90,7 @@ li{
         }
     }
     ul{
-        padding-left: 40px!important;
+        padding-left: 0px;
     }
     a{
         color: $azulMarino;
@@ -438,9 +438,15 @@ p{
         }
     }
 // contabilidad texto e imagen
-    #content-txt .text-left {
-        padding: 0px 50px!important;
-    }
+    #content-txt{
+        .text-left {
+            padding: 0px 30px!important;
+        }
+        ul{
+            padding-left: 0px;
+        }
+    } 
+    
     #content-txt .img-right img {
         width: 90%;
     }
