@@ -3793,6 +3793,11 @@ h1 {
   padding: 0px 10px;
 }
 
+#Form-contact h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
 #Form-contact .form-postulation h1 {
   font-size: 30px;
 }
@@ -3822,7 +3827,6 @@ h1 {
 
   h2 {
     font-size: 30px;
-    text-transform: uppercase;
     text-align: center;
   }
 }
