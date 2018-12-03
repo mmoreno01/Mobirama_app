@@ -6,7 +6,7 @@
 <section id="content-dashboard">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <h1>Bienvenido {{ auth()->user()->name }}</h1>

@@ -6,7 +6,7 @@
 <section id="content-dashboard">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <h1>Bienvenido {{ auth()->user()->name }}</h1>
@@ -29,7 +29,7 @@
     <div class="container">
             @include('common.success')
         <form class="" method="POST" action="{{ route('dashboard') }}">
-        {{csrf_field()}}
+         @csrf
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6"> 
                     <div class="card-header text-center">
@@ -67,6 +67,10 @@
 <section id="table_vacantes">
     <div class="container">
             <h2 class="text-center">Tabla de administracion de vacantes</h2>
+        <div class="row">
+            <div class="col-md-12">
+
+         
         <table class="table">
             <thead>
                 <th scope="col">Titulo</th>
@@ -97,6 +101,8 @@
                 @endforeach
             </tbody>
         </table>
+           </div>
+        </div>    
     </div>
 </section>
 {{-- seccion de la tabla de administracion de vacantes --}}
