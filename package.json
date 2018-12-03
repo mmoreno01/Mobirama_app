@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "scrollmagic": "^2.0.5",
+        "sweetalert2": "^7.29.2",
         "wowjs": "^1.1.3"
     }
 }

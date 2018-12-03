@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}">
     <!--slick-slider-->
-
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
     <!-- Add the new slick-theme.css if you want the default styling-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick-theme.css')}}"/>
+    <!--sweetalert2-->
+    <link rel="stylesheet" type="text/css" href="{{asset('sweetalert/sweetalert2.min.css')}}"/>
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
@@ -143,8 +144,9 @@
     <script src="js/debug.addlndicators.js"></script>
     <script src="js/ScrollMagic/main.js"></script>
     <!--slick-slider-->
-    
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
+    <!--sweeralert2-->
+    <script  src="sweetalert/sweetalert2.min.js"></script>
     <!-- animate -->
     <script>
         wow = new WOW(

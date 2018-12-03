@@ -11,7 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-
+mix.copy('node_modules/sweetalert2/dist/' , 'public/sweetalert/');
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
    .sass('resources/assets/sass/hover.scss', 'public/css');
