@@ -2,13 +2,13 @@
 
 @section('content')
 <!-- imagen principal -->
-    <div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Contacto.jpg');">
+    <div class=" parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/Contacto.jpg');">
         <div class="overlay"></div>
-        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="y: 100,0">Contacto</h1>
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 100,0">Contacto</h1>
     </div>
 <!-- fin de la imagen principal -->
 
-<section id="contacto">
+<section id="contacto" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
         <div class="container">      
                 <div class="row">
                         <div class="col-md-8  content-form">
