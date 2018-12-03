@@ -61,4 +61,4 @@
 </section> 
 {{--fin seccion de formulario de edicion de la vacante --}}
 
-@endsection 
+@stop

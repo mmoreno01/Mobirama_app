@@ -41,6 +41,7 @@ class DashboardController extends Controller
    public function edit( $id)
    {
         $vacantes = Vacante::find($id);
+       
        return view('/dashboard/editar', compact('vacantes'));
    }
     
