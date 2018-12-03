@@ -41,7 +41,6 @@ class DashboardController extends Controller
    public function edit( $id)
    {
         $vacantes = Vacante::find($id);
-            swal()->success('success Message', 'option title');
         return view('/dashboard/editar', compact('vacantes'));
    }
     
