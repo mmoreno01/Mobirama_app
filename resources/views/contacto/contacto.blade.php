@@ -13,22 +13,23 @@
                 <div class="row">
                         <div class="col-md-8  content-form">
                                  @include('common.success')
+                                 @include('common.errors')
                                 {!! Form::open(['route' => 'contacto.contacto', 'method' => 'POST' ]) !!}
                                 @csrf
                                 <div class="row">
                                         <div class="col-lg-6">
                                              <div class="form-group">
-                                                {!! Form::text('nombre', null, [  'class' => 'form-control inp-text ', 'placeholder' => 'Nombre', 'required'] ) !!}
+                                                {!! Form::text('nombre', null, [  'class' => 'form-control inp-text ', 'placeholder' => 'Nombre', ] ) !!}
                                              </div>
                                              <div class="form-group">
-                                                {!! Form::email('email', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Correo electrónico', 'required'] ) !!}
+                                                {!! Form::email('email', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Correo electrónico',] ) !!}
                                              </div>
                                              <div class="form-group">
-                                                {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono', 'required'] ) !!}
+                                                {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono',] ) !!}
                                              </div>
                                         </div>
                                         <div class="col-lg-6 form-group">
-                                                {!! Form::textarea('mensaje', null, [ 'class' => 'form-control style-textarea', 'placeholder' => 'Mensaje', 'required'] ) !!}
+                                                {!! Form::textarea('mensaje', null, [ 'class' => 'form-control style-textarea', 'placeholder' => 'Mensaje',] ) !!}
                                         </div> 
 
                                         <div class="col-md-12 form-group">
