@@ -24,10 +24,10 @@ class StorePostulationRequest extends FormRequest
     public function rules()
     {
         return [
-            'nombre' => 'required|max:200',
-            'apellido' => 'required|max:200',
-            'correo' => 'required',
-            'telefono'=> 'required|max:10',
+            'nombre' => 'required|min:5| max:100',
+            'apellido' => 'required|min:5|max:100',
+            'correo' => 'required|email',
+            'telefono'=> 'required|min:10|max:10',
             'edad'=> 'required|max:2',
             'image' => 'required|mimes:pdf,doc,docx'
         ];
