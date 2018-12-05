@@ -29,7 +29,7 @@ class StorePostulationRequest extends FormRequest
             'correo' => 'required',
             'telefono'=> 'required|max:10',
             'edad'=> 'required|max:2',
-            'image' => 'required|pdf'
+            'image' => 'required|mimes:pdf,doc,docx'
         ];
     }
 }
