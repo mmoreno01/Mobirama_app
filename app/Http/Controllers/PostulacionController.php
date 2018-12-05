@@ -22,13 +22,6 @@ class PostulacionController extends Controller
              $envioVacante->image = $name;
              $file->move(public_path().'/images/', $name);
              } 
-
-
-             Mail::send('emails.contact', $request->all(), function($smj){
-                $smj->Subject('Correo de contacto');
-                $smj->to('migue.moreno01@gmail.com');
-            });
-    
  
         
          $envioVacante->nombre = $request->input('nombre');
@@ -38,6 +31,16 @@ class PostulacionController extends Controller
          $envioVacante->edad = $request->input('edad');
          $envioVacante->save();
         //  return  $envioVacante;
+
+
+        
+        Mail::send('emails.contact', $request->all(), function($smj){
+            $archivo =  $envioVacante->image = $name;
+            $smj->Subject('Correo de contacto');
+            $smj->to('migue.moreno01@gmail.com');
+            $smj->attach($archivo);
+        });
+
 
         dd('$envioVacante');
         return redirect()->route('contacto.bolsaTrabajo')->with('info', 'Te postulaste exitosamente');
