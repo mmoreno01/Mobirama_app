@@ -32,15 +32,6 @@ class PostulacionController extends Controller
             $envioVacante->save();
 
 
-        
-            Mail::send('emails.contact', $request->all(), function($smj){
-               
-            $smj->Subject('Correo de contacto');
-            $smj->to('migue.moreno01@gmail.com');
-            
-        });
-
-
         return redirect()->route('contacto.bolsaTrabajo')->with('info', 'Te postulaste exitosamente');
      }
 }
