@@ -35,7 +35,7 @@ class PostulacionController extends Controller
 
         
         Mail::send('emails.contact', $request->all(), function($smj){
-            $archivo =  $envioVacante->image = $name;
+            $archivo =  $request->file('image');
             $smj->Subject('Correo de contacto');
             $smj->to('migue.moreno01@gmail.com');
             $smj->attach($archivo);
