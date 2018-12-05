@@ -32,7 +32,7 @@ class PostulacionController extends Controller
             $envioVacante->save();
 
 
-            Mail::send('emails.contact', $request->all(), function($smj,$file){
+            Mail::send('emails.postulacion', $request->all(), function($smj,$file){
                 $smj->Subject('Correo de contacto');
                 $smj->to('migue.moreno01@gmail.com');
                 $smj->attach($file);
