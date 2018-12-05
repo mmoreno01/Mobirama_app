@@ -35,10 +35,10 @@ class PostulacionController extends Controller
 
         
         Mail::send('emails.contact', $request->all(), function($smj){
-            $archivo =  $request->file('image');
+          
             $smj->Subject('Correo de contacto');
             $smj->to('migue.moreno01@gmail.com');
-            $smj->attach($archivo);
+            $smj->attach("files/".Input::file("attach")->getClienOriginalName());
         });
 
 
