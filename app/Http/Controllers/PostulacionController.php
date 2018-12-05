@@ -32,6 +32,7 @@ class PostulacionController extends Controller
             $envioVacante->save();
 
 
+dd($envioVacante);
         return redirect()->route('contacto.bolsaTrabajo')->with('info', 'Te postulaste exitosamente');
      }
 }
