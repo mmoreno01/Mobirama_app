@@ -26,7 +26,7 @@
         <div class="row serv-iconos">
             <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                     <img src="imagenes/contabilidad/Consultoria-AdminEmpresas.png" alt="Consultoría en la Administración de Empresas">
-                    <p>Consultoría en la Administración de Empresas.</p>
+                    <p>Consultoría en la Administración<br> de Empresas.</p>
             </div>
             <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                     <img src="imagenes/contabilidad/Asesoria-PlanFinanciero.png" alt="Asesoría y Planeación Financiera">
