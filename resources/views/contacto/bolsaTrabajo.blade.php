@@ -56,6 +56,7 @@
                     </div>
                 {!! Form::close() !!}
             </div>{{-- end col-6 --}}
+            
             <div class="col-sm-12 col-md-12 col-lg-6 content-vacantesVierw">
                 <div class="content-title">
                     <h2 class="">Nuestras vacantes</h2>

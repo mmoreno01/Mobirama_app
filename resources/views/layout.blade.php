@@ -163,7 +163,11 @@
         wow.init();    
     </script> 
 
-   
+   <script type="text/javascript">
+    var onloadCallback = function() {
+        alert("grecaptcha is ready!");
+    };
+    </script>
     <!-- vue js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 

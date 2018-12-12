@@ -823,45 +823,6 @@
     </tbody>
 </table>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnBoxedTextBlock" style="min-width:100%;">
-    <!--[if gte mso 9]>
-	<table align="center" border="0" cellspacing="0" cellpadding="0" width="100%">
-	<![endif]-->
-	<tbody class="mcnBoxedTextBlockOuter">
-        <tr>
-            <td valign="top" class="mcnBoxedTextBlockInner">
-                
-				<!--[if gte mso 9]>
-				<td align="center" valign="top" ">
-				<![endif]-->
-                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width:100%;" class="mcnBoxedTextContentContainer">
-                    <tbody><tr>
-                        
-                        <td style="padding-top:9px; padding-left:18px; padding-bottom:9px; padding-right:18px;">
-                        
-                            <table border="0" cellspacing="0" class="mcnTextContentContainer" width="100%" style="min-width: 100% !important;background-color: #F1F1F1;">
-                                <tbody><tr>
-                                    <td valign="top" class="mcnTextContent" style="padding: 18px;color: #033B72;font-family: Helvetica;font-size: 14px;font-weight: normal;text-align: center;">
-                                        <div style="text-align: left;"><span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif"><span style="font-size:18px">{!!$image!!}</span></span></div>
-
-                                    </td>
-                                </tr>
-                            </tbody></table>
-                        </td>
-                    </tr>
-                </tbody></table>
-				<!--[if gte mso 9]>
-				</td>
-				<![endif]-->
-                
-				<!--[if gte mso 9]>
-                </tr>
-                </table>
-				<![endif]-->
-            </td>
-        </tr>
-    </tbody>
-</table>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
     <tbody class="mcnDividerBlockOuter">
