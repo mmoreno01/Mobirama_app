@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esS">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Descpription-->
     <meta name="description" content="Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--favicon-->
@@ -27,8 +28,8 @@
     <link rel="stylesheet" href="{{asset('https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous')}}">
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    
     <script src="//code.tidio.co/j8atq5zvyhopcn4ahuxng1y0e5s4zoqq.js"></script>
-
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
