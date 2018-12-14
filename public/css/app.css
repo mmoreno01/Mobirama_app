@@ -3818,6 +3818,8 @@ h1 {
 
 #Form-contact .alert-danger {
   color: red;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 @media (max-width: 992px) {
