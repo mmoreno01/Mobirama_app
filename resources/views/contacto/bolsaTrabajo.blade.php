@@ -26,6 +26,7 @@
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
                                     {!! Form::text('apellido', null, [ 'class' => 'form-control', 'placeholder' => 'Apellidos'] ) !!}
+                                    {!! $errors->first('apellido', '<span class="help-block">:message</span>') !!}
                                 </div>
                           </div>
                       </div>
@@ -33,6 +34,7 @@
                           <div class="col-md-12 p-3">
                                 <div class="form-group">
                                     {!! Form::email('correo', null, [ 'class' => 'form-control', 'placeholder' => 'Correo'] ) !!}
+                                    {!! $errors->first('correo', '<span class="help-block">:message</span>') !!}
                                 </div>
                           </div>
                       </div>
@@ -40,17 +42,23 @@
                         <div class="col-md-6 col-sm-12 p-3">
                             <div class="form-group">
                                     {!! Form::tel('telefono', null, [  'class' => 'form-control', 'placeholder' => 'Teléfono'] ) !!}
+                                    {!! $errors->first('telefono', '<span class="help-block">:message</span>') !!}
+
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-12 p-3">
                             <div class="form-group">
                                     {!! Form::number('edad', null, [ 'class' => 'form-control', 'placeholder' => 'Edad'] ) !!}
+                                    {!! $errors->first('nombre', '<span class="help-block">:message</span>') !!}
+
                             </div>
                         </div>
                       </div>
                       <div class="form-group">
                                 {!! Form::label('*Añadir CV.', null, ['class' => 'control-label form-group'] )!!}
                                 {!! Form::file('image') !!}
+                                {!! $errors->first('image', '<span class="help-block">:message</span>') !!}
+
                       </div>
                     <div class="form-group">
                                     {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
