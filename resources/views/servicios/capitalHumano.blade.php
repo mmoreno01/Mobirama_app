@@ -28,15 +28,15 @@
         <div class="row serv-iconos">
            
            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-                   <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas">
+                   <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Rpuro">
                   
               <p>Reclutamiento Puro</p>
            </div>
            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                   <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera">
+                   <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#talento">
                <p>Búsqueda de Talento Ejecutivo</p>
            </div>
-           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s" data-toggle="modal" data-target="#verifica">
                <img src="imagenes/capital_humano/est-veri.png" alt="Gestión Contable">
                <p>Estudios de Verificación de Datos</p>
            </div>
@@ -44,6 +44,67 @@
        </div>
     </div>
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="Rpuro" tabindex="-1" role="dialog" aria-labelledby="RpuroLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="RpuroLabel">Reclutamiento Puro</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Estamos comprometidos con nuestros clientes para asegurar que cada uno de sus proyectos dispongan del mejor talento que genere impacto significativo en la eficiencia, productividad y éxito de su empresa. </li> 
+                </ul>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="talento" tabindex="-1" role="dialog" aria-labelledby="talentoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="talentoLabel">Búsqueda de Talento Ejecutivo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Realizamos una búsqueda del candidato ideal, a través de procedimientos especializados y evaluaciones, que nos determinan cuáles son los candidatos más aptos para los diferentes  puestos que requiera su empresa.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="verifica" tabindex="-1" role="dialog" aria-labelledby="verificaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="verificaLabel">Estudios de Verificación de Datos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Nos encargamos de verificar tanto los documentos personales como la identidad de los empleados potenciales para ser evaluados en los procesos de reclutamiento y selección.</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+
 
 <!--Seccion del banner Magazine-->
 <!-- <section class=" parallax my-5 animated fadeIn" id="banner" style="background-image: url(images/servicios/CapitalHumano.jpg); background-position:center;background-repeat:no-repeat; background-size:cover;   background-attachment: fixed; ">
