@@ -3816,6 +3816,10 @@ h1 {
   font-weight: bold;
 }
 
+#Form-contact .alert-danger {
+  color: red;
+}
+
 @media (max-width: 992px) {
   #Form-contact .form-postulation {
     padding-bottom: 50px;
