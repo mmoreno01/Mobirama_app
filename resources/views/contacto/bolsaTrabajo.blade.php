@@ -11,8 +11,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 form-postulation">
-                @include('common.errors')
-                @include('common.success')
+                {{-- @include('common.errors')
+                @include('common.success') --}}
                 <h1>POSTÚLATE AHORA</h1>
                     {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => true ]) !!}
                     @csrf
@@ -20,6 +20,7 @@
                           <div class="col-md-6 col-sm-12 p-3">
                                 <div class="form-group">
                                     {!! Form::text('nombre', null, [ 'class' => 'form-control', 'placeholder' => 'Nombre'] ) !!}
+                                    {!! $errors->first('nombre', '<span class="help-block">:message</span>') !!}
                                 </div>
                           </div>
                           <div class="col-md-6 col-sm-12 p-3">
