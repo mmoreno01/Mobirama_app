@@ -20,14 +20,16 @@
         font-size: 25px;
         color: $azulMarino;
     }
-
-    p{
-        text-align: center;
-        color: $azulMarino;
-        font-weight: 600;
-        text-transform: uppercase;
+    .owl-item{
+        h1{
+            text-align: center;
+            color: $azulMarino;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 0px;
+        }
     }
-
     a{
         text-decoration: none;
     }
