@@ -34,9 +34,9 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
     <!-- menu principal -->
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+    <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/home">
-        <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="">
+        <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="Mobirama">
     </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,37 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
             <div class="row contentPricipal">
-                <div class="col-sm-12 col-md-9 content_serv">    
+            <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
+                    <div class="dropdown  nav-link">
+                        <button class="dropbtn">Conocenos</button>
+                        <div class="dropdown-content">
+                            <a href="/nosotros">Nosotros</a>
+                            <a href="/filosofia">Filosofía Empresarial</a>
+                            <a href="/valores">Valores Institucionales</a>
+                        </div>
+                    </div>
+                    <div class="dropdown nav-link">
+                        <button class="dropbtn">Servicios</button>
+                        <div class="dropdown-content">
+                            <a href="/payroll">Payroll Service</a>
+                            <a href="/capitalHumano">Capital Humano</a>
+                            <a href="/fiscal">Fiscal</a>
+                            <a href="/maquilaNomina">Maquila de Seguridad Social</a>
+                            <a href="/contabilidad">Contabilidad Outsourcing</a>
+                            <a href="/juridico">Jurídico</a>
+                        </div>
+                    </div>
+                    <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
+                    <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
+                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>
+                    <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>  
+                    <a href="/" class="nav-item nav-link mr-4">
+                      <i class="fas fa-address-card"></i>
+                      Iniciar sesión
+                    </a>
+                </div>
+                {{-- <div class="col-sm-12 col-md-9 content_serv">    
                     <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.9">
                             <div class="col-4 content_img">
                                 <a href="/politica"><i class="fas fa-check"></i></a>
@@ -59,10 +89,19 @@
                                 <a href="/glosario"><p class="title-txt">Glosario</p></a>
                             </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                </div> --}}
+                {{-- <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <a class="nav-item nav-link mr-4" href="home#content_services">Servicios</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Payroll Services</a>
+                                <a class="dropdown-item" href="#">Capital Humano</a>
+                                <a class="dropdown-item" href="#">Fiscal</a>
+                                <a class="dropdown-item" href="#">Maquila de Seguridas S.</a>
+                                <a class="dropdown-item" href="#">Contabilidad Outsourcing</a>
+                                <a class="dropdown-item" href="#">Jurídico</a>
+                            </div>
                     <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
                     <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
@@ -72,7 +111,7 @@
                       <i class="fas fa-address-card"></i>
                       Iniciar sesión
                     </a>
-                </div>
+                </div> --}}
             </div>   
         </div>
        <!-- <div  id="headSocial">
@@ -84,7 +123,7 @@
     </div>    
 </header>
 <!-- fin del menu principal -->
-    <title>Mobirama</title>
+    <title>Mobirama | Payroll Services | Contabilidad Outsourcing | Capital Humano</title>
 </head>
 <body>
             

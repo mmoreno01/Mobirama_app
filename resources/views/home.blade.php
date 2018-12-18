@@ -61,8 +61,8 @@
 	</div>
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
-                <a href="http:/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
-			    <h1> <a href="http:/payroll">Payroll Service</a></h1>
+                <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
+			    <h1> <a href="/payroll">Payroll Service</a></h1>
             </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
