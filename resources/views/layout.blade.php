@@ -93,33 +93,6 @@
 <!-- contenido principa -->
 @yield('content')
 
-<!-- Modal -->
-<div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      <div class="modal-body">
-          <img src="imagenes/home/banner mobirama-02.jpg" width="200" height="" alt="Mobirama">
-          <article>
-                <p>Conforme la Ley de Ingresos aprobada por el Poder Legislativo, el derecho de los contribuyentes<br>
-                a la <span>"Compensación Universal"</span> ha sido derogado</p>
-                <p>La compesacion universal es el derecho que tienen los contribuyentes de restar las cantidades que
-                tengan a su favor en un determinado impuesto federal de las cantidades que deben pagar por adeudos propios
-                o por retencion a terceros.</p>
-                <p>La división fiscal <span>MOBIRAMA</span> cuenta con las bases para concluir que esta derogación es material
-                de amparo, por lo está a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
-          <article>
-      </div>
-      <div class="content-btm">
-            <article>
-                <h2><span>Conoce</span> cómo obtner tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
-            </article>
-        </div>
-    </div>
-  </div>
-</div>
 
 <footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
