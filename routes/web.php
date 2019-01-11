@@ -85,6 +85,10 @@ Route::get('letter', function () {
     return view('letter');
 });
 
+//blog
+Route::get('blog', function () {
+    return view('blog');
+});
 // rutas de la seccion de ubicacion
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
 Route::post('contacto', 'contactoController@store');

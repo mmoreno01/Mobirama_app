@@ -62,7 +62,7 @@
                                         </div>
                                         <div class="contact-details">
                                                 <h5>Insurgentes Sur 619</h5>
-                                                <p>Col.Nápoles, 03810, CDMX</p>
+                                                <p>Col. Nápoles, 03810, CDMX</p>
                                         </div>
                                 </div>
                                 <div class="contact-adress d-flex flex-row">
@@ -70,7 +70,7 @@
                                                 <span><i class="fas fa-phone"></i></span>
                                         </div>
                                         <div class="contact-details">
-                                                <h5> 41 96 30 00</h5>
+                                                <h5> (55) 41 96 30 00</h5>
                                                 <p>Lunes a Viernes 9 am a 6 pm</p>
                                         </div>
                                 </div>

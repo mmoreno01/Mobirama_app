@@ -66,7 +66,7 @@
             </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                <h1><a  href="/capitalHumano">Capital Humano</a></h1>
+                <h1><a  href="/capitalHumano">Administración de peronal</a></h1>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.9s"> 
                 <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 

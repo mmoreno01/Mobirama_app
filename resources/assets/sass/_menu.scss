@@ -45,7 +45,8 @@
     .sub-menu2{
         padding: 10px 20px;
     }
-   
+  
+      
 }
 // estilo de menu principal
 #header-nav{
@@ -59,6 +60,10 @@ video{
     margin-top: 50px;
 }
 
+.navbar-nav .dropdown-menu{
+    position: absolute;
+    float: none;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color:transparent;

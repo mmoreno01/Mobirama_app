@@ -43,26 +43,29 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
-            <div class="row contentPricipal">
-            <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                {{-- <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> --}}
                     <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <div class="dropdown  nav-link">
-                        <button class="dropbtn">Conocenos</button>
-                        <div class="dropdown-content">
-                            <a href="/nosotros">Nosotros</a>
-                            <a href="/filosofia">Filosofía Empresarial</a>
-                            <a href="/valores">Valores Institucionales</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Conocenos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/nosotros">Nosotros</a>
+                            <a class="dropdown-item" href="/filosofia">Filosofía Empresarial</a>
+                            <a class="dropdown-item" href="/valores">Valores Institucionales</a>
                         </div>
                     </div>
-                    <div class="dropdown nav-link">
-                        <button class="dropbtn">Servicios</button>
-                        <div class="dropdown-content">
-                            <a href="/payroll">Payroll Service</a>
-                            <a href="/capitalHumano">Capital Humano</a>
-                            <a href="/fiscal">Fiscal</a>
-                            <a href="/maquilaNomina">Maquila de Seguridad Social</a>
-                            <a href="/contabilidad">Contabilidad Outsourcing</a>
-                            <a href="/juridico">Jurídico</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Servicios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="/payroll">Payroll Service</a>
+                            <a class="dropdown-item" href="/capitalHumano">Capital Humano</a>
+                            <a class="dropdown-item" href="/fiscal">Fiscal</a>
+                            <a class="dropdown-item" href="/maquilaNomina">Maquila de Seguridad Social</a>
+                            <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>
+                            <a class="dropdown-item" href="/juridico">Jurídico</a>
                         </div>
                     </div>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
@@ -73,46 +76,6 @@
                       <i class="fas fa-address-card"></i>
                       Iniciar sesión
                     </a>
-                </div>
-                {{-- <div class="col-sm-12 col-md-9 content_serv">    
-                    <div class="row  sub-menu1 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.9">
-                            <div class="col-4 content_img">
-                                <a href="/politica"><i class="fas fa-check"></i></a>
-                                <a href="/politica"><p class="title-txt">Politica de Calidad</p></a>
-                            </div>
-                            <div class="col-4 content_img">
-                                <a href="#"><i class="fas fa-clipboard-list"></i></a>
-                                <a href="#"><p class="title-txt">Terminos de uso</p></a>
-                            </div>
-                            <div class="col-4 content_img">
-                                <a href="/glosario"><i class="fas fa-book-open"></i></a>
-                                <a href="/glosario"><p class="title-txt">Glosario</p></a>
-                            </div>
-                    </div>
-                </div> --}}
-                {{-- <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
-                    <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Servicios</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Payroll Services</a>
-                                <a class="dropdown-item" href="#">Capital Humano</a>
-                                <a class="dropdown-item" href="#">Fiscal</a>
-                                <a class="dropdown-item" href="#">Maquila de Seguridas S.</a>
-                                <a class="dropdown-item" href="#">Contabilidad Outsourcing</a>
-                                <a class="dropdown-item" href="#">Jurídico</a>
-                            </div>
-                    <a class="nav-item nav-link mr-4" href="/nosotros">Nosotros</a>
-                    <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
-                    <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>
-                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>  
-                    <a href="/" class="nav-item nav-link mr-4">
-                      <i class="fas fa-address-card"></i>
-                      Iniciar sesión
-                    </a>
-                </div> --}}
-            </div>   
         </div>
        <!-- <div  id="headSocial">
                 <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -130,7 +93,33 @@
 <!-- contenido principa -->
 @yield('content')
 
-
+<!-- Modal -->
+<div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-body">
+          <img src="imagenes/home/banner mobirama-02.jpg" width="200" height="" alt="Mobirama">
+          <article>
+                <p>Conforme la Ley de Ingresos aprobada por el Poder Legislativo, el derecho de los contribuyentes<br>
+                a la <span>"Compensación Universal"</span> ha sido derogado</p>
+                <p>La compesacion universal es el derecho que tienen los contribuyentes de restar las cantidades que
+                tengan a su favor en un determinado impuesto federal de las cantidades que deben pagar por adeudos propios
+                o por retencion a terceros.</p>
+                <p>La división fiscal <span>MOBIRAMA</span> cuenta con las bases para concluir que esta derogación es material
+                de amparo, por lo está a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
+          <article>
+      </div>
+      <div class="content-btm">
+            <article>
+                <h2><span>Conoce</span> cómo obtner tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
+            </article>
+        </div>
+    </div>
+  </div>
+</div>
 
 <footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
@@ -257,6 +246,14 @@ $('.slider-nav').slick({
 });
 				
 </script>
+
+{{-- scrip of the modal  --}}
+<script>
+    $(document).ready(function()
+    {
+       $("#mobiramaModal").modal("show");
+    });
+ </script>
 
 </body>
 </html>
