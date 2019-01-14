@@ -5438,6 +5438,100 @@ footer ul {
   }
 }
 
+#content-items-general {
+  padding: 50px 0px;
+}
+
+#content-items-general .post.preview {
+  display: inline-block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 30px;
+}
+
+#content-items-general .post-thumbnail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  margin-top: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+#content-items-general .post-thumbnail:hover .hover {
+  opacity: 1;
+}
+
+#content-items-general .post-content-text .meta {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#content-items-general .post-content-text .meta li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: .8rem;
+}
+
+#content-items-general .post-content-text h4 {
+  margin: 0;
+}
+
+#content-items-general .post-content-text .contet-descrip li {
+  text-align: justify;
+}
+
+#content-items-general .post-content-text p {
+  text-align: justify;
+}
+
+#content-items-general .post.preview.st-1 .post-thumbnail,
+#content-items-general .post.preview.st-1 .post-content {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#content-items-general .post.preview.st-1 .post-thumbnail,
+#content-items-general .post.preview.st-1 .post-content {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+#content-items-general .post.preview .post-content {
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+  padding-left: 30px;
+}
+
+#content-items-general .content-categories .title-category h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#content-items-general .content-categories ul li {
+  list-style: none;
+}
+
+/* ------media queries----- */
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT

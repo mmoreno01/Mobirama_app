@@ -11,7 +11,7 @@
 </div>
 <!--heder title blog-->
 
-<!--section content infomation about items of the blog-->
+<!-- section of information blog items-->
 <section id="content-items">
     <div class="container">
         <div class="row">
@@ -35,11 +35,11 @@
                           </li>
                       </ul>
                       <h4 class="post-title">
-                        <a href="#">AMPARO COMPENSACION UNIVERSAL</a>
+                        <a href="/itemBlog">AMPARO COMPENSACIÓN UNIVERSAL</a>
                       </h4>
                       <p>La compensación universal es el derecho que tienen los contribuyentes de restar las cantidades. </p>
                       <p>
-                        <a href="#" class="color-link">Leer más
+                        <a href="/itemBlog" class="color-link">Leer más
                           <i class="fa fa-long-arrow-right"></i>
                         </a>
                       </p>
@@ -58,5 +58,6 @@
         </div>
     </div>
 </section>
+<!--end section of information blog items-->
 
 @endsection

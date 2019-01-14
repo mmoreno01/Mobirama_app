@@ -1,0 +1,103 @@
+#content-items-general{
+    padding: 50px 0px;
+    .post.preview {
+        display: inline-block;        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        align-items: center;
+        border-bottom: 1px solid #ebebeb;
+        padding-bottom: 30px;
+    }
+    .post-thumbnail {
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-flex-basis: 60%;
+        flex-basis: 60%;
+        margin-top: 0;
+        position: relative;
+        overflow: hidden;
+
+       
+    
+    }
+
+    .post-thumbnail:hover .hover {
+        opacity: 1;
+    }
+
+    .post-content-text{
+        .meta {
+            margin: 0;
+            padding: 0;
+            margin-top: 30px;
+            margin-bottom: 30px;
+                li{
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        display: inline-block;
+                        font-size: .8rem;
+                }
+            } 
+        
+        h4{
+            margin: 0;
+        }
+        .contet-descrip{
+            li{
+                text-align: justify;
+            }
+        }
+        p{
+            text-align: justify;
+        }
+    }
+   
+    .post.preview.st-1 .post-thumbnail, .post.preview.st-1 .post-content {
+        -webkit-flex-basis: 50%;
+        flex-basis: 50%;
+    }
+    .post.preview.st-1 .post-thumbnail, .post.preview.st-1 .post-content {
+        -webkit-flex-basis: 50%;
+        flex-basis: 50%;
+    }
+
+    .post.preview .post-content {
+        -webkit-flex-basis: 65%;
+        flex-basis: 65%;
+        padding-left: 30px;
+    }
+    .content-categories{
+        .title-category{
+            h1{
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+
+}
+
+
+ /* ------media queries----- */
+ @media ( max-width:1200px){
+     
+}
+@media ( max-width:992px){
+   
+}
+ @media ( max-width:768px){
+     
+}
+
+ @media ( max-width:576px){
+
+ }
