@@ -507,6 +507,7 @@
         width: 100%;
         background: linear-gradient(to right, rgba(99,152,194,1) 0%, rgba(50,50,99,1) 100%);
         article{
+            text-align: center;
             padding: 20px ;
             h2{
                 font-size: 16px;
@@ -514,11 +515,15 @@
                 color: #fff;
                 margin: 0;
                 font-weight: 100;
+                margin-bottom:10px;
                 span{
                     font-weight: bold;
                 }
             }
         }
+       a{
+          padding-top:10px;
+       }
        
     }
     .modal-content{

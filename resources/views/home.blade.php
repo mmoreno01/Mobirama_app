@@ -22,17 +22,18 @@
           <img src="imagenes/home/banner mobirama-02.jpg" width="200" height="" alt="Mobirama">
           <article>
                 <p>Conforme la Ley de Ingresos aprobada por el Poder Legislativo, el derecho de los contribuyentes<br>
-                a la <span>"Compensación Universal"</span> ha sido derogado</p>
+                a la <span>"Compensación Universal"</span> ha sido derogado.</p>
                 <p>La compesacion universal es el derecho que tienen los contribuyentes de restar las cantidades que
                 tengan a su favor en un determinado impuesto federal de las cantidades que deben pagar por adeudos propios
                 o por retencion a terceros.</p>
                 <p>La división fiscal <span>MOBIRAMA</span> cuenta con las bases para concluir que esta derogación es material
-                de amparo. Está a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
+                de amparo. <br>Estámos a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
           <article>
       </div>
       <div class="content-btm">
             <article>
-                <h2><span>Conoce</span> cómo obtner tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
+                <h2><span>Conoce</span> cómo obtener tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
+                <a href="/contacto" class="btn btn-primary">Contactar</a>
             </article>
         </div>
     </div>
