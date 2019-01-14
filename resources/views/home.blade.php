@@ -161,7 +161,7 @@
 				<div class="title-newsletter wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 					<h2>Newsletter</h2>
 				</div>
-			<a class="btn btn-primary  wow fadeInUp" href="/letter" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
+			<a class="btn btn-primary  wow fadeInUp" href="/blog" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
 		</div>
 		
         {{-- <div class="row"> --}}

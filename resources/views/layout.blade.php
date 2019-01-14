@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="/letter">Newsletter</a>
+                    <a class="nav-item nav-link mr-4" href="/blog">Newsletter</a>
                     <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>
                     <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>  
                     <a href="/" class="nav-item nav-link mr-4">

@@ -27,11 +27,12 @@
                     </figure>
                 <div class="post-content">
                       <ul class="meta">
-                          <li class="meta-date">Posted on
-                            <a href="#">2th May, 2018</a>
+                          <li class="meta-date">Publicado
+                            <a href="#">14 Enero, 2019</a>
                           </li>
                           <li class="meta-category">in
-                            <a href="#">News &amp; Events</a>
+                            <a href="#">Juridico</a>
+                            {{-- <a href="#">News &amp; Events</a> --}}
                           </li>
                       </ul>
                       <h4 class="post-title">
