@@ -5296,7 +5296,6 @@ footer ul {
 .content-header {
   width: 100%;
   height: 300px;
-  background-color: #f4f4f4;
   margin-top: 60px;
   position: relative;
   padding: 20px;
@@ -5310,12 +5309,14 @@ footer ul {
 .content-header h1 {
   text-transform: uppercase;
   margin: 0;
+  color: #fff;
 }
 
 .content-header p {
   font-size: 15px;
   text-transform: capitalize;
   margin-top: 0px;
+  color: #fff;
 }
 
 #content-items {
@@ -5509,6 +5510,19 @@ footer ul {
   text-align: justify;
 }
 
+#content-items-general .post-content-text .sluck-mobirama {
+  font-weight: 600;
+}
+
+#content-items-general .post-content-text .sluck-mobirama a {
+  color: #1d73b2;
+  letter-spacing: 3px;
+}
+
+#content-items-general .post-content-text .contet-descrip-number li {
+  list-style-type: decimal;
+}
+
 #content-items-general .post.preview.st-1 .post-thumbnail,
 #content-items-general .post.preview.st-1 .post-content {
   -ms-flex-preferred-size: 50%;
@@ -5596,7 +5610,7 @@ website:   	http://www.themepunch.com
 }
 
 .overlay {
-  background: rgba(34, 34, 34, 0.48);
+  background: rgba(34, 34, 34, 0.3);
   position: absolute;
   width: 100%;
   height: 100%;

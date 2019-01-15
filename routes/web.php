@@ -93,6 +93,14 @@ Route::get('blog', function () {
 Route::get('itemBlog', function () {
     return view('blog.itemBlog');
 });
+//item 2
+Route::get('item2', function () {
+    return view('blog.item2');
+});
+//item 3
+Route::get('item3', function () {
+    return view('blog.item3');
+});
 
 // rutas de la seccion de ubicacion
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');

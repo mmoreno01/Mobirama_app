@@ -54,6 +54,18 @@
         p{
             text-align: justify;
         }
+        .sluck-mobirama{
+            font-weight: 600;
+            a{
+                color:$azulMarino;
+                letter-spacing: 3px;
+            }
+        }
+        .contet-descrip-number{
+            li{
+                list-style-type:decimal;
+            }
+        }
     }
    
     .post.preview.st-1 .post-thumbnail, .post.preview.st-1 .post-content {
