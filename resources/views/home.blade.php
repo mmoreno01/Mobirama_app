@@ -25,7 +25,7 @@
                 a la <span>"Compensación Universal"</span> ha sido derogado.</p>
                 <p>La compesacion universal es el derecho que tienen los contribuyentes de restar las cantidades que
                 tengan a su favor en un determinado impuesto federal de las cantidades que deben pagar por adeudos propios
-                o por retencion a terceros.</p>
+                o por retención a terceros.</p>
                 <p>La división fiscal <span>MOBIRAMA</span> cuenta con las bases para concluir que esta derogación es material
                 de amparo. <br>Estámos a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
           <article>
@@ -97,7 +97,7 @@
             </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                <h1><a  href="/capitalHumano">Administración de peronal</a></h1>
+                <h1><a  href="/capitalHumano">Administración de personal</a></h1>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.9s"> 
                 <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
@@ -129,7 +129,7 @@
                         <img src="imagenes/home-icons/alianzas.png" alt="">
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf ">
-                            <p class="title-txt">Alianzas Estrategicas</p>
+                            <p class="title-txt">Alianzas Estratégicas</p>
                             <p>Nuestras alianzas nos permiten desarrollar proyectos con la seguridad de optimizar los recursos de nuestros clientes,
 							 ofreciendo una excelente calidad de servicios</p> 
                             <a href="/alianzas">Ver más</a>

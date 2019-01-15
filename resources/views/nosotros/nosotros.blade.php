@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-6 content-text-aboutUs" >
                         <div class="col-12 title-about-us">
-                            <h1 class="">Quienes somos</h1>
+                            <h1 class="">Quiénes somos</h1>
                         </div>
                         <article class="text-inicial">
                             <p>Durante nuestra trayectoria hemos prestado nuestros servicios profesionales a más de 3000 industrias de diversos sectores económicos, en cada relación se ha implementado un estricto protocolo técnico y una metodología precisa para el logro de los objetivos de nuestros clientes, realizamos análisis para el desarrollo y ejecución de planes de negocios específicos en tiempo y forma, estableciendo acciones y soluciones personalizadas en relación con la expectativa de metas, la finalidad es garantizar la mejora continua y la consolidación de la empresa en su ámbito de competencia comercial.</p>

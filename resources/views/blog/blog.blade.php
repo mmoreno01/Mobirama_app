@@ -94,7 +94,7 @@
                                 <a href="#">14 Enero, 2019</a>
                             </li>
                             <li class="meta-category">in
-                                <a href="#">Juridico</a>
+                                <a href="#">Jurídico</a>
                                 {{-- <a href="#">News &amp; Events</a> --}}
                             </li>
                         </ul>
@@ -112,7 +112,7 @@
             </div>
             <div class="col-md-4 content-categories">
                 <div class="title-category">
-                    <h1>Categorias</h1>
+                    <h1>Categorías</h1>
                 </div>
                 <ul>
                     <a  href=""><li>Juridico</li></a>

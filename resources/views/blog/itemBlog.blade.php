@@ -30,7 +30,7 @@
                           <li class="meta-date">Publicado
                             <a href="#">14 Enero, 2018</a>
                           </li>
-                          <li class="meta-category">in
+                          <li class="meta-category">
                             <a href="#">Juridico</a>
                           </li>
                       </ul>
@@ -58,7 +58,7 @@
                     <h1>Categorias</h1>
                 </div>
                 <ul>
-                    <a  href=""><li>Juridico</li></a>
+                    <a  href=""><li>Juridíco</li></a>
       
                 </ul>
             </div>
