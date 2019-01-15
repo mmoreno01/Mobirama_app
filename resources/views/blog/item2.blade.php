@@ -23,7 +23,7 @@
                                 <span class="wicon-iconmonstr-zoom-in-thin"></span>
                             </a>
                         </div>
-                        <img src="imagenes/blog/NOTA 2.jpg" alt="">
+                        <img src="imagenes/blog/Nota 2.jpg" alt="">
                     </figure>
                 <div class="post-content-text">
                       <ul class="meta">

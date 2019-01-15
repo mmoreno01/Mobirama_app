@@ -51,11 +51,11 @@
                 <div class="post preview st-1">
                     <figure class="post-thumbnail">
                             <div class="hover">
-                                <a href="imagenes/blog/NOTA 2.jpg" class="lightbox-images">
+                                <a href="imagenes/blog/Nota 2.jpg" class="lightbox-images">
                                     <span class="wicon-iconmonstr-zoom-in-thin"></span>
                                 </a>
                             </div>
-                                <img src="imagenes/blog/NOTA 2.jpg" alt="">
+                                <img src="imagenes/blog/Nota 2.jpg" alt="">
                     </figure>
                     <div class="post-content">
                         <ul class="meta">
