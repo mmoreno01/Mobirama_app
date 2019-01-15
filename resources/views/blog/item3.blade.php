@@ -53,7 +53,7 @@
                                 </ul> 
 
                             <p class="sluck-mobirama">En <a href="/home">MOBIRAMA </a>contamos con los especialistas que aportarán valor tu empresa. </p>
-                            <span>Información retomada de: “SAT” </span>
+                            <span>Información retomada de: “SAT”.</span>
                     </div>
                   </div>
                    <a href="/blog" class="btn btn-primary" style="margin-top:20px;">Regresar</a>

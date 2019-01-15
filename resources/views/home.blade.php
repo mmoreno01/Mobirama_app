@@ -160,7 +160,7 @@
 			<div class="overlay"></div>
 				<div class="title-newsletter wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 					<h2>Blog</h2>
-                    <p>Conoce nuestras ultimas noticias</p>
+                    <p>Conoce nuestras últimas noticias</p>
 				</div>
 			<a class="btn btn-primary  wow fadeInUp" href="/blog" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
 		</div>
