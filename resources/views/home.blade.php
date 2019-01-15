@@ -6,7 +6,7 @@
 {{-- @include('sliderRevolution') --}}
 <div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
         <video autoplay="true" muted loop width="100%" height="100%">
-				<source src='videos/INTRO BANNER 3 4 web.mp4' type='video/mp4' />
+				<source src='videos/lights banner mobirama .mp4' type='video/mp4' />
 		</video>
 </div>
 <!-- fin de slider revolution -->
@@ -159,7 +159,8 @@
 		<div class="content_newsletter parallax d-flex justify-content-center"  style="background-image: url('imagenes/home/newslett1.jpg'); background-position: center-top; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
 			<div class="overlay"></div>
 				<div class="title-newsletter wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-					<h2>Newsletter</h2>
+					<h2>Blog</h2>
+                    <p>Conoce nuestras ultimas noticias</p>
 				</div>
 			<a class="btn btn-primary  wow fadeInUp" href="/blog" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
 		</div>

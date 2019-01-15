@@ -474,13 +474,19 @@
       -ms-flex-align: center;
           align-items: center;
   z-index: 1;
+  text-align: center;
 }
 
 #content-informes .title-newsletter h2 {
   color: #fff;
   margin: 0px;
-  padding: 20px;
   letter-spacing: 20px;
+  padding: 0px;
+}
+
+#content-informes .title-newsletter p {
+  color: #fff;
+  letter-spacing: 5px;
 }
 
 #rutas-informacion {
