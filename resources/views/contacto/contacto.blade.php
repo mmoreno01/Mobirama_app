@@ -70,7 +70,7 @@
                                                 <span><i class="fas fa-phone"></i></span>
                                         </div>
                                         <div class="contact-details">
-                                                <h5> (55) 41 96 30 00</h5>
+                                                <h5><a id="tel-mobirama" href="tel:5541963000">(55) 41 96 30 00</a></h5>
                                                 <p>Lunes a Viernes 9 am a 6 pm</p>
                                         </div>
                                 </div>
@@ -79,7 +79,7 @@
                                                 <span><i class="fas fa-envelope"></i></span>
                                         </div>
                                         <div class="contact-details">
-                                                <h5>atencionaclientes@mobirama.mx</h5>
+                                                <h5><a id="mail-mobirama" class="emal-text" href="mailto:atencionaclientes@mobirama.com.mx">atencionaclientes@mobirama.com.mx</a></h5>
                                                 <p>Envíanos tu consulta en cualquier momento!</p>
                                         </div>
                                 </div>

@@ -19,17 +19,17 @@
                         <img src="imagenes/alianzas/softland.png" alt="">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                        <img src="imagenes/alianzas/legadmi.png" alt="">
+                        <img src="imagenes/alianzas/apdata.png" alt="Apdta-Mobirama">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                             <img src="imagenes/alianzas/Contadores-Auditores-Consultores-Logo-UCCS.png" alt="">
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                             <img src="imagenes/alianzas/UCC.png" alt="">
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 content-soluctions">
                             <img src="imagenes/alianzas/American.png" alt="">
                 </div>
             </div>

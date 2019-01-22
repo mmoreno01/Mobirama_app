@@ -12,7 +12,7 @@ class contactoController extends Controller
     {
         Mail::send('emails.contact', $request->all(), function($smj){
             $smj->Subject('Correo de contacto');
-            $smj->to('migue.moreno01@gmail.com');
+            $smj->to('atencionaclientes@mobirama.com.mx');
         });
 
         return redirect()->route('contacto.contacto')->with('info', 'Mensaje enviado');

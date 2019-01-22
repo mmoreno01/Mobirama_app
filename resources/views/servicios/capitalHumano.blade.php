@@ -22,7 +22,7 @@
                   <li>Evaluación continua en cada proceso</li>
                   <li>Constante actualización de método</li>
               </ul>  
-              <a href="/home">Más Servicios</a> 
+              <a href="/#content_services">Más Servicios</a> 
             </div>
         </div>
         <div class="row serv-iconos">

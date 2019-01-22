@@ -9,12 +9,12 @@ use illuminate\http\Request;
 Route::get('clientes', 'UserController@index');
 
 // muestra el home
-Route::get('home', function(){
+Route::get('/', function(){
     return view('home');
 });
 
 //ruta comprueba si inicio sesion
-Route::get('/', 'Auth\LoginController@showLoginForm'); 
+Route::get('login', 'Auth\LoginController@showLoginForm'); 
    
 //ruta para vista individual
 Route::get('dashboard','DashboardController@index')->name('dashboard');
@@ -79,6 +79,9 @@ Route::get('juridico', function () {
 Route::get('maquilaNomina', function () {
     return view('servicios.maquilaNomina');
 });
+Route::get('maquilaSeguridad', function () {
+    return view('servicios.maquilaSeguridad');
+});
 
 //News letter
 Route::get('letter', function () {
@@ -100,6 +103,11 @@ Route::get('item2', function () {
 //item 3
 Route::get('item3', function () {
     return view('blog.item3');
+});
+
+//aviso de privacidad
+Route::get('avisoPrivacidad', function () {
+    return view('avisoPrivacidad');
 });
 
 // rutas de la seccion de ubicacion

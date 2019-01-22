@@ -52,7 +52,7 @@
                                     <li>La totalidad del pago que ampare el CFDI en cuestión, debe ser realizada en la fecha acordada, es decir, a más tardar el 17 del mes inmediato posterior al en que se emitió el comprobante.</li>
                                 </ul> 
 
-                            <p class="sluck-mobirama">En <a href="/home">MOBIRAMA </a>contamos con los especialistas que aportarán valor tu empresa. </p>
+                            <p class="sluck-mobirama">En <a href="/">MOBIRAMA </a>contamos con los especialistas que aportarán valor tu empresa. </p>
                             <span>Información retomada de: “SAT”.</span>
                     </div>
                   </div>

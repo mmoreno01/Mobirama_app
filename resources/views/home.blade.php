@@ -104,8 +104,8 @@
 				<h1><a  href="/fiscal">Fiscal</a></h1> 
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
-                 <a href="/maquilaNomina"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
-                 <h1><a href="/maquilaNomina">Maquila de Seguridad Social</a></h1> 
+                 <a href="/maquilaSeguridad"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
+                 <h1><a href="/maquilaSeguridad">Maquila de Seguridad Social</a></h1> 
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.5s"> 
                 <a href="/contabilidad"><img src="imagenes/services/Contabilidad .png" alt="Contabilidad"></a>

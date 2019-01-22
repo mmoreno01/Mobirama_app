@@ -20,7 +20,7 @@
                     <li>Preparación de Declaración de Impuestos Federales y Estatales.</li>
                     <li>Presentación de Declaraciones Informativas y Anuales.</li>
                   </ul>
-                 <a href="home#content_services">Más Servicios</a> 
+                 <a href="/#content_services">Más Servicios</a> 
                </div>
             </div>
                 <div class="row serv-iconos">

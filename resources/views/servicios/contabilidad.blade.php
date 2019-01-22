@@ -20,7 +20,7 @@
                   <li>Asesoría y Planeación Financiera.</li>
                   <li>Gestión Contable.</li>
               </ul>
-              <a href="home#content_services">Más Servicios</a> 
+              <a href="/#content_services">Más Servicios</a> 
             </div>
         </div>
         <div class="row serv-iconos">

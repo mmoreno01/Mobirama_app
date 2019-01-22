@@ -23,7 +23,7 @@
                     <li>Captura de Incidencias.</li>
                     <li>Calculo de Percepciones y Retenciones</li>
                 </ul>
-                 <a href="home#content_services">Más Servicios</a> 
+                 <a href="/#content_services">Más Servicios</a> 
             </article>
          </div>
      </div>

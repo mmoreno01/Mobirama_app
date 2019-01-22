@@ -29,7 +29,7 @@
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- chat home-->
-    <script src="//code.tidio.co/j8atq5zvyhopcn4ahuxng1y0e5s4zoqq.js"></script>
+    <script src="//code.tidio.co/cbarboauidoxnughnrijsrkiag8wcloc.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -37,12 +37,32 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PM6VMQQ');</script>
     <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1211831272298854'); 
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" 
+    src="https://www.facebook.com/tr?id=1211831272298854&ev=PageView
+    &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
     <!-- menu principal -->
     <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-    <a class="navbar-brand" href="/home">
+    <a class="navbar-brand" href="/">
         <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="Mobirama">
     </a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,10 +71,10 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
                 {{-- <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> --}}
-                    <a class="nav-item nav-link mr-4 active" href="/home">Inicio</a>
+                    <a class="nav-item nav-link mr-4 active" href="/">Inicio</a>
                     <div class="dropdown">
                         <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Conocenos
+                        Conócenos
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="/nosotros">Nosotros</a>
@@ -76,10 +96,10 @@
                         </div>
                     </div>
                     <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="/blog">Newsletter</a>
+                    <a class="nav-item nav-link mr-4" href="/blog">Blog</a>
                     <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>
                     <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>  
-                    <a href="/" class="nav-item nav-link mr-4">
+                    <a href="/login" class="nav-item nav-link mr-4">
                       <i class="fas fa-address-card"></i>
                       Iniciar sesión
                     </a>
@@ -88,12 +108,11 @@
                 <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/JBGlobalGroup" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/join-business-global-group/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                
         </div>-->
     </div>    
 </header>
 <!-- fin del menu principal -->
-    <title>Mobirama | Payroll Services | Contabilidad Outsourcing | Capital Humano</title>
+    <title> Mobirama | Payroll Services | Contabilidad Outsourcing | Capital Humano</title>
 </head>
 <body>
 
@@ -111,8 +130,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <a href="/home"><img src="imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
-               <p>Aviso de privacidad 2018 | Mobirama</p>
+              <a href="/"><img src="imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
+               <p><a href="avisoPrivacidad">Aviso de privacidad 2019 </a>| Mobirama</p>
                <!-- <div class=""> 
                     <img src="imagenes/home-icons/m-w.png" alt="">
                 </div>
@@ -122,7 +141,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <li>2018 | Mobirama</li>
                     </ul>
                 </div> 
-                <!-- <img src="imagenes/home-icons/m-w.png" alt="">
+                <img src="imagenes/home-icons/m-w.png" alt="">
                 <p>Aviso de privacidad 2018 <span></span></P>-->
 
             </div>
@@ -132,7 +151,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </div> 
                     <!-- <div class="icon-social"><a href="http://"><i class="fab fa-youtube"></i></a></div>  -->
                     <p>Trazando el éxito de los negocios</p>
-               
             </div>
         </div>
     </div>

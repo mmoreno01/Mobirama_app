@@ -10,8 +10,14 @@ img{
       width: 300px;
   }  
   p{
-      margin-top:0px;
-    
+      margin-top:0px; 
+  }
+
+  a{
+      color: $white;
+  }
+  a:hover{
+      color: rgb(209, 202, 202);
   }
 .icon-social{
       width: 40px;

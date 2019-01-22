@@ -44,7 +44,7 @@ class PostulacionController extends Controller
          Mail::send('emails.postulacion', $request->all(), function($smj) use ($contentFile, $pathtoFile){
 
                 $smj->Subject('Correo de contacto');
-                $smj->to('migue.moreno01@gmail.com');
+                $smj->to('atencionaclientes@mobirama.com.mx');
                 if($contentFile){
                     $smj->attach($pathtoFile);
                 }

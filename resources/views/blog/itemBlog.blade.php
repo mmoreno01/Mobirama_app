@@ -47,7 +47,7 @@
                                     <li>Con la obtención de la suspensión de la aplicación de la ley, el contribuyente podrá disponer de flujo de efectivo, sin una erogación adicional para cubrir sus impuestos a cargos, ni tendrá que tramitar la devolución para obtener sus saldos a favor.</li>
                                     <li>Con la obtención de la suspensión de la aplicación de la ley, el contribuyente podrá disponer de flujo de efectivo, sin una erogación adicional para cubrir sus impuestos a cargos, ni tendrá que tramitar la devolución para obtener sus saldos a favor.</li>
                                 </ul> --}}
-                            <p class="sluck-mobirama">En <a href="/home">MOBIRAMA </a>contamos con los especialistas que aportarán valor tu empresa. </p>
+                            <p class="sluck-mobirama">En <a href="/">MOBIRAMA </a>contamos con los especialistas que aportarán valor tu empresa. </p>
                             <span>Información retomada de: “El Universal Online”.</span>
                     </div>
                   </div>

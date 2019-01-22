@@ -31,8 +31,8 @@
                             <li class="meta-date">Publicado
                                 <a href="#">14 Enero, 2019</a>
                             </li>
-                            <li class="meta-category">in
-                                <a href="#">Juridico</a>
+                            <li class="meta-category">en
+                                <a href="#">Jurídico</a>
                                 {{-- <a href="#">News &amp; Events</a> --}}
                             </li>
                         </ul>
@@ -62,8 +62,8 @@
                             <li class="meta-date">Publicado
                                 <a href="#">14 Enero, 2019</a>
                             </li>
-                            <li class="meta-category">in
-                                <a href="#">Juridico</a>
+                            <li class="meta-category">en
+                                <a href="#">Jurídico</a>
                                 {{-- <a href="#">News &amp; Events</a> --}}
                             </li>
                         </ul>
@@ -93,7 +93,7 @@
                             <li class="meta-date">Publicado
                                 <a href="#">14 Enero, 2019</a>
                             </li>
-                            <li class="meta-category">in
+                            <li class="meta-category">en
                                 <a href="#">Jurídico</a>
                                 {{-- <a href="#">News &amp; Events</a> --}}
                             </li>
@@ -115,7 +115,7 @@
                     <h1>Categorías</h1>
                 </div>
                 <ul>
-                    <a  href=""><li>Juridico</li></a>
+                    <a  href=""><li>Jurídico</li></a>
       
                 </ul>
             </div>

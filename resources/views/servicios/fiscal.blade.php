@@ -24,7 +24,7 @@
                       <li>Alianzas Estratégicas (Joint Ventures) y Due Diligence</li>
                       <li>Cumplimiento Fiscal</li>
                     </ul>
-                 <a href="home#content_services">Más Servicios</a> 
+                 <a href="/#content_serviceshome#content_services">Más Servicios</a> 
                </div>
             </div>
                 <div class="row serv-iconos">

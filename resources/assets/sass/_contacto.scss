@@ -14,8 +14,8 @@ button{
 }
 
 .form-control:focus {
-    border: 1px solid #ff6633;
-    box-shadow: 0 0 0 0.2px #ff6633;
+    border: 1px solid $azulMarino;
+    box-shadow: 0 0 0 0.2px $azulMarino;
 }
 .content-info{
    
@@ -44,11 +44,11 @@ button{
             font-size: 30px;
             font-weight: 500;
             color: #00387a;
-            margin-right: 30px;
+          
         }
     }
     .contact-details{
-      
+       padding: 0px 20px;
         h5{
             font-weight: 300;
             font-size: 16px;
@@ -57,6 +57,9 @@ button{
         p{
             margin: 0px;
             margin-top: 0px;
+        }
+        a{
+            color: #000;
         }
     }
     .contact-adress{
@@ -82,4 +85,20 @@ select{
      background-color: $azulMarino;
  }
 
+}
+
+// media queries
+
+@media(max-width:768px){
+    
+}
+@media(max-width:576px){
+    #contacto {
+        .emal-text{
+            font-size: 13px;
+        }
+        .content-info{
+            margin-top: 50px;
+        }
+    }
 }

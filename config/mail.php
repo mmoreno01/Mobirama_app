@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
+    'host' => env('MAIL_HOST', 'mail.mexis.com.mx'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'port' => env('MAIL_PORT', 465),
+    'port' => env('MAIL_PORT', 2525),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'migue.moreno01@gmail.com'),
-        'name' => env('MAIL_FROM_NAME', 'Miguel Moreno'),
+        'address' => env('MAIL_FROM_ADDRESS', 'atencionaclientes@mobirama.com.mx'),
+        'name' => env('MAIL_FROM_NAME', 'Mobirama'),
     ],
 
     /*
