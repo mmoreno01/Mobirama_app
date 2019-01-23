@@ -55,7 +55,7 @@ class PostulacionController extends Controller
             return redirect()->route('contacto.bolsaTrabajo')->with('info', 'Te postulaste exitosamente');
 
        }else{
-        return redirect()->route('contacto.bolsaTrabajo')->with('info', 'Error vuelva a intentarlo');
+        return redirect()->route('contacto.bolsaTrabajo')->with('info_error', 'Error al envias, vuelva a intentarlo');
 
        }
          

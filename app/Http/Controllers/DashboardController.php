@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    // public function __construct(){
-    //     $this->middleware('guest', ['only' => 'showViewEdit']);
-    // }
+    public function __construct(){
+        $this->middleware('guest', ['only' => 'showViewEdit']);
+    }
     //metodo para eliminar un registro de la base de datos
     public function destroy(Vacante $vacante)
     {
@@ -49,6 +49,7 @@ class DashboardController extends Controller
     {
         $this->middleware('auth');
     }
+
 
     // metodo para visualuzar datos de las vacantes en la vista
     public function index()

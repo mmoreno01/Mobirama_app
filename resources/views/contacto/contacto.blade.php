@@ -13,7 +13,7 @@
                 <div class="row">
                         <div class="col-md-8  content-form">
                                  @include('common.success')
-                                 {{-- @include('common.errors') --}}
+                                 @include('common.errorSend') 
                                 {!! Form::open(['route' => 'contacto.contacto', 'method' => 'POST' ]) !!}
                                 @csrf
                                 <div class="row">
@@ -32,6 +32,7 @@
                                                 {!! Form::text('telefono', null, [  'class' => 'form-control inp-text', 'placeholder' => 'Teléfono',] ) !!}
                                                 {!! $errors->first('telefono', '<span class="help-block alert-danger">:message</span>') !!}
 
+                                     
                                              </div>
                                         </div>
                                         <div class="col-lg-6 form-group">
@@ -40,14 +41,14 @@
 
                                         </div> 
 
-                                        {{-- <div class="col-md-12 form-group">
+                                        <div class="col-md-12 form-group">
                                                 <div class="g-recaptcha" data-sitekey="{{ env('CAPTCHA_SITE_KEY') }}"></div>  
                                                 @if ($errors->has('g-recaptcha-response'))
                                                         <span class="invalid-feedback" style="display: block;">
                                                                 <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
                                                          </span>
                                                 @endif
-                                        </div>  --}}
+                                        </div> 
                                           <div class="col-lg-12 form-group">
                                                 {!! Form::submit('Enviar', ['class' => 'btn btn-primary']) !!}
                                         </div>    

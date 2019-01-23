@@ -13,7 +13,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>hgcorpmail</title>
+        <title>Mobirama mail</title>
         
     <style type="text/css">
 		p{
@@ -148,7 +148,7 @@
 	
 		#templateHeader{
 			/*@editable*/background-color:#324d5c;
-			/*@editable*/background-image:url("https://gallery.mailchimp.com/766ee0c962d543c02140cdccb/images/eea9092d-d68a-499a-b9d8-402f7b9dbd25.png");
+			/*@editable*/background-image:url();
 			/*@editable*/background-repeat:no-repeat;
 			/*@editable*/background-position:center;
 			/*@editable*/background-size:cover;
@@ -512,7 +512,7 @@
 }</style></head>
     <body>
         <!--*|IF:MC_PREVIEW_TEXT|*-->
-        <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span>
+        <!--[if !gte mso 9]><!----><span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Mobirama</span>
         <!--<![endif]-->
         <!--*|END:IF|*-->
         <center>
@@ -539,7 +539,7 @@
                             <td class="mcnImageContent" valign="top" style="padding-right: 9px; padding-left: 9px; padding-top: 0; padding-bottom: 0; text-align:center;">
                                 
                                     
-                                        <img align="center" alt="" src="https://gallery.mailchimp.com/267cb43595f2874562207a203/images/e6523edc-77d1-4261-8dde-9a3c2ac86162.png" width="206" style="max-width:206px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                        <img align="center" alt="" src="https://gallery.mailchimp.com/267cb43595f2874562207a203/images/e6523edc-77d1-4261-8dde-9a3c2ac86162.png" width="300" style="max-width:300px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
                                     
                                 
                             </td>
@@ -852,7 +852,7 @@
                     <tbody>
                         <tr>
                             <td align="center" valign="middle" class="mcnButtonContent" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, Verdana, sans-serif; font-size: 16px; padding: 15px;">
-                                <a class="mcnButton " title="SITIO WEB" href="http://admin.concepthaus.mx/hgcorp/" target="_blank" style="font-weight: normal;letter-spacing: 2px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">SITIO WEB</a>
+                                <a class="mcnButton " title="SITIO WEB" href="http://www.mobirama.com.mx" target="_blank" style="font-weight: normal;letter-spacing: 2px;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">SITIO WEB</a>
                             </td>
                         </tr>
                     </tbody>
@@ -1013,7 +1013,7 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                         
-                            <span style="font-size:14px"><em>©&nbsp;</em>HG Corp 2017&nbsp;</span>|<span style="font-size:14px"> Todos los Derechos Reservados 2016</span><br>
+                            <span style="font-size:14px"><em>©&nbsp;</em>Mobirama 2019&nbsp;</span>|<span style="font-size:14px"> Todos los Derechos Reservados 2019</span><br>
 <br>
 ¿Quieres cambiar el módo en que recibes estos mensajes?<br>
 Puedes&nbsp;<a href="*|UPDATE_PROFILE|*">actualizar preferencias</a> o&nbsp;<a href="*|UNSUB|*">dejar de recibir estos mensajes</a>.<br>

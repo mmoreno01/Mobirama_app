@@ -11,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 form-postulation">
-                {{-- @include('common.errors') --}}
+                @include('common.errorSend')
                 @include('common.success')
                 <h1>POSTÚLATE AHORA</h1>
                     {!! Form::open(['route' => 'contacto.bolsaTrabajo', 'method' => 'POST', 'files' => true ]) !!}
