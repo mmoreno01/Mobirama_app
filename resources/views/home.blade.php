@@ -33,7 +33,7 @@
       <div class="content-btm">
             <article>
                 <h2><span>Conoce</span> cómo obtener tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
-                <a href="/contacto" class="btn btn-primary">Solicita más información</a>
+                <a id="btn-popInit" href="/contacto" class="btn btn-primary">Solicita más información</a>
             </article>
         </div>
     </div>

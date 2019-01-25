@@ -27,7 +27,7 @@ class StoreContacto extends FormRequest
         return [
             'nombre' => 'required|max:200',
             'email' => 'required|email',
-            'telefono'=> 'required|max:10',
+            'telefono'=> 'required|min:8, max:10',
             'mensaje'=> 'required|max:250',
             'g-recaptcha-response'=>'required'
         ];

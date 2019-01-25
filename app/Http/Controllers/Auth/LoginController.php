@@ -43,7 +43,7 @@ class LoginController extends Controller
 
         Auth::logout();
 
-        return redirect('auth.login');
+        return view('home');
     }
    
 

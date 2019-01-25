@@ -163,7 +163,10 @@ return [
          * LaravelColletive  Service Providers...
          */
         Collective\Html\HtmlServiceProvider::class,
-
+        /*
+         * seoTools...
+         */
+        Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
     ],
 
     /*
@@ -214,6 +217,15 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+         /*
+         * seoTools...
+         */
+        // other Facades ommited
+        'SEOMeta'   => Artesaos\SEOTools\Facades\SEOMeta::class,
+        'OpenGraph' => Artesaos\SEOTools\Facades\OpenGraph::class,
+        'Twitter'   => Artesaos\SEOTools\Facades\TwitterCard::class,
+         // or
+        'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
 
     ],
 

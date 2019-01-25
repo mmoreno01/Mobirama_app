@@ -6,12 +6,14 @@ use illuminate\http\Request;
 //     return view('.slider.slider');
 // });
 
-Route::get('clientes', 'UserController@index');
+// Route::get('clientes', 'UserController@index');
 
 // muestra el home
-Route::get('/', function(){
-    return view('home');
-});
+// Route::get('/', function(){
+//     return view('home');
+// });
+
+Route::get('/', 'HomeController@index')->name('home'); 
 
 //ruta comprueba si inicio sesion
 Route::get('login', 'Auth\LoginController@showLoginForm'); 

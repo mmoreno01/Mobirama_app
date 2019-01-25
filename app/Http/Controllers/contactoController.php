@@ -23,18 +23,17 @@ class contactoController extends Controller
         $dataSend->telefono = $request->input('telefono');
         $dataSend->mensaje = $request->input('mensaje');
         // $dataSend->date = $currenDate;
-        // $dataSend->save();
+        $dataSend->save();
 
-        // Mail::send('emails.contact', $request->all(), function($smj){
-        //     $smj->Subject('Correo de contacto');
-        //     $smj->to('atencionaclientes@mobirama.com.mx');
-        // });
+        Mail::send('emails.contact', $request->all(), function($smj){
+            $smj->Subject('Correo de contacto');
+            $smj->to('atencionaclientes@mobirama.com.mx');
+        });
 
         if ($dataSend = true){
             return redirect()->route('contacto.contacto')->with('info', 'Mensaje enviado');
 
         }else{
-
             return redirect()->route('contacto.contacto')->with('info_error', 'Error al enviar, Vuelve a intentarlo!');
         }
 

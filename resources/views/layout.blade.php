@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="esS">
+<html lang="en">
 <head>
+    {!! SEO::generate() !!}
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Descpription-->
-    <meta name="description" content="Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--favicon-->
     <link rel="icon" type="image/png" href="imagenes/home-icons/m-favicon.png">
@@ -112,7 +113,6 @@
     </div>    
 </header>
 <!-- fin del menu principal -->
-    <title> Mobirama | Payroll Services | Contabilidad Outsourcing | Capital Humano</title>
 </head>
 <body>
 
@@ -177,7 +177,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/slider/slideRevolution.js"></script>
     <!-- scrollmagic -->
     <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/debug.addlndicators.js"></script>
     <script src="js/ScrollMagic/main.js"></script>
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
