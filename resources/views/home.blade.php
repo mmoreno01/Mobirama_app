@@ -10,7 +10,7 @@
 		</video>
 </div>
 <!-- fin de slider revolution -->
-
+<h1>holamundo</h1>
 <!-- Modal execute init -->
 <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
