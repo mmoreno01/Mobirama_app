@@ -10,7 +10,7 @@
 		</video>
 </div>
 <!-- fin de slider revolution -->
-<h1>holamundo</h1>
+
 <!-- Modal execute init -->
 <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -243,6 +243,9 @@
     {{-- </div> --}}
 </section>
 <!-- Fin de seccion de prensa -->
+<iframe  style="width:100%;height:375px"  src="http://online.flipbuilder.com/zdih/ghen/"
+seamless="seamless" scrolling="no" frameborder="0" 
+allowtransparency="true" allowfullscreen="true"></iframe>
 
 <!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">
