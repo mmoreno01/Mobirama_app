@@ -584,7 +584,7 @@
                         
                         <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
                         
-                            <div style="text-align: center;"><span style="color:#033b72"><span style="font-size:25px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif">Registro de Contacto</span></span></span></div>
+                            <div style="text-align: center;"><span style="color:#033b72"><span style="font-size:25px"><span style="font-family:lato,helvetica neue,helvetica,arial,sans-serif">Registro de Contacto Sitio Web</span></span></span></div>
 
                         </td>
                     </tr>

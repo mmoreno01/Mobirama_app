@@ -5612,6 +5612,33 @@ footer ul {
   font-weight: bold;
 }
 
+#banner-gaceta {
+  padding: 0px 0px 50px;
+}
+
+#banner-gaceta .content-img {
+  height: 150px;
+}
+
+#banner-gaceta .content-img h2 {
+  color: #fff;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 10px;
+}
+
+#banner-gaceta .content-img a {
+  color: #fff;
+  margin-top: 60px;
+  z-index: 9;
+  letter-spacing: 5px;
+}
+
+#section-postGaceta {
+  padding: 100px 0px;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT

@@ -243,9 +243,6 @@
     {{-- </div> --}}
 </section>
 <!-- Fin de seccion de prensa -->
-<iframe  style="width:100%;height:375px"  src="http://online.flipbuilder.com/zdih/ghen/"
-seamless="seamless" scrolling="no" frameborder="0" 
-allowtransparency="true" allowfullscreen="true"></iframe>
 
 <!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">
@@ -270,4 +267,17 @@ allowtransparency="true" allowfullscreen="true"></iframe>
     </div>
 </section>
 <!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
+
+<!--section gaceta informativa-->
+<section id="banner-gaceta">
+    <div class="container">
+        <div class="content-img parallax d-flex justify-content-center" style=" background-image: url('imagenes/home/gaceta.jpg');">
+            <div class="overlay"></div>
+            <h2>GACETA</h2>
+            <a  href="http://online.flipbuilder.com/zdih/eequ/" target="_blank">Ver más</a>
+        </div>
+    <div>
+</section>
+<!--section gaceta informativa-->
+
 @endsection

@@ -112,6 +112,11 @@ Route::get('avisoPrivacidad', function () {
     return view('avisoPrivacidad');
 });
 
+//gaceta informativa
+Route::get('gaceta-post', function () {
+    return view('gaceta.gaceta-post');
+});
+
 // rutas de la seccion de ubicacion
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
 Route::post('contacto', 'contactoController@store');

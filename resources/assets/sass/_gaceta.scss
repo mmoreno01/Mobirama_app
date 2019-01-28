@@ -1,0 +1,25 @@
+// style banner gacerta
+
+#banner-gaceta{
+    padding: 0px 0px 50px;
+    .content-img{
+    height: 150px;
+        h2{
+            color:$white;
+            position: absolute;
+            display: block;
+            margin: 0 auto;
+            letter-spacing: 10px;
+        }
+        a{
+            color:$white;
+            margin-top: 60px;
+            z-index: 9;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+#section-postGaceta{
+    padding: 100px 0px;
+}
