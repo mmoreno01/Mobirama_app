@@ -9,6 +9,7 @@ use App\Http\Requests\StoreContacto;
 class contactoController extends Controller
 {
     
+  
     //envia los datos en correo electronico
     public function store(StoreContacto $request)
     {
@@ -43,6 +44,7 @@ class contactoController extends Controller
     //muestra la vista
     public function index()
     {
+       
         return view('contacto.contacto');
     }
 }

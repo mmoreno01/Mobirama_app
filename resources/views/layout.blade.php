@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {!! SEOMeta::generate() !!}
+	{!! OpenGraph::generate() !!}
+	{!! Twitter::generate() !!}
     {!! SEO::generate() !!}
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!--Descpription-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--favicon-->
@@ -20,13 +24,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
     <!-- Add the new slick-theme.css if you want the default styling-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick-theme.css')}}"/>
-    <!--sweetalert2-->
-    <link rel="stylesheet" type="text/css" href="{{asset('sweetalert/sweetalert2.min.css')}}"/>
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous')}}">
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <!-- chat home-->
@@ -59,7 +60,6 @@
     <!-- End Facebook Pixel Code -->
 
 
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.js"></script>
 
     <!-- menu principal -->
     <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -132,18 +132,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-6">
               <a href="/"><img src="imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
                <p><a href="avisoPrivacidad">Aviso de privacidad 2019 </a>| Mobirama</p>
-               <!-- <div class=""> 
-                    <img src="imagenes/home-icons/m-w.png" alt="">
-                </div>
-                <div class=" ">
-                    <ul>
-                        <li>Aviso de privacidad</li>
-                        <li>2018 | Mobirama</li>
-                    </ul>
-                </div> 
-                <img src="imagenes/home-icons/m-w.png" alt="">
-                <p>Aviso de privacidad 2018 <span></span></P>-->
-
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
@@ -159,7 +147,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- <script src="js/jquery.js"></script>   -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/ScrollMagic/jquery.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uikit.min.js"></script>
@@ -175,13 +162,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/jquery.themepunch.tools.min.js"></script>
     <script src="js/jquery.themepunch.plugins.min.js"></script>
     <script src="js/slider/slideRevolution.js"></script>
-    <!-- scrollmagic -->
-    <script src="js/ScrollMagic.min.js"></script>
-    <script src="js/ScrollMagic/main.js"></script>
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
-    <!--sweeralert2-->
-    <script  src="sweetalert/sweetalert2.min.js"></script>
+   
     <!-- animate -->
     <script>
         wow = new WOW(
@@ -195,16 +178,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         )
         wow.init();    
     </script> 
+<!-- fin animate -->
 
+<!--Recapcha-->
    <script type="text/javascript">
     var onloadCallback = function() {
         alert("grecaptcha is ready!");
     };
     </script>
-    <!-- vue js -->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!--Recapcha-->
 
-     <script type="text/javascript">
+<!--slider valores-->    
+<script type="text/javascript">
    $('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -246,9 +231,9 @@ $('.slider-nav').slick({
         dots: false
       }
     }]
-});
-				
+});			
 </script>
+<!--slider valores-->    
 
 {{-- scrip of the modal  --}}
 <script>

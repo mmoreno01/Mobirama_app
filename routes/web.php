@@ -121,6 +121,11 @@ Route::get('gaceta-post', function () {
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
 Route::post('contacto', 'contactoController@store');
 
+
+Route::get('registros', 'recordsControllers@index');
+
+
+
 // Route::get ('cotizacion', function(){
 //     return view('contacto.cotizacion');
 // });

@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6 content-imgNosotros d-none d-lg-block">
-                <img  src="imagenes/home/seccion-nosotros.jpg" alt="">
+                <img  src="imagenes/home/seccion-nosotros.jpg" alt="Mobirama">
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
@@ -58,7 +58,7 @@
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
                             <p class="title-txt">Ventejas Competitivas</p>
-							<img src="imagenes/home/competive.gif">
+							<img src="imagenes/home/competive.gif" alt="Mobirama">
                         </div>
                         
                         <div id="project02" class="d-inline cont-textInf1">
@@ -77,7 +77,7 @@
             </div>
 			<!-- imagen para md-sm-xs -->
 			<div class="col-sm-12 col-md-12 col-lg-12 content-imgNosotros d-lg-none" style="margin-top: 30px; padding: 0px;">
-                <img  src="imagenes/home/acercade.jpg" alt="">
+                <img  src="imagenes/home/acercade.jpg" alt="Mobirama">
             </div>
 			<!-- imagen para md-sm-xs -->
         </div>
@@ -88,32 +88,33 @@
 <!-- Seccion de servicios  slider -->
 <section id="content_services"  name="content_services" class="my-5">
 	<div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+    <h1 style="display:none;">Mobirama</h1>
 		<h2>Nuestras Soluciones</h2>
 	</div>
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
                 <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
-			    <h1> <a href="/payroll">Payroll Service</a></h1>
+			   <a href="/payroll"><h1>Payroll Service</h1></a>
             </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
                 <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-                <h1><a  href="/capitalHumano">Administración de personal</a></h1>
+               <a  href="/capitalHumano"> <h1>Administración de personal</h1></a>
             </div>
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.9s"> 
                 <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
-				<h1><a  href="/fiscal">Fiscal</a></h1> 
+				<a  href="/fiscal"><h1>Fiscal</h1> </a>
             </div>
              <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
                  <a href="/maquilaSeguridad"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
-                 <h1><a href="/maquilaSeguridad">Maquila de Seguridad Social</a></h1> 
+               <a href="/maquilaSeguridad"><h1>Maquila de Seguridad Social</h1> </a>
             </div>
              <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.5s"> 
                 <a href="/contabilidad"><img src="imagenes/services/Contabilidad .png" alt="Contabilidad"></a>
-                <h1><a  href="/contabilidad">Contabilidad Outsourcing</a></h1>
+               <a  href="/contabilidad"> <h1>Contabilidad Outsourcing</h1></a>
             </div>
             <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.8s"> 
                 <a href="/juridico"><img src="imagenes/services/Legal.png" alt="juridico"></a>
-                <h1><a href="/juridico">Jurídico</a></h1>
+              <a href="/juridico"><h1>Jurídico</h1></a>
             </div>	
         </div>
 </section>
@@ -126,7 +127,7 @@
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="row">
                     <div id="img-comunicado" class="d-inline content_imgtxt d-flex align-items-center">
-                        <img src="imagenes/home-icons/alianzas.png" alt="">
+                        <img src="imagenes/home-icons/alianzas.png" alt="Mobirama">
                     </div>
                     <div id="cont-comunicado" class="d-inline content_textinf ">
                             <p class="title-txt">Alianzas Estratégicas</p>
@@ -135,7 +136,7 @@
                             <a href="/alianzas">Ver más</a>
                     </div>
                     <div id="img-blog" class="d-inline content-blog content_imgtxt d-flex align-items-center">
-                        <img src="imagenes/home-icons/certificacion.png" alt="">
+                        <img src="imagenes/home-icons/certificacion.png" alt="Mobirama">
                     </div>
                     <div id="cont-blog" class="d-inline content-blog content_textinf">
                             <p class="title-txt">Certificaciones y Distintivos</p>
@@ -145,7 +146,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 content-img-alianza">
-                <img  src="imagenes/home/seccion-alianza.jpg" alt="">
+                <img  src="imagenes/home/seccion-alianza.jpg" alt="Mobirama">
             </div>
         </div>
     </div>
@@ -249,12 +250,12 @@
     <div class="container">
         <div class="row">
             <div id="content_ubicacion" class="col-md-6 cont-img wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
-				<a href="/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt=""></a>
+				<a href="/contacto.bolsaTrabajo"><img src="imagenes/home-icons/recluta.png" alt="Mobirama"></a>
                 <h3>bolsa de trabajo</h3>
                 <p>Forma parte de una red global de profesionales.</p>
             </div>
             <div id="ruta-contacto" class="col-md-6 cont-img wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
-				<a href="/contacto" class="wow fadeInUp" ><img src="imagenes/home-icons/Contacto.png" alt=""></a>
+				<a href="/contacto" class="wow fadeInUp" ><img src="imagenes/home-icons/Contacto.png" alt="Mobirama"></a>
                 <h3>Contacto</h3>
                 <p>Contacte a los expertos </p>
             </div>
@@ -269,7 +270,7 @@
 <!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
 
 <!--section gaceta informativa-->
-<section id="banner-gaceta">
+<section id="banner-gaceta" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
     <div class="container">
         <div class="content-img parallax d-flex justify-content-center" style=" background-image: url('imagenes/home/gaceta.jpg');">
             <div class="overlay"></div>
