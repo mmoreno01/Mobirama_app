@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('.owl-carousel').owlCarousel({
+    $('#owl-two').owlCarousel({
        items:3,
         margin:30,
         loop:true,
@@ -22,7 +22,7 @@ $(document).ready(function(){
                 nav:true
             },
             992: {
-                items: 4,
+                items: 3,
                 margin: 30,
                 nav:true
             }

@@ -16,6 +16,39 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                        <!--note 4-->  
+               <div class="post preview st-1">
+                    <figure class="post-thumbnail">
+                            <div class="hover">
+                                <a href="imagenes/blog/NOTA 4.jpg" class="lightbox-images">
+                                    <span class="wicon-iconmonstr-zoom-in-thin"></span>
+                                </a>
+                            </div>
+                                <img src="imagenes/blog/NOTA 4.jpg" alt="">
+                    </figure>
+                    <div class="post-content">
+                        <ul class="meta">
+                            <li class="meta-date">Publicado
+                                <a href="#">30 Enero, 2019</a>
+                            </li>
+                            <li class="meta-category">en
+                                <a href="#">Jurídico</a>
+                                {{-- <a href="#">News &amp; Events</a> --}}
+                            </li>
+                        </ul>
+                        <h4 class="post-title">
+                            <a href="/item4">IVA: Aviso para aplicar el estímulo fiscal de IVA en la región fronteriza norte.</a>
+                        </h4>
+                        <p>En materia del Impuesto al Valor Agregado el Ejecutivo Federal estima conveniente otorgar un estímulo fiscal a los contribuyentes, tanto personas físicas como personas morales, que realicen, en los locales o establecimientos ubicados dentro de la región fronteriza norte.
+
+ </p>
+                        <p>
+                            <a href="/item4" class="color-link">Leer más
+                                <i class="fa fa-long-arrow-right"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
             <!--note one-->   
                 <div class="post preview st-1">
                     <figure class="post-thumbnail">

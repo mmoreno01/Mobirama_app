@@ -4,8 +4,12 @@
 namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Auth;
+use Illuminate\Http\Request;
+
 class LoginController extends Controller
 {
+
+
     //comprueba autentificacion
     public function __construct(){
         
@@ -20,30 +24,33 @@ class LoginController extends Controller
 
 
     // Function de validacion de usuario
-    public function login()
+    public function login(Request $request)
     {
-     $credentials = $this->validate(request(),  [
+     $credentials = $this->validate(request(), [
 
             'email' => 'email|required|string',
             'password' => 'required|string'
-        ]);
-
-        if(Auth::attempt($credentials)){
             
+        ]);
+           
+        if(Auth::attempt($credentials)){
+
             return redirect()->route('dashboard');
         }  
+
+
         return back()
         ->withErrors(['email' => trans('auth.failed')])
         ->withInput(request(['email']));
-
     }
 
+   
     //metodo para cerrie de sesion
     public function logout(){
 
         Auth::logout();
 
-        return view('home');
+        return view('auth.login');
     }
    
 

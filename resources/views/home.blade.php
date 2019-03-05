@@ -12,7 +12,7 @@
 <!-- fin de slider revolution -->
 
 <!-- Modal execute init -->
-<div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+{{-- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -38,7 +38,7 @@
         </div>
     </div>
   </div>
-</div>
+</div> --}}
 <!-- End Modal -->
 
 
@@ -90,21 +90,33 @@
 	<div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
     <h1 style="display:none;">Mobirama</h1>
 		<h2>Nuestras Soluciones</h2>
-	</div>
+    </div>
+        {{-- <div class="container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+            <div class="row">
+                <div class="col-6 content-services-icons">
+                    <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
+                    <a href="/payroll"><h1>Payroll Service</h1></a>
+                </div>
+                <div class="col-6 content-services-icons">
+                    <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
+				    <a  href="/fiscal"><h1>Fiscal</h1> </a>
+                </div>
+            </div>
+        </div>     --}}
          <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
             <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
                 <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
 			   <a href="/payroll"><h1>Payroll Service</h1></a>
             </div>
              <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
-                <a href="/capitalHumano"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-               <a  href="/capitalHumano"> <h1>Administración de personal</h1></a>
-            </div>
+                <a href="/administracion_personal"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
+               <a  href="/administracion_personal"> <h1>Administración de Personal</h1></a>
+          </div> 
              <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.9s"> 
                 <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
 				<a  href="/fiscal"><h1>Fiscal</h1> </a>
             </div>
-             <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
+          <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
                  <a href="/maquilaSeguridad"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
                <a href="/maquilaSeguridad"><h1>Maquila de Seguridad Social</h1> </a>
             </div>
@@ -115,7 +127,7 @@
             <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.8s"> 
                 <a href="/juridico"><img src="imagenes/services/Legal.png" alt="juridico"></a>
               <a href="/juridico"><h1>Jurídico</h1></a>
-            </div>	
+            </div>
         </div>
 </section>
 <!-- fin de la seccion de servicios -->
@@ -269,7 +281,7 @@
 </section>
 <!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
 
-<!--section gaceta informativa-->
+<!--section gaceta informativa
 <section id="banner-gaceta" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
     <div class="container">
         <div class="content-img parallax d-flex justify-content-center" style=" background-image: url('imagenes/home/gaceta.jpg');">
@@ -279,6 +291,6 @@
         </div>
     <div>
 </section>
-<!--section gaceta informativa-->
+section gaceta informativa-->
 
 @endsection

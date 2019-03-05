@@ -64,6 +64,23 @@
     .owl-prev{
         left: 3%!important;
     }
+    .content-services-icons{
+       img {
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+            -webkit-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out;
+        }
+        h1{
+            text-align: center;
+            color: #1d73b2;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 15px;
+            margin-top: 0px;
+        }
+    }
 }
 
 .owl-carousel{

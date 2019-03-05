@@ -63,8 +63,8 @@ Route::get('payroll', function () {
 Route::get('division', function () {
     return view('servicios.division');
 });
-Route::get('capitalHumano', function () {
-    return view('servicios.capitalHumano');
+Route::get('administracion_personal', function () {
+    return view('servicios.administracion_personal');
 });
 Route::get('bancaInversion', function () {
     return view('servicios.bancaInversion');
@@ -107,6 +107,11 @@ Route::get('item3', function () {
     return view('blog.item3');
 });
 
+//item 3
+Route::get('item4', function () {
+    return view('blog.item4');
+});
+
 //aviso de privacidad
 Route::get('avisoPrivacidad', function () {
     return view('avisoPrivacidad');
@@ -121,8 +126,9 @@ Route::get('gaceta-post', function () {
 Route::get('contacto', 'contactoController@index')->name('contacto.contacto');
 Route::post('contacto', 'contactoController@store');
 
-
+//rutas de obtencion de registros formulario
 Route::get('registros', 'recordsControllers@index');
+
 
 
 

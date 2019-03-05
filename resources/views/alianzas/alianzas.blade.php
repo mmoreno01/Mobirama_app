@@ -13,24 +13,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                        <img src="imagenes/alianzas/Fortia.png" alt="">
+                        <img src="imagenes/alianzas/Fortia.png" alt="Mobirama">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                        <img src="imagenes/alianzas/softland.png" alt="">
+                        <img src="imagenes/alianzas/softland.png" alt="Mobirama">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                        <img src="imagenes/alianzas/apdata.png" alt="Apdta-Mobirama">
+                        <img class="img-apdata" src="imagenes/alianzas/apdata.png" alt="Apdta-Mobirama">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                            <img src="imagenes/alianzas/Contadores-Auditores-Consultores-Logo-UCCS.png" alt="">
+                            <img class="img-uccs" src="imagenes/alianzas/Contadores-Auditores-Consultores-Logo-UCCS.png" alt="Mobirama">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                            <img src="imagenes/alianzas/UCC.png" alt="">
+                            <img src="imagenes/alianzas/UCC.png" alt="Mobirama">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                            <img src="imagenes/alianzas/American.png" alt="">
+                            <img src="imagenes/alianzas/American.png" alt="Mobirama">
                 </div>
             </div>
         </div>

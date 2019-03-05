@@ -59,10 +59,55 @@
     </noscript>
     <!-- End Facebook Pixel Code -->
 
+    <!-- #header -->
+    <header id="header" id="home">
+      <div class="container-fluid main-menu">
+          <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+              <a href="/"><img src="imagenes/home-icons/m-white.png" width="150px" alt="" title="" /></a>
+            </div>
+            <nav id="nav-menu-container">
+              <ul class="nav-menu">
+                <li><a  href="/">Inicio</a></li>
+                 <li class="menu-has-children"><a href="">Conócenos</a>
+                    <ul>
+                        <li><a href="/nosotros">Nosotross</a></li>		
+                        <li><a href="/filosofia">Filosofía</a></li>		
+                        <li><a href="/valores">Valores</a></li>					                		
+                    </ul>
+                </li>
+                <li class="menu-has-children"><a href="">Servicios</a>
+                    <ul>
+                        <li><a href="/payroll">Payroll Service</a></li>		
+                        <li><a href="/administracion_personal">Administración de Personal</a></li>	
+                        <li><a href="/fiscal">Fiscal</a></li>	
+                        <li><a href="/maquilaNomina">Maquila de Seguridad</a></li>
+                        <li><a href="/contabilidad">Contabilidad Outsourcing</a></li>					                		
+                        <li><a href="/juridico">Jurídico</a></li>					                							                		
+                    </ul>
+			    </li>				
+                <li><a href="/alianzas">Alianzas</a></li>
+                <li><a href="http://www.mobirama.com.mx/blog/">Blog</a></li>	
+                <li><a href="/contacto">Contacto</a></li>
+                <li><a href="/contacto.bolsaTrabajo">Bolsa de trabajo</a></li>
+                <li><a href="/login"> <i class="fas fa-address-card"></i>Iniciar sesión</a></li>
 
+              </ul>
+              <div  id="headSocial">
+                  <ul>
+                        <li class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
+                        <li class="icon-social"><a href="https://twitter.com/MobiramaMX" target="_blank"><i class="fab fa-twitter"></i></a> </li> 
+                        <li class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </li> 
+                  </ul>
+            </div>
+            </nav> <!--#nav-menu-container -->		    		
+          </div>
+      </div>
+    </header>
+    <!-- #header -->
 
     <!-- menu principal -->
-    <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+<!-- <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
     <a class="navbar-brand" href="/">
         <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="Mobirama">
     </a> 
@@ -71,7 +116,7 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="navbar-nav mr-auto ml-auto">
-                {{-- <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> --}}
+                 <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> 
                     <a class="nav-item nav-link mr-4 active" href="/">Inicio</a>
                     <div class="dropdown">
                         <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,7 +134,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="/payroll">Payroll Service</a>
-                            <a class="dropdown-item" href="/capitalHumano">Capital Humano</a>
+                            <a class="dropdown-item" href="/administracion_personal">Administración de Personal</a>
                             <a class="dropdown-item" href="/fiscal">Fiscal</a>
                             <a class="dropdown-item" href="/maquilaNomina">Maquila de Seguridad Social</a>
                             <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>
@@ -105,13 +150,13 @@
                       Iniciar sesión
                     </a>
         </div>
-       <!-- <div  id="headSocial">
+       <div  id="headSocial">
                 <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/JBGlobalGroup" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/join-business-global-group/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        </div>-->
+        </div>
     </div>    
-</header>
+</header> -->
 <!-- fin del menu principal -->
 </head>
 <body>
@@ -150,10 +195,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/uikit.min.js"></script>
+    <script src="js/menu-tg.js"></script>
+
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
-    <script src="js/carouselMenu.js"></script>
     <script src="js/multi-carousel.js"></script>
     <!-- animate js -->
     <script src="js/wow.min.js"></script>
@@ -190,6 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!--slider valores-->    
 <script type="text/javascript">
+
    $('.slider-for').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
