@@ -3,7 +3,7 @@
 @section('content')
 
 {{-- seccion de card de identificacion de administrador --}}
-<section id="content-dashboard">
+<section id="content-dashboard" class="mt-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -24,8 +24,12 @@
 {{-- fin seccion de card de identificacion de administrador --}}
 
 
+
+
 {{-- seccion de alta de vacante, edicion y eluminacion --}}
-<section id="form_vacante">
+@can('product.index')
+
+ <section id="form_vacante">
     <div class="container">
             @include('common.success')
         <form class="" method="POST" action="{{ route('dashboard') }}">
@@ -59,12 +63,12 @@
             </div>
         </form>
     </div>
-</section>
+</section> 
 {{-- fin seccion de alta de vacante, edicion y eluminacion --}}
 
 
 {{-- seccion de la tabla de administracion de vacantes --}}
-<section id="table_vacantes">
+ <section id="table_vacantes">
     <div class="container">
             <h2 class="text-center">Tabla de administracion de vacantes</h2>
         <div class="row">
@@ -104,7 +108,9 @@
            </div>
         </div>    
     </div>
-</section>
+</section> 
+    @endcan
+
 {{-- seccion de la tabla de administracion de vacantes --}}
 
 @endsection 

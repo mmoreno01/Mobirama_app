@@ -2,6 +2,8 @@
 
 
 @section('content')
+
+<example-component></example-component>
 <section id="content-initText">
     <div class="container">
         <div class="row">

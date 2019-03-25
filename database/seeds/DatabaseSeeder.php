@@ -12,13 +12,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        //Metodo para eliminar datos al hacer refresh seeder
-        $this->truncateTables([
-                'services'
-        ]);
 
-        // $this->call(UsersTableSeeder::class);
-            $this->call(ServiceSeeder::class);
+        $this->call(PermissionsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
+        $this->call(ProductsTableSeeder::class);
+
     }
     
     protected function truncateTables(array $tables)
