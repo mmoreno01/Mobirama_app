@@ -27,6 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        
 
         SEO::setTitle('Mobirama');
         SEO::setDescription('Somos una consultoría integral. Solventamos necesidades en materia Fiscal, Legal, Payroll, Contable y Financiera.');

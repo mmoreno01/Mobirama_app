@@ -6,7 +6,7 @@
 {{-- @include('sliderRevolution') --}}
 <div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
         <video autoplay="true" muted loop width="100%" height="100%">
-				<source src='videos/lights banner mobirama .mp4' type='video/mp4' />
+				<source src='videos/portada fcbk v.2 sd.mp4' type='video/mp4' />
 		</video>
 </div>
 <!-- fin de slider revolution -->
@@ -164,6 +164,29 @@
     </div>
 </section>
 <!-- Fin de seccion alianzas y certificaciones -->
+
+
+<section id="content-notices">
+        <div class="container">
+                <div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        <h2>Noticias</h2>
+                    </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="card-colums">
+                        <div class="card" style="width: 18rem;">
+                            <img src="imagenes/2148138.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Especialistas llaman a informarse sobre cambios a la Reforma Laboral</h5>
+                              <p class="card-text">Pidieron prestar atención al esquema de subcontratación, Outsourcing; los cambios a la Reforma Laboral entrarán en vigor a mitad del actual sexenio.</p>
+                              <a href="https://www.mobirama.com.mx/blog/?p=268" class="btn btn-primary">Ver más</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 <!-- Seccion de prensa -->
 <section id="content-informes" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">

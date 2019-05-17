@@ -3514,6 +3514,24 @@ footer ul {
   padding: 100px 0px;
 }
 
+#content-notices .contitle-services h2 {
+  padding: 30px 0px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+
+#content-notices .card-body h5 {
+  text-align: justify;
+  font-weight: bold;
+}
+
+#content-notices .card-body p {
+  text-align: justify;
+}
+
 /*-----------------------------------------------------------------------------
 
 KENBURNER RESPONSIVE BASIC STYLES OF HTML DOCUMENT

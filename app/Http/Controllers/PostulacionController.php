@@ -49,6 +49,15 @@ class PostulacionController extends Controller
                     $smj->attach($pathtoFile);
                 }
             });
+
+            Mail::send('emails.postulacion', $request->all(), function($smj) use ($contentFile, $pathtoFile){
+
+               $smj->Subject('Correo de Postulacion de Vacantes');
+               $smj->to('miguel.moreno@cclusterc.com.mx');
+               if($contentFile){
+                   $smj->attach($pathtoFile);
+               }
+           });
     
        if($contentFile = true){
             Storage::disk('local')->delete($name);

@@ -24,23 +24,33 @@
                </div>
             </div>
                 <div class="row serv-iconos">
-                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.1s">
+                  <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.1s">
                       <img src="imagenes/fiscal/consultor-fiscal.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.3s">
-                      <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
+                  <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.4s">
+                   <img src="imagenes/fiscal/derccho-corp.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Derecho">
                     <p>Derecho Corporativo.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.6s">
+                  <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.6s">
                       <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
                     <p>Litigio Fiscal.</p>
                   </div>
-                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
-                    <img src="imagenes/fiscal/constit.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#controlCons"> 
-                    <p>Control de Constitucionalidad.</p>            
-                  </div>
-            </div>
+                  
+                </div>
+                <div class="row serv-iconos">
+                    <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
+                      <img src="imagenes/fiscal/constit.png" alt="Control de Constitucionalidad" data-toggle="modal" data-target="#controlCons"> 
+                      <p>Control de Constitucionalidad.</p>            
+                    </div>
+                    <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
+                      <img src="imagenes/fiscal/penal.png" alt="Penal" data-toggle="modal" data-target="#Dpenal"> 
+                      <p>Derecho Penal.</p>            
+                    </div>
+                    <div class="col-md-4 col-sm-12 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
+                             
+                    </div>
+                </div>
          </div>
       </section>
       <!--Seccion del banner Magazine-->
@@ -170,6 +180,32 @@
                     <li>Promoción de juicios de amparo en contra de leyes tributarias inconstitucionales (ISR, IVA, IEPS, impuesto predial)</li>
                     <li>Promoción de juicio de amparo en contra actos de autoridad (aseguramiento precautorio)</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- Modal -->
+       <div class="modal fade" id="Dpenal" tabindex="-1" role="dialog" aria-labelledby="DpenalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="DpenalLabel">Derecho Penal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             
+              <ul>
+                <li>Compliance Penal.</li>
+                <li>Delitos Fiscales y Financieros.</li>
+                <li>Lavado de Dinero.</li>
+                <li>Delitos Patrimoniales.</li>
+                <li>Capacitación penal empresarial.</li>
+                <li>Auditoria en materia penal.</li>
+                <li>Amparo penal.</li>
+              </ul>
+              
             </div>
           </div>
         </div>

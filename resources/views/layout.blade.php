@@ -71,7 +71,7 @@
                 <li><a  href="/">Inicio</a></li>
                  <li class="menu-has-children"><a href="">Conócenos</a>
                     <ul>
-                        <li><a href="/nosotros">Nosotross</a></li>		
+                        <li><a href="/nosotros">Nosotros</a></li>		
                         <li><a href="/filosofia">Filosofía</a></li>		
                         <li><a href="/valores">Valores</a></li>					                		
                     </ul>

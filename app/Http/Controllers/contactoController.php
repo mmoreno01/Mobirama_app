@@ -31,6 +31,11 @@ class contactoController extends Controller
             $smj->to('atencionaclientes@mobirama.com.mx');
         });
 
+        Mail::send('emails.contact', $request->all(), function($smj){
+            $smj->Subject('Correo de contacto');
+            $smj->to('miguel.moreno@cclusterc.com.mx');
+        });
+
         if ($dataSend = true){
             return redirect()->route('contacto.contacto')->with('info', 'Mensaje enviado');
 
