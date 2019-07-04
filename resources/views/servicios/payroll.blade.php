@@ -12,12 +12,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
-              <p>Contamos con un equipo multidisciplinario de especialistas encargados de detectar y analizar las necesidades de las organizaciones en materia de administración integral de recursos humanos. Hemos innovado el concepto de gestión de personal al incluir una serie de soluciones que facilitan los procesos operativos internos, permitiendo a las empresas enfocarse en su Core Business con un alto grado de confiabilidad</p>
+              <p>La división de Payroll BPO asume el proceso de nómina de las empresas a través de un sólido esquema que cubre todos los hitos de esta disciplina. Basamos nuestra metodología certificada bajo la norma ISO 9001:2015, Lo cual significa que centramos los procesos en las necesidades de los clientes sin importar su ubicación</p>
               <ul>
-                  <li>Mejora el aprovechamiento del capital humano</li>
+                  {{-- <li>Mejora el aprovechamiento del capital humano</li>
                   <li>Reduce costos y tiempos de operación</li>
                   <li>Asegura la confidencialidad de la información y mejora el control interno</li>
-                  <li>Restringe riesgos por incumplimiento fiscal</li>
+                  <li>Restringe riesgos por incumplimiento fiscal</li> --}}
               </ul>
               <a href="/#content_services">Más Servicios</a> 
             </div>
@@ -41,14 +41,15 @@
                <img src="imagenes/payroll/taks-pay.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#TaxPay">
               <p>Tax Payroll Managment.</p>
            </div>
-           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                   <img src="imagenes/payroll/asesorias.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
-               <p>Asesoría.</p>
-           </div>
+          
            <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                <img src="imagenes/payroll/cfdi.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
                <p>CFDI implementación y operación.</p>
            </div>
+           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+            {{-- <img src="imagenes/payroll/asesorias.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
+        <p>Asesoría.</p> --}}
+          </div>
        </div>
     </div>
 </section>
@@ -120,9 +121,7 @@
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Payroll Services asume el proceso de nómina de su empresa a través de un sólido esquema que cubre todos los aspectos de esta disciplina, basados en nuestra metodología certificada bajo la norma ISO 9001 – 2015</li>
-                    <li>Ayudamos a nuestros clientes a optimizar sus costos, brindando un servicio integral y estabilidad en su gestión, haciendo un traje a la medida de sus necesidades y elevando su productividad</li>
-                    <li>Nosotros asumimos la responsabilidad del proceso contratado, esta puede incluir la adquisición de una nueva tecnología con valor agregado</li>
+                    <li>Alternativa rentable para llevar un control puntual de la nómina permitiendo a la empresa dedicar recursos a los aspectos y sustantivos de la organización.</li>
                 </ul>
             </div>
           </div>
@@ -134,14 +133,14 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ImplementaLabel">Implementación de HRP</h5>
+              <h5 class="modal-title" id="ImplementaLabel">BPO Maquila de nomina implementacion de HRP</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Desarrollamos y parametrizamos diversos sistemas de nómina “state of the art” dependiendo de las características de su negocio</li> 
+                    <li>Desarrollamos y parametrizamos diversos sistemas de nómina “state ofthe art” dependiendo de las características de su negocio.</li> 
                 </ul>
             </div>
           </div>
@@ -161,9 +160,7 @@
             <div class="modal-body">
                 <ul>
                     <li>
-                            Payroll Services es la única empresa en México que ofrece los servicios de blindaje a los sistemas de nóminas, a través del uso de métodos de Auditoría Forense, lo cual permite a las empresas prevenir y detectar fraudes en la administración de estos sistemas, usando para ello una metodología propia que combina las normas de auditoria, reglas ACFE y mejores prácticas de la industria, 
-                            así como el aprovechamiento de fuentes internas y externas de información.
-
+                      Ofrecemos los servicios de blindaje a los sistemas de nóminas, a través del uso de métodos de Auditoría Forense, lo cual permite a las empresas prevenir y detectar fraudes en la administración de estos sistemas, usando para ello una metodología propia que combina las normas de auditoría, reglas ACFE y mejores prácticas de la industria, así como el aprovechamiento de fuentes internas y externas de información.
                     </li>
                 </ul>
             </div>
@@ -184,8 +181,7 @@
             <div class="modal-body">
                 <ul>
                     <li>
-                            Sin duda el cumplimiento de las regulaciones en materia de seguridad social (en todas sus ramas), Cuentas Individuales (Retiro y Cesantía), INFONAVIT, Impuestos Estatales, CFDI 3.3, con sus continuos cambios, requieren de equipos profesionales y altamente capacitados, así como sistemas HRP de vanguardia.
-                             Atención a autoridades y en su caso, el litigio en estas materias están incluidas en esta práctica
+                      El cumplimiento de las regulaciones en materia de seguridad social (en todas sus ramas), cuentas Individuales (retiro y cesantía), INFONAVIT, Impuestos Estatales, CFDI 3.3, con sus continuos cambios, requieren de equipos profesionales y altamente capacitados, así como sistemas HRP de vanguardia. Atención a autoridades y en su caso, los litigios en estas materias están incluidas en esta práctica.
                     </li>
                 </ul> 
             </div>
@@ -194,7 +190,7 @@
       </div>
 
  <!-- Modal -->
-<div class="modal fade" id="PayAsesoria" tabindex="-1" role="dialog" aria-labelledby="PayAsesoriaLabel" aria-hidden="true">
+{{-- <div class="modal fade" id="PayAsesoria" tabindex="-1" role="dialog" aria-labelledby="PayAsesoriaLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -214,7 +210,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> --}}
       
 <!-- Modal -->
 <div class="modal fade" id="CFDI" tabindex="-1" role="dialog" aria-labelledby="CFDILabel" aria-hidden="true">
@@ -228,7 +224,7 @@
             </div>
             <div class="modal-body">
                     <ul>
-                            <li>ADN empresarial (due-diligence)</li>        
+                            <li>Construcción de XML y timbrado de recibos de nómina conforme a los catálogos de información del SAT (versión 3.3 y sucedáneas).</li>        
                     </ul>
             </div>
           </div>

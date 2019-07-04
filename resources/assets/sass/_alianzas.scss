@@ -1,3 +1,4 @@
+@import"variables";
 #content-aliances{
     padding: 100px 0px;
    
@@ -21,3 +22,30 @@
 }
 
 
+// style slider home alianzas
+
+#slide-alianzas
+{
+    background-color:$bg-grey;
+    padding: 50px 0px;
+    h3{
+        padding: 0px 0px 40px;
+        margin: 0px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        font-weight: 600;
+    }
+    .owl-carousel img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        transition: all ease-in .3s;
+    }
+    .owl-carousel img:hover{
+        -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%);
+    }
+}

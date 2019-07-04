@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {!! SEOMeta::generate() !!}
-	{!! OpenGraph::generate() !!}
-	{!! Twitter::generate() !!}
-    {!! SEO::generate() !!}
+        {!! SEOMeta::generate() !!}
+	    {!! OpenGraph::generate() !!}
+	    {!! Twitter::generate() !!}
+        {!! SEO::generate() !!}
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,11 @@
     <!--Descpription-->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--favicon-->
+
+       <!-- Scripts -->
+
     <link rel="icon" type="image/png" href="imagenes/home-icons/m-favicon.png">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"> --}}
     <!-- estilo carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- slider revolution -->
@@ -28,10 +31,15 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    {{-- <link rel="stylesheet" href="../../node_modules/vue-spinners/dist/vue-spinners.css"> --}}
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    {{-- <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css"> --}}
     <!-- chat home-->
     <script src="//code.tidio.co/cbarboauidoxnughnrijsrkiag8wcloc.js"></script>
+
+
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -108,7 +116,6 @@
               </ul>
               <div  id="headSocial">
                   <ul>
-                  
                         <li class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
                         <li class="icon-social"><a href="https://twitter.com/MobiramaMX" target="_blank"><i class="fab fa-twitter"></i></a> </li> 
                         <li class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </li> 
@@ -173,17 +180,50 @@
 </header> -->
 <!-- fin del menu principal -->
 </head>
-<body>
-
+<body >
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PM6VMQQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-            
+<div id="app">
+
 <!-- contenido principa -->
 @yield('content')
+</div>
 
+<!--content iso-->
+<section id="section-iso">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 column-logo">
+                <div class="content-logo">
+                    <figure>
+                        <img src="imagenes/distintivos/iso9001.png" alt="Mobirama-consultoria-iso9001">
+                    </figure>
+                </div>
+                <div class="content-text">
+                    <p>Objetivos de calidad</p>
+                </div>
+                <div class="mymove">
+                    <a href="/politica"><i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 content-column">
+                <div class="txt-alcance">
+                   <p>Alcance:</p> 
+                   <div class="politica owl-carousel owl-theme">
+                        <div class="content-frase"><p>Payroll Service</p></div>
+                        <div class="content-frase"><p>Contabilidad Outsourcing</p></div>
+                        <div class="content-frase"><p>Maquila de Nómina </p></div>
+                        <div class="content-frase"><p>Maquila de Seguridad Social</p></div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--fin content iso-->
 
 <footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
@@ -207,23 +247,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+     
+
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
+
+    <script src="js/app.js"></script>
+    <!-- slider revolution -->   
+    <script src="js/slider/slideRevolution.js"></script> 
+    <script src="js/jquery.themepunch.revolution.js"></script>
+    <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/jquery.themepunch.plugins.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/uikit.min.js"></script>
     <script src="js/menu-tg.js"></script>
-
     <!-- carousel service -->
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/multi-carousel.js"></script>
     <!-- animate js -->
     <script src="js/wow.min.js"></script>
-    <!-- slider revolution -->
-    <script src="js/jquery.themepunch.revolution.js"></script>
-    <script src="js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/jquery.themepunch.plugins.min.js"></script>
-    <script src="js/slider/slideRevolution.js"></script>
+
+
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
+
+
    
     <!-- animate -->
     <script>
@@ -251,48 +299,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--slider valores-->    
 <script type="text/javascript">
 
-   $('.slider-for').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '.slider-nav'
-
-});
-$('.slider-nav').slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  autoplay:true,
-  asNavFor: '.slider-for',
-  centerMode: true,
-  focusOnSelect: true,
-  
-   responsive: [{
-
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-        infinite: true
-      }
-
-    }, {
-
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        dots: true
-      }
-
-    }, {
-
-      breakpoint: 576,
-    
- settings: {
-        slidesToShow: 1,
-        dots: false
-      }
-    }]
-});			
 </script>
 <!--slider valores-->    
 

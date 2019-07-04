@@ -9,6 +9,7 @@
         "artesaos/seotools": "^0.12.1",
         "caffeinated/shinobi": "^3.3",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.4.0"

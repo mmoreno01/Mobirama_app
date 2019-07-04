@@ -531,3 +531,45 @@ p{
     }
 
 }
+
+//------------------------------new services---------------------
+#OurServices{
+    background-color: $azulMarino;
+}
+.heading-section-1 {
+    padding-bottom: 30px;
+}
+.image-card-1{
+    .light {
+        color: #fff;
+    }
+    a{
+        color:$white;
+    }
+}
+.image-card-1 {
+    margin-bottom: 35px;
+}
+.heading-section-1.light h3 {
+    color: #fff;
+}
+.heading-section-1 h3 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222222;
+}
+
+.image-card-1 .title {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.image-card-1 .image {
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+.image-card-1 .title {
+    margin-bottom: 15px;
+    margin-top: 0;
+}

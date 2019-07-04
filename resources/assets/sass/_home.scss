@@ -2,8 +2,22 @@
 // seccion de servicios
 #content_services{
     padding: 50px 0px;
+    background-color: $content-txt; 
+    .title{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 15px;
+        margin-top: 0;
+
+        a{
+            text-align: center;
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }
     img{
-        width: 50%;
+        width: 100%;
         display: block;
         margin: 0 auto;
         transition: all 1s ease-in-out;

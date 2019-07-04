@@ -2,6 +2,7 @@
 
 use illuminate\http\Request;
 
+
 // Route::get('/', function () {
 //     return view('.slider.slider');
 // });
@@ -14,6 +15,8 @@ use illuminate\http\Request;
 // });
 
 Route::get('/', 'HomeController@index')->name('home'); 
+
+
 
 //ruta comprueba si inicio sesion
 Route::get('login', 'Auth\LoginController@showLoginForm'); 

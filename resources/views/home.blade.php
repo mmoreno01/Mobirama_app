@@ -2,13 +2,17 @@
 
 @section('content')
 
-<!-- slider revolution -->
-{{-- @include('sliderRevolution') --}}
-<div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-        <video autoplay="true" muted loop width="100%" height="100%">
-				<source src='videos/portada fcbk v.2 sd.mp4' type='video/mp4' />
-		</video>
+<!-- page load-->
+<div class="page-loader">
+    <div class="loader"></div>
 </div>
+<!-- slider revolution -->
+        {{-- <div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+                <video autoplay="true" muted loop width="100%" height="100%">
+                        <source src='videos/portada fcbk v.2 sd.mp4' type='video/mp4' />
+                </video>
+        </div> --}}
+<slider-component></slider-component>
 <!-- fin de slider revolution -->
 
 <!-- Modal execute init -->
@@ -53,7 +57,7 @@
                 <div class="row">
                         <div id="imgSobre" class="d-inline  content_textinf ">                           
                             <p class="title-txt">Nosotros</p>
-                            <p> Somos una firma consultora que brinda soluciones bajo los estándares más estrictos de calidad. Nos distingue la excelencia y compromiso con nuestros clientes. </p>
+                                <p>Somos una consultoría integral de negocios, la práctica profesional de más de 25 años nos posiciona como un socio estratégico en el acompañamiento empresarial.</p>
                             <a href="/nosotros">Ver más</a> 
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
@@ -86,50 +90,8 @@
 <!--Fin de seccion nosotros -->
 
 <!-- Seccion de servicios  slider -->
-<section id="content_services"  name="content_services" class="my-5">
-	<div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-    <h1 style="display:none;">Mobirama</h1>
-		<h2>Nuestras Soluciones</h2>
-    </div>
-        {{-- <div class="container wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-            <div class="row">
-                <div class="col-6 content-services-icons">
-                    <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
-                    <a href="/payroll"><h1>Payroll Service</h1></a>
-                </div>
-                <div class="col-6 content-services-icons">
-                    <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
-				    <a  href="/fiscal"><h1>Fiscal</h1> </a>
-                </div>
-            </div>
-        </div>     --}}
-         <div id="owl-services"  class=" container owl-carousel owl-theme owl-loaded">
-            <div id="icon01" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.3s">
-                <a href="/payroll"><img src="imagenes/services/Payroll.png" alt="payroll service"></a>
-			   <a href="/payroll"><h1>Payroll Service</h1></a>
-            </div>
-             <div id="icon03" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
-                <a href="/administracion_personal"><img src="imagenes/services/CapitalHumano.png" alt="Capital Humano"></a>
-               <a  href="/administracion_personal"> <h1>Administración de Personal</h1></a>
-          </div> 
-             <div id="icon05" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.9s"> 
-                <a href="/fiscal"><img src="imagenes/services/Fiscal.png" alt="Juridico Fiscal"></a> 
-				<a  href="/fiscal"><h1>Fiscal</h1> </a>
-            </div>
-          <div id="icon06" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s"> 
-                 <a href="/maquilaSeguridad"><img src="imagenes/services/MaquilaSeguridadSocial.png" alt="Maquila de Seguridad Social"></a>
-               <a href="/maquilaSeguridad"><h1>Maquila de Seguridad Social</h1> </a>
-            </div>
-             <div id="icon07" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.5s"> 
-                <a href="/contabilidad"><img src="imagenes/services/Contabilidad .png" alt="Contabilidad"></a>
-               <a  href="/contabilidad"> <h1>Contabilidad Outsourcing</h1></a>
-            </div>
-            <div id="icon08" class=" wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.8s"> 
-                <a href="/juridico"><img src="imagenes/services/Legal.png" alt="juridico"></a>
-              <a href="/juridico"><h1>Jurídico</h1></a>
-            </div>
-        </div>
-</section>
+<services-component></services-component>
+
 <!-- fin de la seccion de servicios -->
 
 <!-- Seccion aliazas y certificaciones -->
@@ -165,30 +127,12 @@
 </section>
 <!-- Fin de seccion alianzas y certificaciones -->
 
+<!--seccion de noticias-->
+<post-component></post-component>
+<!--fin de la seccion noticias-->
 
-<section id="content-notices">
-        <div class="container">
-                <div class="contitle-services wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-                        <h2>Noticias</h2>
-                    </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="card-colums">
-                        <div class="card" style="width: 18rem;">
-                            <img src="imagenes/2148138.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Especialistas llaman a informarse sobre cambios a la Reforma Laboral</h5>
-                              <p class="card-text">Pidieron prestar atención al esquema de subcontratación, Outsourcing; los cambios a la Reforma Laboral entrarán en vigor a mitad del actual sexenio.</p>
-                              <a href="https://www.mobirama.com.mx/blog/?p=268" class="btn btn-primary">Ver más</a>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-</section>
-
-<!-- Seccion de prensa -->
+       
+<!-- Seccion de prensa 
 <section id="content-informes" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
     {{-- <h2 class="text-center">News lettler</h2> --}}
     {{-- <div class="container"> --}}
@@ -200,85 +144,18 @@
 				</div>
 			<a class="btn btn-primary  wow fadeInUp" href="/blog" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
 		</div>
-		
-        {{-- <div class="row"> --}}
-
-            {{-- <div class="col-sm-12 col-md-6 cont-info">
-				<div class="uk-text-center">
-					<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-						<div class="overlay overlay-bg"></div>
-						<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/noticias.jpg" alt="">
-						<div class="uk-position-center">
-							<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Noticias &</h3></div>
-							<div class="uk-transition-slide-bottom-small"><h3 class="uk-margin-remove">Comunicados</h3></div>
-						</div>
-					</div>
-				</div>
-            </div> --}}
-			<!-- imagen para disposivilos lg, xl-->
-            {{-- <div class="col-sm-12 col-md-6 cont-info d-none d-md-block">
-				<div  class="uk-text-center">
-						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-							<div class="overlay overlay-bg"></div>
-							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/blog.jpg" alt="">
-							<div class="uk-position-center">
-								<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Blog</h3></div>
-							</div>
-						</div>
-				</div>
-            </div> --}}
-				<!-- fin imagen para disposivilos lg, xl-->
-        {{-- </div> --}}
-        {{-- <div class="row"> --}}
-            {{-- <div class="col-sm-12 col-md-6 cont-info">
-             
-                    <div class=" cont-texto">
-                        <p class="title-txt">Noticias </p>
-                        <p class="text-intro"> Aquí encontrarás nuestras últimas publicaciones, notas de prensa y contenidos de interés.</p>         
-                    </div>
-                    <div class=" cont-icon">
-					<button class="btn btn-noticia">Ver más</button>
-						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
-								<span class="details">Ver más</span>
-								<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-							</a>						
-                    </div>
-                
-            </div> --}}
-
-			<!-- post para  dispostivos medianos -->
-			{{-- <div class="col-sm-12 col-md-6 cont-info d-md-none">
-				<div  class="uk-text-center">
-						<div class="uk-inline-clip uk-transition-toggle uk-light" tabindex="0">
-							<div class="overlay overlay-bg"></div>
-							<img class="uk-transition-scale-up uk-transition-opaque" src="imagenes/home/blog.jpg" alt="">
-							<div class="uk-position-center">
-								<div class="uk-transition-slide-top-small"><h3 class="uk-margin-remove">Blog</h3></div>
-							</div>
-						</div>
-				</div>
-            </div> --}}
-			<!-- fin post para  dispostivos medianos -->
-
-            {{-- <div class="col-sm-12 col-md-6 cont-info">
-              
-                    <div class=" cont-texto">
-                        <p class="title-txt">BLog</p>
-                        <p class="text-intro">Julio, mes preferido de los mexicanos por las ofertas Durante las cuatro semanas</p>         
-                    </div>
-                    <div class=" cont-icon">
-						<button class="btn btn-noticia">Ver más</button>
-						<a href="#" class="details-btn d-flex justify-content-center align-items-center">
-							<span class="details">Ver más</span>
-							<span class="lnr lnr-arrow-right"><i class="fas fa-arrow-right"></i></span>
-						</a>
-                    </div> --}}
-              
-            {{-- </div> --}}
-        {{-- </div> --}}
-    {{-- </div> --}}
 </section>
-<!-- Fin de seccion de prensa -->
+Fin de seccion de prensa -->
+
+<!--seccion slider alianzas-->
+<alianzas-component></alianzas-component>
+<!--seccion slider alianzas-->
+
+
+<!--seccion de notas blog-->
+<blog-component></blog-component>
+<!--fin seccion de notas blog-->
+
 
 <!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">

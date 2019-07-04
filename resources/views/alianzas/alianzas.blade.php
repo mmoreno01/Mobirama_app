@@ -30,7 +30,7 @@
                             <img src="imagenes/alianzas/UCC.png" alt="Mobirama">
                 </div>
                 <div class="col-sm-4 col-md-4 content-soluctions">
-                            <img src="imagenes/alianzas/American.png" alt="Mobirama">
+                            <!-- <img src="imagenes/alianzas/American.png" alt="Mobirama"> -->
                 </div>
             </div>
         </div>

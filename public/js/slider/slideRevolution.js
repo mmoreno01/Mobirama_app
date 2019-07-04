@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+    
        jQuery('.tp-banner').revolution(
         {
             delay:9000,

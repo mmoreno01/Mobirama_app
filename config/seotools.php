@@ -6,10 +6,19 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => 'Consultoría internacional de negocios', // set false to total remove
-            'description'  => 'For those who helped create the Genki Dama', // set false to total remove
+            'title'        => 'Mobirama Consultoría', // set false to total remove
+            'description'  => '', // set false to total remove
             'separator'    => ' - ',
-            'keywords'     => [],
+            'keywords'     => [
+                            'auditoría interna',
+                            'auditoría administrativa',
+                            'auditoría superior de la federación',
+                            'reglamento interior de la auditoría superior de la federación',
+                            'asf',
+                            'auditoría superior del estado de puebla',
+                            'que es auditoría',
+                            'ley de fiscalización y rendición de cuentas de la federación',
+                                ],
             'canonical'    => false, // Set null for using Url::current(), set false to total remove
         ],
 

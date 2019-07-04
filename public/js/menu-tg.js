@@ -41,4 +41,12 @@
     $("#mobile-nav, #mobile-nav-toggle").hide();
 }
 
+
+    /*Preloader animsition*/
+    $(window).on('load', function () {
+        $('.page-loader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+    });
+    
 });

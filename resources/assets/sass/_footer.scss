@@ -93,3 +93,96 @@ padding-left: 0px;
     }
    
 }
+
+
+#section-iso{
+    background-color: #363636;
+    .content-logo{
+        display: inline-block;
+        figure{
+            margin:0; 
+        }
+        img{
+            width: 100px;
+        }
+    }
+    .content-text{
+        display: inline-block;
+        p{
+            color: $white;
+            font-size: 20px;
+        }
+    }
+    .mymove{
+        display: inline-block;
+        animation: mymove 3s infinite;
+          position: relative;
+
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 20px;}
+  }
+  
+    @keyframes mymove {
+    from {left: 0px;}
+    to {left: 20px;}
+  }
+    .fas{
+        font-size: 20px;
+        color: $white;
+        padding-left: 10px;
+        animation: bounce 2s infinite;
+    }
+    .content-column{
+        display: flex;    
+        justify-items: center;
+
+        .txt-alcance{
+            align-items: center;
+            width: 100%;
+            height: auto;    
+            p{
+                color: $white;   
+                text-align: center;
+                margin: 10px 0px 0px 0px;           
+             }
+        }
+    }
+    
+    .politica{
+        .owl-item{
+            p{
+                color: $white;
+                text-transform: uppercase;
+                font-size: 25px;
+                letter-spacing: 1px;
+            
+            }
+            .content-frase{
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                  }
+        }
+
+    }
+   
+    }
+
+    @media (max-width:768px){
+        #section-iso{
+            .column-logo{
+                text-align: center;
+            }
+        }
+    }
+    @media (max-width:576px){
+        #section-iso{
+            .column-logo{
+                text-align: center;
+            }
+        }
+    }
+    

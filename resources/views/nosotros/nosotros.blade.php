@@ -14,11 +14,11 @@
                 <div class="row">
                     <div class="col-md-6 content-text-aboutUs" >
                         <div class="col-12 title-about-us">
-                            <h1 class="">Quiénes somos</h1>
+                            <h1 class="">¿Quiénes somos? </h1>
                         </div>
                         <article class="text-inicial">
-                            <p>Durante nuestra trayectoria hemos prestado nuestros servicios profesionales a más de 3000 industrias de diversos sectores económicos, en cada relación se ha implementado un estricto protocolo técnico y una metodología precisa para el logro de los objetivos de nuestros clientes, realizamos análisis para el desarrollo y ejecución de planes de negocios específicos en tiempo y forma, estableciendo acciones y soluciones personalizadas en relación con la expectativa de metas, la finalidad es garantizar la mejora continua y la consolidación de la empresa en su ámbito de competencia comercial.</p>
-                            <!-- <p>Contamos con equipos de emprendedores, porque tenemos un fuerte vínculo con universidades de distintos países de América Latina, coadyuvamos en la formación multimodal que los jóvenes universitarios deben tener, porque las exigencias actuales del mundo de los negocios, no deben limitarse a un conocimiento local de las leyes, la parte financiera, tributaria y del propio recurso humano, estamos generando un Fondo de Inversión que apoye esta metodología y que genere especialistas técnicos con conocimientos globales que se especialicen en el cierre de negocios. </p> -->
+                                <p>Durante los más de 25 años de trayectoria hemos prestado servicios profesionales a más de 3 mil  industrias de diversos sectores económicos; en cada relación se ha implementado un estricto protocolo técnico y una metodología precisa para el logro de los objetivos de nuestros clientes, realizamos análisis para el desarrollo y ejecución de planes de negocios específicos en tiempo y forma, estableciendo acciones y soluciones personalizadas en relación con la expectativa de metas, la finalidad es garantizar la mejora continua y la consolidación de la empresa en su ámbito de competencia comercial.</p>
+                                <p>Esta amplia experiencia nos ha permitido apoyar y acompañar a  clientes y socios  en el diagnóstico de problemáticas y riesgos e implementación de planes de contención y de mejora, sirviendo nuestras acciones para planificar mediante las conclusiones del dictamen técnico-profesional la estrategia para mitigar las contingencias y perfilar la empresa para elevar su competitividad. </p>
                         </article>
                     </div>
                     <div class="col-md-6 content-img-aboutus  d-none d-sm-block d-print-block">
