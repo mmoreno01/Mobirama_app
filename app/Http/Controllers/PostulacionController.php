@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Postulation;
+use App\Models\Vacante;
 use Storage;
 use Mail;
 use Illuminate\Http\Request;
@@ -23,7 +24,7 @@ class PostulacionController extends Controller
          if($request->hasFile('image')){
             $contentFile="true";
              $file = $request->file('image');
-             $extension = $file->getClientOriginalExtension();
+             $extension = $file->getvt5ClientOriginalExtension();
              $name = time().$file->getClientOriginalName();
              $envioVacante->image = $name;
              $route = Storage::disk('local')->put($name, \File::get($file));
@@ -36,7 +37,7 @@ class PostulacionController extends Controller
             $envioVacante->apellido = $request->input('apellido');
             $envioVacante->correo = $request->input('correo');
             $envioVacante->telefono = $request->input('telefono');
-            $envioVacante->edad = $request->input('edad');
+             $envioVacante->vacante = $request->;
             // $envioVacante->save();
 
             
@@ -69,6 +70,5 @@ class PostulacionController extends Controller
        }
          
      }
-
 
 }

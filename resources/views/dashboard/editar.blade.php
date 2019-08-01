@@ -40,18 +40,12 @@
                             <label for="titulo">Titulo</label>
                             <input type="text" class="form-control" name="titulo" value="{{ $vacantes->titulo }}">
                         </div>
+                        
                         <div class="form-group">
-                            <label for="edad">Edad</label>
-                            <input type="text" class="form-control" name="edad" value="{{ $vacantes->edad }}">
+                            <label for="descripcion">Descripcion</label>
+                            <textarea type="text" name="descripcion" class="form-control"  rows="10" cols="50">{!! $vacantes->descripcion !!}</textarea>  
                         </div>
-                        <div class="form-group">
-                            <label for="descripcion">Estudios</label>
-                            <input type="text" class="form-control" name="descripcion" value="{{ $vacantes->descripcion}}"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="experiencia">Experiencia Laboral</label>
-                            <input type="text" class="form-control" name="experiencia" value="{{ $vacantes->experiencia }}"></textarea>
-                        </div>
+                        
                          <div class="form-group">
                                     <button class="btn btn-success  w-100">Actualizar</button>
                         </div>
@@ -61,4 +55,4 @@
 </section> 
 {{--fin seccion de formulario de edicion de la vacante --}}
 
-@stop
+@endsection 

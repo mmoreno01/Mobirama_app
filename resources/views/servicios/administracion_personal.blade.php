@@ -4,7 +4,7 @@
 <!--imagen principal-->
 <div class="parallax uk-height-large uk-background-cover uk-light uk-flex uk-flex-top wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" uk-parallax="bgy: -200" style="background-image: url('imagenes/Master-Servicios-assets/CapitalHumano.jpg');">
     <div class="overlay"></div>
-    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 100,0">Administración de personal</h1>
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s" uk-parallax="y: 100,0">Administración de Personal</h1>
 </div>
 <!--fin de imagen principal-->
 
@@ -26,8 +26,82 @@
             </div>
         </div>
         <div class="row serv-iconos">
-           
-                <div id="owl-two" class=" owl-carousel">
+                  <div class="col-md-4">
+                        <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Rpuro">
+                        {{-- <p>Reclutamiento Puro</p> --}}
+                       <p> Reclutamiento y Selección </p>
+                  </div>          
+                  <div class="col-md-4">
+                        <img src="imagenes/capital_humano/estudio socioeco.png" alt="Gestión Contable"  data-toggle="modal" data-target="#estSocio">
+                        {{-- <p>Estudios de Verificación de Datos</p> --}}
+                        <p>Estudio Socioeconómico</p>
+                  </div>
+                  <div class="col-md-4">
+                        <img src="imagenes/capital_humano/documentacion proceso.png" alt="Gestión Contable"  data-toggle="modal" data-target="#DocProce">
+                        <p>Documentación de Procesos</p>
+                  </div>
+              </div> 
+              {{-- <div class="row serv-iconos"> --}}
+                    {{-- <div class="col-md-3">
+                          <img src="imagenes/capital_humano/perfil de puesto.png" alt="Gestión Contable"  data-toggle="modal" data-target="#perPuesto">
+                          <p>Perfiles de Puesto</p>
+                    </div>           --}}
+                    {{-- <div class="col-md-3">
+                          <img src="imagenes/capital_humano/analisis de sueldo.png" alt="Gestión Contable"  data-toggle="modal" data-target="#asueldo">
+                          <p>Análisis de Sueldo</p>
+                    </div> --}}
+                    {{-- <div class="col-md-3">
+                            <img src="imagenes/capital_humano/talento.png" alt="Gestión Contable"  data-toggle="modal" data-target="#atalento">
+                            <p>Atracción de Talento</p>
+                    </div> --}}
+                    {{-- <div class="col-md-3">
+                          <img src="imagenes/capital_humano/headhunting.png" alt="Gestión Contable"  data-toggle="modal" data-target="#head">
+                          <p>Headhunting</p>
+                    </div> --}}
+              {{-- </div> --}}
+              <div class="row serv-iconos">
+                  {{-- <div class="col-md-3">
+                        <img src="imagenes/capital_humano/est-veri.png" alt="Gestión Contable"  data-toggle="modal" data-target="#verifica">
+                       <p>Estudios de Verificación de Datos</p> 
+
+                  </div>           --}}
+                  {{-- <div class="col-md-3">
+                          <img src="imagenes/capital_humano/reclutamiento adm.png" alt="Gestión Contable"  data-toggle="modal" data-target="#recAdm">
+                          <p>Reclutamiento Administrado</p>
+                  </div> --}}
+                  <div class="col-md-3">
+                    <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#talento">
+                        <p>Búsqueda de Talento Ejecutivo</p>
+                </div>
+                  <div class="col-md-3">
+                    <img src="imagenes/capital_humano/headhunting.png" alt="Gestión Contable"  data-toggle="modal" data-target="#head">
+                    <p>Headhunting</p>
+              </div>
+                  <div class="col-md-3">
+                        <img src="imagenes/capital_humano/desarollo organizacional.png" alt="Gestión Contable"  data-toggle="modal" data-target="#desOrg">
+                        <p>Desarrollo Organizacional</p>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="imagenes/capital_humano/bienestar.png" alt="Gestión Contable"  data-toggle="modal" data-target="#bienSalud">
+                    <p>Bienestar y salud </p>
+                  </div>
+            </div>
+            {{-- <div class="row serv-iconos"> --}}
+                {{-- <div class="col-md-3">
+                    <img src="imagenes/capital_humano/onboarding.png" alt="onboarding"  data-toggle="modal" data-target="#Onboarding">
+                    <p>Onboarding </p>
+                </div> --}}
+                {{-- <div class="col-md-3">
+                    <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#talento">
+                        <p>Búsqueda de Talento Ejecutivo</p>
+                </div> --}}
+                {{-- <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+            </div> --}}
+    </div>
+</section>
+
+{{-- <div id="owl-two" class=" owl-carousel">
                         <div class="">
                                 <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Rpuro">
                                 <p>Reclutamiento Puro</p>
@@ -81,40 +155,22 @@
                                 <p>Onboarding </p>
                         </div>
                     </div>
-                
-           {{-- <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-                   <img src="imagenes/capital_humano/reclut.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#Rpuro">
-                  
-              <p>Reclutamiento Puro</p>
-           </div>
-           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                   <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#talento">
-               <p>Búsqueda de Talento Ejecutivo</p>
-           </div>
-           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s" data-toggle="modal" data-target="#verifica">
-               <img src="imagenes/capital_humano/est-veri.png" alt="Gestión Contable">
-               <p>Estudios de Verificación de Datos</p>
-           </div> --}}
-          
-       </div>
-    </div>
-</section>
-
-
+                 --}}
 
 <!-- Modal -->
 <div class="modal fade" id="Rpuro" tabindex="-1" role="dialog" aria-labelledby="RpuroLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="RpuroLabel">Reclutamiento Puro</h5>
+              <h5 class="modal-title" id="RpuroLabel">Reclutamiento y Selección </h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
                 <ul>
-                    <li>Estamos comprometidos con nuestros clientes para asegurar que cada uno de sus proyectos dispongan del mejor talento que genere impacto significativo en la eficiencia, productividad y éxito de su empresa. </li> 
+                    <li>Estamos comprometidos con nuestros clientes para asegurar que cada uno de sus proyectos dispongan del mejor talento que genere impacto significativo en la eficiencia, productividad y éxito de su empresa.</li> 
+                    <li>Es un proceso de búsqueda y evaluación de personas compatibles a un perfil o perfiles profesionales, deseados para reemplazar o tomar el lugar de un puesto determinado en su organización, evaluando a través de diferentes filtros; su capacidad, actitud, valores, intereses entre otras, para recomendarle a los mejor calificados.  </li>
                 </ul>
             </div>
           </div>
@@ -280,21 +336,28 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="estSocioLabel">Estudio Socioeconómico</h5>
+              <h5 class="modal-title" id="estSocioLabel">Estudios socioeconomicos</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-                <p>Nuestra firma se centra en la optimización de los recursos disponibles y la creación de valor a través del aumento de la rentabilidad de nuestros clientes, 
-                    para lo cual contamos con productos que se adaptan a sus necesidades:</p>
+                <p>Nuestros procesos de Investigación son desarrollados de manera confiable por especialistas, con años de experiencia.</p>
+                <p>Al inicio de nuestro proceso se utiliza una herramienta diseñada para cubrir aspectos importantes a investigar y la cual puede ser configurada de acuerdo a sus necesidades específicas, tiene como propósito cubrir las siguientes especificaciones:</p>
                     <ul>
-                        <li>Estudios de gabinete: Incluye la investigación con las referencias laborales y personales</li>
-                        <li>Cotizaciones ante el IMSS</li>
-                        <li>Buró laboral e investigación de incidencias legales.</li>
-                        <li>Social media search: Su objetivo es analizar el comportamiento de candidatos en diferentes redes sociales (previa autorización del candidato)</li>
-                        <li>Polígrafo</li>
-                        <li>Alcance nacional</li>
+                        <li>DATOS GENERALES.                                                                      </li>
+                        <li>CONDICIONES DE VIVIENDA.</li>
+                        <li>ENTORNO FAMILIAR.</li>
+                        <li>ESCOLARIDAD.</li>
+                        <li>TRAYECTORIA LABORAL. </li>
+                        <li> INGRESOS Y EGRESOS. </li>
+                        <li>SALUD Y HABITOS PERSONALES. </li>
+                        <li>DOCUMENTACIÓN. </li>
+                        <li> TABLAS COMPARATIVAS DE FUENTES DE INFORMACION.</li>
+                        <li> REFERENCIAS PERSONALES E INTERVECINALES. </li>
+                        <li>TOMA DE FOTOGRAFIAS. </li>
+                        <li>DICTAMEN DEL ESTUDIO. </li>
+
                     </ul>
             </div>
           </div>
@@ -400,8 +463,6 @@
           </div>
         </div>
 </div>
-
-
 
 
 

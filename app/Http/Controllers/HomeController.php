@@ -45,14 +45,13 @@ class HomeController extends Controller
 
         $articulos = array(
 
-            'auditoría interna',
-            'auditoría administrativa',
-            'auditoría superior de la federación',
-            'reglamento interior de la auditoría superior de la federación',
-            'asf',
-            'auditoría superior del estado de puebla',
-            'que es auditoría',
-            'ley de fiscalización y rendición de cuentas de la federación',
+            'Consultoria',
+            'Financiera',
+            'Fiscal',
+            'Outsourcing',
+            'Recursos humanos',
+            'servicios juridicos ',
+            'Auditoria',
         );
 
         SEO::setTitle($articulos[$titulo]);

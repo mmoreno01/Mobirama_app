@@ -76,12 +76,12 @@ $('.politica').owlCarousel({
                 nav:true
             },
             768: {
-                items: 3,
+                items: 4,
                 margin: 30,
                 nav:true
             },
             992: {
-                items: 3,
+                items: 4,
                 margin: 30,
                 nav:true
             }

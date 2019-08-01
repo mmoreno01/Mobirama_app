@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
         {!! SEOMeta::generate() !!}
-	    {!! OpenGraph::generate() !!}
-	    {!! Twitter::generate() !!}
+	      {!! OpenGraph::generate() !!}
+	      {!! Twitter::generate() !!}
         {!! SEO::generate() !!}
    
     <meta charset="UTF-8">
@@ -15,8 +15,11 @@
 
        <!-- Scripts -->
 
-    <link rel="icon" type="image/png" href="imagenes/home-icons/m-favicon.png">
+    <link rel="icon" type="image/png" href="/imagenes/home-icons/m-favicon.png">
     {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"> --}}
+    <!-- slyles -->
+    <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
+    <!-- icons -->
     <!-- estilo carousel -->
     <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
     <!-- slider revolution -->
@@ -27,16 +30,15 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
     <!-- Add the new slick-theme.css if you want the default styling-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick-theme.css')}}"/>
-    <!-- slyles -->
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <!-- icons -->
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     {{-- <link rel="stylesheet" href="../../node_modules/vue-spinners/dist/vue-spinners.css"> --}}
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    {{-- <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css"> --}}
+    {{-- <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css"> --}}s
     <!-- chat home-->
     <script src="//code.tidio.co/cbarboauidoxnughnrijsrkiag8wcloc.js"></script>
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
 
 
@@ -47,6 +49,18 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PM6VMQQ');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132438488-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132438488-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <!-- Facebook Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -68,11 +82,11 @@
     <!-- End Facebook Pixel Code -->
 
     <!-- #header -->
-    <header id="header" id="home">
+    {{-- <header id="header" id="home">
       <div class="container-fluid main-menu">
           <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-              <a href="/"><img src="imagenes/home-icons/m-white.png" width="150px" alt="" title="" /></a>
+              <a href="/"><img src="/imagenes/home-icons/m-white.png" width="150px" alt="" title="" /></a>
             </div>
             <nav id="nav-menu-container">
               <ul class="nav-menu">
@@ -124,60 +138,84 @@
             </nav> <!--#nav-menu-container -->		    		
           </div>
       </div>
-    </header>
+    </header> --}}
     <!-- #header -->
 
     <!-- menu principal -->
-<!-- <header id="header-nav" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-    <a class="navbar-brand" href="/">
-        <img src="imagenes/home-icons/m-white.png" width="200" height="" alt="Mobirama">
-    </a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+ <header  id="header" id="home">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+            <img src="/imagenes/home-icons/m-white.png" width="200" height="" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <div class="navbar-nav mr-auto ml-auto">
-                 <div class="col-sm-12 col-md-3 content_item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s"> 
-                    <a class="nav-item nav-link mr-4 active" href="/">Inicio</a>
-                    <div class="dropdown">
-                        <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Conócenos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="/nosotros">Nosotros</a>
-                            <a class="dropdown-item" href="/filosofia">Filosofía Empresarial</a>
-                            <a class="dropdown-item" href="/valores">Valores Institucionales</a>
-                        </div>
-                    </div>
-                    <div class="dropdown">
-                        <a class="nav-item nav-link mr-4 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="/payroll">Payroll Service</a>
-                            <a class="dropdown-item" href="/administracion_personal">Administración de Personal</a>
-                            <a class="dropdown-item" href="/fiscal">Fiscal</a>
-                            <a class="dropdown-item" href="/maquilaNomina">Maquila de Seguridad Social</a>
-                            <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>
-                            <a class="dropdown-item" href="/juridico">Jurídico</a>
-                        </div>
-                    </div>
-                    <a class="nav-item nav-link mr-4" href="/alianzas">Alianzas</a>
-                    <a class="nav-item nav-link mr-4" href="/blog">Blog</a>
-                    <a class="nav-item nav-link mr-4" href="/contacto">Contacto</a>
-                    <a class="nav-item nav-link mr-4" href="/contacto.bolsaTrabajo">Bolsa de trabajo</a>  
-                    <a href="/login" class="nav-item nav-link mr-4">
-                      <i class="fas fa-address-card"></i>
-                      Iniciar sesión
-                    </a>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">
+                Inicio 
+                <span></span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Conócenos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/nosotros">Nosotros</a>
+                  <a class="dropdown-item" href="/filosofia">Filosofía</a>
+                  <a class="dropdown-item" href="/valores">Valores</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/payroll">Payroll Services</a>
+                <a class="dropdown-item" href="/administracion_personal">Administración de personal</a>
+                <a class="dropdown-item" href="/fiscal">Fiscal</a>
+                <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>             
+                <a class="dropdown-item" href="/juridico">Jurídico</a>            
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/alianzas">
+                  Alianzas                
+                  <span></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.mobirama.com.mx/blog/fiscal%20/noticias/">
+                  Noticias
+                  <span></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://www.mobirama.com.mx/blog/">
+                  Blog
+                  <span></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contacto">
+                  Contacto
+                  <span></span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contacto.bolsaTrabajo">
+                  Bolsa de trabajo
+                  <span></span>
+                </a>
+            </li>
+          </ul>
+         
         </div>
-       <div  id="headSocial">
-                <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/JBGlobalGroup" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/join-business-global-group/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        </div>
-    </div>    
-</header> -->
+      </nav>
+ </header>
 <!-- fin del menu principal -->
 </head>
 <body >
@@ -199,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-6 column-logo">
                 <div class="content-logo">
                     <figure>
-                        <img src="imagenes/distintivos/iso9001.png" alt="Mobirama-consultoria-iso9001">
+                        <img src="/imagenes/distintivos/iso9001.png" alt="Mobirama-consultoria-iso9001">
                     </figure>
                 </div>
                 <div class="content-text">
@@ -229,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-              <a href="/"><img src="imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
+              <a href="/"><img src="/imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
                <p><a href="avisoPrivacidad">Aviso de privacidad 2019 </a>| Mobirama</p>
             </div>
             <div class="col-md-6 content-iconsRedes">
@@ -246,30 +284,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- <script src="js/jquery.js"></script>   -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jquery-3.3.1.min.js"></script>
      
 
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
-    <script src="js/app.js"></script>
+    <script src="/js/app.js"></script>
     <!-- slider revolution -->   
     <script src="js/slider/slideRevolution.js"></script> 
     <script src="js/jquery.themepunch.revolution.js"></script>
     <script src="js/jquery.themepunch.tools.min.js"></script>
     <script src="js/jquery.themepunch.plugins.min.js"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="js/uikit.min.js"></script>
-    <script src="js/menu-tg.js"></script>
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/menu-tg.js"></script>
     <!-- carousel service -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/carousel.js"></script>
-    <script src="js/multi-carousel.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/carousel.js"></script>
+    <script src="/js/multi-carousel.js"></script>
     <!-- animate js -->
-    <script src="js/wow.min.js"></script>
-
-
+    <script src="/js/wow.min.js"></script>
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks/tinymce/5/tinymce.min.js"></script>
+    {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
+
+    <script>tinymce.init({selector:'textarea'});</script>
+
 
 
    

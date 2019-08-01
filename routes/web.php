@@ -48,12 +48,7 @@ Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 
 // rutas de  la seccion de servicios
-Route::get('mobiramaServices', function(){
-    return view('mobiramaServices.mobiramaServices');
-});
-Route::get('mobiramaPersonal', function(){
-    return view('mobiramaPersonal.mobiramaPersonal');
-});
+
 Route::get('contabilidad', function () {
     return view('servicios.contabilidad');
 });
@@ -86,6 +81,9 @@ Route::get('maquilaNomina', function () {
 });
 Route::get('maquilaSeguridad', function () {
     return view('servicios.maquilaSeguridad');
+});
+Route::get('administracion_recursos', function () {
+    return view('servicios.administracion_recursos');
 });
 
 //News letter
@@ -141,8 +139,21 @@ Route::get('registros', 'recordsControllers@index');
 
 // muestra la bolsa de trabajo
 Route::get('contacto.bolsaTrabajo', 'jobController@index')->name('contacto.bolsaTrabajo');
+// Route::get('contacto.bolsaTrabajo', 'jobController@getArea');
+
+
+// muestra vacante individual
+Route::get('/contacto/vacante/{id}','jobController@vervacante')->name('/contacto/vacante');
+
+
 // rota  muestra el formulario de postulacion
 Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
+// Route::get('contacto.bolsaTrabajo', 'PostulacionController@index')->name('contacto.bolsaTrabajo');
+
+// muestra areas en select
+// Route::get('contacto.bolsaTrabajo','jobController@getAreas');
+
+
 // rutas de seccion nostros
 Route::get('nosotros',function(){
     return view('nosotros.nosotros');
@@ -261,7 +272,7 @@ Auth::routes();
 
   // Registration Routes...
 //   Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-//   Route::post('register', 'Auth\RegisterController@register');
+  Route::post('register', 'Auth\RegisterController@register');
 
   // Password Reset Routes...
 //   Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');

@@ -3,7 +3,7 @@
 @section('content')
 
 {{-- seccion de card de identificacion de administrador --}}
-<section id="content-dashboard" class="mt-5">
+<section id="content-dashboard" style="margin-top: 50px;">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -24,12 +24,8 @@
 {{-- fin seccion de card de identificacion de administrador --}}
 
 
-
-
 {{-- seccion de alta de vacante, edicion y eluminacion --}}
-@can('product.index')
-
- <section id="form_vacante">
+<section id="form_vacante">
     <div class="container">
             @include('common.success')
         <form class="" method="POST" action="{{ route('dashboard') }}">
@@ -42,20 +38,14 @@
                     </div>
                         <div class="form-group">
                             <label for="titulo">Titulo</label>
-                            <input type="text" class="form-control" name="titulo" required>
+                            <input type="text" class="form-control" name="titulo">
                         </div>
+                       
                         <div class="form-group">
-                            <label for="edad">Edad</label>
-                            <input type="text" class="form-control" name="edad" required>
+                            <label for="descripcion">Descripcion</label>
+                            <textarea type="text" id="textarea" class="form-control" name="descripcion"  rows="10" cols="50" ></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="descripcion">Estudios</label>
-                            <textarea type="text" class="form-control" name="descripcion" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="experiencia">Experiencia Laboral</label>
-                            <textarea type="text" class="form-control" name="experiencia" required></textarea>
-                        </div>
+                        
                          <div class="form-group ">
                                     <button class="btn btn-success  w-100">Publicar</button>
                         </div>
@@ -63,12 +53,12 @@
             </div>
         </form>
     </div>
-</section> 
+</section>
 {{-- fin seccion de alta de vacante, edicion y eluminacion --}}
 
 
 {{-- seccion de la tabla de administracion de vacantes --}}
- <section id="table_vacantes">
+<section id="table_vacantes">
     <div class="container">
             <h2 class="text-center">Tabla de administracion de vacantes</h2>
         <div class="row">
@@ -78,9 +68,7 @@
         <table class="table">
             <thead>
                 <th scope="col">Titulo</th>
-                <th scope="col">Edad</th>
-                <th scope="col">Preparacion</th>
-                <th scope="col">Experiencia</th>
+                <th scope="col">Descripcion</th>
                 <th scope="col">Accion</th>
 
             </thead>
@@ -88,11 +76,10 @@
                 @foreach($vacantes as $vacante)
                 <tr>
                     <td>{{$vacante->titulo}}</td>
-                    <td>{{$vacante->edad}}</td>
-                    <td>{{$vacante->descripcion}}</td>
-                    <td>{{$vacante->experiencia}}</td>
+                    {{-- <td> {!! str_limit($vacante->descripcion, 300, '...')   !!}</td> --}}
+                    <td>{!! $vacante->descripcion !!}</td>
                     <td> 
-                        <a href="/dashboard/{{$vacante->id}}/editar" class="btn btn-warning btn-xs">Editar</a>
+                            <a href="/dashboard/{{$vacante->id}}/editar" class="btn btn-warning btn-xs">Editar</a>
                     </td>
                     <td>
                         <form method="POST" action="dashboard/{{$vacante->id}}">
@@ -108,9 +95,7 @@
            </div>
         </div>    
     </div>
-</section> 
-    @endcan
-
+</section>
 {{-- seccion de la tabla de administracion de vacantes --}}
 
 @endsection 

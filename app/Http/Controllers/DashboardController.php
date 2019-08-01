@@ -22,16 +22,12 @@ class DashboardController extends Controller
     public function update(Request $request, $id)
     {
       $nuevoTitulo = $request->input('titulo');
-      $nuevoEdad = $request->input('edad');
       $nuevoDescripcion = $request->input('descripcion');
-      $nuevoExperiencia = $request->input('experiencia');
 
       $vacantes = Vacante::find($id);
 
       $vacantes->titulo = $nuevoTitulo;
-      $vacantes->edad = $nuevoEdad;
       $vacantes->descripcion = $nuevoDescripcion;
-      $vacantes->experiencia =$nuevoExperiencia;
       $vacantes->save();
 
       return redirect()->route('dashboard')->with('info', 'Edicion exitosa!');
@@ -53,8 +49,9 @@ class DashboardController extends Controller
 
 
     // metodo para visualuzar datos de las vacantes en la vista
-    public function index()
+    public function index(Request $request)
     {
+
         $vacantes = Vacante::orderBy('created_at', 'desc')->get();
         return view('dashboard', compact('vacantes'));
     }

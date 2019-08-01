@@ -30,7 +30,7 @@
             <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                 <img src="imagenes/payroll/imp-hrp.png" alt="Implementación de HRP" data-toggle="modal" data-target="#Implementa">
                 <p>Implementación de HRP.</p>
-                </div>
+            </div>
             <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                 <img src="imagenes/payroll/Payroll-Forenstic.png" alt="Payroll Forensic" data-toggle="modal" data-target="#PayFore">
                 <p>Payroll Forensic.</p>
@@ -46,9 +46,9 @@
                <img src="imagenes/payroll/cfdi.png" alt="Gestión Contable"  data-toggle="modal" data-target="#CFDI">
                <p>CFDI implementación y operación.</p>
            </div>
-           <div class="col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-            {{-- <img src="imagenes/payroll/asesorias.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#PayAsesoria">
-        <p>Asesoría.</p> --}}
+           <div class="col-md-4">
+              <img src="imagenes/capital_humano/talento.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Anomina">
+              <p>Administración de Nómina </p>
           </div>
        </div>
     </div>
@@ -230,5 +230,29 @@
           </div>
         </div>
       </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="Anomina" tabindex="-1" role="dialog" aria-labelledby="AnominaLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="AnominaLabel">Administración de Nómina </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <ul>
+              <li>Minimice los riesgos laborales hacia tu empresa, optimizando costos administrativos y financieros además de dar firme cumplimiento con las legislaciones laborales, financieras y hacendarias; en especial cubriendo a nuestros clientes y empresas filiales en los supuestos relacionados en el artículo 69 B del Código Fiscal de la Federación.</li> 
+              <li>  BLINDAJE EMPLEADO POR EMPLEADO: los empleados contratados recibirán comprobante de sus remuneraciones a fin de no caer en los supuestos de subordinación dispuestos en distintas legislaciones fiscales y de seguridad social.</li>
+              <li>  PAGO : Con los montos de sus cuentas bancarias, se lleva a cabo la dispersión a los empleados definidos en el SLA.</li>
+
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
       
 @stop

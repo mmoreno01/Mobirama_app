@@ -24,6 +24,11 @@ Vue.component('slider-component', require('./components/SliderComponent.vue'));
 Vue.component('services-component', require('./components/ServicesComponent.vue'));
 Vue.component('blog-component', require('./components/BlogComponent.vue'));
 Vue.component('alianzas-component', require('./components/AlianzasComponent.vue'));
+Vue.component('vacantenoticias-component', require('./components/VacanteNoticias.vue'));
+Vue.component('formvacante-component', require('./components/FormVacante.vue'));
+
+
+
 
 
 
@@ -35,7 +40,10 @@ Vue.use(VueSpinners)
 
 
     const app = new Vue({
-        el: '#app'
+        el: '#app',
+       
+
+     
     })
     
 

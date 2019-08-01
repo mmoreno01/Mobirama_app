@@ -5,6 +5,7 @@ jQuery(document).ready(function() {
             delay:9000,
             startwidth:1170,
             startheight:500,
-            hideThumbs:10
+            parallax:"mouse",
+
         });
 });

@@ -42,11 +42,26 @@
 }
 
 
-    /*Preloader animsition*/
+    // /*Preloader animsition*/
     $(window).on('load', function () {
         $('.page-loader').fadeOut('slow', function () {
-            $(this).remove();
+            setTimeout(function(){
+                // console.log("time");
+                $(this).remove();
+            }, 1000);
+         
         });
+
     });
+
+    //     $(window).on('load' ,function () {
+    //     //$('.k-loading-mask').css('display', 'block !important');
+    //     $(".load").show();
+    //     setTimeout(function () {
+    //     //    test(); 
+    //        $('.load').hide();
+    //     }, 10000);
+    //  });
+ 
     
 });
