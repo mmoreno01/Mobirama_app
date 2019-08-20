@@ -86,6 +86,10 @@ Route::get('administracion_recursos', function () {
     return view('servicios.administracion_recursos');
 });
 
+Route::get('norma-035', function () {
+    return view('norma-035');
+});
+
 //News letter
 Route::get('letter', function () {
     return view('letter');
@@ -144,10 +148,11 @@ Route::get('contacto.bolsaTrabajo', 'jobController@index')->name('contacto.bolsa
 
 // muestra vacante individual
 Route::get('/contacto/vacante/{id}','jobController@vervacante')->name('/contacto/vacante');
+Route::post('contacto.bolsaTrabajo', 'jobController@envioVacante');
 
 
 // rota  muestra el formulario de postulacion
-Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
+// Route::post('contacto.bolsaTrabajo', 'PostulacionController@envioVacante');
 // Route::get('contacto.bolsaTrabajo', 'PostulacionController@index')->name('contacto.bolsaTrabajo');
 
 // muestra areas en select
@@ -263,7 +268,7 @@ Route::middleware(['auth'])->group(function(){
 });
 
 
-Auth::routes();
+// Auth::routes();
 
   // Authentication Routes...
 //   Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -272,7 +277,7 @@ Auth::routes();
 
   // Registration Routes...
 //   Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-  Route::post('register', 'Auth\RegisterController@register');
+//   Route::post('register', 'Auth\RegisterController@register');
 
   // Password Reset Routes...
 //   Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');

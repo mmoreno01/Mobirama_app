@@ -42,17 +42,6 @@
 }
 
 
-    // /*Preloader animsition*/
-    $(window).on('load', function () {
-        $('.page-loader').fadeOut('slow', function () {
-            setTimeout(function(){
-                // console.log("time");
-                $(this).remove();
-            }, 1000);
-         
-        });
-
-    });
 
     //     $(window).on('load' ,function () {
     //     //$('.k-loading-mask').css('display', 'block !important');

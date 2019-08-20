@@ -66393,7 +66393,7 @@ exports = module.exports = __webpack_require__(141)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -66962,6 +66962,66 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 	data: function data() {
@@ -66994,648 +67054,644 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("section", { attrs: { id: "slider1" } }, [
-      _c(
-        "div",
-        {
-          staticClass: "tp-banner-container wow fadeIn",
-          attrs: { "data-wow-duration": "1s", "data-wow-delay": "1.5s" }
-        },
-        [
-          _c("div", { staticClass: "tp-banner" }, [
-            _c("ul", [
-              _c(
-                "li",
-                {
+      _c("div", { staticClass: "tp-banner-container wow fadeIn" }, [
+        _c("div", { staticClass: "tp-banner" }, [
+          _c("ul", [
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-transition": "3dcurtain-vertical",
+                  "data-delay": "2000",
+                  "data-slotamount": "10",
+                  "data-speed": "100",
+                  "data-masterspeed": "300",
+                  "data-thumb":
+                    "assets/img/sliders/revolution/thumbs/thumb1.jpg"
+                }
+              },
+              [
+                _c("img", {
                   attrs: {
-                    "data-transition": "fade",
-                    "data-slotamount": "7",
-                    "data-masterspeed": "1000"
+                    src: "/imagenes/carousel/NOM.png",
+                    alt: "darkblurbg",
+                    "data-bgfit": "cover",
+                    "data-bgposition": "left top",
+                    "data-bgrepeat": "no-repeat"
                   }
-                },
-                [
-                  _c("img", {
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption tp-resizeme  NotGeneric-Title lfl",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "40px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
                     attrs: {
-                      src: "/imagenes/carousel/NOM.png",
-                      alt: "darkblurbg",
-                      "data-bgfit": "cover",
-                      "data-bgposition": "left top",
-                      "data-bgrepeat": "no-repeat"
+                      "data-x": "left",
+                      "data-hoffset": "0",
+                      "data-y": "top",
+                      "data-voffset": "60",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "900",
+                      "data-start": "1000",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
                     }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "tp-caption tp-resizeme  NotGeneric-Title lfl",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-size": "40px",
-                        color: "#fff",
-                        "font-weight": "bold",
-                        "letter-spacing": "3px",
-                        "text-transform": "uppercase"
-                      },
-                      attrs: {
-                        "data-x": "left",
-                        "data-hoffset": "0",
-                        "data-y": "top",
-                        "data-voffset": "60",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "900",
-                        "data-start": "1000",
-                        "data-easing": "Power4.easeIn",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                  },
+                  [
+                    _c("img", {
+                      staticStyle: { width: "500px" },
+                      attrs: { src: "imagenes/carousel/pleca1.png", alt: "" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  lfl",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "15px",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _c("img", {
-                        staticStyle: { width: "500px" },
-                        attrs: { src: "imagenes/carousel/pleca1.png", alt: "" }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  lfl",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#fff",
-                        "font-size": "15px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "left",
-                        "data-hoffset": "0",
-                        "data-y": "center",
-                        "data-voffset": "0",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "900",
-                        "data-start": "2000",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "left",
+                      "data-hoffset": "0",
+                      "data-y": "center",
+                      "data-voffset": "0",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "900",
+                      "data-start": "2000",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _c("img", {
+                      staticStyle: { width: "500px" },
+                      attrs: { src: "imagenes/carousel/pleca2.png", alt: "" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption lfl",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#000",
+                      "font-size": "20px",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _c("img", {
-                        staticStyle: { width: "500px" },
-                        attrs: { src: "imagenes/carousel/pleca2.png", alt: "" }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption lfl",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#000",
-                        "font-size": "20px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "left",
-                        "data-hoffset": "0",
-                        "data-y": "bottom",
-                        "data-voffset": "-60",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "900",
-                        "data-start": "2500",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "left",
+                      "data-hoffset": "0",
+                      "data-y": "bottom",
+                      "data-voffset": "-60",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "900",
+                      "data-start": "2500",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _c("img", {
+                      staticStyle: { width: "500px" },
+                      attrs: { src: "imagenes/carousel/pleca3.png", alt: "" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption large_text sfb",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#007bff",
+                      "font-size": "35px",
+                      "text-transform": "uppercase!important",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _c("img", {
-                        staticStyle: { width: "500px" },
-                        attrs: { src: "imagenes/carousel/pleca3.png", alt: "" }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption large_text sfb",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#007bff",
-                        "font-size": "35px",
-                        "text-transform": "uppercase!important",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-hoffset": "250",
-                        "data-y": "center",
-                        "data-voffset": "40",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "1000",
-                        "data-start": "3500",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "center",
+                      "data-hoffset": "250",
+                      "data-y": "center",
+                      "data-voffset": "40",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "1000",
+                      "data-start": "3500",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" Conoce más\n\t\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#007bff",
+                      "font-size": "15px",
+                      "letter-spacing": "3px"
                     },
-                    [_vm._v(" Conoce más\n\t\n\t\t\t\t\t")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  fade",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#007bff",
-                        "font-size": "15px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-hoffset": "250",
-                        "data-y": "center",
-                        "data-voffset": "70",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "1000",
-                        "data-start": "3800",
-                        delay: "900",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "off"
-                      }
+                    attrs: {
+                      "data-x": "center",
+                      "data-hoffset": "250",
+                      "data-y": "center",
+                      "data-voffset": "70",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "1000",
+                      "data-start": "3800",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "off"
+                    }
+                  },
+                  [_vm._v(" de la NOM-035\n\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#000",
+                      "font-size": "20px",
+                      "letter-spacing": "3px"
                     },
-                    [_vm._v(" de la NOM-035\n\t\t\t\t")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  fade",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#000",
-                        "font-size": "20px",
-                        "letter-spacing": "3px"
+                    attrs: {
+                      "data-x": "center",
+                      "data-hoffset": "250",
+                      "data-y": "center",
+                      "data-voffset": "120",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "1000",
+                      "data-start": "4000",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "off"
+                    }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: " btn btn-primary m-r-5",
+                        staticStyle: { color: "#fff" },
+                        attrs: {
+                          href:
+                            "https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/"
+                        }
                       },
-                      attrs: {
-                        "data-x": "center",
-                        "data-hoffset": "250",
-                        "data-y": "center",
-                        "data-voffset": "120",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "1000",
-                        "data-start": "4000",
-                        delay: "900",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "off"
-                      }
-                    },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: " btn btn-primary m-r-5",
-                          staticStyle: { color: "#fff" },
-                          attrs: {
-                            href:
-                              "https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/"
-                          }
-                        },
-                        [_vm._v("Ver más")]
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {
+                      [_vm._v("Ver más")]
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-transition": "fade",
+                  "data-slotamount": "7",
+                  "data-masterspeed": "1000"
+                }
+              },
+              [
+                _c("img", {
+                  staticClass: "rev-slidebg",
                   attrs: {
-                    "data-transition": "fade",
-                    "data-slotamount": "7",
-                    "data-masterspeed": "1000"
+                    src: "imagenes/carousel/reclutamientoyseleccion.jpg",
+                    alt: "",
+                    width: "1920",
+                    height: "1080",
+                    "data-bgposition": "center center",
+                    "data-bgfit": "cover",
+                    "data-bgrepeat": "no-repeat",
+                    "data-bgparallax": "2"
                   }
-                },
-                [
-                  _c("img", {
-                    staticClass: "rev-slidebg",
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "40px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
                     attrs: {
-                      src: "imagenes/carousel/reclutamientoyseleccion.jpg",
-                      alt: "",
-                      width: "1920",
-                      height: "1080",
-                      "data-bgposition": "center center",
-                      "data-bgfit": "cover",
-                      "data-bgrepeat": "no-repeat",
-                      "data-bgparallax": "2"
+                      "data-x": "center",
+                      "data-y": "center",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
                     }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-size": "40px",
-                        color: "#fff",
-                        "font-weight": "bold",
-                        "letter-spacing": "3px",
-                        "text-transform": "uppercase"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "center",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "500",
-                        "data-start": "1300",
-                        "data-easing": "Power4.easeIn",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                  },
+                  [_vm._v("Reclutamiento y Selección \n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "15px",
+                      "letter-spacing": "3px"
                     },
-                    [_vm._v("Reclutamiento y Selección \n\t\t\t\t\t")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  fade",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#fff",
-                        "font-size": "15px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "280",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "500",
-                        "data-start": "1500",
-                        delay: "900",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "280",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1500",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      " Organización y aprovechamiento de los recursos humanos\n\t\t\t\t\t"
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  customin customout",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#000",
+                      "font-size": "20px",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _vm._v(
-                        " Organización y aprovechamiento de los recursos humanos\n\t\t\t\t\t"
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  customin customout",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#000",
-                        "font-size": "20px",
-                        "letter-spacing": "3px"
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "320",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: " btn btn-primary m-r-5",
+                        staticStyle: { color: "#fff" },
+                        attrs: {
+                          href:
+                            "https://www.mobirama.com.mx/administracion_personal"
+                        }
                       },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "320",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "700",
-                        "data-start": "1200",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
-                    },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: " btn btn-primary m-r-5",
-                          staticStyle: { color: "#fff" },
-                          attrs: {
-                            href:
-                              "https://www.mobirama.com.mx/administracion_personal"
-                          }
-                        },
-                        [_vm._v("Ver más")]
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {
+                      [_vm._v("Ver más")]
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-transition": "fade",
+                  "data-slotamount": "7",
+                  "data-masterspeed": "1000"
+                }
+              },
+              [
+                _c("img", {
                   attrs: {
-                    "data-transition": "fade",
-                    "data-slotamount": "7",
-                    "data-masterspeed": "1000"
+                    src: "imagenes/carousel/estudiossocioeconomicos.jpg",
+                    alt: "darkblurbg",
+                    "data-bgfit": "cover",
+                    "data-bgposition": "left top",
+                    "data-bgrepeat": "no-repeat"
                   }
-                },
-                [
-                  _c("img", {
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "40px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
                     attrs: {
-                      src: "imagenes/carousel/estudiossocioeconomicos.jpg",
-                      alt: "darkblurbg",
-                      "data-bgfit": "cover",
-                      "data-bgposition": "left top",
-                      "data-bgrepeat": "no-repeat"
+                      "data-x": "center",
+                      "data-y": "center",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
                     }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "tp-caption tp-resizeme  NotGeneric-Title fade",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-size": "40px",
-                        color: "#fff",
-                        "font-weight": "bold",
-                        "letter-spacing": "3px",
-                        "text-transform": "uppercase"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "center",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "500",
-                        "data-start": "1300",
-                        "data-easing": "Power4.easeIn",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                  },
+                  [_vm._v("Estudios socioecónomicos\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fadeIn",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "15px",
+                      "letter-spacing": "3px"
                     },
-                    [_vm._v("Estudios socioecónomicos\n\t\t\t\t\t")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  fadeIn",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#fff",
-                        "font-size": "15px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "280",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "700",
-                        "data-start": "1200",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "280",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "Minimiza riesgos para tu empresa con datos confiables.\n\t\t\t\t\t"
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  customin customout",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#000",
+                      "font-size": "20px",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _vm._v(
-                        "Minimiza riesgos para tu empresa con datos confiables.\n\t\t\t\t\t"
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  customin customout",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#000",
-                        "font-size": "20px",
-                        "letter-spacing": "3px"
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "320",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: " btn btn-primary m-r-5",
+                        staticStyle: { color: "#fff" },
+                        attrs: {
+                          href:
+                            "https://www.mobirama.com.mx\n\t\t\t\t\t\t\t\t\t/administracion_personal"
+                        }
                       },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "320",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "700",
-                        "data-start": "1200",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
-                    },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: " btn btn-primary m-r-5",
-                          staticStyle: { color: "#fff" },
-                          attrs: {
-                            href:
-                              "https://www.mobirama.com.mx\n\t\t\t\t\t\t\t\t\t/administracion_personal"
-                          }
-                        },
-                        [_vm._v("Ver más")]
-                      )
-                    ]
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "li",
-                {
+                      [_vm._v("Ver más")]
+                    )
+                  ]
+                )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              {
+                attrs: {
+                  "data-transition": "fade",
+                  "data-slotamount": "7",
+                  "data-masterspeed": "1000"
+                }
+              },
+              [
+                _c("img", {
                   attrs: {
-                    "data-transition": "fade",
-                    "data-slotamount": "7",
-                    "data-masterspeed": "1000"
+                    src: "imagenes/carousel/admon_nomina.jpg",
+                    alt: "darkblurbg",
+                    "data-bgfit": "cover",
+                    "data-bgposition": "left top",
+                    "data-bgrepeat": "no-repeat"
                   }
-                },
-                [
-                  _c("img", {
+                }),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "40px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
                     attrs: {
-                      src: "imagenes/carousel/admon_nomina.jpg",
-                      alt: "darkblurbg",
-                      "data-bgfit": "cover",
-                      "data-bgposition": "left top",
-                      "data-bgrepeat": "no-repeat"
+                      "data-x": "center",
+                      "data-y": "center",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
                     }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "tp-caption tp-resizeme  NotGeneric-Title fade",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-size": "40px",
-                        color: "#fff",
-                        "font-weight": "bold",
-                        "letter-spacing": "3px",
-                        "text-transform": "uppercase"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "center",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "500",
-                        "data-start": "1300",
-                        "data-easing": "Power4.easeIn",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                  },
+                  [_vm._v("Administración de Nómina \n\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fadeUp",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "15px",
+                      "letter-spacing": "3px"
                     },
-                    [_vm._v("Administración de Nómina \n\t\t\t\t")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  fadeUp",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#fff",
-                        "font-size": "15px",
-                        "letter-spacing": "3px"
-                      },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "280",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "700",
-                        "data-start": "1200",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "280",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      " Optimización de costos administrativos y financieros.\n\t\t\t\t\t\t\n\t\t\t\t"
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  customin customout",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#000",
+                      "font-size": "20px",
+                      "letter-spacing": "3px"
                     },
-                    [
-                      _vm._v(
-                        " Optimización de costos administrativos y financieros.\n\t\t\t\t\t\t\n\t\t\t\t"
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "tp-caption  customin customout",
-                      staticStyle: {
-                        "z-index": "8",
-                        "font-weight": "bold",
-                        color: "#000",
-                        "font-size": "20px",
-                        "letter-spacing": "3px"
+                    attrs: {
+                      "data-x": "center",
+                      "data-y": "320",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [
+                    _c(
+                      "a",
+                      {
+                        staticClass: " btn btn-primary m-r-5",
+                        staticStyle: { color: "#fff" },
+                        attrs: {
+                          href:
+                            "https://www.mobirama.com.mx/administracion_personal"
+                        }
                       },
-                      attrs: {
-                        "data-x": "center",
-                        "data-y": "320",
-                        "data-customin":
-                          "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                        "data-customout":
-                          "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                        "data-speed": "700",
-                        "data-start": "1200",
-                        "data-easing": "Power4.easeOut",
-                        "data-endspeed": "500",
-                        "data-endeasing": "Power4.easeIn",
-                        "data-captionhidden": "on"
-                      }
-                    },
-                    [
-                      _c(
-                        "a",
-                        {
-                          staticClass: " btn btn-primary m-r-5",
-                          staticStyle: { color: "#fff" },
-                          attrs: {
-                            href:
-                              "https://www.mobirama.com.mx/administracion_personal"
-                          }
-                        },
-                        [_vm._v("Ver más")]
-                      )
-                    ]
-                  )
-                ]
-              )
-            ])
+                      [_vm._v("Ver más")]
+                    )
+                  ]
+                )
+              ]
+            )
           ])
-        ]
-      )
+        ])
+      ])
     ])
   }
 ]

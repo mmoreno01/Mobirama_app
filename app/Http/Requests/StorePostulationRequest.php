@@ -28,7 +28,7 @@ class StorePostulationRequest extends FormRequest
             'apellido' => 'required|min:5|max:100',
             'correo' => 'required|email',
             'telefono'=> 'required|min:10|max:10',
-            'edad'=> 'required|max:2',
+            'area'=> 'required',
             'image' => 'required|mimes:pdf,doc,docx'
         ];
     }

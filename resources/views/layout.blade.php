@@ -35,11 +35,19 @@
     {{-- <link rel="stylesheet" href="../../node_modules/vue-spinners/dist/vue-spinners.css"> --}}
     <!--reCAPTCHA-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    {{-- <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css"> --}}s
+    {{-- <link rel="stylesheet" href="https://unpkg.com/vue-spinners@1.0.0/dist/vue-spinners.css"> --}}
     <!-- chat home-->
     <script src="//code.tidio.co/cbarboauidoxnughnrijsrkiag8wcloc.js"></script>
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
+
+    <!-- Google Tag Manager  propiq test-->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TTV5MML');</script>
+    <!-- End Google Tag Manager -->
 
 
     <!-- Google Tag Manager -->
@@ -224,6 +232,11 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+<!-- Google Tag Manager (noscript)  propio-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTV5MML"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
 <div id="app">
 
 <!-- contenido principa -->
@@ -306,10 +319,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="/js/wow.min.js"></script>
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
-    <script src="https://cdn.tiny.cloud/1/2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks/tinymce/5/tinymce.min.js"></script>
+    <script src = "https://cdn.tiny.cloud/1/ 2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks /tinymce/5/tinymce.min.js"> </script>
     {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
 
-    <script>tinymce.init({selector:'textarea'});</script>
+    <script>tinymce.init({selector:'#textarea'});</script>
 
 
 
@@ -340,6 +353,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--slider valores-->    
 <script type="text/javascript">
 
+    // /*Preloader animsition*/
+    $(window).on('load', function () {
+        $('.page-loader').fadeOut('slow', function () {
+            setTimeout(function(){
+                // console.log("time");
+                $(this).remove();
+            }, 3000);
+         
+        });
+
+    });
 </script>
 <!--slider valores-->    
 

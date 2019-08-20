@@ -43,11 +43,12 @@
                         
                         <div class="form-group">
                             <label for="descripcion">Descripcion</label>
-                            <textarea type="text" name="descripcion" class="form-control"  rows="10" cols="50">{!! $vacantes->descripcion !!}</textarea>  
+                            <textarea id="textarea" type="text" name="descripcion" class="form-control"  rows="10" cols="50">{!! $vacantes->descripcion !!}</textarea>  
                         </div>
                         
-                         <div class="form-group">
-                                    <button class="btn btn-success  w-100">Actualizar</button>
+                         <div class="form-group content-btn">
+                                    <button class="btn btn-success  ">Actualizar</button>
+                                    <button class="btn btn-warning" {{ URL::previous() }}>Cancelar</button>
                         </div>
                 </div>
             </form>

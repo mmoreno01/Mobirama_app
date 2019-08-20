@@ -38,7 +38,7 @@
                     </div>
                         <div class="form-group">
                             <label for="titulo">Titulo</label>
-                            <input type="text" class="form-control" name="titulo">
+                            <input type="text" class="form-control" name="titulo" required>
                         </div>
                        
                         <div class="form-group">

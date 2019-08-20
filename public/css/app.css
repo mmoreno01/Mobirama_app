@@ -569,7 +569,7 @@
 }
 
 #mobiramaModal .modal-dialog {
-  max-width: 1000px;
+  max-width: 800px;
 }
 
 #mobiramaModal .modal-body {
@@ -637,6 +637,10 @@
   right: 10px;
   top: 10px;
   color: white;
+}
+
+#mobiramaModal .btn-link {
+  position: absolute;
 }
 
 @media (max-width: 1200px) {
@@ -1562,7 +1566,11 @@ video {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 997;
-  background-color: #1d73b2;
+  background: #1b7abb;
+  background: -webkit-gradient(left top, right top, color-stop(0%, #1b7abb), color-stop(100%, #2c308b));
+  background: -webkit-gradient(linear, left top, right top, from(#1b7abb), to(#2c308b));
+  background: linear-gradient(to right, #1b7abb 0%, #2c308b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b7abb', endColorstr='#2c308b', GradientType=1 );
 }
 
 #header .navbar-collapse .navbar-nav {
@@ -1599,7 +1607,7 @@ video {
 }
 
 #header .dropdown-menu {
-  background-color: #2873b6;
+  background-color: #2689d2;
   border: 1px solid transparent;
   text-align: center;
 }
@@ -3395,6 +3403,20 @@ footer ul {
   text-transform: uppercase;
 }
 
+#editar_vacante .content-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#editar_vacante button {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
 #card-letter {
   padding: 100px 0px;
 }
@@ -4205,7 +4227,7 @@ footer ul {
 }
 
 #slider1 {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 #slider1 .content-spinner {
@@ -4233,6 +4255,7 @@ footer ul {
   width: 100%;
   height: 100%;
   background: #fff;
+  top: 0;
   z-index: 10000000;
 }
 
@@ -4290,9 +4313,13 @@ footer ul {
   }
 }
 
+#carouselDivicesSmall {
+  margin-top: 30px;
+}
+
 @media (max-width: 576px) {
   #slider1 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .tp-caption {

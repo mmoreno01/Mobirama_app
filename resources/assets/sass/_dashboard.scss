@@ -55,5 +55,13 @@
             text-transform: uppercase;
         }
     }
+    .content-btn{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        display: inline-block;
+        margin: 0px 10px;
+    }
 }
 // fin estilo de la vista editar de dashboard

@@ -5,44 +5,64 @@
 <!-- page load-->
 <div class="page-loader">
     <div class="loader"></div>
-</div>
+</div> 
 <!-- slider revolution -->
         {{-- <div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
                 <video autoplay="true" muted loop width="100%" height="100%">
                         <source src='videos/portada fcbk v.2 sd.mp4' type='video/mp4' />
                 </video>
         </div> --}}
-<slider-component></slider-component>
+        <div class="d-none d-sm-block">
+            <slider-component></slider-component>
+        </div>
 <!-- fin de slider revolution -->
 
+{{-- slider divices small --}}
+<div id="carouselDivicesSmall" class="carousel slide d-block d-sm-none" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a href="/contacto">
+            <img src="imagenes/home/mobirama_mailingweb-3.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/#.XVQy-ehKgdU">
+            <img src="imagenes/home/Slider1.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/home/Slider2.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/home/Slider3.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/home/Slider4.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+  </div>
+  {{-- slider divices small --}}
+
 <!-- Modal execute init -->
-{{-- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+ <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       <div class="modal-body">
-          <img src="imagenes/home/banner mobirama-02.jpg" width="200" height="" alt="Mobirama">
-          <article>
-                <p>Conforme la Ley de Ingresos aprobada por el Poder Legislativo, el derecho de los contribuyentes<br>
-                a la <span>"Compensación Universal"</span> ha sido derogado.</p>
-                <p>La compesacion universal es el derecho que tienen los contribuyentes de restar las cantidades que
-                tengan a su favor en un determinado impuesto federal de las cantidades que deben pagar por adeudos propios
-                o por retención a terceros.</p>
-                <p>La división fiscal <span>MOBIRAMA</span> cuenta con las bases para concluir que esta derogación es material
-                de amparo. <br>Estámos a sus órdenes para poder asesorarlo acerca de como enfrentar este tema.</p>
-          <article>
-      </div>
+          <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama">
+          {{-- <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link">Contactar --}}
+    </div>
       <div class="content-btm">
             <article>
-                <h2><span>Conoce</span> cómo obtener tu amparo ante la eliminación de<br> la <span>Compensación Universal</span></h2>
-                <a id="btn-popInit" href="/contacto" class="btn btn-primary">Solicita más información</a>
+                <a id="btn-popInit" href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary">Solicita más información</a>
             </article>
         </div>
     </div>
   </div>
-</div> --}}
+</div>  
 <!-- End Modal -->
 
 
@@ -62,7 +82,7 @@
                         </div>
                         <div id="project01" class="d-inline  content_textinf"> 
                             <p class="title-txt">Ventejas Competitivas</p>
-							<img src="imagenes/home/competive.gif" alt="Mobirama">
+							<img src="imagenes/home/competive.png" alt="Mobirama">
                         </div>
                         
                         <div id="project02" class="d-inline cont-textInf1">

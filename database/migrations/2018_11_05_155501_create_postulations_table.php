@@ -19,7 +19,8 @@ class CreatePostulationsTable extends Migration
             $table->string('apellido');
             $table->string('correo');
             $table->string('telefono');
-            $table->string('edad');
+            $table->string('vacante');
+            $table->string('area');
             $table->string('image');
             $table->timestamps();
         });
