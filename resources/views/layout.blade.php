@@ -319,7 +319,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="/js/wow.min.js"></script>
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
-    <script src = "https://cdn.tiny.cloud/1/ 2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks /tinymce/5/tinymce.min.js"> </script>
+    <script src = "https://cdn.tiny.cloud/1/2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks/tinymce/5/tinymce.min.js"> </script>
     {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
 
     <script>tinymce.init({selector:'#textarea'});</script>

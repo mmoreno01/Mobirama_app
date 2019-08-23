@@ -66393,7 +66393,7 @@ exports = module.exports = __webpack_require__(141)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -67022,6 +67022,95 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 	data: function data() {
@@ -67062,18 +67151,14 @@ var staticRenderFns = [
               {
                 attrs: {
                   "data-transition": "3dcurtain-vertical",
-                  "data-delay": "2000",
-                  "data-slotamount": "10",
-                  "data-speed": "100",
-                  "data-masterspeed": "300",
-                  "data-thumb":
-                    "assets/img/sliders/revolution/thumbs/thumb1.jpg"
+                  "data-slotamount": "7",
+                  "data-masterspeed": "1000"
                 }
               },
               [
                 _c("img", {
                   attrs: {
-                    src: "/imagenes/carousel/NOM.png",
+                    src: "/imagenes/carousel/NOM035.jpg",
                     alt: "darkblurbg",
                     "data-bgfit": "cover",
                     "data-bgposition": "left top",
@@ -67084,80 +67169,159 @@ var staticRenderFns = [
                 _c(
                   "div",
                   {
-                    staticClass: "tp-caption tp-resizeme  NotGeneric-Title lfl",
+                    staticClass: "tp-caption  fade",
                     staticStyle: {
                       "z-index": "8",
-                      "font-size": "40px",
-                      color: "#fff",
+                      "font-size": "25px",
                       "font-weight": "bold",
-                      "letter-spacing": "3px",
-                      "text-transform": "uppercase"
+                      color: "#fff",
+                      "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "left",
-                      "data-hoffset": "0",
-                      "data-y": "top",
-                      "data-voffset": "60",
+                      "data-x": "1300",
+                      "data-y": "100",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
                         "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "900",
-                      "data-start": "1000",
+                      "data-speed": "500",
+                      "data-start": "1500",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" Bienestar laboral\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "25px",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "1300",
+                      "data-y": "150",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1500",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" Deber de las empresas\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "25px",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "1300",
+                      "data-y": "200",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1500",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" Protección de los trabajadores\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "60px",
+                      "text-transform": "uppercase",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "1300",
+                      "data-y": "250",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
                       "data-easing": "Power4.easeIn",
                       "data-endspeed": "500",
                       "data-endeasing": "Power4.easeIn",
                       "data-captionhidden": "on"
                     }
                   },
-                  [
-                    _c("img", {
-                      staticStyle: { width: "500px" },
-                      attrs: { src: "imagenes/carousel/pleca1.png", alt: "" }
-                    })
-                  ]
+                  [_vm._v("Conoce más \n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
                   "div",
                   {
-                    staticClass: "tp-caption  lfl",
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
                     staticStyle: {
                       "z-index": "8",
-                      "font-weight": "bold",
+                      "font-size": "60px",
                       color: "#fff",
-                      "font-size": "15px",
+                      "text-transform": "uppercase",
+                      "font-weight": "bold",
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "left",
-                      "data-hoffset": "0",
-                      "data-y": "center",
-                      "data-voffset": "0",
+                      "data-x": "1300",
+                      "data-y": "320",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
                         "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "900",
-                      "data-start": "2000",
-                      "data-easing": "Power4.easeOut",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
                       "data-endspeed": "500",
                       "data-endeasing": "Power4.easeIn",
                       "data-captionhidden": "on"
                     }
                   },
-                  [
-                    _c("img", {
-                      staticStyle: { width: "500px" },
-                      attrs: { src: "imagenes/carousel/pleca2.png", alt: "" }
-                    })
-                  ]
+                  [_vm._v("de la NOM-35 \n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
                   "div",
                   {
-                    staticClass: "tp-caption lfl",
+                    staticClass: "tp-caption  customin customout",
                     staticStyle: {
                       "z-index": "8",
                       "font-weight": "bold",
@@ -67166,121 +67330,18 @@ var staticRenderFns = [
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "left",
-                      "data-hoffset": "0",
-                      "data-y": "bottom",
-                      "data-voffset": "-60",
+                      "data-x": "1450",
+                      "data-y": "420",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
                         "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "900",
-                      "data-start": "2500",
+                      "data-speed": "700",
+                      "data-start": "1200",
                       "data-easing": "Power4.easeOut",
                       "data-endspeed": "500",
                       "data-endeasing": "Power4.easeIn",
                       "data-captionhidden": "on"
-                    }
-                  },
-                  [
-                    _c("img", {
-                      staticStyle: { width: "500px" },
-                      attrs: { src: "imagenes/carousel/pleca3.png", alt: "" }
-                    })
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption large_text sfb",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#007bff",
-                      "font-size": "35px",
-                      "text-transform": "uppercase!important",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "center",
-                      "data-hoffset": "250",
-                      "data-y": "center",
-                      "data-voffset": "40",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "1000",
-                      "data-start": "3500",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "on"
-                    }
-                  },
-                  [_vm._v(" Conoce más\n\t\n\t\t\t\t\t")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption  fade",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#007bff",
-                      "font-size": "15px",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "center",
-                      "data-hoffset": "250",
-                      "data-y": "center",
-                      "data-voffset": "70",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "1000",
-                      "data-start": "3800",
-                      delay: "900",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "off"
-                    }
-                  },
-                  [_vm._v(" de la NOM-035\n\t\t\t\t")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption  fade",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#000",
-                      "font-size": "20px",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "center",
-                      "data-hoffset": "250",
-                      "data-y": "center",
-                      "data-voffset": "120",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "1000",
-                      "data-start": "4000",
-                      delay: "900",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "off"
                     }
                   },
                   [
@@ -67290,8 +67351,7 @@ var staticRenderFns = [
                         staticClass: " btn btn-primary m-r-5",
                         staticStyle: { color: "#fff" },
                         attrs: {
-                          href:
-                            "https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/"
+                          href: "https://www.mobirama.com.mx/norma-035/"
                         }
                       },
                       [_vm._v("Ver más")]
@@ -67332,15 +67392,15 @@ var staticRenderFns = [
                       "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
                     staticStyle: {
                       "z-index": "8",
-                      "font-size": "40px",
+                      "font-size": "60px",
                       color: "#fff",
                       "font-weight": "bold",
                       "letter-spacing": "3px",
                       "text-transform": "uppercase"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "center",
+                      "data-x": "100",
+                      "data-y": "100",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67353,7 +67413,38 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [_vm._v("Reclutamiento y Selección \n\t\t\t\t\t")]
+                  [_vm._v("Reclutamiento \n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade d-none d-sm-block d-print-block",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "60px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
+                    attrs: {
+                      "data-x": "100",
+                      "data-y": "170",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" y Selección \n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67364,12 +67455,12 @@ var staticRenderFns = [
                       "z-index": "8",
                       "font-weight": "bold",
                       color: "#fff",
-                      "font-size": "15px",
+                      "font-size": "25px",
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "280",
+                      "data-x": "100",
+                      "data-y": "270",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67383,11 +67474,37 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [
-                    _vm._v(
-                      " Organización y aprovechamiento de los recursos humanos\n\t\t\t\t\t"
-                    )
-                  ]
+                  [_vm._v(" Organización y aprovechamiento\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "25px",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "100",
+                      "data-y": "300",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1500",
+                      delay: "900",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" de los recursos humanos\n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67402,8 +67519,8 @@ var staticRenderFns = [
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "320",
+                      "data-x": "250",
+                      "data-y": "350",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67461,15 +67578,15 @@ var staticRenderFns = [
                       "tp-caption tp-resizeme  NotGeneric-Title fade",
                     staticStyle: {
                       "z-index": "8",
-                      "font-size": "40px",
+                      "font-size": "60px",
                       color: "#fff",
                       "font-weight": "bold",
                       "letter-spacing": "3px",
                       "text-transform": "uppercase"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "center",
+                      "data-x": "1550",
+                      "data-y": "100",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67482,7 +67599,38 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [_vm._v("Estudios socioecónomicos\n\t\t\t\t\t")]
+                  [_vm._v("Estudios \n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "60px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
+                    attrs: {
+                      "data-x": "1200",
+                      "data-y": "160",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v("socioecónomicos\n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67493,11 +67641,11 @@ var staticRenderFns = [
                       "z-index": "8",
                       "font-weight": "bold",
                       color: "#fff",
-                      "font-size": "15px",
+                      "font-size": "25px",
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
+                      "data-x": "1200",
                       "data-y": "280",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
@@ -67511,11 +67659,36 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [
-                    _vm._v(
-                      "Minimiza riesgos para tu empresa con datos confiables.\n\t\t\t\t\t"
-                    )
-                  ]
+                  [_vm._v("Minimiza riesgos para tu empresa con\n\t\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fadeIn",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "25px",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "1200",
+                      "data-y": "320",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" datos confiables.\n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67530,8 +67703,8 @@ var staticRenderFns = [
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "320",
+                      "data-x": "1400",
+                      "data-y": "380",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67589,15 +67762,15 @@ var staticRenderFns = [
                       "tp-caption tp-resizeme  NotGeneric-Title fade",
                     staticStyle: {
                       "z-index": "8",
-                      "font-size": "40px",
+                      "font-size": "60px",
                       color: "#fff",
                       "font-weight": "bold",
                       "letter-spacing": "3px",
                       "text-transform": "uppercase"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "center",
+                      "data-x": "100",
+                      "data-y": "100",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":
@@ -67610,7 +67783,38 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [_vm._v("Administración de Nómina \n\t\t\t\t")]
+                  [_vm._v("Administración \n\t\t\t\t")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "tp-caption tp-resizeme  NotGeneric-Title fade",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-size": "60px",
+                      color: "#fff",
+                      "font-weight": "bold",
+                      "letter-spacing": "3px",
+                      "text-transform": "uppercase"
+                    },
+                    attrs: {
+                      "data-x": "100",
+                      "data-y": "170",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "500",
+                      "data-start": "1300",
+                      "data-easing": "Power4.easeIn",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" de Nómina \n\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67621,11 +67825,11 @@ var staticRenderFns = [
                       "z-index": "8",
                       "font-weight": "bold",
                       color: "#fff",
-                      "font-size": "15px",
+                      "font-size": "25px",
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
+                      "data-x": "100",
                       "data-y": "280",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
@@ -67641,9 +67845,38 @@ var staticRenderFns = [
                   },
                   [
                     _vm._v(
-                      " Optimización de costos administrativos y financieros.\n\t\t\t\t\t\t\n\t\t\t\t"
+                      " Optimización de costos administrativos\n\t\t\t\t\t\t\n\t\t\t\t"
                     )
                   ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "tp-caption  fadeUp",
+                    staticStyle: {
+                      "z-index": "8",
+                      "font-weight": "bold",
+                      color: "#fff",
+                      "font-size": "25px",
+                      "letter-spacing": "3px"
+                    },
+                    attrs: {
+                      "data-x": "100",
+                      "data-y": "320",
+                      "data-customin":
+                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
+                      "data-customout":
+                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
+                      "data-speed": "700",
+                      "data-start": "1200",
+                      "data-easing": "Power4.easeOut",
+                      "data-endspeed": "500",
+                      "data-endeasing": "Power4.easeIn",
+                      "data-captionhidden": "on"
+                    }
+                  },
+                  [_vm._v(" y financieros.\n\t\t\t\t\t\t\n\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67658,8 +67891,8 @@ var staticRenderFns = [
                       "letter-spacing": "3px"
                     },
                     attrs: {
-                      "data-x": "center",
-                      "data-y": "320",
+                      "data-x": "100",
+                      "data-y": "370",
                       "data-customin":
                         "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
                       "data-customout":

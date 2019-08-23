@@ -33,6 +33,11 @@ class contactoController extends Controller
 
         Mail::send('emails.contact', $request->all(), function($smj){
             $smj->Subject('Correo de contacto');
+            $smj->to('raul.garcia@mobirama.com.mx');
+        });
+
+        Mail::send('emails.contact', $request->all(), function($smj){
+            $smj->Subject('Correo de contacto');
             $smj->to('miguel.moreno@cclusterc.com.mx');
         });
 

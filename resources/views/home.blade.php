@@ -3,9 +3,9 @@
 @section('content')
 
 <!-- page load-->
-<div class="page-loader">
+{{-- <div class="page-loader">
     <div class="loader"></div>
-</div> 
+</div>  --}}
 <!-- slider revolution -->
         {{-- <div  style=" width:100%; "class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
                 <video autoplay="true" muted loop width="100%" height="100%">
@@ -20,25 +20,25 @@
 {{-- slider divices small --}}
 <div id="carouselDivicesSmall" class="carousel slide d-block d-sm-none" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        {{-- <div class="carousel-item active">
             <a href="/contacto">
-            <img src="imagenes/home/mobirama_mailingweb-3.jpg" class="d-block w-100" alt="..."></a>
-        </div>
-        <div class="carousel-item">
+            <img src="imagenes/carousel/NOM035.jpg" class="d-block w-100" alt="..."></a>
+        </div> --}}
+        <div class="carousel-item active">
           <a href="https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/#.XVQy-ehKgdU">
-            <img src="imagenes/home/Slider1.jpg" class="d-block w-100" alt="..."></a>
+            <img src="imagenes/carousel/NOM035.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
         <a href="/administracion_personal">
-            <img src="imagenes/home/Slider2.jpg" class="d-block w-100" alt="..."></a>
+            <img src="imagenes/carousel/reclutamientoyseleccion.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
         <a href="/administracion_personal">
-            <img src="imagenes/home/Slider3.jpg" class="d-block w-100" alt="..."></a>
+            <img src="imagenes/carousel/estudiossocioeconomicos.jpg" class="d-block w-100" alt="..."></a>
       </div>
       <div class="carousel-item">
         <a href="/administracion_personal">
-            <img src="imagenes/home/Slider4.jpg" class="d-block w-100" alt="..."></a>
+            <img src="imagenes/carousel/admon_nomina.jpg" class="d-block w-100" alt="..."></a>
       </div>
     </div>
   </div>
@@ -63,7 +63,7 @@
     </div>
   </div>
 </div>  
-<!-- End Modal -->
+ <!--End Modal -->
 
 
 <!--Seccion Nosotros -->

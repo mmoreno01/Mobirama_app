@@ -65,16 +65,14 @@ class jobController extends Controller
             // $envioVacante->save();
            
             // Envia de correo electronico 
-            // Mail::send('emails.postulacion', $request->all(), function($smj) use ($contentFile, $pathtoFile){
+            Mail::send('emails.postulacion', $request->all(), function($smj) use ($contentFile, $pathtoFile){
 
-            //     $smj->Subject('Correo de Postulacion de Vacantes');
-            //     $smj->to('janeth.ortiz@cclusterc.com.mx');
-            //     if($contentFile){
-            //         $smj->attach($pathtoFile);
-            //     }
-            // });
-
-            // return $request;
+                $smj->Subject('Correo de Postulacion de Vacantes');
+                $smj->to('janeth.ortiz@cclusterc.com.mx');
+                if($contentFile){
+                    $smj->attach($pathtoFile);
+                }
+            });
 
             Mail::send('emails.postulacion', $request->all(), function($smj) use ($contentFile, $pathtoFile){
 
