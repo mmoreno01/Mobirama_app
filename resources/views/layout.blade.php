@@ -89,66 +89,7 @@
     </noscript>
     <!-- End Facebook Pixel Code -->
 
-    <!-- #header -->
-    {{-- <header id="header" id="home">
-      <div class="container-fluid main-menu">
-          <div class="row align-items-center justify-content-between d-flex">
-            <div id="logo">
-              <a href="/"><img src="/imagenes/home-icons/m-white.png" width="150px" alt="" title="" /></a>
-            </div>
-            <nav id="nav-menu-container">
-              <ul class="nav-menu">
-                <li><a  href="/">Inicio</a></li>
-                 <li class="menu-has-children"><a href="">Conócenos</a>
-                    <ul>
-                        <li><a href="/nosotros">Nosotros</a></li>		
-                        <li><a href="/filosofia">Filosofía</a></li>		
-                        <li><a href="/valores">Valores</a></li>					                		
-                    </ul>
-                </li>
-                <li class="menu-has-children"><a href="">Servicios</a>
-                    <ul>
-                        <li><a href="/payroll">Payroll Service</a></li>		
-                        <li><a href="/administracion_personal">Administración de Personal</a></li>	
-                        <li><a href="/fiscal">Fiscal</a></li>	
-                        <li><a href="/maquilaNomina">Maquila de Seguridad</a></li>
-                        <li><a href="/contabilidad">Contabilidad Outsourcing</a></li>					                		
-                        <li><a href="/juridico">Jurídico</a></li>					                							                		
-                    </ul>
-			    </li>				
-                <li><a href="/alianzas">Alianzas</a></li>
-                <li><a href="http://www.mobirama.com.mx/blog/">Blog</a></li>	
-                <li><a href="/contacto">Contacto</a></li>
-                <li><a href="/contacto.bolsaTrabajo">Bolsa de trabajo</a></li>
-                <li><a href="/login"> <i class="fas fa-address-card"></i>Iniciar sesión</a></li>
-                <li class="menu-has-children"><a href=""></a>
-
-                  <ul>
-                    @can('products.index')
-                      <li><a href="{{ route('products.index') }}">Productos</a></li>	
-                    @endcan	
-                    @can('users.index')
-                      <li><a href="{{ route('users.index') }}">Usuarios</a></li>	
-                    @endcan	
-                    @can('roles.index')
-                      <li><a href="{{ route('roles.index') }}">Roles</a></li>	
-                    @endcan	  							                		
-                  </ul>
-        </li>			
-              </ul>
-              <div  id="headSocial">
-                  <ul>
-                        <li class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
-                        <li class="icon-social"><a href="https://twitter.com/MobiramaMX" target="_blank"><i class="fab fa-twitter"></i></a> </li> 
-                        <li class="icon-social"><a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a> </li> 
-                  </ul>
-            </div>
-            </nav> <!--#nav-menu-container -->		    		
-          </div>
-      </div>
-    </header> --}}
-    <!-- #header -->
-
+   
     <!-- menu principal -->
  <header  id="header" id="home">
     <nav class="navbar navbar-expand-lg navbar-light">

@@ -52,12 +52,25 @@
           <span aria-hidden="true">&times;</span>
         </button>
       <div class="modal-body">
-          <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      {{-- <div class="carousel-item active">
+                       <a href="http://"></a> <img src="imagenes/home/Unknown-1.jpg" class="d-block w-100" alt="...">
+                      </div> --}}
+                      <div class="carousel-item active">
+                           <img src="imagenes/home/popupbn2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                           <img src="imagenes/home/popbn1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+          {{-- <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama"> --}}
           {{-- <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link">Contactar --}}
     </div>
       <div class="content-btm">
             <article>
-                <a id="btn-popInit" href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary">Solicita más información</a>
+                <a id="btn-popInit" href="/contacto" class="btn btn-primary">Solicita más información</a>
             </article>
         </div>
     </div>
