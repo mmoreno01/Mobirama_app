@@ -12,10 +12,10 @@
          <div class="container">
             <div class="row">
                <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
-                  <p>Las amplias habilidades de los colaboradores nos permiten implementar mejoras a los procesos contables y fiscales a través de estrategias que permitan obtener una minimización en el impacto fiscal y financiero, cumpliendo siempre con las normatividades vigentes</p>
+                  <p>Las amplias habilidades de los colaboradores nos permiten implementar mejoras a los procesos contables y fiscales, cumpliendo siempre con las normatividades vigentes</p>
                   <p>Tenemos el compromiso de brindarle un servicio de calidad mediante los siguientes servicios:</p>
                   <ul>
-                    <li>Asesoría y Planeación Fiscal.</li>
+                    <li>Asesoría Fiscal.</li>
                     <li>Implementación de Defensa Fiscal.</li>
                     <li>Preparación de Declaración de Impuestos Federales y Estatales.</li>
                     <li>Presentación de Declaraciones Informativas y Anuales.</li>

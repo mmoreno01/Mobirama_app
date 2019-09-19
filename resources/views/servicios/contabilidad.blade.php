@@ -13,11 +13,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
-              <p class="sub-title text-center">Aportamos valor a las empresas al proporcionar un capital humano altamente efectivo y dispuesto a lograr los objetivos organizacionales.</p>
               <p>La visión estratégica se encuentra destinada a la organización y aprovechamiento de los recursos humanos, permitiendo  a las empresas laborar bajo un alto grado de efectividad y óptimos resultados incrementando su competitividad dentro del mercado.</p>
               <ul>
                   <li>Consultoría en la Administración de Empresas.</li>
-                  <li>Asesoría y Planeación Financiera.</li>
+                  <li>Asesoría Financiera.</li>
                   <li>Gestión Contable.</li>
               </ul>
               <a href="/#content_services">Más Servicios</a> 

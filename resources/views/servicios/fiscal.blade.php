@@ -13,7 +13,7 @@
          <div class="container">
             <div class="row">
                <div class="col-12 text-left">
-                  <p>Cada profesionista de Mobirama se capacita constantemente para brindar un servicio de calidad, que asegure a los clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales, así como también ofrecer estrategias adecuadas para disminuir la carga tributaria, siempre dentro del marco legal correspondiente.</p>
+                  <p>Cada profesionista de Mobirama se capacita constantemente para brindar un servicio de calidad, que asegure a los clientes el correcto y oportuno cumplimiento de sus obligaciones fiscales.</p>
                     <ul>
                       <li>Consultoría Fiscal Local e Internacional</li>
                       <li>Transacciones y Derecho Financiero</li>
