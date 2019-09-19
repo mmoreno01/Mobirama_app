@@ -16,6 +16,7 @@ use illuminate\http\Request;
 
 Route::get('/', 'HomeController@index')->name('home'); 
 
+Route::get('payroll_bck', 'HomeController@verServicios')->name('payroll_bck'); 
 
 
 //ruta comprueba si inicio sesion
@@ -85,6 +86,8 @@ Route::get('maquilaSeguridad', function () {
 Route::get('administracion_recursos', function () {
     return view('servicios.administracion_recursos');
 });
+
+
 
 Route::get('norma-035', function () {
     return view('norma-035');
