@@ -123,7 +123,11 @@
 <!--Fin de seccion nosotros -->
 
 <!-- Seccion de servicios  slider -->
-<services-component></services-component>
+<!-- <services-component></services-component> -->
+        <div style="text-align:center; margin-top:50px;">
+            <h2 style="font-weight:bold;">Nuestros servicios</h2>
+        </div>
+<services-circular></services-circular>
 
 <!-- fin de la seccion de servicios -->
 

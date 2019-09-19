@@ -32,33 +32,41 @@
                       <img src="imagenes/fiscal/new-icons/Fiscal-Internacional.png" alt="Consultoría en la Administración de Empresas" data-toggle="modal" data-target="#Consultoria">
                     <p>Consultoría Fiscal Local e Internacional</p>
                   </div>
-                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                  <!-- <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                       <img src="imagenes/fiscal/new-icons/Transacciones-Derecho.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Transacciones">
                     <p>Transacciones y Derecho Financiero</p>
-                  </div>
+                  </div> -->
                   <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
-                      <img src="imagenes/fiscal/new-icons/RestructurasCorp.png" alt="Gestión Contable" data-toggle="modal" data-target="#Proyectos">
+                      <img src="imagenes/fiscal/new-icons/RestructurasCorp.png" alt="Reestructuras Corporativas Holding" data-toggle="modal" data-target="#Reestructuras">
                     <p>Reestructuras Corporativas Holding</p>
                   </div>
-                  <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.6s">
+                      <img src="imagenes/fiscal/litg-fiscal.png" alt="Gestión Contable" data-toggle="modal" data-target="#Litigio">
+                    <p>Litigio Fiscal.</p>
+                  </div>
+                  <div class="col-md-3 col-sm-6 wow fadeInUp"data-wow-duration="0.5s" data-wow-delay="0.9s">
+                      <img src="imagenes/fiscal/constit.png" alt="Control de Constitucionalidad" data-toggle="modal" data-target="#controlCons"> 
+                      <p>Control de Constitucionalidad.</p>            
+                    </div>
+                  <!-- <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
                     <img src="imagenes/fiscal/new-icons/inversion-infrestructura.png" alt="Maquila de Nómina" data-toggle="modal" data-target="#Reestructuras"> 
                     <p>Proyectos de Inversión e Infraestructura </p>            
-                  </div>
+                  </div> -->
                 </div>
                 <div class="row serv-iconos">
-                <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                    <!-- <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
                         <img src="imagenes/fiscal/new-icons/CapitalPrivado.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Capital">
                         <p>Capital Privado y Capital de Riesgo </p>
-                    </div>
-                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+                    </div> -->
+                    <div class="col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
                         <img src="imagenes/fiscal/new-icons/AsesoriaPatrimonial.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Asesoría">
                         <p>Asesoría Patrimonial</p>
                     </div>
-                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
+                    <div class="col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
                         <img src="imagenes/fiscal/new-icons/AlianzasEstrategicas.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Alianzas">
                         <p>Alianzas Estratégicas (Joint Ventures) y Due Diligence </p>
                     </div>
-                    <div class="col-sm-6 col-md-3 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
+                    <div class="col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.9s">
                         <img src="imagenes/fiscal/new-icons/CumplimientoFiscal.png" alt="Asesoría y Planeación Financiera" data-toggle="modal" data-target="#Cumplimiento">
                         <p>Cumplimiento Fiscal</p>
                     </div>
@@ -124,7 +132,7 @@
       </div>
 
   <!-- Modal -->
-  <div class="modal fade" id="Transacciones" tabindex="-1" role="dialog" aria-labelledby="TransaccionesLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="Transacciones" tabindex="-1" role="dialog" aria-labelledby="TransaccionesLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -148,7 +156,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
  <!-- Modal -->
  <div class="modal fade" id="Reestructuras" tabindex="-1" role="dialog" aria-labelledby="ReestructurasLabel" aria-hidden="true">
@@ -176,8 +184,34 @@
         </div>
       </div>
 
+      <!--Modal -->
+      <div class="modal fade" id="Litigio" tabindex="-1" role="dialog" aria-labelledby="LitigioLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="LitigioLabel">Litigio Fiscal</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Defensa fiscal en contra de actos o resoluciones de autoridades fiscales federales y en materia de seguridad social</li>
+                    <li>Recursos de revocación (SAT)</li>
+                    <li>Juicio de nulidad (TFJFA)</li>
+                    <li>Amparo</li>
+                    <li>Atención y seguimiento de auditorías iniciadas por parte de las autoridades fiscales</li>
+                    <li>Acuerdos conclusivos ante la PRODECON</li>
+                    <li>Atención de Procedimiento Administrativo en Materia Aduanera</li>
+                    <li>Atención de procedimiento administrativo de ejecución: embargos de cuentas bancarias, requerimientos de pago y embargo, intervención con cargo a la caja, remoción y designación de depositar</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Modal -->
-      <div class="modal fade" id="Proyectos" tabindex="-1" role="dialog" aria-labelledby="ProyectosLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="Proyectos" tabindex="-1" role="dialog" aria-labelledby="ProyectosLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -191,10 +225,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
        <!-- Modal -->
-      <div class="modal fade" id="Capital" tabindex="-1" role="dialog" aria-labelledby="CapitalLabel" aria-hidden="true">
+      <!-- <div class="modal fade" id="Capital" tabindex="-1" role="dialog" aria-labelledby="CapitalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -208,8 +242,27 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       
+            <!-- Modal -->
+            <div class="modal fade" id="controlCons" tabindex="-1" role="dialog" aria-labelledby="controlConsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="controlConsLabel">Control de Constitucionalidad</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                    <li>Promoción de juicios de amparo en contra de leyes tributarias inconstitucionales (ISR, IVA, IEPS, impuesto predial)</li>
+                    <li>Promoción de juicio de amparo en contra actos de autoridad (aseguramiento precautorio)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
        <!-- Modal -->
       <div class="modal fade" id="Asesoría" tabindex="-1" role="dialog" aria-labelledby="AsesoríaLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">

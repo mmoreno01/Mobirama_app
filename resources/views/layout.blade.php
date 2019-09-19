@@ -41,6 +41,7 @@
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
 
+
     <!-- Google Tag Manager  propiq test-->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -48,7 +49,7 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TTV5MML');</script>
     <!-- End Google Tag Manager -->
-
+    
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -244,6 +245,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
     <script src="/js/app.js"></script>
+  <!--slider circular-->
+    <script src="/js/circular/TweenMax.min.js"></script>
+    <script src="/js/circular/imagesloaded.pkgd.min.js"></script>
+    <script src="/js/circular/CSSPlugin.min.js"></script>
+    <script src="/js/circular/TextPlugin.min.js"></script>
+    <script src="/js/circular/demo.js"></script>
+    <!--Servicios -->
+    <!-- <script type="text/javascript" src="js/plugins.js"></script>
+	  <script type="text/javascript" src="js/functions.js"></script> -->
     <!-- slider revolution -->   
     <script src="js/slider/slideRevolution.js"></script> 
     <script src="js/jquery.themepunch.revolution.js"></script>
@@ -264,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
 
     <script>tinymce.init({selector:'#textarea'});</script>
-
+      
 
 
    
@@ -315,6 +325,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
        $("#mobiramaModal").modal("show");
     });
  </script>
+
 
 </body>
 </html>

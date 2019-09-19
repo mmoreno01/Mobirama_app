@@ -122,6 +122,11 @@ Route::get('avisoPrivacidad', function () {
     return view('avisoPrivacidad');
 });
 
+//serviciosx
+Route::get('serviciosx', function () {
+    return view('serviciosx');
+});
+
 //gaceta informativa
 Route::get('gaceta-post', function () {
     return view('gaceta.gaceta-post');
