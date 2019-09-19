@@ -196,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </figure>
                 </div>
                 <div class="content-text">
-                    <p>Objetivos de calidad</p>
+                    <p>Politica de calidad</p>
                 </div>
                 <div class="mymove">
                     <a href="/politica"><i class="fas fa-arrow-circle-right"></i></a>
