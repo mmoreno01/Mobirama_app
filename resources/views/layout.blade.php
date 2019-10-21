@@ -185,7 +185,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 @yield('content')
 </div>
 
-<!--content iso-->
+<!--content iso
 <section id="section-iso">
     <div class="container">
         <div class="row">
@@ -216,7 +216,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
 </section>
-<!--fin content iso-->
+fin content iso-->
 
 <footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
