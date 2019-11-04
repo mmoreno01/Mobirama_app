@@ -45,39 +45,6 @@
   {{-- slider divices small --}}
 
 <!-- Modal execute init -->
- <!-- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      <div class="modal-body">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      {{-- <div class="carousel-item active">
-                       <a href="http://"></a> <img src="imagenes/home/Unknown-1.jpg" class="d-block w-100" alt="...">
-                      </div> --}}
-                      <div class="carousel-item active">
-                           <img src="imagenes/home/popupbn2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                           <img src="imagenes/home/popbn1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-          {{-- <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama"> --}}
-          {{-- <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link">Contactar --}}
-    </div>
-      <div class="content-btm">
-            <article>
-                <a id="btn-popInit" href="/contacto" class="btn btn-primary">Solicita más información</a>
-            </article>
-        </div>
-    </div>
-  </div>
-</div>   -->
- <!--End Modal -->
- <!--Modal-->
  <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -109,6 +76,8 @@
     </div>
   </div>
 </div>  
+ <!--End Modal -->
+
 
 <!--Seccion Nosotros -->
 <section id="section-services" class=" wow fadeInDown" data-wow-duration="1s" data-wow-delay="2s">
@@ -154,17 +123,11 @@
 <!--Fin de seccion nosotros -->
 
 <!-- Seccion de servicios  slider -->
-<!-- <services-component></services-component> -->
-<div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="row" style="margin: 70px 0 0 0 !important;">
-                <h2>Nuestras soluciones</h2>
-                </div>
-            </div>
+<services-component></services-component>
+        <!-- <div style="text-align:center; margin-top:50px;">
+            <h2 style="font-weight:bold;">Nuestros servicios</h2>
         </div>
-</div>
-<services-circular></services-circular>
+<services-circular></services-circular> -->
 
 <!-- fin de la seccion de servicios -->
 

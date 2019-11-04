@@ -68345,10 +68345,23 @@ var staticRenderFns = [
         _c("div", { staticClass: "detail" }, [
           _c("div", { staticClass: "detail-item active" }, [
             _c("div", { staticClass: "description" }, [
-              _c("a", { attrs: { href: "/administracion_personal" } }, [
-                _c("h2", [_vm._v("Administración de personal")]),
+              _c("a", { attrs: { href: "/capital_humano" } }, [
+                _c("h2", [_vm._v("Capital Humano")]),
                 _vm._v(
-                  "\r\n              Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros.\r\n            "
+                  "\r\n            Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticStyle: { float: "right" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { href: "/capital_humano" }
+                  },
+                  [_vm._v("Más información")]
                 )
               ])
             ]),
@@ -68369,7 +68382,20 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/contabilidad" } }, [
                 _c("h2", [_vm._v("Contabilidad Outsourcing")]),
                 _vm._v(
-                  "\r\n            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando el mejor control sobre la situación financiera de su empresa.\r\n            "
+                  "\r\n            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas, contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando un óptimo control sobre la situación financiera de su organización."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticStyle: { float: "right" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { href: "/contabilidad" }
+                  },
+                  [_vm._v("Más información")]
                 )
               ])
             ]),
@@ -68386,10 +68412,21 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "detail-item" }, [
             _c("div", { staticClass: "description" }, [
-              _c("a", { attrs: { href: "/fiscal" } }, [
-                _c("h2", [_vm._v("Fiscal")]),
-                _vm._v(
-                  "\r\n            Contamos con un equipo de expertos, altamente capacitados en materia fiscal. Nuestra oferta contempla asesoría legal ante cualquier circunstancia y ofrecemos acompañamiento a lo largo de sus procesos legales. Brindando a nuestros clientes certeza y tranquilidad.\r\n            "
+              _c("a", { attrs: { href: "/administracion_personal" } }, [
+                _c("h2", [_vm._v("Administración de personal")]),
+                _vm._v("\r\n            Próximamente.")
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticStyle: { float: "right" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { href: "/administracion_personal" }
+                  },
+                  [_vm._v("Más información")]
                 )
               ])
             ]),
@@ -68409,7 +68446,20 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/juridico" } }, [
                 _c("h2", [_vm._v("Jurídico")]),
                 _vm._v(
-                  "\r\n            Las amplias habilidades de los colaboradores nos permiten brindar el apoyo necesario a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes.\r\n            "
+                  "\r\n            Las amplias habilidades de los colaboradores nos permiten brindar la orientación necesaria a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, fiscal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticStyle: { float: "right" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { href: "/juridico" }
+                  },
+                  [_vm._v("Más información")]
                 )
               ])
             ]),
@@ -68429,7 +68479,20 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/payroll" } }, [
                 _c("h2", [_vm._v("Payroll")]),
                 _vm._v(
-                  "\r\n            A través de la división de Payroll BPO, mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015, lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la empresa.\r\n            "
+                  "\r\n            A través de la división de Payroll BPO, Mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015; lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la compañía."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("span", { staticStyle: { float: "right" } }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { href: "/payroll" }
+                  },
+                  [_vm._v("Más información")]
                 )
               ])
             ]),
@@ -68455,7 +68518,7 @@ var staticRenderFns = [
             [
               _c("div", { staticClass: "carousel-inner" }, [
                 _c("div", { staticClass: "carousel-item active" }, [
-                  _c("a", { attrs: { href: "/administracion_personal" } }, [
+                  _c("a", { attrs: { href: "/capital_humano" } }, [
                     _c("img", {
                       staticClass: "d-block w-100",
                       attrs: { src: "imagenes/circular/min/s1.png", alt: "..." }
