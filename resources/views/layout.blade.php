@@ -128,7 +128,7 @@
                 <a class="dropdown-item" href="/payroll">Payroll Services</a>
                 <a class="dropdown-item" href="/capital_humano">Capital Humano</a>
                 <!-- <a class="dropdown-item" href="/fiscal">Fiscal</a> -->
-                <a class="dropdown-item" href="/administracion_personal">Administración de personal</a>
+                <!-- <a class="dropdown-item" href="/administracion_personal">Administración de personal</a> -->
                 <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>             
                 <a class="dropdown-item" href="/juridico">Jurídico</a>            
               </div>

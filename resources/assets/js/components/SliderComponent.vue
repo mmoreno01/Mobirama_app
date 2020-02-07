@@ -239,7 +239,7 @@
 								style="z-index: 8; font-weight: bold; color:#fff; font-size: 25px; letter-spacing: 3px;"> de los recursos humanos
 					</div>
 						<!-- LAYER BUTTON  -->
-						<div class="tp-caption  customin customout"
+						<!-- <div class="tp-caption  customin customout"
 								data-x="250"
 								data-y="350"
 								data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
@@ -252,7 +252,7 @@
 								data-captionhidden="on"
 								style="z-index: 8; font-weight: bold; color:#000; font-size: 20px; letter-spacing: 3px;">
 								<a class=" btn btn-primary m-r-5" href="https://www.mobirama.com.mx/administracion_personal" style="color:#fff;">Ver más</a>
-					</div>
+					</div> -->
 				</li>
 			
 

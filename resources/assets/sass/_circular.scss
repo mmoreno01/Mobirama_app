@@ -130,7 +130,6 @@
    font-family: 'Oswald', sans-serif;
    color: #1B7abb;
    position: absolute;
-   display: block;
    width: 100%;
    max-width: calc(100% - 380px); /*posision del titulo*/
    height: 126px;
@@ -145,23 +144,25 @@
  }
   
   section.slideshowarc .detail .detail-item .description {
-     background-color: rgba(0, 0, 0, 0.5);
+     background-color: rgba(55, 91, 149, 0.4);
      font-family: 'Oswald', sans-serif;
      text-align: justify;
      color: #fff;
      position: absolute;
      display: block;
-     width: 40%;
+     width: 47%;
+     height: 90%;
      /* max-width: calc(100% - 480px); */
      /* height: 126px; */
-     top: 15%;
-     left: 50%;
+     top: 5%;
+     left: 47%;
+     
      /* transform: translate(-50%, -50%); */
      overflow: visible;
      //white-space: nowrap;
      box-sizing: border-box;
      z-index: 12;
-     font-size: 20px;
+     font-size: 1.4em;
      padding: 10px 10px 10px 10px;
      border-radius: 15px;
    }
@@ -171,9 +172,15 @@
   section.slideshowarc .detail .detail-item .description a {
     color:#fff;
  }
+ section.slideshowarc .detail .detail-item .description .btnserv{
+  position: absolute;
+  right: 15px; 
+  bottom:15px;
+}
   
    
    section.slideshowarc .detail .detail-item .mobilogo {
+     //background-image: url(/imagenes/circular/mobix.png);
      background-image: url(/imagenes/circular/circle_noname.png);
      /* background-size: 100%; */
      background-repeat: no-repeat;

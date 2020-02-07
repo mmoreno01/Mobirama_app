@@ -67506,48 +67506,6 @@ var staticRenderFns = [
                     }
                   },
                   [_vm._v(" de los recursos humanos\n\t\t\t\t\t")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption  customin customout",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#000",
-                      "font-size": "20px",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "250",
-                      "data-y": "350",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "700",
-                      "data-start": "1200",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "on"
-                    }
-                  },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: " btn btn-primary m-r-5",
-                        staticStyle: { color: "#fff" },
-                        attrs: {
-                          href:
-                            "https://www.mobirama.com.mx/administracion_personal"
-                        }
-                      },
-                      [_vm._v("Ver más")]
-                    )
-                  ]
                 )
               ]
             ),
@@ -68286,17 +68244,6 @@ var staticRenderFns = [
       },
       [
         _c("ul", { staticClass: "navigationarc" }, [
-          _c("li", { staticClass: "navigationarc-item active" }, [
-            _c("span", { staticClass: "rotate-holder" }),
-            _vm._v(" "),
-            _c("span", {
-              staticClass: "background-holder",
-              staticStyle: {
-                "background-image": "url(imagenes/circular/Admon_Personal.png)"
-              }
-            })
-          ]),
-          _vm._v(" "),
           _c("li", { staticClass: "navigationarc-item" }, [
             _c("span", { staticClass: "rotate-holder" }),
             _vm._v(" "),
@@ -68354,16 +68301,14 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticStyle: { float: "right" } }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { href: "/capital_humano" }
-                  },
-                  [_vm._v("Más información")]
-                )
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/capital_humano" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68388,53 +68333,20 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticStyle: { float: "right" } }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { href: "/contabilidad" }
-                  },
-                  [_vm._v("Más información")]
-                )
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/contabilidad" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
               staticClass: "background",
               staticStyle: {
                 "background-image": "url(imagenes/circular/Contabiliad.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "mobilogo" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "detail-item" }, [
-            _c("div", { staticClass: "description" }, [
-              _c("a", { attrs: { href: "/administracion_personal" } }, [
-                _c("h2", [_vm._v("Administración de personal")]),
-                _vm._v("\r\n            Próximamente.")
-              ]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("span", { staticStyle: { float: "right" } }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { href: "/administracion_personal" }
-                  },
-                  [_vm._v("Más información")]
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "background",
-              staticStyle: {
-                "background-image": "url(imagenes/circular/Fiscal.jpg)"
               }
             }),
             _vm._v(" "),
@@ -68452,16 +68364,14 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticStyle: { float: "right" } }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { href: "/juridico" }
-                  },
-                  [_vm._v("Más información")]
-                )
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/juridico" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68485,16 +68395,14 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("br"),
               _vm._v(" "),
-              _c("span", { staticStyle: { float: "right" } }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "btn btn-primary",
-                    attrs: { href: "/payroll" }
-                  },
-                  [_vm._v("Más información")]
-                )
-              ])
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/payroll" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68540,15 +68448,6 @@ var staticRenderFns = [
                     _c("img", {
                       staticClass: "d-block w-100",
                       attrs: { src: "imagenes/circular/min/s3.png", alt: "..." }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "carousel-item" }, [
-                  _c("a", { attrs: { href: "/fiscal" } }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: { src: "imagenes/circular/min/s4.png", alt: "..." }
                     })
                   ])
                 ]),

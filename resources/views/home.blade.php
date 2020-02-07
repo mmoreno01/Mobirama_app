@@ -28,10 +28,10 @@
           <a href="https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/#.XVQy-ehKgdU">
             <img src="imagenes/carousel/NOM035.jpg" class="d-block w-100" alt="..."></a>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <a href="/administracion_personal">
             <img src="imagenes/carousel/reclutamientoyseleccion.jpg" class="d-block w-100" alt="..."></a>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <a href="/administracion_personal">
             <img src="imagenes/carousel/estudiossocioeconomicos.jpg" class="d-block w-100" alt="..."></a>
@@ -78,7 +78,7 @@
 </div>   -->
  <!--End Modal -->
  <!--Modal-->
- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+ <!-- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -108,7 +108,7 @@
         </div>
     </div>
   </div>
-</div>  
+</div>   -->
 
 <!--Seccion Nosotros -->
 <section id="section-services" class=" wow fadeInDown" data-wow-duration="1s" data-wow-delay="2s">
