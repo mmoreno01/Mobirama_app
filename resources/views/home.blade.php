@@ -45,13 +45,14 @@
   {{-- slider divices small --}}
 
 <!-- Modal execute init -->
- <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+ <div class="modal" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      <div class="modal-body">
+        <a href="http://mobirama.com.mx/reforma2020/" target="_blank">
+      <div class="modal-body" style="position: relative;">
             {{-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       {{-- <div class="carousel-item active">
@@ -65,18 +66,26 @@
                       </div>
                     </div>
                   </div> --}}
-            <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama"> 
+                  <img src="imagenes/popup/2020img.jpg" class="d-sm-none" width="200" height="" alt="Mobirama"> 
+
+                <img src="imagenes/popup/NormaFiscal2020_3.jpg" class="d-none d-sm-block" width="200" height="" alt="Mobirama"> 
              {{-- <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link"> --}}
+                <a href="http://mobirama.com.mx/reforma2020/" target="_blank" class="btn btn-primary d-none d-sm-block" style="position:absolute; position: absolute;
+                right: 0;
+                bottom: 50px;">Más información</a>
     </div>
-      <div class="content-btm">
+    </a>
+      {{-- <div class="content-btm">
             <article>
                 <a id="btn-popInit" href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary">Solicita más información</a>
             </article>
-        </div>
+        </div> --}}
     </div>
   </div>
 </div>  
  <!--End Modal -->
+
+ 
 
 
 <!--Seccion Nosotros -->

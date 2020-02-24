@@ -671,6 +671,10 @@
   #section-services2 .content-img-alianza img {
     margin-top: 30px;
   }
+
+  #mobiramaModal {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -10164,8 +10168,8 @@ input[type="button"].btn-block {
 
 @media (min-width: 576px) {
   .card-columns {
-    -webkit-column-count: 3;
-            column-count: 3;
+    -webkit-column-count: 1;
+            column-count: 1;
     -webkit-column-gap: 1.25rem;
             column-gap: 1.25rem;
     orphans: 1;
@@ -10175,6 +10179,28 @@ input[type="button"].btn-block {
   .card-columns .card {
     display: inline-block;
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    -webkit-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
   }
 }
 
