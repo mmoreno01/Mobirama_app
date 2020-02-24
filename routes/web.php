@@ -55,6 +55,9 @@ Route::get('contabilidad', function () {
 Route::get('fiscal', function () {
     return view('servicios.fiscal');
 });
+Route::get('capital_humano', function () {
+    return view('servicios.capital_humano');
+});
 Route::get('payroll', function () {
     return view('servicios.payroll');
 });

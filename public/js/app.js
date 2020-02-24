@@ -30961,7 +30961,7 @@ function toComment(sourceMap) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(144);
-module.exports = __webpack_require__(204);
+module.exports = __webpack_require__(206);
 
 
 /***/ }),
@@ -30972,7 +30972,7 @@ module.exports = __webpack_require__(204);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_moment__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_spinners__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_spinners__ = __webpack_require__(201);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -30994,10 +30994,11 @@ Vue.component('example-component', __webpack_require__(171));
 Vue.component('post-component', __webpack_require__(174));
 Vue.component('slider-component', __webpack_require__(178));
 Vue.component('services-component', __webpack_require__(185));
-Vue.component('blog-component', __webpack_require__(188));
-Vue.component('alianzas-component', __webpack_require__(191));
-Vue.component('vacantenoticias-component', __webpack_require__(193));
-Vue.component('formvacante-component', __webpack_require__(196));
+Vue.component('services-circular', __webpack_require__(188));
+Vue.component('blog-component', __webpack_require__(190));
+Vue.component('alianzas-component', __webpack_require__(193));
+Vue.component('vacantenoticias-component', __webpack_require__(195));
+Vue.component('formvacante-component', __webpack_require__(198));
 
 // 
 
@@ -67315,7 +67316,7 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [_vm._v("de la NOM-35 \n\t\t\t\t\t")]
+                  [_vm._v("de la NOM-035 \n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67505,48 +67506,6 @@ var staticRenderFns = [
                     }
                   },
                   [_vm._v(" de los recursos humanos\n\t\t\t\t\t")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption  customin customout",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#000",
-                      "font-size": "20px",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "250",
-                      "data-y": "350",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "700",
-                      "data-start": "1200",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "on"
-                    }
-                  },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: " btn btn-primary m-r-5",
-                        staticStyle: { color: "#fff" },
-                        attrs: {
-                          href:
-                            "https://www.mobirama.com.mx/administracion_personal"
-                        }
-                      },
-                      [_vm._v("Ver más")]
-                    )
-                  ]
                 )
               ]
             ),
@@ -68222,9 +68181,312 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(189)
+var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(190)
+var __vue_template__ = __webpack_require__(189)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/ServicesCircular.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-b8e25e58", Component.options)
+  } else {
+    hotAPI.reload("data-v-b8e25e58", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      {
+        staticClass: "slideshowarc",
+        attrs: { id: "services_circular", name: "services_circular" }
+      },
+      [
+        _c("ul", { staticClass: "navigationarc" }, [
+          _c("li", { staticClass: "navigationarc-item" }, [
+            _c("span", { staticClass: "rotate-holder" }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "background-holder",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/contabilidad.png)"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "navigationarc-item" }, [
+            _c("span", { staticClass: "rotate-holder" }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "background-holder",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Fiscal.png)"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "navigationarc-item" }, [
+            _c("span", { staticClass: "rotate-holder" }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "background-holder",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Juridico.png)"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "navigationarc-item" }, [
+            _c("span", { staticClass: "rotate-holder" }),
+            _vm._v(" "),
+            _c("span", {
+              staticClass: "background-holder",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Payroll.png)"
+              }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "detail" }, [
+          _c("div", { staticClass: "detail-item active" }, [
+            _c("div", { staticClass: "description" }, [
+              _c("a", { attrs: { href: "/capital_humano" } }, [
+                _c("h2", [_vm._v("Capital Humano")]),
+                _vm._v(
+                  "\r\n            Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/capital_humano" }
+                },
+                [_vm._v("Más información")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "background",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/CapitalHumano.jpg)",
+                height: "100vh"
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "mobilogo" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "detail-item" }, [
+            _c("div", { staticClass: "description" }, [
+              _c("a", { attrs: { href: "/contabilidad" } }, [
+                _c("h2", [_vm._v("Contabilidad Outsourcing")]),
+                _vm._v(
+                  "\r\n            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas, contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando un óptimo control sobre la situación financiera de su organización."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/contabilidad" }
+                },
+                [_vm._v("Más información")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "background",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Contabiliad.jpg)"
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "mobilogo" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "detail-item" }, [
+            _c("div", { staticClass: "description" }, [
+              _c("a", { attrs: { href: "/juridico" } }, [
+                _c("h2", [_vm._v("Jurídico")]),
+                _vm._v(
+                  "\r\n            Las amplias habilidades de los colaboradores nos permiten brindar la orientación necesaria a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, fiscal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/juridico" }
+                },
+                [_vm._v("Más información")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "background",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Juridico.jpg)"
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "mobilogo" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "detail-item" }, [
+            _c("div", { staticClass: "description" }, [
+              _c("a", { attrs: { href: "/payroll" } }, [
+                _c("h2", [_vm._v("Payroll")]),
+                _vm._v(
+                  "\r\n            A través de la división de Payroll BPO, Mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015; lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la compañía."
+                )
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/payroll" }
+                },
+                [_vm._v("Más información")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticClass: "background",
+              staticStyle: {
+                "background-image": "url(imagenes/circular/Payroll.jpg)"
+              }
+            }),
+            _vm._v(" "),
+            _c("div", { staticClass: "mobilogo" })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "slideshowarcmin" }, [
+          _c(
+            "div",
+            {
+              staticClass: "carousel slide",
+              attrs: { "data-ride": "carousel" }
+            },
+            [
+              _c("div", { staticClass: "carousel-inner" }, [
+                _c("div", { staticClass: "carousel-item active" }, [
+                  _c("a", { attrs: { href: "/capital_humano" } }, [
+                    _c("img", {
+                      staticClass: "d-block w-100",
+                      attrs: { src: "imagenes/circular/min/s1.png", alt: "..." }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "carousel-item" }, [
+                  _c("a", { attrs: { href: "/payroll" } }, [
+                    _c("img", {
+                      staticClass: "d-block w-100",
+                      attrs: { src: "imagenes/circular/min/s2.png", alt: "..." }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "carousel-item" }, [
+                  _c("a", { attrs: { href: "/juridico" } }, [
+                    _c("img", {
+                      staticClass: "d-block w-100",
+                      attrs: { src: "imagenes/circular/min/s3.png", alt: "..." }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "carousel-item" }, [
+                  _c("a", { attrs: { href: "/contabilidad" } }, [
+                    _c("img", {
+                      staticClass: "d-block w-100",
+                      attrs: { src: "imagenes/circular/min/s5.png", alt: "..." }
+                    })
+                  ])
+                ])
+              ])
+            ]
+          )
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-b8e25e58", module.exports)
+  }
+}
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(2)
+/* script */
+var __vue_script__ = __webpack_require__(191)
+/* template */
+var __vue_template__ = __webpack_require__(192)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68263,7 +68525,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 189 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68314,7 +68576,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 190 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -68393,7 +68655,7 @@ if (false) {
 }
 
 /***/ }),
-/* 191 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -68401,7 +68663,7 @@ var normalizeComponent = __webpack_require__(2)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(192)
+var __vue_template__ = __webpack_require__(194)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68440,7 +68702,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 192 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -68519,15 +68781,15 @@ if (false) {
 }
 
 /***/ }),
-/* 193 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(194)
+var __vue_script__ = __webpack_require__(196)
 /* template */
-var __vue_template__ = __webpack_require__(195)
+var __vue_template__ = __webpack_require__(197)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68566,7 +68828,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 194 */
+/* 196 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68616,7 +68878,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 195 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -68656,15 +68918,15 @@ if (false) {
 }
 
 /***/ }),
-/* 196 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(2)
 /* script */
-var __vue_script__ = __webpack_require__(197)
+var __vue_script__ = __webpack_require__(199)
 /* template */
-var __vue_template__ = __webpack_require__(198)
+var __vue_template__ = __webpack_require__(200)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68703,7 +68965,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 197 */
+/* 199 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68799,7 +69061,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 198 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -69013,7 +69275,7 @@ if (false) {
 }
 
 /***/ }),
-/* 199 */
+/* 201 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69021,7 +69283,7 @@ if (false) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__dist_vue_spinners_common___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__dist_vue_spinners_common__);
 /* harmony reexport (default from non-hamory) */ __webpack_require__.d(__webpack_exports__, "default", function() { return __WEBPACK_IMPORTED_MODULE_0__dist_vue_spinners_common___default.a; });
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dist_vue_spinners_css__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dist_vue_spinners_css__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__dist_vue_spinners_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__dist_vue_spinners_css__);
 
 
@@ -69029,13 +69291,13 @@ if (false) {
 
 
 /***/ }),
-/* 200 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(201);
+var content = __webpack_require__(203);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -69043,7 +69305,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(202)(content, options);
+var update = __webpack_require__(204)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -69060,7 +69322,7 @@ if(false) {
 }
 
 /***/ }),
-/* 201 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(141)(false);
@@ -69074,7 +69336,7 @@ exports.push([module.i, "\n.spinner[data-v-168a067e] {\n  width: 40px;\n  height
 
 
 /***/ }),
-/* 202 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -69120,7 +69382,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(203);
+var	fixUrls = __webpack_require__(205);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -69433,7 +69695,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 203 */
+/* 205 */
 /***/ (function(module, exports) {
 
 
@@ -69528,7 +69790,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 204 */
+/* 206 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

@@ -9,92 +9,130 @@
 </div>
 <!--fin de imagen principal-->
 
-<section id="content-txt">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-left wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.3s">
-              <p class="sub-title text-center">Aportamos valor a las empresas al proporcionar un capital humano altamente efectivo y dispuesto a lograr los objetivos organizacionales.</p>
-              <p>La visión estratégica se encuentra destinada a la organización y aprovechamiento de los recursos humanos, permitiendo  a las empresas laborar bajo un alto grado de efectividad y óptimos resultados incrementando su competitividad dentro del mercado.</p>
-              <ul>
-                  <li>Consultoría en la Administración de Empresas.</li>
-                  <li>Asesoría y Planeación Financiera.</li>
-                  <li>Gestión Contable.</li>
-              </ul>
-              <a href="/#content_services">Más Servicios</a> 
-            </div>
-        </div>
-        <div class="row serv-iconos">
-            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.1s">
-                    <img src="imagenes/contabilidad/Consultoria-AdminEmpresas.png" alt="Consultoría en la Administración de Empresas"  data-toggle="modal" data-target="#consultor">
-                    <p>Consultoría en la Administración<br> de Empresas.</p>
-            </div>
-            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-                    <img src="imagenes/contabilidad/Asesoria-PlanFinanciero.png" alt="Asesoría y Planeación Financiera"  data-toggle="modal" data-target="#Asesor">
-                    <p>Asesoría y Planeación Financiera.</p>
-            </div>
-            <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
-                    <img src="imagenes/contabilidad/Gestion-Contable.png" alt="Gestión Contable"  data-toggle="modal" data-target="#gestion">
-                    <p>Gestión Contable.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<div id="wrapper" class="clearfix stretched">
+		<img src="/imagenes/servix/contabilidad.png" class="nav-nomobile" width="250px" style="position: absolute; z-index: 10;">
+		<!-- Content
+		============================================= -->
+		<section id="content">
 
-<!-- Modal -->
-<div class="modal fade" id="consultor" tabindex="-1" role="dialog" aria-labelledby="consultorLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="consultorLabel">Consultoría en la Administración de Empresas</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <ul>
-                    <li>Nuestro objetivo fundamental es proporcionar acciones estratégicas e implantar medidas apropiadas para aumentar la productividad y la competitividad de las empresas.</li> 
-                </ul>
-            </div>
-          </div>
-        </div>
-</div>
+					<div id="side-navigation" class="tabs nav-nomobile">
 
-<!-- Modal -->
-<div class="modal fade" id="Asesor" tabindex="-1" role="dialog" aria-labelledby="AsesorLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="AsesorLabel">Asesoría y Planeación Financiera</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <ul>
-                    <li>Nuestros servicios de Asesoría y Planeación Financiera tiene como objetivo brindar  acompañamiento durante cada fase del ciclo económico de su negocio, integrando las principales variables de su empresa o proyecto a una estrategia financiera claramente definida con metas y objetivos alcanzables.</li> 
-                </ul>
-            </div>
-          </div>
-        </div>
-</div>
+						<div class="col_one_third nobottommargin" style="width: 480px; height: 600px;">
 
-<!-- Modal -->
-<div class="modal fade" id="gestion" tabindex="-1" role="dialog" aria-labelledby="gestionLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="gestionLabel">Gestión Contable</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <ul>
-                    <li>Diseñamos un modelo que permita gestionar la contabilidad de su empresa o negocio conforme a la normativa vigente en cada momento y en función de las necesidades contables, financieras y económicas de su compañìa.</li> 
-                </ul>
-            </div>
-          </div>
-        </div>
-</div>
+							<ul class="sidenav" style="vertical-align: middle">
+								<li class="ui-tabs-active"><a href="#snav-content1" style="margin: 110px 0 0 190px; font-size:12px;"><span>Consultoría en Admon. de Empresas</span></a></li>
+								<li><a href="#snav-content2" style="margin: 10px 0 0 195px;"><span>Asesoría Financiera</span></a></li>
+								<li><a href="#snav-content3" style="margin: 10px 0 0 190px;"><span>Gestión Contable</span></a></li>
+							</ul>
+							
+						</div>
 
+						<div class="col_last nobottommargin">
+
+							<div id="snav-content1">
+								<div class="contserv">
+								<h2>Consultoría en Administración de Empresas </h2>
+									<p class="text-justify"><strong>Mediante la consultoría en administración de empresas, Mobirama tiene como objetivo fundamental, proporcionar acciones estratégicas puntuales e implementar las medidas apropiadas para aumentar la productividad y la competitividad de nuestros clientes.
+ 										<br>Nuestro equipo de trabajo cuenta con el conocimiento y la experiencia para brindar consultoría a la medida, a empresas de cualquier sector industrial, orientando y ofreciendo las mejores soluciones, optimizando recursos y maximizando la rentabilidad de sus operaciones. Por ello Mobirama ofrece:
+										
+										<ul>
+											<li>Realización de operaciones administrativas</li>
+											<li>Manejo de banca</li>
+											<li>Apoyo en políticas y procedimientos</li>
+											
+										</ul>
+										<br>
+										</strong> </p>
+									<!-- <div class="center"><a  href=""><button type="button">clicme!!!</button></a> </div> -->
+								</div>	
+
+							</div>
+
+							<div id="snav-content2"  class="contserv">
+								<h2>Asesoría Financiera</h2>
+									<strong>
+										<p  class="text-justify">En Mobirama nuestros expertos están capacitados para asesorar de la mejor manera a tu empresa en la planeación de estrategias financieras y toma de decisiones clave que respalden el ciclo económico de sus negocios, garantizando el éxito continuo, así como un incremento en su rentabilidad.
+											<br>Revisamos a fondo los estados financieros, y mediante la interpretación de indicadores que muestran la salud financiera de su organización, brindamos acompañamiento en la creación de estrategias adecuadas a la actividad empresarial, siempre al margen de las normas contables y fiscales. Nuestra solución comprende:
+											</p> 
+									<ul>
+										<li>Revisión de estados financieros</li> 
+										<li>Análisis y rentabilidad del negocio</li>
+										<li>Flujo de efectivo</li> 
+										<li>Razones financieras</li>
+									</ul>
+								</strong>
+									<!-- <div class="center"><a  href=""><button type="button">clicme!!!</button></a> </div> -->
+
+									
+							</div>
+
+							<div id="snav-content3"  class="contserv">
+								<h2>Gestión Contable</h2>
+									<strong><p class="text-justify">Sistema de información que ofrece compatibilidad, control y flexibilidad, acompañado de una correcta relación de coste y beneficio.
+										<br>Nuestro objetivo principal es proporcionar a nuestros clientes información que permita guiar la gestión contable de la empresa de forma clara, para que se convierta en una herramienta más para la toma de decisiones. Con la finalidad de tener un mejor control de los movimientos comerciales y financieros de su organización, contamos con:
+										
+											</p> 
+									<ul>
+										<li>Registros contables de operaciones mensuales</li> 
+										<li>Análisis de información financiera</li> 
+										<li>Cumplimiento fiscal</li> 
+										<li>Asesoría fiscal</li> 
+									</ul></strong>
+									<!-- <div class="center"><a  href=""><button type="button">clicme!!!</button></a> </div> -->
+
+
+									
+							</div>
+
+						</div>
+
+			</div>
+			<div class="accordion accordion-bg clearfix nav-mobile">
+				<div class="acctitle acctitlec">Consultoría en Administración de Empresas</div>
+					<div class="acc_content clearfix" style="display: block;">
+					<p class="text-justify"><strong>Mediante la consultoría en administración de empresas, Mobirama tiene como objetivo fundamental, proporcionar acciones estratégicas puntuales e implementar las medidas apropiadas para aumentar la productividad y la competitividad de nuestros clientes.
+ 										<br>Nuestro equipo de trabajo cuenta con el conocimiento y la experiencia para brindar consultoría a la medida, a empresas de cualquier sector industrial, orientando y ofreciendo las mejores soluciones, optimizando recursos y maximizando la rentabilidad de sus operaciones. Por ello Mobirama ofrece:
+										
+										<ul>
+											<li>Realización de operaciones administrativas</li>
+											<li>Manejo de banca</li>
+											<li>Apoyo en políticas y procedimientos</li>
+											
+										</ul>
+										<br>
+										</strong> </p>
+					</div>
+				<div class="acctitle">Asesoría Financiera</div>
+					<div class="acc_content clearfix" style="display: none;">
+					<strong>
+								<p  class="text-justify">En Mobirama nuestros expertos están capacitados para asesorar de la mejor manera a tu empresa en la planeación de estrategias financieras y toma de decisiones clave que respalden el ciclo económico de sus negocios, garantizando el éxito continuo, así como un incremento en su rentabilidad.
+											<br>Revisamos a fondo los estados financieros, y mediante la interpretación de indicadores que muestran la salud financiera de su organización, brindamos acompañamiento en la creación de estrategias adecuadas a la actividad empresarial, siempre al margen de las normas contables y fiscales. Nuestra solución comprende:
+											</p> 
+									<ul>
+										<li>Revisión de estados financieros</li> 
+										<li>Análisis y rentabilidad del negocio</li>
+										<li>Flujo de efectivo</li> 
+										<li>Razones financieras</li>
+									</ul>
+								</strong>
+					</div>	
+				<div class="acctitle">Gestión Contable</div>
+					<div class="acc_content clearfix" style="display: none;">
+					<strong><p class="text-justify">Sistema de información que ofrece compatibilidad, control y flexibilidad, acompañado de una correcta relación de coste y beneficio.
+										<br>Nuestro objetivo principal es proporcionar a nuestros clientes información que permita guiar la gestión contable de la empresa de forma clara, para que se convierta en una herramienta más para la toma de decisiones. Con la finalidad de tener un mejor control de los movimientos comerciales y financieros de su organización, contamos con:
+										
+											</p> 
+									<ul>
+										<li>Registros contables de operaciones mensuales</li> 
+										<li>Análisis de información financiera</li> 
+										<li>Cumplimiento fiscal</li> 
+										<li>Asesoría fiscal</li> 
+									</ul></strong>
+					</div>	
+				
+				</div>
+		</section><!-- #content end -->
+
+
+	</div><!-- #wrapper end -->
 @stop

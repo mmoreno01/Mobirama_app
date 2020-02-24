@@ -1,0 +1,267 @@
+@media only screen and (min-width: 976px) {
+  section.slideshowarc .slideshowarcmin {
+    display: none;
+    }
+  section.slideshowarc {
+    margin: 5px 0 100px 0 !important;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    height: 400px; /* Tamaño de pantalla*/
+    margin: 0 auto;
+    visibility: hidden;
+    overflow: hidden;
+  }
+ 
+  section.slideshowarc ul.navigationarc {
+    /* background-image: url(/imagenes/circular/Mobirama.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 50% 55%; */
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    left: 20px;
+    top: 45%;
+    margin-top: -180px;
+    z-index: 10;
+  }
+  
+  section.slideshowarc ul.navigationarc li.navigationarc-item {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: border 0.6s ease-in-out;
+  }
+  section.slideshowarc ul.navigationarc li.navigationarc-item .service-text{
+  color: red;
+  font-size: 24px;
+  margin: 50px 0 0 0;
+  position: absolute;
+ 
+ }
+  
+  section.slideshowarc ul.navigationarc li.navigationarc-item .rotate-holder {
+    position: fixed;
+    display: block;
+    width: 0;
+    height: 0;
+    left: -9999px;
+    top: -9999px;
+  }
+  section.slideshowarc ul.navigationarc li.navigationarc-item .background-holder {
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 80%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 700%;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    background-size: 75%;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+  }
+  section.slideshowarc ul.navigationarc li.navigationarc-item:hover .background-holder {
+    opacity: 0.75;
+  }
+  section.slideshowarc ul.navigationarc li.navigationarc-item.active .background-holder {
+    //opacity: 0;
+    //visibility: hidden;
+    background-size: 120px;
+    border-radius: 900%;
+  }
+  section.slideshowarc .detail {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+  }
+  section.slideshowarc .detail .detail-item {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+  section.slideshowarc .detail .detail-item .headline {
+    font-family: 'Oswald', sans-serif;
+    color: #1B7abb;
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: calc(100% - 380px); /*posision del titulo*/
+    height: 126px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    white-space: nowrap;
+    box-sizing: border-box;
+    z-index: 2;
+    font-size: 50px;
+  }
+  section.slideshowarc .detail .detail-item .headline2 {
+   font-family: 'Oswald', sans-serif;
+   color: #1B7abb;
+   position: absolute;
+   width: 100%;
+   max-width: calc(100% - 380px); /*posision del titulo*/
+   height: 126px;
+   top: 58%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   overflow: visible;
+   white-space: nowrap;
+   box-sizing: border-box;
+   z-index: 2;
+   font-size: 50px;
+ }
+  
+  section.slideshowarc .detail .detail-item .description {
+     background-color: rgba(55, 91, 149, 0.4);
+     font-family: 'Oswald', sans-serif;
+     text-align: justify;
+     color: #fff;
+     position: absolute;
+     display: block;
+     width: 47%;
+     height: 90%;
+     /* max-width: calc(100% - 480px); */
+     /* height: 126px; */
+     top: 5%;
+     left: 47%;
+     
+     /* transform: translate(-50%, -50%); */
+     overflow: visible;
+     //white-space: nowrap;
+     box-sizing: border-box;
+     z-index: 12;
+     font-size: 1.4em;
+     padding: 10px 10px 10px 10px;
+     border-radius: 15px;
+   }
+   section.slideshowarc .detail .detail-item .description h2 {
+     color: #fff !important;
+  }
+  section.slideshowarc .detail .detail-item .description a {
+    color:#fff;
+ }
+ section.slideshowarc .detail .detail-item .description .btnserv{
+  position: absolute;
+  right: 15px; 
+  bottom:15px;
+}
+  
+   
+   section.slideshowarc .detail .detail-item .mobilogo {
+     //background-image: url(/imagenes/circular/mobix.png);
+     background-image: url(/imagenes/circular/circle_noname.png);
+     /* background-size: 100%; */
+     background-repeat: no-repeat;
+     /* background-position: 50% 55%; */
+     font-family: 'Oswald', sans-serif;
+     position: absolute;
+     display: block;
+     width: 600px;
+     height: 400px;
+     /* top: 205px; */
+     /* left: 300px; */
+     /* transform: translate(-50%, -50%); */
+     overflow: visible;
+     white-space: nowrap;
+     box-sizing: border-box;
+     z-index: 2;
+     font-size: 25px;
+   }
+ 
+  section.slideshowarc .detail .detail-item .headline .letter {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+    color: #FFFFFF;
+    font-size: 60px;
+    line-height: 110px;
+    font-weight: 900;
+    font-kerning: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    text-transform: uppercase;
+  }
+  
+  section.slideshowarc .detail .detail-item .background {
+    position: absolute;
+    display: block;
+    width: 100%;
+    width: calc(100%);
+    height: 100%;
+    height: calc(100%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: visible;
+    background-repeat: no-repeat;
+    background-position: center center;     
+    background-size: cover;
+    z-index: 1;
+  }
+  section.slideshowarc .detail .detail-item .background::before {
+    content: ""; 
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, 0) 80%);   
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;      
+  }
+  section.slideshowarc .detail .detail-item.active {
+ 
+    opacity: 1;
+    visibility: visible;
+  }
+ 
+}
+
+@media only screen and (max-width: 975px) {
+  section.slideshowarc .navigationarc{
+  display: none;
+  }
+  section.slideshowarc .detail{
+    display: none;
+  }
+  section.slideshowarc .slideshowarcmin {
+    margin: 45px 0 45px 0;
+  }
+}
