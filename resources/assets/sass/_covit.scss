@@ -1,0 +1,31 @@
+#content_principal{
+    background: red;
+
+    padding: 50px 0px;
+
+    
+// style form questions
+
+
+}
+
+#form-sintomas{
+    .card{
+        .card-body{
+            .form-group{
+                display: inline-block;
+                width: 30px;
+            }
+            ul{
+                li{
+                    padding: 30px;
+                }
+            }
+        }
+        .content-radios{
+            display: inline;
+            float: right;
+        }
+        
+    }
+}

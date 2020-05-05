@@ -1,0 +1,65 @@
+#form-search{
+    padding: 100px 0px;
+
+    .info-card{
+        margin-top: 30px; 
+        .value-card{
+            border: 2px solid $azulMarino;
+            img{
+                width: 80px;
+                display: block;
+                margin: auto;
+                padding: 20px 0px;
+            }
+            .card-body{
+                h5{
+                    font-weight: bold;
+                    
+                }
+                i{
+                    font-size: 30px;
+                    margin: 0 auto;
+                    display: block;
+                    color: green;
+                }
+                p{
+                    color: green;
+                }
+            }
+          
+        }
+        .value-card-false{
+            border: 2px solid grey;
+            opacity: 0.5;
+            img{
+                width: 80px;
+                display: block;
+                margin: auto;
+                padding: 20px 0px;
+            }
+            h5{
+                font-weight: bold;
+                color: grey;
+            }
+            i{
+                font-size: 30px;
+                margin: 0 auto;
+                display: block;
+                color: grey;
+            }
+            p{
+                color: grey;
+            }
+        }
+        .card-header{
+            p{
+                font-size: 20px;
+                margin: 0px;
+                padding: 0px;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

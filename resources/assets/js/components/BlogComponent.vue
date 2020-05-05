@@ -29,7 +29,6 @@ export default {
       mounted() {
         axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=1')
         .then(response => (this.posts = response.data))
-          console.log(this.data);
 
     },
       //filtro limita a 3 posts

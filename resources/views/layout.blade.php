@@ -17,6 +17,7 @@
 
     <link rel="icon" type="image/png" href="/imagenes/home-icons/m-favicon.png">
     {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"> --}}
+
     <!-- slyles -->
     <link rel="stylesheet" href="{{asset('css/app.css')}}"/>
     <!-- icons -->
@@ -26,6 +27,8 @@
     <link rel="stylesheet" href="{{asset('css/settings.css')}}">
     <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/font-icons.css')}}"/>
+
     <!--slick-slider-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
     <!-- Add the new slick-theme.css if you want the default styling-->
@@ -100,12 +103,17 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item active">
               <a class="nav-link" href="/">
                 Inicio 
+                <span></span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-uppercase" href="/webinars">
+                Covid-19 
                 <span></span>
               </a>
             </li>
@@ -125,8 +133,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="/payroll">Payroll Services</a>
-                <a class="dropdown-item" href="/administracion_personal">Administración de personal</a>
-                <a class="dropdown-item" href="/fiscal">Fiscal</a>
+                <a class="dropdown-item" href="/capital_humano">Capital Humano</a>
+                <!-- <a class="dropdown-item" href="/fiscal">Fiscal</a> -->
+                <!-- <a class="dropdown-item" href="/administracion_personal">Administración de personal</a> -->
                 <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>             
                 <a class="dropdown-item" href="/juridico">Jurídico</a>            
               </div>
@@ -161,12 +170,58 @@
                   <span></span>
                 </a>
             </li>
-          </ul>
-         
+
+            
+          </ul> 
         </div>
       </nav>
  </header>
 <!-- fin del menu principal -->
+
+{{-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top:60px">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      @can('products.index');
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('products.index') }}">
+          Productos                
+          <span></span>
+        </a>
+      </li>
+      @endcan
+      @can('users.index');
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('users.index') }}">
+          Usuarios                
+          <span></span>
+        </a>
+      </li>
+      @endcan
+      @can('dashboard');
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('dashboard') }}">
+          Vacante                
+          <span></span>
+        </a>
+      </li>
+      @endcan
+      @can('roles.index');
+      <li class="nav-item">
+        <a class="nav-link" href="{{ route('roles.index') }}">
+          Roles                
+          <span></span>
+        </a>
+      </li>
+      @endcan
+    </ul>
+    
+  </div>
+</nav> --}}
 </head>
 <body >
 <!-- Google Tag Manager (noscript) -->
@@ -181,8 +236,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div id="app">
 
+ 
 <!-- contenido principa -->
 @yield('content')
+
 </div>
 
 <!--content iso
@@ -241,19 +298,28 @@ fin content iso-->
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="/js/jquery-3.3.1.min.js"></script>
      
-
+    <script>
+      $(function() {
+        $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
+      });
+  </script>
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
     <script src="/js/app.js"></script>
+
   <!--slider circular-->
     <script src="/js/circular/TweenMax.min.js"></script>
     <script src="/js/circular/imagesloaded.pkgd.min.js"></script>
     <script src="/js/circular/CSSPlugin.min.js"></script>
     <script src="/js/circular/TextPlugin.min.js"></script>
     <script src="/js/circular/demo.js"></script>
+    <script src="/js/functions.js"></script>
+ <!-- <script src="/js/side/jquery-ui.js"></script> -->
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     <!--Servicios -->
-    <!-- <script type="text/javascript" src="js/plugins.js"></script>
-	  <script type="text/javascript" src="js/functions.js"></script> -->
+    <script type="text/javascript" src="js/plugins.js"></script>
+	  <script type="text/javascript" src="js/functions.js"></script>
     <!-- slider revolution -->   
     <script src="js/slider/slideRevolution.js"></script> 
     <script src="js/jquery.themepunch.revolution.js"></script>
@@ -265,7 +331,6 @@ fin content iso-->
     <!-- carousel service -->
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/carousel.js"></script>
-    <script src="/js/multi-carousel.js"></script>
     <!-- animate js -->
     <script src="/js/wow.min.js"></script>
     <!--slick-slider-->
@@ -325,7 +390,6 @@ fin content iso-->
        $("#mobiramaModal").modal("show");
     });
  </script>
-
 
 </body>
 </html>

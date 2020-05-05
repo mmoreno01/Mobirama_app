@@ -23,7 +23,8 @@ Route::get('payroll_bck', 'HomeController@verServicios')->name('payroll_bck');
 Route::get('login', 'Auth\LoginController@showLoginForm'); 
    
 //ruta para vista individual
-Route::get('dashboard','DashboardController@index')->name('dashboard');
+Route::get('dashboard','DashboardController@index')->name('dashboard')
+->middleware('permission:dashboard');
 
 //ruta para editar una vacante
 Route::get('/dashboard/{id}/editar','DashboardController@edit');
@@ -40,10 +41,10 @@ Route::delete('dashboard/{vacante}', 'DashboardController@destroy');
 Route::post('dashboard','FormDasboardController@sendData');
 
 //rutas de login
-Route::post('login', 'Auth\LoginController@login')->name('login');
+// Route::post('login', 'Auth\LoginController@login')->name('login');
 
 //Ruta para cerrar sesion
-Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+// Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 
 
@@ -87,7 +88,10 @@ Route::get('administracion_recursos', function () {
     return view('servicios.administracion_recursos');
 });
 
-
+//webiniar
+Route::get('webinars', function(){
+    return view('webinars.index');
+});
 
 Route::get('norma-035', function () {
     return view('norma-035');
@@ -110,15 +114,7 @@ Route::get('itemBlog', function () {
 Route::get('item2', function () {
     return view('blog.item2');
 });
-//item 3
-Route::get('item3', function () {
-    return view('blog.item3');
-});
 
-//item 3
-Route::get('item4', function () {
-    return view('blog.item4');
-});
 
 //aviso de privacidad
 Route::get('avisoPrivacidad', function () {
@@ -142,12 +138,6 @@ Route::post('contacto', 'contactoController@store');
 //rutas de obtencion de registros formulario
 Route::get('registros', 'recordsControllers@index');
 
-
-
-
-// Route::get ('cotizacion', function(){
-//     return view('contacto.cotizacion');
-// });
 
 // muestra la bolsa de trabajo
 Route::get('contacto.bolsaTrabajo', 'jobController@index')->name('contacto.bolsaTrabajo');
@@ -221,14 +211,16 @@ Route::middleware(['auth'])->group(function(){
     Route::put('roles/{role}', 'RoleController@update')->name('roles.update')
     ->middleware('permission:roles.edit');
 
-    Route::post('roles/{role}', 'RoleController@show')->name('role.show')
+    Route::get('roles/{role}', 'RoleController@show')->name('roles.show')
     ->middleware('permission:roles.show');
 
-    Route::delete('roles/{role}', 'RoleController@destroy')->name('role.destroy')
+    Route::delete('roles/{role}', 'RoleController@destroy')->name('roles.destroy')
     ->middleware('permission:roles.destroy');
 
-    Route::post('roles/edit', 'RoleController@edit')->name('roles.edit')
+    Route::get('roles/{role}/edit', 'RoleController@edit')->name('roles.edit')
     ->middleware('permission:roles.edit');
+
+    
 
      //Products
      Route::post('products/store', 'ProductController@store')->name('products.store')
@@ -240,52 +232,57 @@ Route::middleware(['auth'])->group(function(){
      Route::get('products/create', 'ProductController@create')->name('products.create')
      ->middleware('permission:products.create');
  
-     Route::put('products/{role}', 'ProductController@update')->name('products.update')
+     Route::put('products/{id}', 'ProductController@update')->name('products.update')
      ->middleware('permission:products.edit');
  
-     Route::post('products/{role}', 'ProductController@show')->name('role.show')
+     Route::get('products/{product}', 'ProductController@show')->name('products.show')
      ->middleware('permission:products.show');
  
-     Route::delete('products/{role}', 'ProductController@destroy')->name('role.destroy')
+     Route::delete('products/{product}/edit', 'ProductController@destroy')->name('products.destroy')
      ->middleware('permission:products.destroy');
  
-     Route::post('products/edit', 'ProductController@edit')->name('products.edit')
-     ->middleware('permission:roles.edit');
+     Route::get('products/{id}/edit', 'ProductController@edit')->name('products.edit')
+     ->middleware('permission:products.edit');
+
+
  
      //Users
-     
      Route::get('users', 'UserController@index')->name('users.index')
      ->middleware('permission:users.index');
  
     //  Route::get('users/create', 'UserController@create')->name('users.create')
     //  ->middleware('permission:users.create');
  
-     Route::put('users/{role}', 'UserController@update')->name('users.update')
+     Route::put('users/{user}/edit', 'UserController@update')->name('users.update')
      ->middleware('permission:users.edit');
  
-     Route::post('users/{role}', 'UserController@show')->name('role.show')
+     Route::get('users/{user}', 'UserController@show')->name('users.show')
      ->middleware('permission:users.show');
  
-     Route::delete('users/{role}', 'UserController@destroy')->name('role.destroy')
+     Route::delete('users/{user}', 'UserController@destroy')->name('users.destroy')
      ->middleware('permission:users.destroy');
  
-     Route::post('users/edit', 'UserController@edit')->name('users.edit')
-     ->middleware('permission:roles.edit');
+     Route::get('users/{user}/edit', 'UserController@edit')->name('users.edit')
+     ->middleware('permission:users.edit');
 
     
 });
+
+    Route::get('consulta', 'consultaController@consultaFolio');
+    Route::get('products.estudio', 'consultaController@showFolio')->name('products.estudio');
+
 
 
 // Auth::routes();
 
   // Authentication Routes...
-//   Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
-//   Route::post('login', 'Auth\LoginController@login');
-//   Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+  Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
+  Route::post('login', 'Auth\LoginController@login');
+  Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
   // Registration Routes...
-//   Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-//   Route::post('register', 'Auth\RegisterController@register');
+  Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+  Route::post('register', 'Auth\RegisterController@register');
 
   // Password Reset Routes...
 //   Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
@@ -298,3 +295,14 @@ Route::middleware(['auth'])->group(function(){
 // Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+//Routes Test Controller
+
+Route::get('covit', 'TestController@index')->name('covit.index');
+Route::get('covit.test', 'TestController@test')->name('covit.test');
+Route::get('answers', 'TestController@getAnswers');
+Route::post('guardar-idea', 'TestController@store');
+
+

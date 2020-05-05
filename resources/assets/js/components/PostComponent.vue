@@ -23,6 +23,8 @@
 // muestra las post de wordpress
 import moment from 'moment'
 
+// moment.lang(es);
+
 export default {
   data() {
     return {

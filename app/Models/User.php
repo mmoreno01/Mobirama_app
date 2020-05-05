@@ -7,8 +7,14 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
+
 {
+    ///aplica roles 
     use Notifiable, ShinobiTrait;
+
+    // public function roles(){
+    //     return $this->belonsToMany('App\Models\Role');
+    // }
 
     /**
      * The attributes that are mass assignable.
