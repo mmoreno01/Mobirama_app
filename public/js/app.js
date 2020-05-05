@@ -67329,7 +67329,7 @@ var staticRenderFns = [
                       "data-captionhidden": "on"
                     }
                   },
-                  [_vm._v("de la NOM-35 \n\t\t\t\t\t")]
+                  [_vm._v("de la NOM-035 \n\t\t\t\t\t")]
                 ),
                 _vm._v(" "),
                 _c(
@@ -67519,48 +67519,6 @@ var staticRenderFns = [
                     }
                   },
                   [_vm._v(" de los recursos humanos\n\t\t\t\t\t")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "tp-caption  customin customout",
-                    staticStyle: {
-                      "z-index": "8",
-                      "font-weight": "bold",
-                      color: "#000",
-                      "font-size": "20px",
-                      "letter-spacing": "3px"
-                    },
-                    attrs: {
-                      "data-x": "250",
-                      "data-y": "350",
-                      "data-customin":
-                        "x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;",
-                      "data-customout":
-                        "x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;",
-                      "data-speed": "700",
-                      "data-start": "1200",
-                      "data-easing": "Power4.easeOut",
-                      "data-endspeed": "500",
-                      "data-endeasing": "Power4.easeIn",
-                      "data-captionhidden": "on"
-                    }
-                  },
-                  [
-                    _c(
-                      "a",
-                      {
-                        staticClass: " btn btn-primary m-r-5",
-                        staticStyle: { color: "#fff" },
-                        attrs: {
-                          href:
-                            "https://www.mobirama.com.mx/administracion_personal"
-                        }
-                      },
-                      [_vm._v("Ver más")]
-                    )
-                  ]
                 )
               ]
             ),
@@ -68299,17 +68257,6 @@ var staticRenderFns = [
       },
       [
         _c("ul", { staticClass: "navigationarc" }, [
-          _c("li", { staticClass: "navigationarc-item active" }, [
-            _c("span", { staticClass: "rotate-holder" }),
-            _vm._v(" "),
-            _c("span", {
-              staticClass: "background-holder",
-              staticStyle: {
-                "background-image": "url(imagenes/circular/Admon_Personal.png)"
-              }
-            })
-          ]),
-          _vm._v(" "),
           _c("li", { staticClass: "navigationarc-item" }, [
             _c("span", { staticClass: "rotate-holder" }),
             _vm._v(" "),
@@ -68358,12 +68305,23 @@ var staticRenderFns = [
         _c("div", { staticClass: "detail" }, [
           _c("div", { staticClass: "detail-item active" }, [
             _c("div", { staticClass: "description" }, [
-              _c("a", { attrs: { href: "/administracion_personal" } }, [
-                _c("h2", [_vm._v("Administración de personal")]),
+              _c("a", { attrs: { href: "/capital_humano" } }, [
+                _c("h2", [_vm._v("Capital Humano")]),
                 _vm._v(
-                  "\r\n              Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros.\r\n            "
+                  "\r\n            Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros."
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/capital_humano" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68382,9 +68340,20 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/contabilidad" } }, [
                 _c("h2", [_vm._v("Contabilidad Outsourcing")]),
                 _vm._v(
-                  "\r\n            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando el mejor control sobre la situación financiera de su empresa.\r\n            "
+                  "\r\n            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas, contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando un óptimo control sobre la situación financiera de su organización."
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/contabilidad" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68399,32 +68368,23 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "detail-item" }, [
             _c("div", { staticClass: "description" }, [
-              _c("a", { attrs: { href: "/fiscal" } }, [
-                _c("h2", [_vm._v("Fiscal")]),
-                _vm._v(
-                  "\r\n            Contamos con un equipo de expertos, altamente capacitados en materia fiscal. Nuestra oferta contempla asesoría legal ante cualquier circunstancia y ofrecemos acompañamiento a lo largo de sus procesos legales. Brindando a nuestros clientes certeza y tranquilidad.\r\n            "
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", {
-              staticClass: "background",
-              staticStyle: {
-                "background-image": "url(imagenes/circular/Fiscal.jpg)"
-              }
-            }),
-            _vm._v(" "),
-            _c("div", { staticClass: "mobilogo" })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "detail-item" }, [
-            _c("div", { staticClass: "description" }, [
               _c("a", { attrs: { href: "/juridico" } }, [
                 _c("h2", [_vm._v("Jurídico")]),
                 _vm._v(
-                  "\r\n            Las amplias habilidades de los colaboradores nos permiten brindar el apoyo necesario a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes.\r\n            "
+                  "\r\n            Las amplias habilidades de los colaboradores nos permiten brindar la orientación necesaria a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, fiscal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes."
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/juridico" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68442,9 +68402,20 @@ var staticRenderFns = [
               _c("a", { attrs: { href: "/payroll" } }, [
                 _c("h2", [_vm._v("Payroll")]),
                 _vm._v(
-                  "\r\n            A través de la división de Payroll BPO, mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015, lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la empresa.\r\n            "
+                  "\r\n            A través de la división de Payroll BPO, Mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015; lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la compañía."
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-primary btnserv",
+                  attrs: { href: "/payroll" }
+                },
+                [_vm._v("Más información")]
+              )
             ]),
             _vm._v(" "),
             _c("div", {
@@ -68468,7 +68439,7 @@ var staticRenderFns = [
             [
               _c("div", { staticClass: "carousel-inner" }, [
                 _c("div", { staticClass: "carousel-item active" }, [
-                  _c("a", { attrs: { href: "/administracion_personal" } }, [
+                  _c("a", { attrs: { href: "/capital_humano" } }, [
                     _c("img", {
                       staticClass: "d-block w-100",
                       attrs: { src: "imagenes/circular/min/s1.png", alt: "..." }
@@ -68490,15 +68461,6 @@ var staticRenderFns = [
                     _c("img", {
                       staticClass: "d-block w-100",
                       attrs: { src: "imagenes/circular/min/s3.png", alt: "..." }
-                    })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "carousel-item" }, [
-                  _c("a", { attrs: { href: "/fiscal" } }, [
-                    _c("img", {
-                      staticClass: "d-block w-100",
-                      attrs: { src: "imagenes/circular/min/s4.png", alt: "..." }
                     })
                   ])
                 ]),

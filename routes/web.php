@@ -16,7 +16,6 @@ use illuminate\http\Request;
 
 Route::get('/', 'HomeController@index')->name('home'); 
 
-Route::get('payroll_bck', 'HomeController@verServicios')->name('payroll_bck'); 
 
 
 //ruta comprueba si inicio sesion
@@ -56,6 +55,9 @@ Route::get('contabilidad', function () {
 });
 Route::get('fiscal', function () {
     return view('servicios.fiscal');
+});
+Route::get('capital_humano', function () {
+    return view('servicios.capital_humano');
 });
 Route::get('payroll', function () {
     return view('servicios.payroll');
@@ -119,11 +121,6 @@ Route::get('item2', function () {
 //aviso de privacidad
 Route::get('avisoPrivacidad', function () {
     return view('avisoPrivacidad');
-});
-
-//serviciosx
-Route::get('serviciosx', function () {
-    return view('serviciosx');
 });
 
 //gaceta informativa

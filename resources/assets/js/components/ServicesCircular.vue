@@ -1,13 +1,13 @@
 <template>
 <!-- Seccion de servicios  slider -->
-
 <section id="services_circular"  name="services_circular" class="slideshowarc">
-          
 <ul class="navigationarc">
-        <li class="navigationarc-item active">
+      
+ 
+        <!-- <li class="navigationarc-item active">
           <span class="rotate-holder"></span>
           <span class="background-holder" style="background-image: url(imagenes/circular/Admon_Personal.png);"></span>
-        </li>
+        </li> -->
 
         <li class="navigationarc-item">
           <span class="rotate-holder"></span>
@@ -31,13 +31,16 @@
            
 
       </ul>
+      
       <div class="detail">
+              
         <div class="detail-item active" >
           <!-- <div class="headline">Administración<br> de personal</div> -->
           <div class="description">
-            <a href="/administracion_personal"><h2>Administración de personal</h2>
-              Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros.
-            </a>
+            <a href="/capital_humano"><h2>Capital Humano</h2>
+            Ofrecemos a tu empresa el máximo aprovechamiento de los recursos humanos, permitiendo que incremente su competitividad dentro del mercado. Contamos con soluciones efectivas de reclutamiento y selección, estudios socioeconómicos, bienestar y salud, desarrollo organizacional, entre otros.</a>
+          <br>    
+          <a href="/capital_humano" class="btn btn-primary btnserv">Más información</a>
           </div>
           <div class="background" style="background-image: url(imagenes/circular/CapitalHumano.jpg); height: 100vh;"></div>
           <div class="mobilogo"></div>
@@ -50,8 +53,11 @@
           <!-- <div class="headline">Contabilidad<br> Outsourcing</div> -->
           <div class="description">
             <a href="/contabilidad"><h2>Contabilidad Outsourcing</h2>
-            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando el mejor control sobre la situación financiera de su empresa.
-            </a>
+            Mediante nuestros servicios de gestión contable y consultoría en administración de empresas, contribuimos al mejor desempeño económico de nuestros clientes, evitando multas, a través del correcto cumplimiento de sus obligaciones fiscales, asegurando un óptimo control sobre la situación financiera de su organización.</a>
+          <br>
+               
+          <a href="/contabilidad" class="btn btn-primary btnserv">Más información</a>
+         
           </div>
           <div class="background" style="background-image: url(imagenes/circular/Contabiliad.jpg);"></div>
           <div class="mobilogo"></div>
@@ -60,17 +66,19 @@
         <!-- slideshow:details END -->
         
         <!-- slideshow:details START -->
-        <div class="detail-item">
-          <!-- <div class="headline2">Fiscal</div> -->
+        <!-- <div class="detail-item">
           <div class="description">
-            <a href="/fiscal"><h2>Fiscal</h2>
-            Contamos con un equipo de expertos, altamente capacitados en materia fiscal. Nuestra oferta contempla asesoría legal ante cualquier circunstancia y ofrecemos acompañamiento a lo largo de sus procesos legales. Brindando a nuestros clientes certeza y tranquilidad.
-            </a>
+            <a href="/administracion_personal"><h2>Administración de personal</h2>
+            Próximamente.</a>
+          <br>
+                
+          <a href="/administracion_personal" class="btn btn-primary btnserv">Más información</a>
+          
           </div>
           <div class="background" style="background-image: url(imagenes/circular/Fiscal.jpg);"></div>
           <div class="mobilogo"></div>
 
-        </div>
+        </div> -->
         <!-- slideshow:details END -->
         
         <!-- slideshow:details START -->
@@ -78,8 +86,11 @@
           <!-- <div class="headline2">Jurídico</div> -->
           <div class="description">
             <a href="/juridico"><h2>Jurídico</h2>
-            Las amplias habilidades de los colaboradores nos permiten brindar el apoyo necesario a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes.
-            </a>
+            Las amplias habilidades de los colaboradores nos permiten brindar la orientación necesaria a nuestros clientes, ofreciendo las mejores prácticas en derecho corporativo, derecho penal, fiscal, promoción de juicios de amparo, brindando tranquilidad a nuestros clientes.</a>
+          <br>
+             
+          <a href="/juridico" class="btn btn-primary btnserv">Más información</a>
+       
           </div>
           <div class="background" style="background-image: url(imagenes/circular/Juridico.jpg);"></div>
           <div class="mobilogo"></div>
@@ -92,8 +103,11 @@
           <!-- <div class="headline2">Payroll</div> -->
           <div class="description">
             <a href="/payroll"><h2>Payroll</h2>
-            A través de la división de Payroll BPO, mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015, lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la empresa.
-            </a>
+            A través de la división de Payroll BPO, Mobirama asume el proceso de nómina de su empresa, utilizando un sólido esquema que cubre todos los hitos de esta disciplina. Con una metodología certificada bajo la norma ISO 9001:2015; lo cual significa que adecuamos los procesos con base en las necesidades de los clientes sin importar sector, tamaño ni ubicación de la compañía.</a>
+          <br>
+               
+          <a href="/payroll" class="btn btn-primary btnserv">Más información</a>
+          
           </div>
           <div class="background" style="background-image: url(imagenes/circular/Payroll.jpg);"></div>
           <div class="mobilogo"></div>
@@ -105,7 +119,7 @@
         <div class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                           <a href="/administracion_personal"><img src="imagenes/circular/min/s1.png" class="d-block w-100" alt="..."/></a>
+                           <a href="/capital_humano"><img src="imagenes/circular/min/s1.png" class="d-block w-100" alt="..."/></a>
                       </div>
                       <div class="carousel-item">
                            <a href="/payroll"><img src="imagenes/circular/min/s2.png" class="d-block w-100" alt="..."></a>
@@ -113,9 +127,9 @@
                       <div class="carousel-item">
                            <a href="/juridico"><img src="imagenes/circular/min/s3.png" class="d-block w-100" alt="..."></a>
                       </div>
-                      <div class="carousel-item">
+                      <!-- <div class="carousel-item">
                            <a href="/fiscal"><img src="imagenes/circular/min/s4.png" class="d-block w-100" alt="..."></a>
-                      </div>
+                      </div> -->
                       <div class="carousel-item">
                            <a href="/contabilidad"><img src="imagenes/circular/min/s5.png" class="d-block w-100" alt="..."></a>
                       </div>

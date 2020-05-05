@@ -14,7 +14,6 @@
     <!--favicon-->
 
        <!-- Scripts -->
-
     <link rel="icon" type="image/png" href="/imagenes/home-icons/m-favicon.png">
     {{-- <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"> --}}
 
@@ -27,7 +26,9 @@
     <link rel="stylesheet" href="{{asset('css/settings.css')}}">
     <link rel="stylesheet" href="{{asset('css/uikit.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('css/font-icons.css')}}"> -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/font-icons.css')}}"/>
+
 
     <!--slick-slider-->
     <link rel="stylesheet" type="text/css" href="{{asset('css/slick/slick.css')}}"/>
@@ -42,8 +43,6 @@
     <!-- chat home-->
     <script src="//code.tidio.co/cbarboauidoxnughnrijsrkiag8wcloc.js"></script>
     {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
-
-
 
     <!-- Google Tag Manager  propiq test-->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -242,8 +241,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 
-<!--content iso
-<section id="section-iso">
+<!--content iso-->
+<!-- <section id="section-iso">
     <div class="container">
         <div class="row">
             <div class="col-md-6 column-logo">
@@ -253,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </figure>
                 </div>
                 <div class="content-text">
-                    <p>Politica de calidad</p>
+                    <p>Objetivos de calidad</p>
                 </div>
                 <div class="mymove">
                     <a href="/politica"><i class="fas fa-arrow-circle-right"></i></a>
@@ -272,8 +271,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
     </div>
-</section>
-fin content iso-->
+</section> -->
+<!--fin content iso-->
 
 <footer class="wow fadeInDown"  data-wow-duration="1s" data-wow-delay="0.3s">
     <div class="container">
@@ -294,32 +293,36 @@ fin content iso-->
 </footer>
 
 	<!-- <script src="js/jquery.js"></script>   -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/js/jquery-3.3.1.min.js"></script>
-     
-    <script>
-      $(function() {
-        $( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
-      });
-  </script>
-    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
 
-    <script src="/js/app.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="/js/jquery-3.3.1.min.js"></script>
+  <script>
+		$(function() {
+			$( "#side-navigation" ).tabs({ show: { effect: "fade", duration: 400 } });
+		});
+</script>
+ 
 
-  <!--slider circular-->
+    <!-- <script src="/js/jquery.js"></script> -->
+
+    <!-- {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}} -->
+        <script src="/js/app.js"></script>
+
+
+    <!--slider circular-->
+
     <script src="/js/circular/TweenMax.min.js"></script>
     <script src="/js/circular/imagesloaded.pkgd.min.js"></script>
     <script src="/js/circular/CSSPlugin.min.js"></script>
     <script src="/js/circular/TextPlugin.min.js"></script>
     <script src="/js/circular/demo.js"></script>
     <script src="/js/functions.js"></script>
- <!-- <script src="/js/side/jquery-ui.js"></script> -->
- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- <script src="/js/side/jquery-ui.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!--Servicios -->
-    <script type="text/javascript" src="js/plugins.js"></script>
-	  <script type="text/javascript" src="js/functions.js"></script>
+    
+
     <!-- slider revolution -->   
     <script src="js/slider/slideRevolution.js"></script> 
     <script src="js/jquery.themepunch.revolution.js"></script>
@@ -328,18 +331,19 @@ fin content iso-->
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="/js/uikit.min.js"></script>
     <script src="/js/menu-tg.js"></script>
+
     <!-- carousel service -->
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/carousel.js"></script>
     <!-- animate js -->
     <script src="/js/wow.min.js"></script>
+
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
     <script src = "https://cdn.tiny.cloud/1/2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks/tinymce/5/tinymce.min.js"> </script>
     {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
 
     <script>tinymce.init({selector:'#textarea'});</script>
-      
 
 
    

@@ -4341,7 +4341,7 @@ footer ul {
   }
 
   section.slideshowarc {
-    margin: 20px 0 100px 0 !important;
+    margin: 5px 0 100px 0 !important;
     position: relative;
     display: block;
     width: 100%;
@@ -4480,7 +4480,6 @@ footer ul {
     font-family: 'Oswald', sans-serif;
     color: #1B7abb;
     position: absolute;
-    display: block;
     width: 100%;
     max-width: calc(100% - 380px);
     /*posision del titulo*/
@@ -4498,34 +4497,40 @@ footer ul {
   }
 
   section.slideshowarc .detail .detail-item .description {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(55, 91, 149, 0.4);
     font-family: 'Oswald', sans-serif;
     text-align: justify;
     color: #fff;
     position: absolute;
     display: block;
-    width: 40%;
+    width: 47%;
+    height: 90%;
     /* max-width: calc(100% - 480px); */
     /* height: 126px; */
-    top: 15%;
-    left: 50%;
+    top: 5%;
+    left: 47%;
     /* transform: translate(-50%, -50%); */
     overflow: visible;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     z-index: 12;
-    font-size: 20px;
+    font-size: 1.4em;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
   }
 
   section.slideshowarc .detail .detail-item .description h2 {
-    font-size: 2.4vw !important;
     color: #fff !important;
   }
 
   section.slideshowarc .detail .detail-item .description a {
     color: #fff;
-    font-size: 1.6vw;
-    font-weight: 400;
+  }
+
+  section.slideshowarc .detail .detail-item .description .btnserv {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
   }
 
   section.slideshowarc .detail .detail-item .mobilogo {

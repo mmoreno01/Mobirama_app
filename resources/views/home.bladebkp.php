@@ -17,19 +17,44 @@
         </div>
 <!-- fin de slider revolution -->
 
+{{-- slider divices small --}}
+<div id="carouselDivicesSmall" class="carousel slide d-block d-sm-none" data-ride="carousel">
+    <div class="carousel-inner">
+        {{-- <div class="carousel-item active">
+            <a href="/contacto">
+            <img src="imagenes/carousel/NOM035.jpg" class="d-block w-100" alt="..."></a>
+        </div> --}}
+        <div class="carousel-item active">
+          <a href="https://www.mobirama.com.mx/blog/cumples-con-la-nom-035-recuerda-que-sera-obligatoria-y-entrara-en-vigor-el-proximo-mes-de-octubre/#.XVQy-ehKgdU">
+            <img src="imagenes/carousel/NOM035.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/carousel/reclutamientoyseleccion.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/carousel/estudiossocioeconomicos.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="/administracion_personal">
+            <img src="imagenes/carousel/admon_nomina.jpg" class="d-block w-100" alt="..."></a>
+      </div>
+    </div>
+  </div>
+  {{-- slider divices small --}}
 
-<!-- Modal execute init 
- <div class="modal" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
+<!-- Modal execute init -->
+ <div class="modal fade" id="mobiramaModal" tabindex="-1" role="dialog" aria-labelledby="mobiramaModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <a href="http://mobirama.com.mx/reforma2020/" target="_blank">
-      <div class="modal-body" style="position: relative;">
-           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="modal-body">
+            {{-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                <div class="carousel-item active">
+                      {{-- <div class="carousel-item active">
                        <a href="http://"></a> <img src="imagenes/home/Unknown-1.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item active">
@@ -39,22 +64,19 @@
                            <img src="imagenes/home/popbn1.jpg" class="d-block w-100" alt="...">
                       </div>
                     </div>
-                  </div>
-                  <img src="imagenes/popup/2020img.jpg" class="d-sm-none" width="200" height="" alt="Mobirama"> 
-
-                <img src="imagenes/popup/NormaFiscal2020_3.jpg" class="d-none d-sm-block" width="200" height="" alt="Mobirama"> 
-             <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link"> 
-                <a href="http://mobirama.com.mx/reforma2020/" target="_blank" class="btn btn-primary d-none d-sm-block" style="position:absolute; position: absolute;
-                right: 0;
-                bottom: 50px;">Más información</a>
+                  </div> --}}
+            <img src="imagenes/home/Unknown-1.jpg" width="200" height="" alt="Mobirama"> 
+             {{-- <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link"> --}}
     </div>
-    </a>
+      <div class="content-btm">
+            <article>
+                <a id="btn-popInit" href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary">Solicita más información</a>
+            </article>
+        </div>
     </div>
   </div>
 </div>  
-End Modal -->
-
- 
+ <!--End Modal -->
 
 
 <!--Seccion Nosotros -->
@@ -100,22 +122,12 @@ End Modal -->
 </section>
 <!--Fin de seccion nosotros -->
 
-<!-- seccion de trasmicion en vivo -->
-    <!--<envivo-component></envivo-component>-->
-<!-- fin seccion de trasmicion en vivo -->
-
 <!-- Seccion de servicios  slider -->
-<!-- <services-component></services-component> -->
-<div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6">
-                <div class="row" style="margin: 70px 0 0 0 !important;">
-                <h2>Nuestras soluciones</h2>
-                </div>
-            </div>
+<services-component></services-component>
+        <!-- <div style="text-align:center; margin-top:50px;">
+            <h2 style="font-weight:bold;">Nuestros servicios</h2>
         </div>
-</div>
-<services-circular></services-circular>
+<services-circular></services-circular> -->
 
 <!-- fin de la seccion de servicios -->
 
@@ -156,6 +168,22 @@ End Modal -->
 <post-component></post-component>
 <!--fin de la seccion noticias-->
 
+       
+<!-- Seccion de prensa 
+<section id="content-informes" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+    {{-- <h2 class="text-center">News lettler</h2> --}}
+    {{-- <div class="container"> --}}
+		<div class="content_newsletter parallax d-flex justify-content-center"  style="background-image: url('imagenes/home/newslett1.jpg'); background-position: center-top; background-origin: cover; background-repeat: no-repeat; background-size: cover;">
+			<div class="overlay"></div>
+				<div class="title-newsletter wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+					<h2>Blog</h2>
+                    <p>Conoce nuestras últimas noticias</p>
+				</div>
+			<a class="btn btn-primary  wow fadeInUp" href="/blog" data-wow-duration="1s" data-wow-delay="1s">Ver más</a>
+		</div>
+</section>
+Fin de seccion de prensa -->
+
 <!--seccion slider alianzas-->
 <alianzas-component></alianzas-component>
 <!--seccion slider alianzas-->
@@ -164,9 +192,8 @@ End Modal -->
 <!--seccion de notas blog-->
 <blog-component></blog-component>
 <!--fin seccion de notas blog-->
-<div style="text-align:center;">
-<a class="btn btn-primary m-r-5 center" href="http://www.mobirama.com.mx/blog/" style="color:#fff;">Más artículos</a>
-</div>
+
+
 <!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">
     <div class="container">
@@ -190,5 +217,17 @@ End Modal -->
     </div>
 </section>
 <!--Fin Seccion contacto-cotizacion-bolsa de trabajo -->
+
+<!--section gaceta informativa
+<section id="banner-gaceta" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="container">
+        <div class="content-img parallax d-flex justify-content-center" style=" background-image: url('imagenes/home/gaceta.jpg');">
+            <div class="overlay"></div>
+            <h2>GACETA</h2>
+            <a  href="http://online.flipbuilder.com/zdih/eequ/" target="_blank">Ver más</a>
+        </div>
+    <div>
+</section>
+section gaceta informativa-->
 
 @endsection
