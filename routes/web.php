@@ -65,8 +65,8 @@ Route::get('payroll', function () {
 Route::get('division', function () {
     return view('servicios.division');
 });
-Route::get('administracion_personal', function () {
-    return view('servicios.administracion_personal');
+Route::get('capital_humano', function () {
+    return view('servicios.capital_humano');
 });
 Route::get('bancaInversion', function () {
     return view('servicios.bancaInversion');
@@ -91,9 +91,12 @@ Route::get('administracion_recursos', function () {
 });
 
 //webiniar
-Route::get('webinars', function(){
-    return view('webinars.index');
-});
+
+Route::get('webinars','webinarController@index');
+// Route::post('webinars/save-record','webinarController@send')->name('webinars.save-record');
+ Route::post('save-record','webinarController@send');
+
+
 
 Route::get('norma-035', function () {
     return view('norma-035');
@@ -278,8 +281,8 @@ Route::middleware(['auth'])->group(function(){
   Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
   // Registration Routes...
-  Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
-  Route::post('register', 'Auth\RegisterController@register');
+//   Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+//   Route::post('register', 'Auth\RegisterController@register');
 
   // Password Reset Routes...
 //   Route::get('password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');

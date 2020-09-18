@@ -318,7 +318,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="/js/circular/TextPlugin.min.js"></script>
     <script src="/js/circular/demo.js"></script>
     <script src="/js/functions.js"></script>
-    <!-- <script src="/js/side/jquery-ui.js"></script> -->
+    {{-- <script src="/js/side/jquery-ui.js"></script> - --}}
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     

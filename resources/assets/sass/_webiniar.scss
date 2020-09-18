@@ -7,15 +7,23 @@
         top: 80px;
         z-index: 1;
         .content-txt{
-            width: 70%;
+            width: 100%;
             padding-left: 50px;
             h1{
                 color: #fff;
-                font-size: 20px;
                 font-weight: bold;
+                margin-bottom: 0px;
+                font-size:20px;
             }
             p{
                 color: #fff;
+                font-size: 15px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            hr{
+                margin: 0px;
+                margin-top:6px;
             }
         }
     }
@@ -23,7 +31,7 @@
         position: absolute;
     }
     .container{
-        padding-top: 25%;
+        padding-top: 12%;
 
     }
     .content-estreno{
@@ -102,6 +110,18 @@
              transition: all ease-in .1s;
          }
      }
+     .col9{
+        .content-txt-esp{
+            margin-top: 50px;
+            h2{
+                font-size: 25px;
+            }
+            hr{
+                color:$azulMarino;
+            }
+        }
+     }
+
      .content-clips{
          background: #fff;
          .title-clips{
@@ -144,6 +164,28 @@
             right: 0;
         }
     }
+
+    form{
+        background: rgba($azulMarino, 0.6);
+        padding:10px;
+        margin-bottom: 10px;
+        h5{
+            color: #fff;
+            text-align:center;
+        }
+        button{
+            display:block;
+            margin: 0 auto;
+            background: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        button:hover{
+            background: $azulMarino;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    }
     
     
 }
@@ -152,18 +194,24 @@
   @media (min-width: 1200px){
     #content-webiniar{
         .title-first{
-            top: 120px;
+            top: 90px;
             .content-txt{
-                width: 60%;
-                h1 {
-                    font-size:30px;
-                }
+                width: 100%;
+               
             } 
         }
         .col-items{
             .card{
-                height: 950px;
+                height: 520px;
             }
+        }
+        .col9{
+            .content-txt-esp{
+                margin-top:100px;
+            }
+        }
+        .content-image{
+            margin-top:100px;
         }
     }  
   }

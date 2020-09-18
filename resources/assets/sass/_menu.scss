@@ -259,6 +259,7 @@ video{
     right: 0;
     transition: all 0.5s;
     z-index: 997;
+    // background: rgba(27, 122, 187, .3);
     background: rgba(27,122,187,1);
     background: -moz-linear-gradient(left, rgba(27,122,187,1) 0%, rgba(44,48,139,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(27,122,187,1)), color-stop(100%, rgba(44,48,139,1)));

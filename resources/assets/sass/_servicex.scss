@@ -346,6 +346,25 @@ ul.tab-nav li a i {
 	text-align: center;
 	top: 50%;
 }
+.sidenav.small li a{
+	display: inline-flex;
+	position: relative;
+	margin: 0 0 -1px;
+	padding: 11px 50px 11px 60px;
+	font-size: 14px;
+	/* border: 1px solid #E5E5E5; */
+	background-image: url("../../../public/imagenes/servix/arrow.png");
+	background-size: 100% 100%;
+	/* background-color: #267CC0; */
+	border-right-width: 2px;
+	color: #fff;
+	width: 220px;
+	height: 46px;
+	vertical-align: middle;
+	align-items: center;
+	text-align: center;
+	top: 50%;
+}
 .sidenav li a span{
 	z-index: 10;
 }

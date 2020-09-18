@@ -3,6 +3,19 @@
 <section id="content-webiniar">
         <div class="title-first">
             <div class="content-txt">
+                <h1>¿Esta tu empresa preparada para la nueva normalidad?</h1>
+                <p>
+                    Conoce la solución que  <strong> Mobirama </strong> tiene para ti.
+                </p>
+                <hr>
+
+            </div> 
+        </div>
+         <video autoplay loop muted  width="100%" height="300"  type="video/mp4" >
+            <source src='imagenes/1c40b5bd-2d6e-47a2-a2cf-d793eb27686d.MP4' type='video/mp4' />
+        </video>
+    <!--<div class="title-first">
+            <div class="content-txt">
                 <h1>Todo lo que tu empresa necesita para hacer <br>
                     frente a los efectos del COVID-19 en un solo lugar.
                 </h1>
@@ -11,23 +24,37 @@
                 El equipo de especialistas fiscales, abogados, contadores, psicólogos y médicos laborales de <strong> Mobirama </strong>  nos hemos dado a la tarea de diseñar esta sección para ayudar a las empresas a gestionar y mitigar los efectos a causa del COVID-19.
                 </p>
             </div> 
-        </div>   
+        </div>    
         <video autoplay loop muted  width="100%" height="300"  type="video/mp4" >
             <source src='imagenes/1c40b5bd-2d6e-47a2-a2cf-d793eb27686d.MP4' type='video/mp4' />
-        </video>
+        </video>-->
     <div  class="container">
         <div class="row">
-            <div class="col-md-9 col9"> 
+            <div class="col-md-8 col9"> 
                 <div class="content-video">
 
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/gx_upvmb15s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=7pzADBmHRP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7pzADBmHRP4?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="content-estreno">
+                <div class="content-txt-esp">
+                        <h2>Todo lo que tu empresa necesita para hacer 
+                            frente a los efectos del COVID-19 en un solo lugar.
+                        </h2>
+                        <hr>
+                        <p>
+                        El equipo de especialistas fiscales, abogados, contadores, psicólogos y médicos laborales de <strong> Mobirama </strong>  nos hemos dado a la tarea de diseñar esta sección para ayudar a las empresas a gestionar y mitigar los efectos a causa del COVID-19.
+                        </p>
+                    </div>
+                    <div class="content-video mb-3">
+
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gx_upvmb15s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
+               <!-- <div class="content-estreno">
                     <div class="title-estreno">
                         <h2>Estrenos</h2>
                     </div>
                     <iframe width="50%" height="315" src="https://www.youtube.com/embed/yYq4LiSJsvA?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+                </div>-->
                <div class="content-webiniars">
                     <div class="title-webiniar">
                         <h2>Webinars</h2>
@@ -104,10 +131,6 @@
                        </div>
                    </div>
                </div>
-               <div class="ctn-acercate d-flex align-items-center">
-                    <p>Acercate a los expertos </p>
-                    <a href="/contacto" class="btn btn-primary float-right" >Contactar</a>
-                </div>
                <!-- <div class="webiniars owl-carousel owl-theme">
                    <div class="" v-for="video in videos" >
                         <img  v-bind:src="video.snippet.thumbnails.medium.url" class="card-img-top" alt="">
@@ -119,7 +142,31 @@
                </div> -->
               
             </div>
-            <div class="col-md-3 col-items  ex3"> 
+            <div class="col-md-4 col-items  ex3"> 
+
+            <form method="POST" v-on:submit.prevent="createRecord">
+                <h5>solicita tu cotización</h5>
+                <div class="form-group">
+                    <input type="text" class="form-control" v-model="newName"  minlength="3" placeholder="Nombre*" required>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" v-model="newEmail"   minlength="3" placeholder="e-mail*" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" v-model="newPhone" minlength="3" placeholder="Télefono" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control"  v-model="newBussines"  minlength="3" placeholder="Empresa" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="" cols="30" rows="2"  v-model="newMessage" class="form-control" placeholder="Mensaje" required></textarea>
+                </div>
+               
+                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+               
+            </form>
                   <!-- reporte coronavirus imagen -->
                 <div class="content-image" v-for="item in filterItems">
                     <img  v-bind:src="item._embedded['wp:featuredmedia'][0].source_url">
@@ -300,6 +347,13 @@ export default {
             status:[],
             videos:[],
             unId:[],
+            newName: '',
+            newEmail: '',
+            newPhone: '',
+            newBussines: '',
+            newMessage: '',
+            errors: [],
+
         }
     },
    
@@ -320,7 +374,33 @@ export default {
     methods: {
         getId(){
             this.unId = this.videos.id.videoId;
-            console.log( this.unId);
+            // console.log( this.unId);
+        },
+        createRecord: function(){
+            var url = 'save-record';
+                axios.post(url,{
+                    name: this.newName,
+                    email: this.newEmail,
+                    phone: this.newPhone,
+                    bussines: this.newBussines,
+                    text: this.newMessage
+                }).then(response =>{
+                    this.newName='';
+                    this.newEmail='';
+                    this.newPhone='';
+                    this.newBussines='';
+                    this.newMessage='';
+                    this.errors = [];
+                    swal({
+                        title: "Registro Exitoso",
+                        text: "Nos pondremos en contacto",
+                        icon: "success",
+                    }).catch(error => {
+                        this.errors = error.response.data
+                        console.log(this.erros)
+                    });
+                });
+                
         }
     },
 }

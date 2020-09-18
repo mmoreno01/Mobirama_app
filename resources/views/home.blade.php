@@ -12,7 +12,7 @@
                         <source src='videos/portada fcbk v.2 sd.mp4' type='video/mp4' />
                 </video>
         </div> --}}
-        <div class="d-none d-sm-block">
+        <div class="">
             <slider-component></slider-component>
         </div>
 <!-- fin de slider revolution -->
@@ -23,36 +23,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true" style="color:red;">&times;</span>
         </button>
-        <a href="http://mobirama.com.mx/reforma2020/" target="_blank">
+        <a href="http://mobirama.com.mx/mobi-rama" target="_blank">
       <div class="modal-body" style="position: relative;">
-           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                <div class="carousel-item active">
-                       <a href="http://"></a> <img src="imagenes/home/Unknown-1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item active">
-                           <img src="imagenes/home/popupbn2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                           <img src="imagenes/home/popbn1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-                  <img src="imagenes/popup/2020img.jpg" class="d-sm-none" width="200" height="" alt="Mobirama"> 
-
-                <img src="imagenes/popup/NormaFiscal2020_3.jpg" class="d-none d-sm-block" width="200" height="" alt="Mobirama"> 
-             <a href="https://www.mobirama.com.mx/norma-035" class="btn btn-primary btn-link"> 
-                <a href="http://mobirama.com.mx/reforma2020/" target="_blank" class="btn btn-primary d-none d-sm-block" style="position:absolute; position: absolute;
-                right: 0;
-                bottom: 50px;">Más información</a>
+            <img src="imagenes/popup/diagnostico_covidpopup~1.webp" class="" width="200" height="" alt="Mobirama">       
     </div>
     </a>
     </div>
   </div>
 </div>  
-End Modal -->
+ End Modal  -->
 
  
 
