@@ -1,0 +1,14 @@
+#slider-aFiscal{
+    padding: 50px 0px;
+    .one-time{
+        .slick-prev:before, .slick-next:before {
+            color: $azulMarino;
+        }
+        p{
+            font-size: 20px;
+            text-align: justify;
+        }
+
+    }
+   
+}

@@ -134,7 +134,7 @@
 <!-- Fin de seccion alianzas y certificaciones -->
 
 <!--seccion de noticias-->
-<post-component></post-component>
+<post-component></post-component> 
 <!--fin de la seccion noticias-->
 
 <!--seccion slider alianzas-->
@@ -146,7 +146,7 @@
 <blog-component></blog-component>
 <!--fin seccion de notas blog-->
 <div style="text-align:center;">
-<a class="btn btn-primary m-r-5 center" href="http://www.mobirama.com.mx/blog/" style="color:#fff;">Más artículos</a>
+<a class="btn btn-primary m-r-5 center" href="http://www.mobirama.mx/blog/" style="color:#fff;">Más artículos</a>
 </div>
 <!--Seccion contacto-cotizacion-bolsa de trabajo -->
 <section id="rutas-informacion">

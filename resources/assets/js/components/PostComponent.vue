@@ -7,7 +7,7 @@
           <div class="card-columns" id="app">
               <div class="card" v-for="item in filteredItems">
                   <div class="content-img-noticia">
-                        <a v-bind:href="item.link"><img class="img-responsive" v-bind:src="item._embedded['wp:featuredmedia'][0].source_url">
+                        <a v-bind:href="item.link"><img class="img-responsive" v-bind:src="item.jetpack_featured_media_url">
                           <div class="bg-overlay"></div>
                           <p class="date-notice-title">{{item.title.rendered}}</p>            
                           <p class="date-notice">{{ item.date | moment}}</p>
@@ -32,7 +32,7 @@ export default {
     }
   },
       mounted() {
-        axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=7')
+        axios.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=4')
         .then(response => (this.items = response.data))
           // console.log(items);
 

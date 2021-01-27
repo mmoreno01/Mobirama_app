@@ -112,7 +112,7 @@
             </li>
             <li class="nav-item active">
               <a class="nav-link text-uppercase" href="/webinars">
-                Covid-19 
+                Covid-19
                 <span></span>
               </a>
             </li>
@@ -121,7 +121,7 @@
                   Conócenos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/nosotros">Nosotros</a>
+                  <a class="dropdown-item" href="/nosotros">¿Quiénes somos?</a>
                   <a class="dropdown-item" href="/filosofia">Filosofía</a>
                   <a class="dropdown-item" href="/valores">Valores</a>
                 </div>
@@ -131,28 +131,38 @@
                 Servicios
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/payroll">Payroll Services</a>
+                <a class="dropdown-item" href="/auditoria_fiscal">Auditoria Fiscal</a>
+                <!-- <a class="dropdown-item" href="/payroll">Payroll Services</a> -->
                 <a class="dropdown-item" href="/capital_humano">Capital Humano</a>
                 <!-- <a class="dropdown-item" href="/fiscal">Fiscal</a> -->
                 <!-- <a class="dropdown-item" href="/administracion_personal">Administración de personal</a> -->
-                <a class="dropdown-item" href="/contabilidad">Contabilidad Outsourcing</a>             
-                <a class="dropdown-item" href="/juridico">Jurídico</a>            
+                <a class="dropdown-item" href="/contabilidad">Contabilidad</a>
+                <a class="dropdown-item" href="/finanzas_corporativas">Finanzas Corporativas</a>                         
+                <a class="dropdown-item" href="/juridico">Jurídico</a> 
+                <!-- <a class="dropdown-item" href="/inversion">Inversion</a>  -->
+                <!-- <a class="dropdown-item" href="/corporativo">Corporativo</a> 
+                <a class="dropdown-item" href="/fiscal">Fiscal</a>  -->
+                <!-- <a class="dropdown-item" href="/inversion">Proyectos de Inversión</a>  -->
+                <!-- <a class="dropdown-item" href="/gobierno_corporativo">Gobierno Corporativo</a>                        -->
+                <!-- <a class="dropdown-item" href="/mipymes">Mipymes</a>   -->
+            
+          
               </div>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="/alianzas">
                   Alianzas                
                   <span></span>
                 </a>
-            </li>
+            </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="https://www.mobirama.com.mx/blog/fiscal%20/noticias/">
+                <a class="nav-link" href="https://www.mobirama.mx/blog/fiscal%20/noticias/">
                   Noticias
                   <span></span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://www.mobirama.com.mx/blog/">
+                <a class="nav-link" href="http://www.mobirama.mx/blog/">
                   Blog
                   <span></span>
                 </a>
@@ -279,7 +289,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             <div class="col-md-6">
               <a href="/"><img src="/imagenes/home-icons/m-whitef.png" alt="Mobirama"></a> 
-               <p><a href="avisoPrivacidad">Aviso de privacidad 2019 </a>| Mobirama</p>
+               <p><a href="avisoPrivacidad">Aviso de privacidad 2021 </a>| Mobirama</p>
             </div>
             <div class="col-md-6 content-iconsRedes">
                     <div class="icon-social"><a href="https://www.facebook.com/mobiramamx/?modal=admin_todo_tour" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
@@ -337,11 +347,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="/js/carousel.js"></script>
     <!-- animate js -->
     <script src="/js/wow.min.js"></script>
+    <script src="/js/cardBlog.js"></script>
 
     <!--slick-slider-->
     <script type="text/javascript" src="css/slick/slick.min.js"></script>
     <script src = "https://cdn.tiny.cloud/1/2olcr2hkrdimbnfmn7032kch8zb3dy0cdbg6k53bb2k8q9ks/tinymce/5/tinymce.min.js"> </script>
     {{-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script> --}}
+    
 
     <script>tinymce.init({selector:'#textarea'});</script>
 

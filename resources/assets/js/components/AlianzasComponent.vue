@@ -1,6 +1,6 @@
 <template>
     <section id="slide-alianzas">
-        <div class="container">
+      <!--  <div class="container">
                 <h3>Alianzas</h3>
 
             <div class="alianzas owl-carousel owl-theme">
@@ -20,6 +20,6 @@
                     <img src="imagenes/alianzas/UCC.png" alt="Mobirama-consultoria">
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </template>

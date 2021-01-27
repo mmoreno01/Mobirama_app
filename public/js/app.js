@@ -65874,7 +65874,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   mounted: function mounted() {
     var _this = this;
 
-    axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=7').then(function (response) {
+    axios.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=4').then(function (response) {
       return _this.items = response.data;
     });
     // console.log(items);
@@ -66192,9 +66192,7 @@ var render = function() {
               _c("a", { attrs: { href: item.link } }, [
                 _c("img", {
                   staticClass: "img-responsive",
-                  attrs: {
-                    src: item._embedded["wp:featuredmedia"][0].source_url
-                  }
+                  attrs: { src: item.jetpack_featured_media_url }
                 }),
                 _vm._v(" "),
                 _c("div", { staticClass: "bg-overlay" }),
@@ -67113,26 +67111,25 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      posts: []
+    data: function data() {
+        return {
+            items: []
+        };
+    },
+    mounted: function mounted() {
+        var _this = this;
 
-    };
-  },
-  mounted: function mounted() {
-    var _this = this;
+        axios.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=1').then(function (response) {
+            return _this.items = response.data;
+        });
+    },
 
-    axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=1').then(function (response) {
-      return _this.posts = response.data;
-    });
-  },
-
-  //filtro limita a 3 posts
-  computed: {
-    filteredposts: function filteredposts() {
-      return this.posts.slice(0, 3);
+    //filtro limita a 3 posts
+    computed: {
+        filterItems: function filterItems() {
+            return this.items.slice(0, 3);
+        }
     }
-  }
 });
 
 /***/ }),
@@ -67152,29 +67149,25 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          { staticClass: "card-columns" },
-          _vm._l(_vm.filteredposts, function(post) {
-            return _c("div", { staticClass: "card" }, [
-              _c("a", { attrs: { href: post.link } }, [
-                _c("img", {
-                  staticClass: "card-img-top",
-                  attrs: {
-                    src: post._embedded["wp:featuredmedia"][0].source_url
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "card-body" }, [
-                _c("h4", { staticClass: "card-title" }, [
-                  _vm._v(_vm._s(post.title.rendered))
-                ]),
-                _vm._v(" "),
-                _c("p", {
-                  staticClass: "card-text",
-                  domProps: { innerHTML: _vm._s(post.excerpt.rendered) }
-                }),
-                _vm._v(" "),
-                _c("a", { attrs: { href: post.link } }, [_vm._v("Ver más")])
+          { staticClass: "card-columns", attrs: { id: "app" } },
+          _vm._l(_vm.filterItems, function(item) {
+            return _c("div", { staticClass: "card card-h" }, [
+              _c("a", { attrs: { href: item.link } }, [
+                _c("div", { staticClass: "card-body" }, [
+                  _c("img", {
+                    staticClass: "card-img-top",
+                    attrs: { src: item.jetpack_featured_media_url }
+                  }),
+                  _vm._v(" "),
+                  _c("h4", { staticClass: "card-title" }, [
+                    _vm._v(_vm._s(item.title.rendered))
+                  ]),
+                  _vm._v(" "),
+                  _c("p", {
+                    staticClass: "card-text",
+                    domProps: { innerHTML: _vm._s(item.excerpt.rendered) }
+                  })
+                ])
               ])
             ])
           }),
@@ -67197,7 +67190,7 @@ var staticRenderFns = [
       },
       [
         _c("h2", [
-          _c("a", { attrs: { href: "https://www.mobirama.com.mx/blog/" } }, [
+          _c("a", { attrs: { href: "https://www.mobirama.mx/blog/" } }, [
             _vm._v("Blog")
           ])
         ])
@@ -67269,68 +67262,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("section", { attrs: { id: "slide-alianzas" } })
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("section", { attrs: { id: "slide-alianzas" } }, [
-      _c("div", { staticClass: "container" }, [
-        _c("h3", [_vm._v("Alianzas")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "alianzas owl-carousel owl-theme" }, [
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src: "imagenes/alianzas/apdata.png",
-                alt: "Mobirama-consultoria"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src:
-                  "imagenes/alianzas/Contadores-Auditores-Consultores-Logo-UCCS.png",
-                alt: "Mobirama-consultoria"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src: "imagenes/alianzas/Fortia.png",
-                alt: "Mobirama-consultoria"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src: "imagenes/alianzas/softland.png",
-                alt: "Mobirama-consultoria"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", [
-            _c("img", {
-              attrs: {
-                src: "imagenes/alianzas/UCC.png",
-                alt: "Mobirama-consultoria"
-              }
-            })
-          ])
-        ])
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
@@ -67421,7 +67355,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   mounted: function mounted() {
     var _this = this;
 
-    axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=7').then(function (response) {
+    axios.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=9').then(function (response) {
       return _this.items = response.data;
     });
     // console.log(items);
@@ -69111,11 +69045,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     mounted: function mounted() {
         var _this2 = this;
 
-        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=9').then(function (response) {
+        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=1').then(function (response) {
             return _this2.items = response.data;
         });
 
-        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=10').then(function (response) {
+        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=7').then(function (response) {
             return _this2.status = response.data;
         });
     },

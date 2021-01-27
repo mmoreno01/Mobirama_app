@@ -30,6 +30,8 @@ class jobController extends Controller
       $vacante = Vacante::all()->pluck('titulo', 'titulo');
                            
         return view('contacto.bolsaTrabajo', compact('vacantes', 'areas', 'vacante') );
+        return view('contacto.bolsaTrabajo');
+
     }
 
 

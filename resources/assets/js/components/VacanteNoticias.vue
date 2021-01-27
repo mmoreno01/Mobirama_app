@@ -22,7 +22,7 @@ export default {
     }
   },
       mounted() {
-        axios.get('https://www.mobirama.com.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=7')
+        axios.get('https://www.mobirama.mx/blog/?rest_route=/wp/v2/posts&_embed&categories=9')
         .then(response => (this.items = response.data))
           // console.log(items);
 

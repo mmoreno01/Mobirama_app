@@ -118,8 +118,19 @@ $('.politica').owlCarousel({
     //     }
     // });
 
-    
-  // carosuel valores
+  //casusel algunos servicios
+      $('.one-time').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplayTimeout:6000,
+       auttoplaySpeed:6000,
+        adaptiveHeight: true
+      });
+			
+  //carosuel valores
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -128,6 +139,7 @@ $('.politica').owlCarousel({
         asNavFor: '.slider-nav'
       
       });
+
       $('.slider-nav').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -163,7 +175,8 @@ $('.politica').owlCarousel({
           }]
       });	
       
-      
+    
+    
     
        
 });

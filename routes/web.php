@@ -90,11 +90,33 @@ Route::get('administracion_recursos', function () {
     return view('servicios.administracion_recursos');
 });
 
+Route::get('auditoria_fiscal', function () {
+    return view('servicios.auditoria_fiscal');
+});
+Route::get('finanzas_corporativas', function () {
+    return view('servicios.finanzas_corporativas');
+});
+Route::get('corporativo', function () {
+    return view('servicios.corporativo');
+});
+Route::get('fiscal', function () {
+    return view('servicios.fiscal');
+});
 //webiniar
-
 Route::get('webinars','webinarController@index');
 // Route::post('webinars/save-record','webinarController@send')->name('webinars.save-record');
  Route::post('save-record','webinarController@send');
+
+ Route::get('inversion', function () {
+    return view('servicios.inversion');
+});
+
+Route::get('gobierno_corporativo', function () {
+    return view('servicios.gobierno_corporativo');
+});
+Route::get('mipymes', function () {
+    return view('servicios.mipymes');
+});
 
 
 

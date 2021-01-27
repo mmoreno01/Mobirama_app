@@ -146,12 +146,30 @@
         }
     }
     .card{
+        transition:  .3s ease-in .3s;
+
+        a{
+            text-decoration: none;
+        }
         .card-body{
             h4{
                 padding: 10px 0px;
                 font-weight: 600;
+                margin: 0px;
+                text-align: center;
+            }
+            p{
+                color:black;
+                margin: 0px;
+                text-align: justify;
             }
         }
+    }
+    .card:hover{
+        -webkit-box-shadow: 5px 0px 36px -6px rgba(0,0,0,0.94);
+        -moz-box-shadow: 5px 0px 36px -6px rgba(0,0,0,0.94);
+        box-shadow: 5px 0px 36px -6px rgba(0,0,0,0.94);
+        transition:  .3 ease-in .3s;
     }
 }
 
